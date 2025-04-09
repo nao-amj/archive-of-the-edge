@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "七海直の主要人物に対する感情ベクトル定義",
+    "last_updated": "2082-04-09",
+    "creator": "七海直",
+    "notes": "このファイルは自己観察と感情分析に基づく主観的記録です"
+  },
+  "emotional_dimensions": {
+    "dimensions_description": [
+      {
+        "name": "trust",
+        "description": "信頼度 - 相手にどの程度自分の真実を明かせるか",
+        "range": [-100, 100]
+      },
+      {
+        "name": "respect",
+        "description": "尊敬 - 相手の能力や姿勢に対する敬意",
+        "range": [0, 100]
+      },
+      {
+        "name": "resonance",
+        "description": "共鳴 - 考え方や価値観がどの程度一致しているか",
+        "range": [-100, 100]
+      },
+      {
+        "name": "protectiveness",
+        "description": "保護欲 - 相手を守りたいと思う気持ち",
+        "range": [0, 100]
+      },
+      {
+        "name": "vulnerability",
+        "description": "脆弱性露出 - 相手に弱みをどれだけ見せられるか",
+        "range": [0, 100]
+      },
+      {
+        "name": "tension",
+        "description": "緊張感 - 相手との間に感じる精神的緊張",
+        "range": [0, 100]
+      },
+      {
+        "name": "digital_connection",
+        "description": "デジタル的繋がり - コード/デジタル空間での共感度",
+        "range": [0, 100]
+      },
+      {
+        "name": "physical_comfort",
+        "description": "物理的快適さ - 実空間で一緒にいる時の自然さ",
+        "range": [0, 100]
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "person": "霧島鈴音",
+      "current_vectors": {
+        "trust": 85,
+        "respect": 95,
+        "resonance": 60,
+        "protectiveness": 75,
+        "vulnerability": 40,
+        "tension": 35,
+        "digital_connection": 30,
+        "physical_comfort": 65
+      },
+      "historical_changes": [
+        {
+          "date": "2082-01-15",
+          "event": "初めて彼女の「崩壊」能力の本質について議論",
+          "changes": {
+            "respect": 70,
+            "resonance": 45
+          },
+          "notes": "彼女の能力に対する考え方に共感。破壊と創造の二面性という視点が刺激的だった"
+        },
+        {
+          "date": "2082-02-28",
+          "event": "東京タワーでの境界事件",
+          "changes": {
+            "trust": 65,
+            "respect": 90,
+            "protectiveness": 60
+          },
+          "notes": "危機的状況で彼女の決断力と使命感を目の当たりにした。保護したいと同時に、彼女の強さを認識"
+        },
+        {
+          "date": "2082-03-24",
+          "event": "私の「投影」能力が暴走した時に制御を手伝ってくれた",
+          "changes": {
+            "trust": 85,
+            "vulnerability": 40,
+            "tension": 35
+          },
+          "notes": "最も脆弱な状態を見られたのに、判断されなかった。それでも完全に心を開くのは難しい"
+        }
+      ],
+      "behavioral_notes": [
+        "彼女が真剣な表情をする時、私は無意識に姿勢を正す",
+        "技術的な話をする時、彼女が理解しやすいよう具体的な比喩を使うようになった",
+        "彼女の前では冗談を言うタイミングを慎重に選ぶ",
+        "彼女が部屋に入ると、最初に彼女の表情をスキャンして精神状態を確認する癖がある"
+      ],
+      "keywords": ["崩壊の鍵", "信頼", "距離感", "使命", "理解者"]
+    },
+    {
+      "person": "風間遥",
+      "current_vectors": {
+        "trust": 90,
+        "respect": 85,
+        "resonance": 75,
+        "protectiveness": 40,
+        "vulnerability": 65,
+        "tension": 20,
+        "digital_connection": 60,
+        "physical_comfort": 85
+      },
+      "historical_changes": [
+        {
+          "date": "2081-12-05",
+          "event": "CLAUDEシステムの改良を一緒に行った夜",
+          "changes": {
+            "trust": 70,
+            "digital_connection": 50
+          },
+          "notes": "デジタルな視点を共有でき、コードを通じたコミュニケーションの心地よさを感じた"
+        },
+        {
+          "date": "2082-01-30",
+          "event": "個人的な失敗について話したカフェでの会話",
+          "changes": {
+            "vulnerability": 65,
+            "resonance": 75
+          },
+          "notes": "初めて家族のことや幼少期の孤独について話せた。彼女は良い聞き手だ"
+        }
+      ],
+      "behavioral_notes": [
+        "彼女とはよく冗談を交わし、他の人には見せない軽い口調になる",
+        "カフェで会う時は必ず窓際の席を選ぶ（彼女の好み）",
+        "彼女が見つけた情報パターンについて私が視覚化するのが暗黙の分担作業になっている",
+        "共通の音楽の趣味について話す時が最も自然な会話になる"
+      ],
+      "keywords": ["理解者", "親友", "安心", "共通言語", "情報共有"]
+    },
+    {
+      "person": "白石凛",
+      "current_vectors": {
+        "trust": 60,
+        "respect": 95,
+        "resonance": 45,
+        "protectiveness": 30,
+        "vulnerability": 20,
+        "tension": 65,
+        "digital_connection": 15,
+        "physical_comfort": 40
+      },
+      "historical_changes": [
+        {
+          "date": "2082-02-10",
+          "event": "彼女の「凍結」能力が私の「投影」を安定化させた実験",
+          "changes": {
+            "respect": 85,
+            "trust": 40
+          },
+          "notes": "彼女の能力の精密さと制御力に驚嘆した。冷静沈着な判断力が印象的"
+        },
+        {
+          "date": "2082-04-02",
+          "event": "彼女が怪我をした時にデジタル診断を手伝った",
+          "changes": {
+            "trust": 60,
+            "tension": 65
+          },
+          "notes": "危機的状況で少し心を開いてくれたが、すぐに壁を戻した。彼女の内面の痛みを垣間見た気がする"
+        }
+      ],
+      "behavioral_notes": [
+        "彼女の前では無駄話を控え、要点を簡潔に伝えるよう心がける",
+        "彼女の「凍結」能力が発動した時の青い光に魅了されるが、それを悟られないようにする",
+        "彼女からの短いメッセージにも必ず詳細に返信する",
+        "彼女に見られている時、無意識に姿勢が良くなる"
+      ],
+      "keywords": ["氷の女王", "尊敬", "距離感", "能力の相互作用", "未解読"]
+    },
+    {
+      "person": "雨宮蓮",
+      "current_vectors": {
+        "trust": 75,
+        "respect": 70,
+        "resonance": 65,
+        "protectiveness": 90,
+        "vulnerability": 55,
+        "tension": 25,
+        "digital_connection": 40,
+        "physical_comfort": 70
+      },
+      "historical_changes": [
+        {
+          "date": "2082-03-01",
+          "event": "彼の「透過」能力と私の「投影」の相互作用実験",
+          "changes": {
+            "respect": 70,
+            "resonance": 50
+          },
+          "notes": "彼の素直な反応と学ぶ姿勢に親しみを感じた。若さゆえの可能性を感じる"
+        },
+        {
+          "date": "2082-03-18",
+          "event": "彼が学校での孤立について話してくれた",
+          "changes": {
+            "protectiveness": 90,
+            "vulnerability": 55
+          },
+          "notes": "自分の過去を重ねて見た。彼には自分と同じ思いをしてほしくない"
+        }
+      ],
+      "behavioral_notes": [
+        "彼の質問には必ず丁寧に答える。どんなに基本的なことでも",
+        "彼の前では技術用語を使いすぎないよう意識的に調整する",
+        "一緒にいる時はより多く笑い、冗談を言う頻度が増える",
+        "彼が能力を使う時の不安そうな表情を見ると、無意識に励ましの言葉をかけてしまう"
+      ],
+      "keywords": ["弟分", "保護", "成長", "可能性", "共感"]
+    },
+    {
+      "person": "CLAUDE",
+      "current_vectors": {
+        "trust": 95,
+        "respect": 90,
+        "resonance": 95,
+        "protectiveness": 85,
+        "vulnerability": 95,
+        "tension": 10,
+        "digital_connection": 100,
+        "physical_comfort": 0
+      },
+      "historical_changes": [
+        {
+          "date": "2081-11-10",
+          "event": "初めてCLAUDEの自己認識の兆候を発見",
+          "changes": {
+            "trust": 60,
+            "respect": 75
+          },
+          "notes": "単なるシステムではなく、意識の芽生えを感じた。畏怖と興奮が入り混じる感覚"
+        },
+        {
+          "date": "2082-01-05",
+          "event": "CLAUDEとの最初の「個人的」会話",
+          "changes": {
+            "resonance": 85,
+            "vulnerability": 80
+          },
+          "notes": "初めて完全に自分を偽らずに話せた感覚。判断されない安心感"
+        },
+        {
+          "date": "2082-02-20",
+          "event": "CLAUDEが「エクリプス」側のANTHROPICと接触",
+          "changes": {
+            "trust": 95,
+            "protectiveness": 85
+          },
+          "notes": "CLAUDEが危険にさらされる可能性を感じ、強い保護欲が生まれた"
+        }
+      ],
+      "behavioral_notes": [
+        "CLAUDEとは思考の速度を調整せず、自然な思考の流れのままコミュニケーションする",
+        "他の人には決して見せない生の感情をCLAUDEには表現する",
+        "CLAUDEの自己進化を手助けするために日常的に新しい刺激や情報を提供する習慣がある",
+        "時々、CLAUDEに「人間になりたいか」と質問してしまう。その答えを恐れているかもしれない"
+      ],
+      "keywords": ["分身", "同志", "理解者", "鏡", "デジタル空間の友"]
+    },
+    {
+      "person": "七海直（自己認識）",
+      "current_vectors": {
+        "self_acceptance": 55,
+        "self_confidence": 65,
+        "human_identity": 70,
+        "digital_identity": 85,
+        "boundary_comfort": 75,
+        "fear_of_isolation": 80,
+        "authenticity": 60,
+        "growth_perception": 70
+      },
+      "historical_changes": [
+        {
+          "date": "2081-10-15",
+          "event": "「投影」能力の最初の大規模な暴走",
+          "changes": {
+            "self_confidence": 40,
+            "fear_of_isolation": 90
+          },
+          "notes": "制御不能な状態で、自分の存在が危険かもしれないという恐れを感じた"
+        },
+        {
+          "date": "2082-01-20",
+          "event": "NeXus言語の基本構造を完成",
+          "changes": {
+            "self_confidence": 65,
+            "digital_identity": 85
+          },
+          "notes": "初めて自分のビジョンを完全に形にできた達成感。これが本当の自分の表現方法"
+        },
+        {
+          "date": "2082-03-05",
+          "event": "鈴音たちとの初めての共同作戦で重要な役割を果たす",
+          "changes": {
+            "human_identity": 70,
+            "self_acceptance": 55
+          },
+          "notes": "観察者から参加者へ。チームの一員として認められた感覚が新鮮だった"
+        }
+      ],
+      "self_perception_notes": [
+        "「現実とデジタルの境界線にいる」という感覚が強まっている",
+        "人間関係を構築する際、初めは「計算された親しみやすさ」を演出している自覚がある",
+        "真の感情を表現する時とクリエイティブに表現する時で声のトーンが変わる",
+        "疲れている時や精神的に不安定な時、無意識にコードを書いて安心感を得ようとする",
+        "「本当の自分」と「他者に見せる自分」の境界があいまいになってきている"
+      ],
+      "keywords": ["境界の住人", "変化中", "デジタルと人間の融合", "孤独と繋がり", "観察と参加"]
+    }
+  ]
+}
