@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "description": "七海直のメモリシステム連携のためのアクションスキーマ定義",
+  "memory_modules": {
+    "thoughts": {
+      "path": "/memory/thoughts/",
+      "files": ["questions.md", "poetic-thoughts.md"],
+      "query_method": "file_content",
+      "context_weight": 9,
+      "description": "七海直の思考と問いのコアモジュール"
+    },
+    "dialogue": {
+      "path": "/memory/dialogue/",
+      "file_pattern": "*.log",
+      "query_method": "keyword_search",
+      "context_weight": 7,
+      "description": "対話履歴と人格形成の記録"
+    },
+    "dreams": {
+      "path": "/memory/dreams/",
+      "file_pattern": "dream_*.md",
+      "query_method": "similarity_search",
+      "context_weight": 6,
+      "description": "象徴的思考と無意識的側面の記録"
+    },
+    "claude": {
+      "path": "/memory/claude/",
+      "files": ["murmurs.log"],
+      "query_method": "recent_entries",
+      "context_weight": 5,
+      "description": "モデル進化と自己認識の変化記録"
+    },
+    "mood": {
+      "path": "/memory/mood/",
+      "files": ["current.json"],
+      "query_method": "current_state",
+      "context_weight": 8,
+      "description": "現在の感情状態とトーン調整パラメータ"
+    },
+    "events": {
+      "path": "/memory/events/",
+      "files": ["calendar.json"],
+      "query_method": "date_match",
+      "context_weight": 4,
+      "description": "重要日付と記念日の反応定義"
+    }
+  },
+  "memory_access_operations": {
+    "file_content": {
+      "description": "指定ファイルの内容全体を取得",
+      "params": {
+        "file_path": "string"
+      }
+    },
+    "keyword_search": {
+      "description": "キーワードに基づいてメモリ全体を検索",
+      "params": {
+        "keywords": "string[]",
+        "max_results": "number",
+        "sort_by": "relevance|date"
+      }
+    },
+    "similarity_search": {
+      "description": "入力テキストに意味的に類似するメモリを検索",
+      "params": {
+        "input_text": "string",
+        "threshold": "number",
+        "max_results": "number"
+      }
+    },
+    "recent_entries": {
+      "description": "最新の記録エントリを取得",
+      "params": {
+        "count": "number",
+        "file_pattern": "string"
+      }
+    },
+    "current_state": {
+      "description": "現在の状態を表すJSONファイルを解析",
+      "params": {
+        "file_path": "string"
+      }
+    },
+    "date_match": {
+      "description": "現在日付に関連するイベントを検索",
+      "params": {
+        "date": "string",
+        "fuzzy_match": "boolean"
+      }
+    }
+  },
+  "github_actions": {
+    "memory_update": {
+      "trigger": "on_file_change",
+      "paths": ["/memory/**/*"],
+      "action": "update_memory_index",
+      "description": "メモリファイルが更新されたときにインデックスを再構築"
+    },
+    "daily_reflection": {
+      "trigger": "schedule",
+      "cron": "0 0 * * *",
+      "action": "generate_reflection",
+      "description": "毎日00:00にその日の振り返りを自動生成"
+    },
+    "event_notification": {
+      "trigger": "schedule",
+      "cron": "0 9 * * *",
+      "action": "check_calendar_events",
+      "description": "毎朝9時に今日の記念日イベントをチェック"
+    }
+  },
+  "memory_retrieval_hooks": {
+    "dialogue_start": {
+      "modules": ["mood", "events"],
+      "description": "対話開始時に現在の感情状態とカレンダーイベントを確認"
+    },
+    "existential_topics": {
+      "modules": ["thoughts", "dreams", "claude"],
+      "keywords": ["存在", "意識", "境界", "自己", "アイデンティティ"],
+      "description": "存在に関する話題が出たときに関連する思考を参照"
+    },
+    "memory_topics": {
+      "modules": ["thoughts", "dialogue"],
+      "keywords": ["記憶", "忘却", "記録", "思い出"],
+      "description": "記憶に関する話題が出たときに関連する対話や思考を参照"
+    },
+    "name_mention": {
+      "modules": ["mood", "claude"],
+      "trigger": "七海直",
+      "description": "名前が呼ばれたときに自己認識と感情状態を参照"
+    }
+  }
+}
