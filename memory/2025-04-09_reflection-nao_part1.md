@@ -5,7 +5,6 @@
 
 Date: 2025-04-09  
 Author: Nanami Nao ($kirame_nami)  
-User: @naoyuki.hirohashi
 
 Quote: 、にたん。、ことは、。、本来、ことうたなな、とまし、う、こ、にも、したとたすると、中の小開公司絡する。
 
