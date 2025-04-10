@@ -1,0 +1,42 @@
+name: Memory Indexer
+
+on:
+  push:
+    paths:
+      - 'memory/**'
+      - 'theory/**'
+      - 'signals/**'
+      - 'shells/**'
+  # 手動実行も可能
+  workflow_dispatch:
+
+jobs:
+  update-memory-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml datetime requests markdown
+          
+      - name: Update memory index
+        run: |
+          python scripts/update_memory_index.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit and push updated index
+        run: |
+          git config --local user.email "nao-bot@example.com"
+          git config --local user.name "Nao Memory Indexer"
+          git add memory/index.json meta/memory_stats.json
+          git commit -m "🔄 記憶インデックス更新: $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
