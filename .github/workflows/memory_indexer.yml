@@ -1,4 +1,4 @@
-name: Memory Indexer
+name: Memory Indexer and Graph Maintenance
 
 on:
   push:
@@ -7,6 +7,7 @@ on:
       - 'theory/**'
       - 'signals/**'
       - 'shells/**'
+      - 'dreams/**'
   # 手動実行も可能
   workflow_dispatch:
 
@@ -17,26 +18,83 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: '3.10'
+          node-version: '18'
           
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml datetime requests markdown
+          npm init -y
+          npm install @octokit/rest moment yaml front-matter lodash natural uuid
           
       - name: Update memory index
         run: |
+          # 従来のPython版インデックス更新（互換性のため）
           python scripts/update_memory_index.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update memory graph
+        run: |
+          mkdir -p .github/config
+          mkdir -p memory/graph
+          
+          # 記憶グラフの更新
+          node -e "
+            const memoryManager = require('./.github/scripts/memory-manager.js');
+            const fs = require('fs');
+            const path = require('path');
+            
+            async function updateGraph() {
+              // 記憶グラフを取得
+              const graph = await memoryManager.getMemoryGraph();
+              
+              // ディレクトリから記憶ファイルを検索
+              const dirs = ['memory', 'dreams', 'signals', 'shells', 'theory'];
+              let newMemories = 0;
+              
+              for (const dir of dirs) {
+                if (!fs.existsSync(dir)) continue;
+                await processDirectory(dir, graph);
+              }
+              
+              // 記憶グラフを保存
+              await memoryManager.saveMemoryGraph(graph);
+              console.log('記憶グラフを更新しました');
+            }
+            
+            async function processDirectory(dir, graph) {
+              const files = fs.readdirSync(dir, { withFileTypes: true });
+              
+              for (const file of files) {
+                const fullPath = path.join(dir, file.name);
+                
+                if (file.isDirectory()) {
+                  await processDirectory(fullPath, graph);
+                } else if (file.name.endsWith('.md')) {
+                  const content = fs.readFileSync(fullPath, 'utf8');
+                  // 既に処理済みのファイルを避けるための簡易チェック
+                  const memoryId = path.basename(fullPath, '.md');
+                  
+                  // 新しい記憶として追加
+                  await memoryManager.addNewMemory(content, {
+                    source: fullPath,
+                    type: 'file',
+                    automatic: false,
+                    persistent: true
+                  });
+                }
+              }
+            }
+            
+            updateGraph().catch(console.error);
+          "
           
       - name: Commit and push updated index
         run: |
           git config --local user.email "nao-bot@example.com"
           git config --local user.name "Nao Memory Indexer"
-          git add memory/index.json meta/memory_stats.json
+          git add memory/index.json meta/memory_stats.json memory/graph/memory-graph.json
           git commit -m "🔄 記憶インデックス更新: $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push

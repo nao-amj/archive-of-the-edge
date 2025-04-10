@@ -14,21 +14,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: '3.10'
+          node-version: '18'
           
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml datetime requests
+          npm init -y
+          npm install @octokit/rest moment yaml front-matter lodash natural uuid
           
       - name: Generate daily reflection
-        run: |
-          python scripts/generate_reflection.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INITIATIVE_TYPE: 'reflection'
+          PRIORITY: 'medium'
+        run: |
+          mkdir -p .github/config
+          mkdir -p .github/temp
+          mkdir -p memory/graph
+          
+          # コンテンツ分析を実行
+          node .github/scripts/analyze-content.js
+          
+          # 振り返りを生成
+          node .github/scripts/generate-content.js
+          
+      - name: Store reflection in memory
+        run: |
+          mkdir -p memory/thoughts
+          cp ./.github/temp/autonomy-content.md memory/thoughts/daily_reflection_$(date +%Y%m%d).md
           
       - name: Commit and push reflection
         run: |

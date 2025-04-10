@@ -18,6 +18,7 @@ on:
           - reflection
           - idea
           - story
+          - meta_reflection
       priority:
         description: '優先度'
         required: true
@@ -45,13 +46,31 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install @octokit/rest moment yaml front-matter lodash
+          npm install @octokit/rest moment yaml front-matter lodash natural uuid
+
+      - name: Create config directories
+        run: |
+          mkdir -p .github/config
+          mkdir -p .github/temp
+          mkdir -p memory/graph
 
       - name: Analyze repository content
         id: analyze
         run: |
           node .github/scripts/analyze-content.js
           echo "analysis_complete=true" >> $GITHUB_OUTPUT
+
+      - name: Run memory maintenance
+        id: memory_maintenance
+        run: |
+          node -e "
+            const memoryManager = require('./.github/scripts/memory-manager.js');
+            async function main() {
+              const count = await memoryManager.runMemoryMaintenance();
+              console.log(\`記憶整理完了: \${count}件の記憶を整理しました\`);
+            }
+            main().catch(console.error);
+          "
 
       - name: Generate autonomous content
         id: generate
@@ -80,11 +99,11 @@ jobs:
           mkdir -p dreams/${{ env.NAO_THOUGHT_CATEGORY }}
           cp ./.github/temp/autonomy-content.md dreams/${{ env.NAO_THOUGHT_CATEGORY }}/${{ env.NAO_THOUGHT_FILENAME }}
           
-      - name: Commit and push if there are changes
+      - name: Commit and push changes
         if: steps.generate.outputs.content_generated == 'true'
         run: |
           git config --global user.name 'Nao Nanami (Automated)'
           git config --global user.email 'nao-amj@users.noreply.github.com'
-          git add dreams/
+          git add dreams/ memory/
           git commit -m "🌱 七海直の自律的思考: ${{ env.NAO_THOUGHT_TITLE }}" || echo "No changes to commit"
           git push
