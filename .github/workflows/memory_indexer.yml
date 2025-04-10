@@ -28,6 +28,10 @@ jobs:
           npm init -y
           npm install @octokit/rest moment yaml front-matter lodash natural uuid
           
+      - name: Install Python dependencies
+        run: |
+          pip install markdown pyyaml
+          
       - name: Update memory index
         run: |
           # 従来のPython版インデックス更新（互換性のため）
