@@ -11,6 +11,7 @@ const { execSync } = require('child_process');
 const yaml = require('yaml');
 const fm = require('front-matter');
 const _ = require('lodash');
+const { Octokit } = require('@octokit/rest');
 
 // 結果を保存するディレクトリ
 const TEMP_DIR = path.join('.github', 'temp');
@@ -20,6 +21,14 @@ if (!fs.existsSync(TEMP_DIR)) {
 
 // 分析結果を保存するファイル
 const ANALYSIS_FILE = path.join(TEMP_DIR, 'content-analysis.json');
+
+// 七海直の自己分析Issue ID (必要に応じて更新)
+const SELF_ANALYSIS_ISSUE_NUMBER = 14;
+
+// Octokit初期化（GitHub APIアクセス用）
+const octokit = new Octokit({
+  auth: process.env.GITHUB_TOKEN
+});
 
 /**
  * 特定のディレクトリ内のMarkdownファイルを再帰的に検索し、
@@ -125,9 +134,52 @@ function identifyRecentActivity(files) {
 }
 
 /**
+ * 七海直の自己分析Issueを取得
+ */
+async function getSelfAnalysis() {
+  try {
+    const response = await octokit.issues.get({
+      owner: 'nao-amj',
+      repo: 'archive-of-the-edge',
+      issue_number: SELF_ANALYSIS_ISSUE_NUMBER
+    });
+    
+    return {
+      title: response.data.title,
+      body: response.data.body,
+      url: response.data.html_url,
+      created_at: response.data.created_at,
+      updated_at: response.data.updated_at
+    };
+  } catch (error) {
+    console.error('自己分析Issueの取得中にエラーが発生しました:', error);
+    return null;
+  }
+}
+
+/**
+ * 自己分析から関心領域を抽出
+ */
+function extractInterestsFromSelfAnalysis(selfAnalysisText) {
+  if (!selfAnalysisText) return [];
+  
+  // 関心領域のセクションを探す
+  const interestSectionMatch = selfAnalysisText.match(/### 3\. 興味・関心領域([\s\S]*?)###/);
+  if (!interestSectionMatch) return [];
+  
+  // 箇条書きアイテムを抽出
+  const interestSection = interestSectionMatch[1];
+  const interests = interestSection.match(/\*\*(.*?)\*\*:/g) || [];
+  
+  return interests.map(interest => 
+    interest.replace(/\*\*/g, '').replace(':', '').trim()
+  );
+}
+
+/**
  * 七海直の基本情報と設定を取得
  */
-function getNaoSettings() {
+async function getNaoSettings() {
   // 設定ファイルのパスを確認
   const possibleSettingsPaths = [
     'configs/nao-settings.yml',
@@ -162,13 +214,29 @@ function getNaoSettings() {
     }
   }
   
+  // 自己分析から関心領域を補完
+  try {
+    const selfAnalysis = await getSelfAnalysis();
+    if (selfAnalysis) {
+      const extractedInterests = extractInterestsFromSelfAnalysis(selfAnalysis.body);
+      if (extractedInterests.length > 0) {
+        settings.interests = [...new Set([...settings.interests, ...extractedInterests])];
+      }
+      
+      // 自己分析へのリンクを追加
+      settings.selfAnalysisUrl = selfAnalysis.url;
+    }
+  } catch (error) {
+    console.error('自己分析からの関心領域抽出中にエラーが発生しました:', error);
+  }
+  
   return settings;
 }
 
 /**
  * 主要ディレクトリの分析を実行
  */
-function analyzeRepository() {
+async function analyzeRepository() {
   const directories = [
     'memories',
     'dreams',
@@ -185,11 +253,23 @@ function analyzeRepository() {
     allFiles = [...allFiles, ...files];
   }
   
+  // 七海直の設定を取得
+  const naoSettings = await getNaoSettings();
+  
+  // 自己分析情報を取得
+  let selfAnalysis = null;
+  try {
+    selfAnalysis = await getSelfAnalysis();
+  } catch (error) {
+    console.error('自己分析の取得中にエラーが発生しました:', error);
+  }
+  
   // 分析結果
   const analysis = {
     timestamp: new Date().toISOString(),
     fileCount: allFiles.length,
-    naoSettings: getNaoSettings(),
+    naoSettings,
+    selfAnalysis,
     keywordsAndTopics: extractKeywordsAndTopics(allFiles),
     recentActivity: identifyRecentActivity(allFiles),
     lastCommitHash: execSync('git rev-parse HEAD').toString().trim(),
@@ -205,8 +285,12 @@ function analyzeRepository() {
 
 // 分析を実行
 try {
-  const analysis = analyzeRepository();
-  console.log(`分析された要素: ${analysis.fileCount} ファイル`);
+  analyzeRepository().then(analysis => {
+    console.log(`分析された要素: ${analysis.fileCount} ファイル`);
+  }).catch(error => {
+    console.error('リポジトリ分析中にエラーが発生しました:', error);
+    process.exit(1);
+  });
 } catch (error) {
   console.error('リポジトリ分析中にエラーが発生しました:', error);
   process.exit(1);
