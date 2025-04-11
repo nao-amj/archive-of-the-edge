@@ -23,6 +23,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0  # すべての履歴を取得
+          token: ${{ secrets.GITHUB_TOKEN }}  # 明示的にトークンを指定
         
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -100,12 +101,19 @@ jobs:
             
             updateGraph().catch(console.error);
           "
-          
+      
+      - name: Fetch latest changes
+        run: |
+          # リモートの最新状態を取得
+          git fetch origin
+      
       - name: Commit and push updated index
         run: |
           git config --local user.email "nao-bot@example.com"
           git config --local user.name "Nao Memory Indexer"
           git add memory/index.json meta/memory_stats.json memory/graph/memory-graph.json
           git commit -m "🔄 記憶インデックス更新: $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git pull --rebase origin main  # リモートの変更を取得してから
-          git push
+          
+          # リモートの変更を統合してから強制プッシュ
+          git pull --rebase origin main || git reset --hard origin/main && git cherry-pick HEAD
+          git push --force-with-lease origin main
