@@ -4,8 +4,19 @@ on:
   # 手動実行
   workflow_dispatch:
 
+# GitHub Pagesへのデプロイに必要な権限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時実行を制御
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,6 +26,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
 
       - name: Install Dependencies
         run: |
@@ -31,9 +45,18 @@ jobs:
           echo "PUBLIC_URL=https://nao-amj.github.io/archive-of-the-edge" >> .env
           npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          folder: interface/build
-          branch: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
+          path: interface/build
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
