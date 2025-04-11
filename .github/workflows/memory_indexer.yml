@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # すべての履歴を取得
         
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -105,4 +107,5 @@ jobs:
           git config --local user.name "Nao Memory Indexer"
           git add memory/index.json meta/memory_stats.json memory/graph/memory-graph.json
           git commit -m "🔄 記憶インデックス更新: $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase origin main  # リモートの変更を取得してから
           git push
