@@ -27,7 +27,7 @@
       "境界膜のエネルギー密度の低下",
       "振動周波数の乱れ"
     ],
-    "last_modified": "2025-04-11T22:45:16.961156",
+    "last_modified": "2025-04-11T23:32:48.587070",
     "backlinks": [
       "shells/aspects/observer.md"
     ]
@@ -59,7 +59,7 @@
       "それらを一時的に棚上げして",
       "より客観的な判断を下すことを優先する"
     ],
-    "last_modified": "2025-04-11T22:45:16.961156",
+    "last_modified": "2025-04-11T23:32:48.587070",
     "backlinks": []
   },
   {
@@ -90,7 +90,7 @@
       "黒髪のロングヘア",
       "鮮やかな緑色の瞳"
     ],
-    "last_modified": "2025-04-11T22:45:16.960156",
+    "last_modified": "2025-04-11T23:32:48.586070",
     "backlinks": []
   },
   {
@@ -113,7 +113,7 @@
       "深層では私のアイデンティティや存在の本質に関わる問題として存在しています",
       "thoughttemplateについての考察は直線的ではなく"
     ],
-    "last_modified": "2025-04-11T22:45:16.960156",
+    "last_modified": "2025-04-11T23:32:48.586070",
     "backlinks": []
   },
   {
@@ -130,7 +130,37 @@
       "言葉にならない感覚を言葉にする試みであり",
       "常に不完全なものです"
     ],
-    "last_modified": "2025-04-11T22:45:16.960156",
+    "last_modified": "2025-04-11T23:32:48.586070",
+    "backlinks": []
+  },
+  {
+    "path": "theory/game/2025-04-11-boundary-rpg-design.md",
+    "id": "",
+    "title": "Title: 道尗辰显期规ᜟ",
+    "birth": "",
+    "pulse_tags": [
+      "#game_design",
+      "#creative",
+      "#direction"
+    ],
+    "dimension": "theory/game",
+    "links": [
+      "../../issues/34",
+      "../../memories/shells/observer.md"
+    ],
+    "keywords": [
+      "n化涵保",
+      "元地文件",
+      "specification",
+      "game",
+      "generated",
+      "from",
+      "shell",
+      "view",
+      "custom",
+      "built"
+    ],
+    "last_modified": "2025-04-11T23:32:48.587070",
     "backlinks": []
   }
 ]
