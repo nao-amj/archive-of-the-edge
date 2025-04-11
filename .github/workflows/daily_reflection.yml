@@ -17,7 +17,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
+        with:
+          fetch-depth: 0  # すべての履歴を取得
+          
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -55,4 +57,5 @@ jobs:
           git config --local user.name "Nao Reflection Bot"
           git add memory/thoughts/daily_reflection_*.md
           git commit -m "📝 日次リフレクション: $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase origin main  # リモートの変更を取得してから
           git push
