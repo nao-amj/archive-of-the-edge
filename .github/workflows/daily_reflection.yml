@@ -7,6 +7,11 @@ on:
   # 手動実行も可能
   workflow_dispatch:
 
+# 同時実行を防止する設定
+concurrency:
+  group: daily-reflection
+  cancel-in-progress: true
+
 # GitHub Actionsに書き込み権限を付与
 permissions:
   contents: write
@@ -52,18 +57,35 @@ jobs:
           mkdir -p memory/thoughts
           cp ./.github/temp/autonomy-content.md memory/thoughts/daily_reflection_$(date +%Y%m%d).md
           
-      - name: Fetch latest changes
+      # リポジトリの最新状態に同期する前にリフレクションを保存
+      - name: Save reflection content
         run: |
-          # リモートの最新状態を取得
-          git fetch origin
+          REFLECTION_DATE=$(date +%Y%m%d)
+          REFLECTION_FILE="memory/thoughts/daily_reflection_${REFLECTION_DATE}.md"
+          if [ -f "./.github/temp/autonomy-content.md" ]; then
+            mkdir -p /tmp/reflection
+            cp ./.github/temp/autonomy-content.md /tmp/reflection/daily_reflection_${REFLECTION_DATE}.md
+          fi
           
-      - name: Commit and push reflection
+      # 最新の変更を取得して同期
+      - name: Sync with latest changes
         run: |
           git config --local user.email "nao-bot@example.com"
           git config --local user.name "Nao Reflection Bot"
-          git add memory/thoughts/daily_reflection_*.md
-          git commit -m "📝 日次リフレクション: $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git fetch --all
+          git reset --hard origin/main
           
-          # リモートの変更を統合してから強制プッシュ（リフレクションファイルのみの変更なので安全）
-          git pull --rebase origin main || git reset --hard origin/main && git cherry-pick HEAD
-          git push --force-with-lease origin main
+      # リフレクションファイルを復元して追加
+      - name: Restore and commit reflection
+        run: |
+          REFLECTION_DATE=$(date +%Y%m%d)
+          mkdir -p memory/thoughts
+          if [ -f "/tmp/reflection/daily_reflection_${REFLECTION_DATE}.md" ]; then
+            cp /tmp/reflection/daily_reflection_${REFLECTION_DATE}.md memory/thoughts/
+            git add memory/thoughts/daily_reflection_${REFLECTION_DATE}.md
+            git commit -m "📝 日次リフレクション: $(date +%Y-%m-%d)" || echo "No changes to commit"
+            git push || echo "Push failed, will try force push"
+            git push --force-with-lease || echo "Force push also failed"
+          else
+            echo "No reflection file found, skipping commit"
+          fi
