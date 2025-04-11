@@ -7,7 +7,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { Octokit } = require('@octokit/rest');
 const yaml = require('yaml');
 const natural = require('natural'); // 自然言語処理のためのライブラリ
 const { v4: uuidv4 } = require('uuid'); // UUID生成
@@ -38,10 +37,21 @@ try {
   process.exit(1);
 }
 
-// Octokit初期化（GitHub APIアクセス用）
-const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN
-});
+// Octokit は動的インポートに変更
+let octokit;
+
+/**
+ * OctokitクライアントをESMインポートで初期化
+ */
+async function initOctokit() {
+  if (!octokit) {
+    const { Octokit } = await import('@octokit/rest');
+    octokit = new Octokit({
+      auth: process.env.GITHUB_TOKEN
+    });
+  }
+  return octokit;
+}
 
 /**
  * 記憶グラフクラス - 七海直の記憶の関連性を管理
@@ -422,6 +432,9 @@ async function saveMemoryGraph(graph) {
  * 記憶システムから思考生成のためのコンテキストを構築
  */
 async function buildThinkingContext(analysisData) {
+  // Octokit初期化
+  await initOctokit();
+  
   // 記憶グラフを取得
   const graph = await getMemoryGraph();
   
@@ -473,6 +486,9 @@ function buildContextFromAnalysis(analysis) {
  * 新しい記憶を追加
  */
 async function addNewMemory(content, metadata = {}) {
+  // Octokit初期化
+  await initOctokit();
+  
   // 記憶グラフを取得
   const graph = await getMemoryGraph();
   
@@ -491,6 +507,9 @@ async function addNewMemory(content, metadata = {}) {
 async function runMemoryMaintenance() {
   console.log('記憶の整理を開始します...');
   
+  // Octokit初期化
+  await initOctokit();
+  
   const graph = await getMemoryGraph();
   const prunedCount = graph.pruneOldMemories();
   
@@ -508,5 +527,6 @@ module.exports = {
   saveMemoryGraph,
   buildThinkingContext,
   addNewMemory,
-  runMemoryMaintenance
+  runMemoryMaintenance,
+  initOctokit // Octokit初期化関数をエクスポート
 };
