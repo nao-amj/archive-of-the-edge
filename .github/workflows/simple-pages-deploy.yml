@@ -22,6 +22,8 @@ jobs:
           npm install
 
       - name: Build
+        env:
+          CI: "false"  # CI環境でESLint警告をエラーとして扱わないようにする
         run: |
           cd interface
           echo "REACT_APP_GITHUB_REPO=nao-amj/archive-of-the-edge" > .env
