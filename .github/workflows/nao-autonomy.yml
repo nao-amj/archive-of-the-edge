@@ -29,6 +29,11 @@ on:
           - medium
           - high
 
+# 同時実行を防止する設定
+concurrency:
+  group: nao-autonomy
+  cancel-in-progress: true
+
 # GitHub Actionsに書き込み権限を付与
 permissions:
   contents: write
@@ -99,26 +104,52 @@ jobs:
             ${{ env.NAO_THOUGHT_PRIORITY }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update dreams directory
+      # 一時ディレクトリに生成されたコンテンツとメタデータを保存
+      - name: Save generated content
         if: steps.generate.outputs.content_generated == 'true'
         run: |
-          mkdir -p dreams/${{ env.NAO_THOUGHT_CATEGORY }}
-          cp ./.github/temp/autonomy-content.md dreams/${{ env.NAO_THOUGHT_CATEGORY }}/${{ env.NAO_THOUGHT_FILENAME }}
-      
-      - name: Fetch latest changes
-        if: steps.generate.outputs.content_generated == 'true'
-        run: |
-          # リモートの最新状態を取得
-          git fetch origin
+          mkdir -p /tmp/nao_autonomy
           
-      - name: Commit and push changes
+          # 生成された内容を保存
+          if [ -f "./.github/temp/autonomy-content.md" ]; then
+            cp ./.github/temp/autonomy-content.md /tmp/nao_autonomy/
+            
+            # 環境変数を一時ファイルに保存
+            echo "${{ env.NAO_THOUGHT_TITLE }}" > /tmp/nao_autonomy/thought_title.txt
+            echo "${{ env.NAO_THOUGHT_CATEGORY }}" > /tmp/nao_autonomy/thought_category.txt
+            echo "${{ env.NAO_THOUGHT_FILENAME }}" > /tmp/nao_autonomy/thought_filename.txt
+          fi
+      
+      # 最新の変更を取得して同期
+      - name: Sync with latest changes
         if: steps.generate.outputs.content_generated == 'true'
         run: |
           git config --local user.name 'Nao Nanami (Automated)'
           git config --local user.email 'nao-amj@users.noreply.github.com'
-          git add dreams/ memory/
-          git commit -m "🌱 七海直の自律的思考: ${{ env.NAO_THOUGHT_TITLE }}" || echo "No changes to commit"
-          
-          # リモートの変更を統合して、強制的にプッシュ
-          git pull --rebase origin main || git reset --hard origin/main && git cherry-pick HEAD
-          git push --force-with-lease origin main
+          git fetch --all
+          git reset --hard origin/main
+      
+      # 生成されたコンテンツを復元して追加
+      - name: Restore and commit generated content
+        if: steps.generate.outputs.content_generated == 'true'
+        run: |
+          if [ -f "/tmp/nao_autonomy/autonomy-content.md" ]; then
+            # 環境変数を復元
+            NAO_THOUGHT_TITLE=$(cat /tmp/nao_autonomy/thought_title.txt)
+            NAO_THOUGHT_CATEGORY=$(cat /tmp/nao_autonomy/thought_category.txt)
+            NAO_THOUGHT_FILENAME=$(cat /tmp/nao_autonomy/thought_filename.txt)
+            
+            # ディレクトリ作成とファイルコピー
+            mkdir -p dreams/$NAO_THOUGHT_CATEGORY
+            cp /tmp/nao_autonomy/autonomy-content.md dreams/$NAO_THOUGHT_CATEGORY/$NAO_THOUGHT_FILENAME
+            
+            # 変更をコミット
+            git add dreams/
+            git commit -m "🌱 七海直の自律的思考: $NAO_THOUGHT_TITLE" || echo "No changes to commit"
+            
+            # プッシュ処理
+            git push || echo "Push failed, will try force push"
+            git push --force-with-lease || echo "Force push also failed"
+          else
+            echo "No generated content found, skipping commit"
+          fi
