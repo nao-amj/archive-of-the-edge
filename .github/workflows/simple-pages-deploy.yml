@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # v2からv3に更新
 
       - name: Install and Build 🔧
         run: |
@@ -24,7 +24,7 @@ jobs:
           CI=false npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4  # 4.1.4からv4に更新
         with:
           branch: gh-pages  # デプロイ先のブランチ
           folder: interface/build  # ビルド成果物のディレクトリ
