@@ -1,0 +1,44 @@
+name: Build and Upload Artifact
+
+on:
+  # 手動実行用
+  workflow_dispatch:
+  # メインブランチへのプッシュ時
+  push:
+    branches:
+      - main
+    paths:
+      - 'interface/**'
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: |
+          cd interface
+          npm install
+      
+      - name: Build
+        env:
+          CI: "false"  # ESLint警告をエラーとして扱わない
+        run: |
+          cd interface
+          echo "REACT_APP_GITHUB_REPO=nao-amj/archive-of-the-edge" > .env
+          echo "REACT_APP_GITHUB_API_URL=https://api.github.com" >> .env
+          echo "PUBLIC_URL=https://nao-amj.github.io/archive-of-the-edge" >> .env
+          npm run build
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4  # v3ではなくv4を使用
+        with:
+          name: interface-build
+          path: interface/build
