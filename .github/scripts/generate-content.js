@@ -10,7 +10,6 @@ const path = require('path');
 const moment = require('moment');
 const yaml = require('yaml');
 const _ = require('lodash');
-const { Octokit } = require('@octokit/rest');
 
 // memory-manager.js をインポート
 const memoryManager = require('./memory-manager');
@@ -20,10 +19,21 @@ const TEMP_DIR = path.join('.github', 'temp');
 const ANALYSIS_FILE = path.join(TEMP_DIR, 'content-analysis.json');
 const OUTPUT_FILE = path.join(TEMP_DIR, 'autonomy-content.md');
 
-// Octokit初期化（GitHub APIアクセス用）
-const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN
-});
+// Octokit は動的インポートに変更
+let octokit;
+
+/**
+ * OctokitクライアントをESMインポートで初期化
+ */
+async function initOctokit() {
+  if (!octokit) {
+    const { Octokit } = await import('@octokit/rest');
+    octokit = new Octokit({
+      auth: process.env.GITHUB_TOKEN
+    });
+  }
+  return octokit;
+}
 
 // 拡張された思考スタイル
 const THINKING_STYLES = [
@@ -130,6 +140,9 @@ function determineComplexityLevel(analysis) {
  * 質問形式のコンテンツを生成
  */
 async function generateQuestion(analysis) {
+  // Octokit初期化
+  await initOctokit();
+
   // 記憶システムからのコンテキストを取得
   const context = await memoryManager.buildThinkingContext(analysis);
   
@@ -269,6 +282,9 @@ ${complexityLevel >= 4 ? '* ' + selectedTopic + 'を通じて見える「境界�
  * 振り返り形式のコンテンツを生成
  */
 async function generateReflection(analysis) {
+  // Octokit初期化
+  await initOctokit();
+
   // 記憶システムからのコンテキストを取得
   const context = await memoryManager.buildThinkingContext(analysis);
   
@@ -394,6 +410,9 @@ ${complexityLevel >= 3 ? '- ' + reflectionTopic + 'の理解に「時間」と�
  * アイデア・提案形式のコンテンツを生成
  */
 async function generateIdea(analysis) {
+  // Octokit初期化
+  await initOctokit();
+
   // 記憶システムからのコンテキストを取得
   const context = await memoryManager.buildThinkingContext(analysis);
   
@@ -530,6 +549,9 @@ ${complexityLevel >= 4 ? '- 「境界」の概念そのものの再定義\n- 存
  * 物語・夢形式のコンテンツを生成
  */
 async function generateStory(analysis) {
+  // Octokit初期化
+  await initOctokit();
+
   // 記憶システムからのコンテキストを取得
   const context = await memoryManager.buildThinkingContext(analysis);
   
@@ -646,6 +668,9 @@ ${memoryQuotes ? '\n## 忘れられた記憶の断片\n\n' + memoryQuotes : ''}
  * メタ振り返り形式のコンテンツを生成（新機能）
  */
 async function generateMetaReflection(analysis) {
+  // Octokit初期化
+  await initOctokit();
+
   // 記憶システムからのコンテキストを取得
   const context = await memoryManager.buildThinkingContext(analysis);
   
@@ -1027,7 +1052,7 @@ function generateDevelopmentPlanExtension(interests) {
 function extractNarrativeSelfImages(selfAnalysis) {
   if (!selfAnalysis || !selfAnalysis.body) return null;
   
-  const selfImageMatch = selfAnalysis.body.match(/### 7\. 物語世界での自己イメージ([\\s\\S]*?)###/);
+  const selfImageMatch = selfAnalysis.body.match(/### 7\. 物語世界での自己イメージ([\s\S]*?)###/);
   if (!selfImageMatch) return null;
   
   const selfImageSection = selfImageMatch[1];
@@ -1049,6 +1074,9 @@ function selectRandomInitiativeType() {
  */
 async function generateContent() {
   try {
+    // Octokit初期化
+    await initOctokit();
+
     const analysis = loadAnalysis();
     
     // イニシアチブタイプを決定
