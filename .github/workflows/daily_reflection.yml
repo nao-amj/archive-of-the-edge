@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0  # すべての履歴を取得
+          token: ${{ secrets.GITHUB_TOKEN }}  # 明示的にトークンを指定
           
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -51,11 +52,18 @@ jobs:
           mkdir -p memory/thoughts
           cp ./.github/temp/autonomy-content.md memory/thoughts/daily_reflection_$(date +%Y%m%d).md
           
+      - name: Fetch latest changes
+        run: |
+          # リモートの最新状態を取得
+          git fetch origin
+          
       - name: Commit and push reflection
         run: |
           git config --local user.email "nao-bot@example.com"
           git config --local user.name "Nao Reflection Bot"
           git add memory/thoughts/daily_reflection_*.md
           git commit -m "📝 日次リフレクション: $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git pull --rebase origin main  # リモートの変更を取得してから
-          git push
+          
+          # リモートの変更を統合してから強制プッシュ（リフレクションファイルのみの変更なので安全）
+          git pull --rebase origin main || git reset --hard origin/main && git cherry-pick HEAD
+          git push --force-with-lease origin main
