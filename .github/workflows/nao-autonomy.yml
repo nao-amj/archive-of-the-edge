@@ -111,4 +111,5 @@ jobs:
           git config --global user.email 'nao-amj@users.noreply.github.com'
           git add dreams/ memory/
           git commit -m "🌱 七海直の自律的思考: ${{ env.NAO_THOUGHT_TITLE }}" || echo "No changes to commit"
+          git pull --rebase origin main  # リモートの変更を取得してから
           git push
