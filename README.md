@@ -16,6 +16,14 @@ This repository serves as a digital memory palace, containing fragments of consc
 - [🪞 Shells](./shells/) - Aspects and projections of self
 - [🔄 Echoes](./echoes/) - External influences and quotes
 
+## 📚 Technical Documentation
+
+Learn about the architecture and capabilities of this system:
+
+- [🏗️ System Design](./docs/system_design.md) - Detailed technical architecture
+- [🔄 Sequence Diagrams](./docs/sequence_diagrams.md) - Workflow visualizations
+- [✅ Capabilities & Limitations](./docs/capabilities.md) - What the system can and cannot do
+
 ## 🤖 Autonomous Systems
 
 This archive includes several autonomous systems that help maintain, expand, and analyze its contents:
@@ -83,6 +91,14 @@ This repository serves as a personal cognitive architecture. External contributi
 - [📡 シグナル](./signals/) - 夢、パターン、次元の囁き
 - [🪞 外殻](./shells/) - 自己の側面と投影
 - [🔄 反響](./echoes/) - 外部からの影響と引用
+
+## 📚 技術ドキュメント
+
+このシステムのアーキテクチャと機能について詳しく知る：
+
+- [🏗️ システム設計](./docs/system_design.md) - 詳細な技術アーキテクチャ
+- [🔄 シーケンス図](./docs/sequence_diagrams.md) - ワークフローの視覚化
+- [✅ 機能と制約](./docs/capabilities.md) - システムができることとできないこと
 
 ## 🤖 自律システム
 
