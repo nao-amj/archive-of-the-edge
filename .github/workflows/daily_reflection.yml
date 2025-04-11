@@ -9,7 +9,7 @@ on:
 
 # 同時実行を防止する設定
 concurrency:
-  group: daily-reflection
+  group: repo-operations
   cancel-in-progress: true
 
 # GitHub Actionsに書き込み権限を付与
@@ -67,7 +67,7 @@ jobs:
             cp ./.github/temp/autonomy-content.md /tmp/reflection/daily_reflection_${REFLECTION_DATE}.md
           fi
           
-      # 最新の変更を取得して同期
+      # 最新の変更を取得して同期 - cherry-pickは使用しない
       - name: Sync with latest changes
         run: |
           git config --local user.email "nao-bot@example.com"
@@ -83,9 +83,8 @@ jobs:
           if [ -f "/tmp/reflection/daily_reflection_${REFLECTION_DATE}.md" ]; then
             cp /tmp/reflection/daily_reflection_${REFLECTION_DATE}.md memory/thoughts/
             git add memory/thoughts/daily_reflection_${REFLECTION_DATE}.md
-            git commit -m "📝 日次リフレクション: $(date +%Y-%m-%d)" || echo "No changes to commit"
-            git push || echo "Push failed, will try force push"
-            git push --force-with-lease || echo "Force push also failed"
+            git commit -m "📝 日次リフレクション: $(date +%Y-%m-%d)" --allow-empty || echo "No changes to commit"
+            git push origin main || git push --force origin main
           else
             echo "No reflection file found, skipping commit"
           fi
