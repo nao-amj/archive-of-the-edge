@@ -20,13 +20,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: interface/package-lock.json
+          # キャッシュ設定を削除（package-lock.jsonが存在しないため）
 
       - name: Install Dependencies
         run: |
           cd interface
-          npm ci
+          npm install  # npm ci の代わりに npm install を使用
 
       - name: Configure GitHub Pages Environment
         run: |
