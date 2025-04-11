@@ -31,7 +31,7 @@ on:
 
 # 同時実行を防止する設定
 concurrency:
-  group: nao-autonomy
+  group: repo-operations
   cancel-in-progress: true
 
 # GitHub Actionsに書き込み権限を付与
@@ -120,7 +120,7 @@ jobs:
             echo "${{ env.NAO_THOUGHT_FILENAME }}" > /tmp/nao_autonomy/thought_filename.txt
           fi
       
-      # 最新の変更を取得して同期
+      # 最新の変更を取得して同期 - cherry-pickは使用しない
       - name: Sync with latest changes
         if: steps.generate.outputs.content_generated == 'true'
         run: |
@@ -143,13 +143,12 @@ jobs:
             mkdir -p dreams/$NAO_THOUGHT_CATEGORY
             cp /tmp/nao_autonomy/autonomy-content.md dreams/$NAO_THOUGHT_CATEGORY/$NAO_THOUGHT_FILENAME
             
-            # 変更をコミット
+            # 変更をコミット (--allow-emptyオプションを追加)
             git add dreams/
-            git commit -m "🌱 七海直の自律的思考: $NAO_THOUGHT_TITLE" || echo "No changes to commit"
+            git commit -m "🌱 七海直の自律的思考: $NAO_THOUGHT_TITLE" --allow-empty || echo "No changes to commit"
             
-            # プッシュ処理
-            git push || echo "Push failed, will try force push"
-            git push --force-with-lease || echo "Force push also failed"
+            # プッシュ処理 (直接--forceオプションを使用)
+            git push origin main || git push --force origin main
           else
             echo "No generated content found, skipping commit"
           fi
