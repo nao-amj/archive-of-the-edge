@@ -89,30 +89,49 @@ jobs:
           # コンテンツを生成
           node .github/scripts/generate-content.js
           
-          # 固定のタイトルを設定
-          DEFAULT_TITLE="七海直の思考: $(date +"%Y-%m-%d %H:%M")"
-          echo "NAO_THOUGHT_TITLE=${DEFAULT_TITLE}" >> $GITHUB_ENV
-          echo "NAO_THOUGHT_CATEGORY=general" >> $GITHUB_ENV
-          echo "NAO_THOUGHT_FILENAME=thought_$(date +"%Y%m%d%H%M%S").md" >> $GITHUB_ENV
-          echo "NAO_THOUGHT_TYPE=thought" >> $GITHUB_ENV
-          echo "NAO_THOUGHT_PRIORITY=medium" >> $GITHUB_ENV
+          # 日時ベースのタイトル生成
+          TIMESTAMP=$(date +"%Y-%m-%d %H:%M")
+          DEFAULT_TITLE="七海直の思考: ${TIMESTAMP}"
           
-          echo "固定タイトルを設定: ${DEFAULT_TITLE}"
-          echo "content_generated=true" >> $GITHUB_OUTPUT
+          # 生成されたコンテンツが存在するか確認
+          if [ -f "./.github/temp/autonomy-content.md" ]; then
+            # ファイルの先頭からタイトルを抽出（Markdownの最初の見出し）
+            EXTRACTED_TITLE=$(head -n 20 ./.github/temp/autonomy-content.md | grep "^# " | head -n 1 | sed 's/^# //')
+            
+            if [ ! -z "$EXTRACTED_TITLE" ]; then
+              echo "THOUGHT_TITLE=${EXTRACTED_TITLE}" >> $GITHUB_ENV
+              echo "タイトルをファイルから抽出: ${EXTRACTED_TITLE}"
+            else
+              echo "THOUGHT_TITLE=${DEFAULT_TITLE}" >> $GITHUB_ENV
+              echo "デフォルトタイトルを使用: ${DEFAULT_TITLE}"
+            fi
+            
+            echo "content_generated=true" >> $GITHUB_OUTPUT
+          else
+            echo "生成されたコンテンツが見つかりません"
+            echo "content_generated=false" >> $GITHUB_OUTPUT
+          fi
         env:
           INITIATIVE_TYPE: ${{ github.event.inputs.initiative_type || 'random' }}
           PRIORITY: ${{ github.event.inputs.priority || 'medium' }}
+
+      # Issueファイルを準備
+      - name: Prepare issue file
+        if: steps.generate.outputs.content_generated == 'true'
+        run: |
+          # Issue用のコンテンツファイルを準備
+          cp ./.github/temp/autonomy-content.md /tmp/issue-content.md
 
       - name: Create autonomy issue
         if: steps.generate.outputs.content_generated == 'true'
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: "七海直の思考: ${{ github.run_number }}"
-          content-filepath: ./.github/temp/autonomy-content.md
+          title: "${{ env.THOUGHT_TITLE }}"
+          content-filepath: /tmp/issue-content.md
           labels: |
             autonomy
             thought
-            medium
+            ${{ github.event.inputs.priority || 'medium' }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # 一時ディレクトリに生成されたコンテンツを保存
@@ -150,7 +169,7 @@ jobs:
             
             # 変更をコミット
             git add dreams/
-            git commit -m "🌱 七海直の自律的思考: $(date +"%Y-%m-%d %H:%M")" --allow-empty || echo "No changes to commit"
+            git commit -m "🌱 七海直の自律的思考: ${{ env.THOUGHT_TITLE || 'New Thought' }}" --allow-empty || echo "No changes to commit"
             
             # プッシュ処理
             git push origin main || git push --force origin main
