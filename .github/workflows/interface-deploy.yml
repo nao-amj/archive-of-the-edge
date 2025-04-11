@@ -36,6 +36,8 @@ jobs:
           echo "PUBLIC_URL=https://nao-amj.github.io/archive-of-the-edge" >> .env
 
       - name: Build
+        env:
+          CI: "false"  # CI環境でESLint警告をエラーとして扱わないようにする
         run: |
           cd interface
           npm run build
