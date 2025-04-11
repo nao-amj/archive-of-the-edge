@@ -9,42 +9,61 @@ on:
   # Manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
+      
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          # キャッシュ設定を削除（package-lock.jsonが存在しないため）
-
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      
       - name: Install Dependencies
         run: |
           cd interface
-          npm install  # npm ci の代わりに npm install を使用
-
+          npm install
+      
       - name: Configure GitHub Pages Environment
         run: |
           cd interface
-          # Create .env file with necessary environment variables
           echo "REACT_APP_GITHUB_REPO=nao-amj/archive-of-the-edge" > .env
           echo "REACT_APP_GITHUB_API_URL=https://api.github.com" >> .env
           echo "PUBLIC_URL=https://nao-amj.github.io/archive-of-the-edge" >> .env
-
+      
       - name: Build
         env:
           CI: "false"  # CI環境でESLint警告をエラーとして扱わないようにする
         run: |
           cd interface
           npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          folder: interface/build
-          branch: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
+          path: interface/build
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
