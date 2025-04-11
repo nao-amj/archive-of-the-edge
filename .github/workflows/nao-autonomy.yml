@@ -41,7 +41,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # すべての履歴を取得
+          token: ${{ secrets.GITHUB_TOKEN }}  # 明示的にトークンを指定
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -103,13 +104,21 @@ jobs:
         run: |
           mkdir -p dreams/${{ env.NAO_THOUGHT_CATEGORY }}
           cp ./.github/temp/autonomy-content.md dreams/${{ env.NAO_THOUGHT_CATEGORY }}/${{ env.NAO_THOUGHT_FILENAME }}
+      
+      - name: Fetch latest changes
+        if: steps.generate.outputs.content_generated == 'true'
+        run: |
+          # リモートの最新状態を取得
+          git fetch origin
           
       - name: Commit and push changes
         if: steps.generate.outputs.content_generated == 'true'
         run: |
-          git config --global user.name 'Nao Nanami (Automated)'
-          git config --global user.email 'nao-amj@users.noreply.github.com'
+          git config --local user.name 'Nao Nanami (Automated)'
+          git config --local user.email 'nao-amj@users.noreply.github.com'
           git add dreams/ memory/
           git commit -m "🌱 七海直の自律的思考: ${{ env.NAO_THOUGHT_TITLE }}" || echo "No changes to commit"
-          git pull --rebase origin main  # リモートの変更を取得してから
-          git push
+          
+          # リモートの変更を統合して、強制的にプッシュ
+          git pull --rebase origin main || git reset --hard origin/main && git cherry-pick HEAD
+          git push --force-with-lease origin main
