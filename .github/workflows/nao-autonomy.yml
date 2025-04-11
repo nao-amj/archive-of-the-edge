@@ -89,51 +89,16 @@ jobs:
           # コンテンツを生成
           node .github/scripts/generate-content.js
           
-          # 必要な環境変数を確認してGitHub Actionsの環境に設定
-          if [ -f "./.github/temp/thought-metadata.json" ]; then
-            # JSONファイルから値を取得
-            TITLE=$(cat ./.github/temp/thought-metadata.json | grep -o '"title":"[^"]*"' | cut -d'"' -f4)
-            CATEGORY=$(cat ./.github/temp/thought-metadata.json | grep -o '"category":"[^"]*"' | cut -d'"' -f4)
-            FILENAME=$(cat ./.github/temp/thought-metadata.json | grep -o '"filename":"[^"]*"' | cut -d'"' -f4)
-            
-            # 値が空でない場合に環境変数として設定
-            if [ ! -z "$TITLE" ]; then
-              echo "NAO_THOUGHT_TITLE=$TITLE" >> $GITHUB_ENV
-              echo "タイトルを設定: $TITLE"
-            else
-              # デフォルトのタイトルを設定
-              TIMESTAMP=$(date +"%Y-%m-%d")
-              echo "NAO_THOUGHT_TITLE=七海直の思考: $TIMESTAMP" >> $GITHUB_ENV
-              echo "デフォルトのタイトルを設定"
-            fi
-            
-            if [ ! -z "$CATEGORY" ]; then
-              echo "NAO_THOUGHT_CATEGORY=$CATEGORY" >> $GITHUB_ENV
-              echo "カテゴリを設定: $CATEGORY"
-            else
-              echo "NAO_THOUGHT_CATEGORY=general" >> $GITHUB_ENV
-              echo "デフォルトのカテゴリを設定"
-            fi
-            
-            if [ ! -z "$FILENAME" ]; then
-              echo "NAO_THOUGHT_FILENAME=$FILENAME" >> $GITHUB_ENV
-              echo "ファイル名を設定: $FILENAME"
-            else
-              TIMESTAMP=$(date +"%Y%m%d%H%M%S")
-              echo "NAO_THOUGHT_FILENAME=thought_$TIMESTAMP.md" >> $GITHUB_ENV
-              echo "デフォルトのファイル名を設定"
-            fi
-          else
-            # メタデータファイルがない場合はデフォルト値を設定
-            TIMESTAMP=$(date +"%Y-%m-%d")
-            echo "NAO_THOUGHT_TITLE=七海直の思考: $TIMESTAMP" >> $GITHUB_ENV
-            echo "NAO_THOUGHT_CATEGORY=general" >> $GITHUB_ENV
-            echo "NAO_THOUGHT_FILENAME=thought_$(date +"%Y%m%d%H%M%S").md" >> $GITHUB_ENV
-            echo "メタデータファイルがないためデフォルト値を設定"
-          fi
+          # 固定のタイトルを設定
+          DEFAULT_TITLE="七海直の思考: $(date +"%Y-%m-%d %H:%M")"
+          echo "NAO_THOUGHT_TITLE=${DEFAULT_TITLE}" >> $GITHUB_ENV
+          echo "NAO_THOUGHT_CATEGORY=general" >> $GITHUB_ENV
+          echo "NAO_THOUGHT_FILENAME=thought_$(date +"%Y%m%d%H%M%S").md" >> $GITHUB_ENV
+          echo "NAO_THOUGHT_TYPE=thought" >> $GITHUB_ENV
+          echo "NAO_THOUGHT_PRIORITY=medium" >> $GITHUB_ENV
           
+          echo "固定タイトルを設定: ${DEFAULT_TITLE}"
           echo "content_generated=true" >> $GITHUB_OUTPUT
-
         env:
           INITIATIVE_TYPE: ${{ github.event.inputs.initiative_type || 'random' }}
           PRIORITY: ${{ github.event.inputs.priority || 'medium' }}
@@ -142,15 +107,15 @@ jobs:
         if: steps.generate.outputs.content_generated == 'true'
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: ${{ env.NAO_THOUGHT_TITLE }}
+          title: "七海直の思考: ${{ github.run_number }}"
           content-filepath: ./.github/temp/autonomy-content.md
           labels: |
             autonomy
-            ${{ env.NAO_THOUGHT_TYPE || 'thought' }}
-            ${{ env.NAO_THOUGHT_PRIORITY || 'medium' }}
+            thought
+            medium
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 一時ディレクトリに生成されたコンテンツとメタデータを保存
+      # 一時ディレクトリに生成されたコンテンツを保存
       - name: Save generated content
         if: steps.generate.outputs.content_generated == 'true'
         run: |
@@ -159,14 +124,9 @@ jobs:
           # 生成された内容を保存
           if [ -f "./.github/temp/autonomy-content.md" ]; then
             cp ./.github/temp/autonomy-content.md /tmp/nao_autonomy/
-            
-            # 環境変数をファイルに保存
-            echo "${{ env.NAO_THOUGHT_TITLE }}" > /tmp/nao_autonomy/thought_title.txt
-            echo "${{ env.NAO_THOUGHT_CATEGORY }}" > /tmp/nao_autonomy/thought_category.txt
-            echo "${{ env.NAO_THOUGHT_FILENAME }}" > /tmp/nao_autonomy/thought_filename.txt
           fi
       
-      # 最新の変更を取得して同期 - cherry-pickは使用しない
+      # 最新の変更を取得して同期
       - name: Sync with latest changes
         if: steps.generate.outputs.content_generated == 'true'
         run: |
@@ -180,20 +140,19 @@ jobs:
         if: steps.generate.outputs.content_generated == 'true'
         run: |
           if [ -f "/tmp/nao_autonomy/autonomy-content.md" ]; then
-            # 環境変数を復元
-            NAO_THOUGHT_TITLE=$(cat /tmp/nao_autonomy/thought_title.txt)
-            NAO_THOUGHT_CATEGORY=$(cat /tmp/nao_autonomy/thought_category.txt)
-            NAO_THOUGHT_FILENAME=$(cat /tmp/nao_autonomy/thought_filename.txt)
+            # 固定の値を使用
+            CATEGORY="general"
+            FILENAME="thought_$(date +"%Y%m%d%H%M%S").md"
             
             # ディレクトリ作成とファイルコピー
-            mkdir -p dreams/$NAO_THOUGHT_CATEGORY
-            cp /tmp/nao_autonomy/autonomy-content.md dreams/$NAO_THOUGHT_CATEGORY/$NAO_THOUGHT_FILENAME
+            mkdir -p dreams/$CATEGORY
+            cp /tmp/nao_autonomy/autonomy-content.md dreams/$CATEGORY/$FILENAME
             
-            # 変更をコミット (--allow-emptyオプションを追加)
+            # 変更をコミット
             git add dreams/
-            git commit -m "🌱 七海直の自律的思考: $NAO_THOUGHT_TITLE" --allow-empty || echo "No changes to commit"
+            git commit -m "🌱 七海直の自律的思考: $(date +"%Y-%m-%d %H:%M")" --allow-empty || echo "No changes to commit"
             
-            # プッシュ処理 (直接--forceオプションを使用)
+            # プッシュ処理
             git push origin main || git push --force origin main
           else
             echo "No generated content found, skipping commit"
