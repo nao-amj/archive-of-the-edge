@@ -11,6 +11,10 @@ on:
   # 手動実行も可能
   workflow_dispatch:
 
+# GitHub Actionsに書き込み権限を付与
+permissions:
+  contents: write
+
 jobs:
   update-memory-index:
     runs-on: ubuntu-latest
