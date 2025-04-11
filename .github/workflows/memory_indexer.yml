@@ -13,7 +13,7 @@ on:
 
 # 同時実行を防止する設定
 concurrency:
-  group: memory-indexer
+  group: repo-operations
   cancel-in-progress: true
 
 # GitHub Actionsに書き込み権限を付与
@@ -129,7 +129,7 @@ jobs:
             cp memory/graph/memory-graph.json /tmp/memory_index/memory/graph/
           fi
       
-      # 最新の変更を取得して同期
+      # 最新の変更を取得して同期 - cherry-pickは使用しない
       - name: Sync with latest changes
         run: |
           git config --local user.email "nao-bot@example.com"
@@ -158,10 +158,9 @@ jobs:
             cp /tmp/memory_index/memory/graph/memory-graph.json memory/graph/
           fi
           
-          # 変更をコミット
+          # 変更をコミット (--allow-emptyオプションを追加)
           git add memory/index.json meta/memory_stats.json memory/graph/memory-graph.json || true
-          git commit -m "🔄 記憶インデックス更新: $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "🔄 記憶インデックス更新: $(date +%Y-%m-%d)" --allow-empty || echo "No changes to commit"
           
-          # プッシュ処理
-          git push || echo "Push failed, will try force push"
-          git push --force-with-lease || echo "Force push also failed"
+          # プッシュ処理 (--force オプションを使用)
+          git push origin main || git push --force origin main
