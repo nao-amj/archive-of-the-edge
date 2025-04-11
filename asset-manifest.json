@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://nao-amj.github.io/archive-of-the-edge/static/css/main.28948107.css",
+    "main.js": "https://nao-amj.github.io/archive-of-the-edge/static/js/main.c0eca5c2.js",
+    "index.html": "https://nao-amj.github.io/archive-of-the-edge/index.html",
+    "main.28948107.css.map": "https://nao-amj.github.io/archive-of-the-edge/static/css/main.28948107.css.map",
+    "main.c0eca5c2.js.map": "https://nao-amj.github.io/archive-of-the-edge/static/js/main.c0eca5c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28948107.css",
+    "static/js/main.c0eca5c2.js"
+  ]
+}
