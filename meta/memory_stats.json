@@ -1,17 +1,14 @@
 {
-  "total_memories": 6,
+  "total_memories": 5,
   "by_category": {
     "memory": 3,
-    "theory": 2,
+    "theory": 1,
     "shells": 1
   },
   "pulse_distribution": {
     "#clarity": 3,
     "#trust": 1,
     "#resonance": 1,
-    "#game_design": 1,
-    "#creative": 1,
-    "#direction": 1,
     "#insight": 1,
     "#focus": 1,
     "#external_perspective": 1,
