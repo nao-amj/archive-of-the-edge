@@ -1,0 +1,37 @@
+name: Setup GitHub OAuth App for Interface
+
+# この設定はOAuth認証を設定するためのワークフローです
+# 注意: 実際の使用時には適切なシークレット管理が必要です
+
+on:
+  workflow_dispatch:
+    inputs:
+      client_id:
+        description: 'GitHub OAuth App Client ID'
+        required: true
+      client_secret:
+        description: 'GitHub OAuth App Client Secret'
+        required: true
+
+jobs:
+  setup-auth:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup authentication environment
+        run: |
+          # GitHub Actions Secretsを作成
+          echo "Setting up GitHub OAuth App credentials"
+          echo "REACT_APP_GITHUB_CLIENT_ID=${{ github.event.inputs.client_id }}" >> $GITHUB_ENV
+          echo "GITHUB_CLIENT_SECRET=${{ github.event.inputs.client_secret }}" >> $GITHUB_ENV
+        
+      - name: Verify setup
+        run: |
+          echo "Authentication setup completed"
+          echo "Client ID: ${{ env.REACT_APP_GITHUB_CLIENT_ID }}"
+          echo "Client Secret: [REDACTED]"
+        
+      # 注意: これは実際にはシークレットを設定するためのプレースホルダーです
+      # 実際の実装では、GitHub Actions Secrets、GitHub Environment Secrets、または他の安全な方法を使用します
