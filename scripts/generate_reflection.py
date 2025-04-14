@@ -138,7 +138,6 @@ def get_recent_discussions(days=1):
               }
             }
             """
-        
 
         variables = {
             "owner": GITHUB_REPO.split("/")[0],
@@ -476,6 +475,7 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
 
 ## 次のステップ
 
+"""
     # 次のステップを追加
     for step in next_steps:
         reflection_md += f"- {step}\n"
@@ -685,7 +685,7 @@ def update_discussion_with_reflection(content):
 - {introspection_text}
 
 詳細は[日次リフレクション: {today_str}](https://github.com/{GITHUB_REPO}/issues) をご覧ください
-""".replace('\n', '\n') # この行は不要ですが、意図を明確にするために残すこともできます
+"""
 
         # コメントを追加するGraphQL mutation
         mutation = """
@@ -697,7 +697,7 @@ def update_discussion_with_reflection(content):
             }
           }
         }
-        
+        """
 
         variables = {
             "input": {
