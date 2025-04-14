@@ -630,8 +630,7 @@ def update_discussion_with_reflection(content):
 """
     
     # コメントを追加するGraphQL mutation
-    mutation = """
-    mutation($input: AddDiscussionCommentInput!) {
+    mutation = mutation($input: AddDiscussionCommentInput!) {
       addDiscussionComment(input: $input) {
         comment {
           id
@@ -639,7 +638,6 @@ def update_discussion_with_reflection(content):
         }
       }
     }
-    """
     
     variables = {
         "input": {
