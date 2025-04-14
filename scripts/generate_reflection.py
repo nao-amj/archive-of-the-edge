@@ -443,11 +443,13 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
 
 ## 次のステップ
 
-# 次のステップを追加
+"""
+
+    # 次のステップを追加
     for step in next_steps:
         reflection_md += f"- {step}\n"
     
-    # 変数を使って日本語テキストを扱う
+    # ここが問題の箇所を修正
     footer = "*このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*"
     reflection_md += f"""---
 
