@@ -443,8 +443,6 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
 
 ## 次のステップ
 
-"""
-
     # 次のステップを追加
     for step in next_steps:
         reflection_md += f"- {step}\n"
