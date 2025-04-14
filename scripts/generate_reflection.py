@@ -485,7 +485,6 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
     return reflection_md
 
 def save_reflection(content):
-    """リフレクションをファイルに保存"""
     try:
         today_str = datetime.datetime.now().strftime("%Y-%m-%d")
         file_path = Path(f"memory/thoughts/daily_reflection_{today_str}.md")
