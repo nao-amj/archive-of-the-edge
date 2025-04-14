@@ -697,7 +697,7 @@ def update_discussion_with_reflection(content):
             }
           }
         }
-        """
+        
 
         variables = {
             "input": {
