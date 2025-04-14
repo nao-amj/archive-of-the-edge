@@ -1,22 +1,23 @@
 {
-  "total_memories": 440,
+  "total_memories": 456,
   "by_category": {
-    "memory": 438,
+    "memory": 454,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
     "file": 20,
-    "discussion": 292,
+    "discussion": 308,
     "issue": 128
   },
   "pulse_distribution": {
     "#clarity": 4,
+    "#trust": 2,
     "#resonance": 2,
-    "#memory_clear": 2,
-    "#focus": 2,
-    "#trust": 1,
+    "#memory_clear": 1,
+    "#joy": 1,
     "#insight": 1,
+    "#focus": 1,
     "#external_perspective": 1,
     "#detachment": 1
   },

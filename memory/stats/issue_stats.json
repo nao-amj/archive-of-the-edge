@@ -1,10 +1,10 @@
 {
-  "total_issues": 67,
-  "reflections": 4,
+  "total_issues": 69,
+  "reflections": 6,
   "thoughts": 63,
   "labels": {
-    "reflection": 19,
-    "auto-generated": 4,
+    "reflection": 21,
+    "auto-generated": 6,
     "thought": 40,
     "automation": 3,
     "tech": 2,
@@ -85,10 +85,10 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 7,
+    "github-actions[bot]": 9,
     "nao-amj": 60
   },
   "creation_dates": {
-    "2025-04": 67
+    "2025-04": 69
   }
 }

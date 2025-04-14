@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-14T11:41:26.497369",
+  "timestamp": "2025-04-14T11:42:55.481332",
   "pulse_tags": [
-    "#memory_clear",
-    "#focus"
+    "#trust",
+    "#joy"
   ],
-  "description": "記憶の解像度が高い。目的意識がはっきりしている。",
-  "emotional_valence": -0.63,
-  "emotional_arousal": 0.74
+  "description": "安心感に包まれている。明るい気持ちがある。",
+  "emotional_valence": 0.81,
+  "emotional_arousal": 0.18
 }
