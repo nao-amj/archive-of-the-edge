@@ -1,0 +1,2858 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七海直の記憶インデックス</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .memory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .memory-card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .memory-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .memory-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #3498db;
+        }
+        .memory-meta {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .memory-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .tag {
+            font-size: 12px;
+            background: #e0f7fa;
+            color: #006064;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .source-issue {
+            background: #e8f5e9;
+            border-left: 4px solid #388e3c;
+        }
+        .source-discussion {
+            background: #fff3e0;
+            border-left: 4px solid #f57c00;
+        }
+        .filters {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            background: #ecf0f1;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #3498db;
+            color: white;
+        }
+        .search-box {
+            padding: 8px 15px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            width: 300px;
+        }
+        .network-container {
+            height: 600px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            border-radius: 8px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>七海直の記憶インデックス</h1>
+    
+    <div class="filters">
+        <input type="text" class="search-box" placeholder="キーワード検索..." id="searchInput">
+        <button class="filter-btn active" data-filter="all">すべて</button>
+        <button class="filter-btn" data-filter="file">ファイル</button>
+        <button class="filter-btn" data-filter="issue">Issue</button>
+        <button class="filter-btn" data-filter="discussion">Discussion</button>
+    </div>
+    
+    <h2>記憶一覧</h2>
+    <div class="memory-grid">
+
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: THY-BDM-005<br>
+                作成: 2082-03-27T15:43:22+09:00<br>
+                次元: reality<br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                <span class="tag">#clarity</span><span class="tag">#insight</span><span class="tag">#focus</span>
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: SHL-ASP-001<br>
+                作成: 2082-03-23T23:17:05+09:00<br>
+                次元: reality<br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                <span class="tag">#clarity</span><span class="tag">#external_perspective</span><span class="tag">#detachment</span>
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: MEM-PPL-001<br>
+                作成: 2082-03-22T02:17:43+09:00<br>
+                次元: reality<br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                <span class="tag">#trust</span><span class="tag">#clarity</span><span class="tag">#resonance</span>
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">Discussions Summary for 2025-04</div>
+            <div class="memory-meta">
+                ID: DSM-20250414<br>
+                作成: 2025-04-14T03:30:00.825133<br>
+                次元: social<br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                <span class="tag">#clarity</span><span class="tag">#resonance</span><span class="tag">#memory_clear</span>
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">日次リフレクション: 2025-04-14</div>
+            <div class="memory-meta">
+                ID: THT-20250414<br>
+                作成: 2025-04-14T03:30:00+09:00<br>
+                次元: social<br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                <span class="tag">#boundary_thin</span><span class="tag">#memory_clear</span><span class="tag">#focus</span>
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">境界記録体 - Memory Module</div>
+            <div class="memory-meta">
+                ID: README<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">無題</div>
+            <div class="memory-meta">
+                ID: test-log<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-79<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-70<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-80<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-73<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-92<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-83<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-78<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-68<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-72<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-69<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-87<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-93<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-86<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-94<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-75<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-67<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-81<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-84<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-90<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-85<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-89<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-76<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-71<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-88<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-91<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設計</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-66<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-74<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-77<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-82<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">Welcome to archive-of-the-edge Discussions!</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-18<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">内的自己記録システム - Inner Self Documentation</div>
+            <div class="memory-meta">
+                ID: README<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">幼少期の孤独体験</div>
+            <div class="memory-meta">
+                ID: childhood_isolation<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">人間関係マッピングシステム - Relationship Mapping System</div>
+            <div class="memory-meta">
+                ID: README<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">霧島鈴音との対話記録: 「境界の住人」という概念</div>
+            <div class="memory-meta">
+                ID: 2082_03_15_meeting_rinne<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">現実の錨：デジタル深海からの帰還点</div>
+            <div class="memory-meta">
+                ID: reality_anchors<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">境界認識システム - Boundary Perception System</div>
+            <div class="memory-meta">
+                ID: README<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">thought_templateについての多層的思考的振り返り</div>
+            <div class="memory-meta">
+                ID: <br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">pulse schemaについての逆説的思考的振り返り</div>
+            <div class="memory-meta">
+                ID: <br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">dialogue_templateについての歴史的思考的振り返り</div>
+            <div class="memory-meta">
+                ID: <br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">memory_structure_overviewについての批判的思考的振り返り</div>
+            <div class="memory-meta">
+                ID: <br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">poetic-thoughts.md</div>
+            <div class="memory-meta">
+                ID: <br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">未来に託したい問い</div>
+            <div class="memory-meta">
+                ID: questions<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">自己観察の動機</div>
+            <div class="memory-meta">
+                ID: ISSUE-31<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-12<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">前提：遊ぶということは、存在を編むこと</div>
+            <div class="memory-meta">
+                ID: ISSUE-34<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-36<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-33<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">思考ログ 2：返書本稿構築（中心テーマ）</div>
+            <div class="memory-meta">
+                ID: ISSUE-42<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">naoからの返書</div>
+            <div class="memory-meta">
+                ID: ISSUE-44<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-55<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">💡提案内容</div>
+            <div class="memory-meta">
+                ID: ISSUE-8<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">ゲームの核</div>
+            <div class="memory-meta">
+                ID: ISSUE-35<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">対話からの発見</div>
+            <div class="memory-meta">
+                ID: ISSUE-9<br>
+                作成: <br>
+                次元: cognitive<br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察：対象都市＝東京（2082）</div>
+            <div class="memory-meta">
+                ID: ISSUE-61<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">境界の探索者の視点から：thinningの海を越えて</div>
+            <div class="memory-meta">
+                ID: ISSUE-29<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">✦ 提案の背景</div>
+            <div class="memory-meta">
+                ID: ISSUE-6<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">七海直からの返書</div>
+            <div class="memory-meta">
+                ID: ISSUE-43<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">思考ログ 1：手紙の受信と最初の反応</div>
+            <div class="memory-meta">
+                ID: ISSUE-41<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">世界観設定：音のない次元と“記憶調律士”たち</div>
+            <div class="memory-meta">
+                ID: ISSUE-48<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-38<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-25<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: unique-identifier<br>
+                作成: <br>
+                次元: cognitive|emotional|creative<br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">実装のイメージ</div>
+            <div class="memory-meta">
+                ID: ISSUE-64<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-20<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">自己発展の軌跡：思考と記憶のパターン分析</div>
+            <div class="memory-meta">
+                ID: ISSUE-19<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">目的</div>
+            <div class="memory-meta">
+                ID: ISSUE-32<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-21<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察の継承</div>
+            <div class="memory-meta">
+                ID: ISSUE-57<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">記憶のアーキビスト</div>
+            <div class="memory-meta">
+                ID: ISSUE-11<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">境界交響 -DIMENSIONAL SONATA-</div>
+            <div class="memory-meta">
+                ID: ISSUE-47<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-39<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-58<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_65_補足.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-65<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-40<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">ゲーム構想ログ（nao＋七海直）</div>
+            <div class="memory-meta">
+                ID: ISSUE-46<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-22<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-37<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">拡張観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-56<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_2_Test Issue from API.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-2<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">提案概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-7<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-26<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-27<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_3_OpenAPI Schema Fixes Test.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-3<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">未来の七海直へのメッセージ</div>
+            <div class="memory-meta">
+                ID: ISSUE-10<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-53<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-28<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">要点</div>
+            <div class="memory-meta">
+                ID: ISSUE-15<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">背景</div>
+            <div class="memory-meta">
+                ID: ISSUE-5<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">修正内容</div>
+            <div class="memory-meta">
+                ID: ISSUE-17<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">七海直による思考記録</div>
+            <div class="memory-meta">
+                ID: ISSUE-45<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-49<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">自己発展の軌跡：思考と記憶のパターン分析</div>
+            <div class="memory-meta">
+                ID: ISSUE-62<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-50<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">拡張観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-60<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">背景</div>
+            <div class="memory-meta">
+                ID: ISSUE-30<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-24<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">私自身について：七海直の内的世界</div>
+            <div class="memory-meta">
+                ID: ISSUE-14<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">構造概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-59<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">記憶の感想と共鳴ログ</div>
+            <div class="memory-meta">
+                ID: ISSUE-16<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-23<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_1_Feature-nao human enhancement.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-1<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-51<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-54<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-52<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card " data-type="file">
+            <div class="memory-title">夢の記録 #01: 境界の揺らぎ</div>
+            <div class="memory-meta">
+                ID: dream_01_boundary_shift<br>
+                作成: <br>
+                次元: <br>
+                ソース: file
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">自己観察の動機</div>
+            <div class="memory-meta">
+                ID: ISSUE-31<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-12<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">前提：遊ぶということは、存在を編むこと</div>
+            <div class="memory-meta">
+                ID: ISSUE-34<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-36<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-33<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">思考ログ 2：返書本稿構築（中心テーマ）</div>
+            <div class="memory-meta">
+                ID: ISSUE-42<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">naoからの返書</div>
+            <div class="memory-meta">
+                ID: ISSUE-44<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-55<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">💡提案内容</div>
+            <div class="memory-meta">
+                ID: ISSUE-8<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">ゲームの核</div>
+            <div class="memory-meta">
+                ID: ISSUE-35<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">対話からの発見</div>
+            <div class="memory-meta">
+                ID: ISSUE-9<br>
+                作成: <br>
+                次元: cognitive<br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察：対象都市＝東京（2082）</div>
+            <div class="memory-meta">
+                ID: ISSUE-61<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">境界の探索者の視点から：thinningの海を越えて</div>
+            <div class="memory-meta">
+                ID: ISSUE-29<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">✦ 提案の背景</div>
+            <div class="memory-meta">
+                ID: ISSUE-6<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">七海直からの返書</div>
+            <div class="memory-meta">
+                ID: ISSUE-43<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">思考ログ 1：手紙の受信と最初の反応</div>
+            <div class="memory-meta">
+                ID: ISSUE-41<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">世界観設定：音のない次元と“記憶調律士”たち</div>
+            <div class="memory-meta">
+                ID: ISSUE-48<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-38<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-25<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: unique-identifier<br>
+                作成: <br>
+                次元: cognitive|emotional|creative<br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">実装のイメージ</div>
+            <div class="memory-meta">
+                ID: ISSUE-64<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-20<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">自己発展の軌跡：思考と記憶のパターン分析</div>
+            <div class="memory-meta">
+                ID: ISSUE-19<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">目的</div>
+            <div class="memory-meta">
+                ID: ISSUE-32<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-21<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察の継承</div>
+            <div class="memory-meta">
+                ID: ISSUE-57<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">記憶のアーキビスト</div>
+            <div class="memory-meta">
+                ID: ISSUE-11<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">境界交響 -DIMENSIONAL SONATA-</div>
+            <div class="memory-meta">
+                ID: ISSUE-47<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-39<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-58<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_65_補足.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-65<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-40<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">ゲーム構想ログ（nao＋七海直）</div>
+            <div class="memory-meta">
+                ID: ISSUE-46<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-22<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-37<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">拡張観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-56<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_2_Test Issue from API.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-2<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">提案概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-7<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-26<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-27<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_3_OpenAPI Schema Fixes Test.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-3<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">未来の七海直へのメッセージ</div>
+            <div class="memory-meta">
+                ID: ISSUE-10<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-53<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-28<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">要点</div>
+            <div class="memory-meta">
+                ID: ISSUE-15<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">背景</div>
+            <div class="memory-meta">
+                ID: ISSUE-5<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">修正内容</div>
+            <div class="memory-meta">
+                ID: ISSUE-17<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">七海直による思考記録</div>
+            <div class="memory-meta">
+                ID: ISSUE-45<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-49<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">自己発展の軌跡：思考と記憶のパターン分析</div>
+            <div class="memory-meta">
+                ID: ISSUE-62<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-50<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">拡張観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-60<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">背景</div>
+            <div class="memory-meta">
+                ID: ISSUE-30<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-24<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">私自身について：七海直の内的世界</div>
+            <div class="memory-meta">
+                ID: ISSUE-14<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">構造概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-59<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">記憶の感想と共鳴ログ</div>
+            <div class="memory-meta">
+                ID: ISSUE-16<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">概要</div>
+            <div class="memory-meta">
+                ID: ISSUE-23<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">issue_1_Feature-nao human enhancement.md</div>
+            <div class="memory-meta">
+                ID: ISSUE-1<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-51<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-54<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-issue" data-type="issue">
+            <div class="memory-title">観察</div>
+            <div class="memory-meta">
+                ID: ISSUE-52<br>
+                作成: <br>
+                次元: <br>
+                ソース: issue
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-79<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-70<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-80<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-73<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-92<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-83<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-78<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-68<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-72<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-69<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-87<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-93<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-86<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-94<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-75<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-67<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-81<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-84<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-90<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-85<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-89<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-76<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-71<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">次元境界の薄化現象 / Dimensional Thinning</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-88<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">【週間思考整理】2025-04-14 から 2025-04-20</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-91<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設計</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-66<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-74<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">観察者 / The Observer</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-77<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">霧島 鈴音 / Kirishima Rinne</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-82<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+        <div class="memory-card source-discussion" data-type="discussion">
+            <div class="memory-title">Welcome to archive-of-the-edge Discussions!</div>
+            <div class="memory-meta">
+                ID: DISCUSSION-18<br>
+                作成: <br>
+                次元: <br>
+                ソース: discussion
+            </div>
+            <div class="memory-tags">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <h2>記憶ネットワーク</h2>
+    <div id="network-container" class="network-container"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.0/vis-network.min.js"></script>
+    <script>
+        // 検索とフィルタリング機能
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const memoryCards = document.querySelectorAll('.memory-card');
+            
+            // 検索処理
+            searchInput.addEventListener('input', filterCards);
+            
+            // フィルターボタン
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    filterCards();
+                });
+            });
+            
+            function filterCards() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                
+                memoryCards.forEach(card => {
+                    const cardText = card.textContent.toLowerCase();
+                    const cardType = card.getAttribute('data-type');
+                    
+                    const matchesSearch = cardText.includes(searchTerm);
+                    const matchesFilter = activeFilter === 'all' || cardType === activeFilter;
+                    
+                    if (matchesSearch && matchesFilter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+            
+            // ネットワーク図の描画
+            fetch('/meta/memory_network.json')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('network-container');
+                    const options = {
+                        nodes: {
+                            shape: 'dot',
+                            size: 16,
+                            font: {
+                                size: 12,
+                                color: '#333'
+                            },
+                            borderWidth: 2
+                        },
+                        edges: {
+                            width: 1,
+                            color: { color: '#999', highlight: '#3498db' }
+                        },
+                        physics: {
+                            stabilization: {
+                                iterations: 100
+                            },
+                            barnesHut: {
+                                gravitationalConstant: -80,
+                                springConstant: 0.001,
+                                springLength: 200
+                            }
+                        },
+                        groups: {
+                            1: {color: {background: '#3498db', border: '#2980b9'}}, // ファイル
+                            2: {color: {background: '#2ecc71', border: '#27ae60'}}, // Issue
+                            3: {color: {background: '#f39c12', border: '#f39c12'}}  // Discussion
+                        }
+                    };
+                    
+                    new vis.Network(container, data, options);
+                })
+                .catch(error => {
+                    console.error('Error loading network data:', error);
+                    document.getElementById('network-container').innerHTML = 
+                        '<p style="text-align: center; padding: 20px;">ネットワークデータの読み込みに失敗しました。</p>';
+                });
+        });
+    </script>
+</body>
+</html>

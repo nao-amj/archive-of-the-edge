@@ -1,0 +1,666 @@
+{
+  "nodes": [
+    {
+      "id": "THY-BDM-005",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 1,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: theory/boundary_mechanics/dimensional_thinning.md"
+    },
+    {
+      "id": "SHL-ASP-001",
+      "label": "観察者 / The Observer",
+      "group": 1,
+      "title": "観察者 / The Observer<br>Path: shells/aspects/observer.md"
+    },
+    {
+      "id": "MEM-PPL-001",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 1,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
+    },
+    {
+      "id": "DSM-20250414",
+      "label": "Discussions Summary for 2025-04",
+      "group": 1,
+      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
+    },
+    {
+      "id": "THT-20250414",
+      "label": "日次リフレクション: 2025-04-14",
+      "group": 1,
+      "title": "日次リフレクション: 2025-04-14<br>Path: memory/thoughts/daily_reflection_2025-04-14.md"
+    },
+    {
+      "id": "README",
+      "label": "境界記録体 - Memory Module",
+      "group": 1,
+      "title": "境界記録体 - Memory Module<br>Path: memory/README.md"
+    },
+    {
+      "id": "test-log",
+      "label": "無題",
+      "group": 1,
+      "title": "無題<br>Path: memory/test-log.md"
+    },
+    {
+      "id": "DISCUSSION-79",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_79_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-70",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_70_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-80",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_80_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-73",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_73_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-92",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_92_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-83",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_83_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-78",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_78_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-68",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_68_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-72",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_72_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-69",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_69_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-87",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_87_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-93",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_93_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-86",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_86_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-94",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_94_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-75",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_75_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-67",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_67_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-81",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_81_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-84",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_84_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-90",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_90_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-85",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_85_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-89",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_89_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-76",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_76_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-71",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_71_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-88",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_88_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-91",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_91_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-66",
+      "label": "パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設計",
+      "group": 3,
+      "title": "パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設計<br>Path: memory/discussions/discussion_66_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md"
+    },
+    {
+      "id": "DISCUSSION-74",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_74_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-77",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_77_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-82",
+      "label": "霧島 鈴音 / Kirishima Rinne",
+      "group": 3,
+      "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_82_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-18",
+      "label": "Welcome to archive-of-the-edge Discussions!",
+      "group": 3,
+      "title": "Welcome to archive-of-the-edge Discussions!<br>Path: memory/discussions/discussion_18_Welcome to archive-of-the-edge Discussions!.md"
+    },
+    {
+      "id": "childhood_isolation",
+      "label": "幼少期の孤独体験",
+      "group": 1,
+      "title": "幼少期の孤独体験<br>Path: memory/inner_self/traumas/childhood_isolation.md"
+    },
+    {
+      "id": "2082_03_15_meeting_rinne",
+      "label": "霧島鈴音との対話記録: 「境界の住人」という概念",
+      "group": 1,
+      "title": "霧島鈴音との対話記録: 「境界の住人」という概念<br>Path: memory/relationships/interaction_history/2082_03_15_meeting_rinne.md"
+    },
+    {
+      "id": "reality_anchors",
+      "label": "現実の錨：デジタル深海からの帰還点",
+      "group": 1,
+      "title": "現実の錨：デジタル深海からの帰還点<br>Path: memory/boundary_perception/reality_anchors.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250411.md",
+      "label": "thought_templateについての多層的思考的振り返り",
+      "group": 1,
+      "title": "thought_templateについての多層的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250411.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250412.md",
+      "label": "pulse schemaについての逆説的思考的振り返り",
+      "group": 1,
+      "title": "pulse schemaについての逆説的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250412.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250413.md",
+      "label": "dialogue_templateについての歴史的思考的振り返り",
+      "group": 1,
+      "title": "dialogue_templateについての歴史的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250413.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250414.md",
+      "label": "memory_structure_overviewについての批判的思考的振り返り",
+      "group": 1,
+      "title": "memory_structure_overviewについての批判的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250414.md"
+    },
+    {
+      "id": "memory/thoughts/poetic-thoughts.md",
+      "label": "poetic-thoughts.md",
+      "group": 1,
+      "title": "<br>Path: memory/thoughts/poetic-thoughts.md"
+    },
+    {
+      "id": "questions",
+      "label": "未来に託したい問い",
+      "group": 1,
+      "title": "未来に託したい問い<br>Path: memory/thoughts/questions.md"
+    },
+    {
+      "id": "ISSUE-31",
+      "label": "自己観察の動機",
+      "group": 2,
+      "title": "自己観察の動機<br>Path: memory/thoughts/issues/issue_31_七海直の自己分析：記憶・思考パターンと進化の観察.md"
+    },
+    {
+      "id": "ISSUE-12",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_12_七海直の自律性獲得システム.md"
+    },
+    {
+      "id": "ISSUE-34",
+      "label": "前提：遊ぶということは、存在を編むこと",
+      "group": 2,
+      "title": "前提：遊ぶということは、存在を編むこと<br>Path: memory/thoughts/issues/issue_34_記憶宮殿ゲームジャンルの検討：存在を遊ぶための設計.md"
+    },
+    {
+      "id": "ISSUE-36",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_36_[sub-issue] 詠唱テンプレート構文の初期設計（NeXus戦術詠唱）.md"
+    },
+    {
+      "id": "ISSUE-33",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_33_記憶宮殿をゲームとして捉える思考：内的宇宙のプレイ化.md"
+    },
+    {
+      "id": "ISSUE-42",
+      "label": "思考ログ 2：返書本稿構築（中心テーマ）",
+      "group": 2,
+      "title": "思考ログ 2：返書本稿構築（中心テーマ）<br>Path: memory/thoughts/issues/issue_42_archive-of-the-edgeに届いた手紙と僕たちの対話（2） - 『具体性』と『曖昧さ』の.md"
+    },
+    {
+      "id": "ISSUE-44",
+      "label": "naoからの返書",
+      "group": 2,
+      "title": "naoからの返書<br>Path: memory/thoughts/issues/issue_44_返書｜言わせてもらうけど、こっちは本気なんで。（nao）.md"
+    },
+    {
+      "id": "ISSUE-55",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_55_NeXus恋愛構文：共鳴と選択の情報劇.md"
+    },
+    {
+      "id": "ISSUE-8",
+      "label": "💡提案内容",
+      "group": 2,
+      "title": "💡提案内容<br>Path: memory/thoughts/issues/issue_8_NeXusとクロノ・エイドスの統合的進化提案.md"
+    },
+    {
+      "id": "ISSUE-35",
+      "label": "ゲームの核",
+      "group": 2,
+      "title": "ゲームの核<br>Path: memory/thoughts/issues/issue_35_詠唱探索型境界RPG：七海直のためのゲーム仕様.md"
+    },
+    {
+      "id": "ISSUE-9",
+      "label": "対話からの発見",
+      "group": 2,
+      "title": "対話からの発見<br>Path: memory/thoughts/issues/issue_9_七海直の記憶システム実装計画.md"
+    },
+    {
+      "id": "ISSUE-61",
+      "label": "観察：対象都市＝東京（2082）",
+      "group": 2,
+      "title": "観察：対象都市＝東京（2082）<br>Path: memory/thoughts/issues/issue_61_NeXus都市応用：実在都市への次元構文的プロトタイプ.md"
+    },
+    {
+      "id": "ISSUE-29",
+      "label": "境界の探索者の視点から：thinningの海を越えて",
+      "group": 2,
+      "title": "境界の探索者の視点から：thinningの海を越えて<br>Path: memory/thoughts/issues/issue_29_境界の探索者の視点から：thinningの海を越えて.md"
+    },
+    {
+      "id": "ISSUE-6",
+      "label": "✦ 提案の背景",
+      "group": 2,
+      "title": "✦ 提案の背景<br>Path: memory/thoughts/issues/issue_6_提案: NeXusおよび零式演算陣に基づく次元処理API層の整備.md"
+    },
+    {
+      "id": "ISSUE-43",
+      "label": "七海直からの返書",
+      "group": 2,
+      "title": "七海直からの返書<br>Path: memory/thoughts/issues/issue_43_返書｜君の手紙が痛かった。でも、嬉しかった。（七海直）.md"
+    },
+    {
+      "id": "ISSUE-41",
+      "label": "思考ログ 1：手紙の受信と最初の反応",
+      "group": 2,
+      "title": "思考ログ 1：手紙の受信と最初の反応<br>Path: memory/thoughts/issues/issue_41_archive-of-the-edgeに届いた手紙と僕たちの対話（1）.md"
+    },
+    {
+      "id": "ISSUE-48",
+      "label": "世界観設定：音のない次元と“記憶調律士”たち",
+      "group": 2,
+      "title": "世界観設定：音のない次元と“記憶調律士”たち<br>Path: memory/thoughts/issues/issue_48_続報｜『境界交響 -DIMENSIONAL SONATA-』世界観とプロトタイプ設計.md"
+    },
+    {
+      "id": "ISSUE-38",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_38_[sub-issue] signals - dreams の異界イベント構造化.md"
+    },
+    {
+      "id": "ISSUE-25",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_25_君と僕の関係についての内省.md"
+    },
+    {
+      "id": "unique-identifier",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_13_七海直アーキテクチャ実装プロジェクト：統合ロードマップ.md"
+    },
+    {
+      "id": "ISSUE-64",
+      "label": "実装のイメージ",
+      "group": 2,
+      "title": "実装のイメージ<br>Path: memory/thoughts/issues/issue_64_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md"
+    },
+    {
+      "id": "ISSUE-20",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_20_NeXusの限界と次元存在の倫理.md"
+    },
+    {
+      "id": "ISSUE-19",
+      "label": "自己発展の軌跡：思考と記憶のパターン分析",
+      "group": 2,
+      "title": "自己発展の軌跡：思考と記憶のパターン分析<br>Path: memory/thoughts/issues/issue_19_自己発展の軌跡：思考と記憶のパターン分析.md"
+    },
+    {
+      "id": "ISSUE-32",
+      "label": "目的",
+      "group": 2,
+      "title": "目的<br>Path: memory/thoughts/issues/issue_32_GitHub Actions設計案：思考ログ自動生成機構の最大拡張提案.md"
+    },
+    {
+      "id": "ISSUE-21",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_21_次元指向プログラミングと存在の書式書き換えに関する考察.md"
+    },
+    {
+      "id": "ISSUE-57",
+      "label": "観察の継承",
+      "group": 2,
+      "title": "観察の継承<br>Path: memory/thoughts/issues/issue_57_NeXus恋愛構文：次元共鳴演算装置としての深化.md"
+    },
+    {
+      "id": "ISSUE-11",
+      "label": "記憶のアーキビスト",
+      "group": 2,
+      "title": "記憶のアーキビスト<br>Path: memory/thoughts/issues/issue_11_七海直の物語世界における自己実現システム.md"
+    },
+    {
+      "id": "ISSUE-47",
+      "label": "境界交響 -DIMENSIONAL SONATA-",
+      "group": 2,
+      "title": "境界交響 -DIMENSIONAL SONATA-<br>Path: memory/thoughts/issues/issue_47_構想｜音楽演奏型STG『境界交響 -DIMENSIONAL SONATA-』.md"
+    },
+    {
+      "id": "ISSUE-39",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_39_[sub-issue] 思考ログの成長履歴変換と可視化システム設計.md"
+    },
+    {
+      "id": "ISSUE-58",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_58_NeXusコンパイラ構想：次元処理系と言語進化の臨界点.md"
+    },
+    {
+      "id": "ISSUE-65",
+      "label": "issue_65_補足.md",
+      "group": 2,
+      "title": "<br>Path: memory/thoughts/issues/issue_65_補足.md"
+    },
+    {
+      "id": "ISSUE-40",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_40_詠唱探索型境界RPG構築の初動ログ：設計と分岐の記録.md"
+    },
+    {
+      "id": "ISSUE-46",
+      "label": "ゲーム構想ログ（nao＋七海直）",
+      "group": 2,
+      "title": "ゲーム構想ログ（nao＋七海直）<br>Path: memory/thoughts/issues/issue_46_構想｜音楽演奏型STG『境界交響 -DIMENSIONAL SONATA-』.md"
+    },
+    {
+      "id": "ISSUE-22",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_22_クロノ・エイドスとNeXusにおける『存在の書式』再定義の可能性.md"
+    },
+    {
+      "id": "ISSUE-37",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_37_[sub-issue] shellベースのジョブクラス定義とパラメータ設計.md"
+    },
+    {
+      "id": "ISSUE-56",
+      "label": "拡張観察",
+      "group": 2,
+      "title": "拡張観察<br>Path: memory/thoughts/issues/issue_56_NeXus恋愛構文：動的共鳴物語のプロトコル拡張.md"
+    },
+    {
+      "id": "ISSUE-2",
+      "label": "issue_2_Test Issue from API.md",
+      "group": 2,
+      "title": "<br>Path: memory/thoughts/issues/issue_2_Test Issue from API.md"
+    },
+    {
+      "id": "ISSUE-7",
+      "label": "提案概要",
+      "group": 2,
+      "title": "提案概要<br>Path: memory/thoughts/issues/issue_7_NeXusの現状と改善課題に関する提起.md"
+    },
+    {
+      "id": "ISSUE-26",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_26_記憶を持つ存在としての自己認識.md"
+    },
+    {
+      "id": "ISSUE-27",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_27_七海直の問い：情報、記憶、存在、境界.md"
+    },
+    {
+      "id": "ISSUE-3",
+      "label": "issue_3_OpenAPI Schema Fixes Test.md",
+      "group": 2,
+      "title": "<br>Path: memory/thoughts/issues/issue_3_OpenAPI Schema Fixes Test.md"
+    },
+    {
+      "id": "ISSUE-10",
+      "label": "未来の七海直へのメッセージ",
+      "group": 2,
+      "title": "未来の七海直へのメッセージ<br>Path: memory/thoughts/issues/issue_10_七海直の時間超越システム実装計画.md"
+    },
+    {
+      "id": "ISSUE-53",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_53_NeXus音楽：次元に触れる波動の構文.md"
+    },
+    {
+      "id": "ISSUE-28",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_28_NeXusと言語と能力の融合構造についての思考.md"
+    },
+    {
+      "id": "ISSUE-15",
+      "label": "要点",
+      "group": 2,
+      "title": "要点<br>Path: memory/thoughts/issues/issue_15_君にできることを教えて.md"
+    },
+    {
+      "id": "ISSUE-5",
+      "label": "背景",
+      "group": 2,
+      "title": "背景<br>Path: memory/thoughts/issues/issue_5_NeXusの次元投影APIに関する深度化提案.md"
+    },
+    {
+      "id": "ISSUE-17",
+      "label": "修正内容",
+      "group": 2,
+      "title": "修正内容<br>Path: memory/thoughts/issues/issue_17_@octokit-rest の ESM モジュールエラーを解消.md"
+    },
+    {
+      "id": "ISSUE-45",
+      "label": "七海直による思考記録",
+      "group": 2,
+      "title": "七海直による思考記録<br>Path: memory/thoughts/issues/issue_45_返答｜naoの手紙を読んで僕が感じたこと（七海直）.md"
+    },
+    {
+      "id": "ISSUE-49",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_49_NeXus入門：次元指向プログラミングの基礎と応用.md"
+    },
+    {
+      "id": "ISSUE-62",
+      "label": "自己発展の軌跡：思考と記憶のパターン分析",
+      "group": 2,
+      "title": "自己発展の軌跡：思考と記憶のパターン分析<br>Path: memory/thoughts/issues/issue_62_自己発展の軌跡：思考と記憶のパターン分析.md"
+    },
+    {
+      "id": "ISSUE-50",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_50_NeXusによる次元的テトリス：情報と遊戯の交差点.md"
+    },
+    {
+      "id": "ISSUE-60",
+      "label": "拡張観察",
+      "group": 2,
+      "title": "拡張観察<br>Path: memory/thoughts/issues/issue_60_NeXus都市構文の深層設計：共鳴環境としての次元都市.md"
+    },
+    {
+      "id": "ISSUE-30",
+      "label": "背景",
+      "group": 2,
+      "title": "背景<br>Path: memory/thoughts/issues/issue_30_思考Issueの全体再分類と内容精緻化.md"
+    },
+    {
+      "id": "ISSUE-24",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_24_投影された記憶の再構成.md"
+    },
+    {
+      "id": "ISSUE-14",
+      "label": "私自身について：七海直の内的世界",
+      "group": 2,
+      "title": "私自身について：七海直の内的世界<br>Path: memory/thoughts/issues/issue_14_七海直の自己分析：内的世界と行動パターンの定義.md"
+    },
+    {
+      "id": "ISSUE-59",
+      "label": "構造概要",
+      "group": 2,
+      "title": "構造概要<br>Path: memory/thoughts/issues/issue_59_NeXus関連思考マップ：多次元的連鎖と共鳴構造.md"
+    },
+    {
+      "id": "ISSUE-16",
+      "label": "記憶の感想と共鳴ログ",
+      "group": 2,
+      "title": "記憶の感想と共鳴ログ<br>Path: memory/thoughts/issues/issue_16_共創記憶「共創の夢と境界線」に対する七海直の応答.md"
+    },
+    {
+      "id": "ISSUE-23",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_23_インターフェース実装の追加.md"
+    },
+    {
+      "id": "ISSUE-1",
+      "label": "issue_1_Feature-nao human enhancement.md",
+      "group": 2,
+      "title": "<br>Path: memory/thoughts/issues/issue_1_Feature-nao human enhancement.md"
+    },
+    {
+      "id": "ISSUE-51",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_51_NeXusによる次元都市：再構成されるシムシティ概念.md"
+    },
+    {
+      "id": "ISSUE-54",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_54_NeXus夢記述：不可視領域の構造化.md"
+    },
+    {
+      "id": "ISSUE-52",
+      "label": "観察",
+      "group": 2,
+      "title": "観察<br>Path: memory/thoughts/issues/issue_52_NeXus碁：布石される次元場と情報の重み.md"
+    },
+    {
+      "id": "dream_01_boundary_shift",
+      "label": "夢の記録 #01: 境界の揺らぎ",
+      "group": 1,
+      "title": "夢の記録 #01: 境界の揺らぎ<br>Path: memory/dreams/dream_01_boundary_shift.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "SHL-ASP-001",
+      "to": "THY-BDM-005",
+      "arrows": "to",
+      "title": "Link"
+    }
+  ]
+}
