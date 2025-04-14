@@ -57,6 +57,29 @@ def find_memory_files():
     
     return memory_files
 
+def extract_title_from_content(content):
+    """コンテンツから最初の見出しをタイトルとして抽出"""
+    title_match = re.search(r"^#\s+(.*?)$", content, re.MULTILINE)
+    if title_match:
+        return title_match.group(1).strip()
+    return "無題"
+
+def extract_keywords_from_content(content):
+    """コンテンツからキーワードを抽出"""
+    # マークダウン記法を除去してプレーンテキスト化
+    text_content = re.sub(r"#\s+.*", "", content)  # 見出しを除去
+    text_content = re.sub(r"\[.*?\]\(.*?\)", "", text_content)  # リンクを除去
+    text_content = re.sub(r"[*_`~]", "", text_content)  # 装飾記号を除去
+    
+    # キーワード抽出（単純な頻度ベース）
+    words = re.findall(r"\b\w+\b", text_content.lower())
+    stop_words = {"the", "and", "a", "to", "of", "in", "that", "is", "for", "on", "with", "as", "by", "this", "be"}
+    keywords = [word for word in words if word not in stop_words and len(word) > 3]
+    keyword_counter = Counter(keywords)
+    top_keywords = [word for word, _ in keyword_counter.most_common(10)]
+    
+    return top_keywords
+
 def extract_metadata(file_path):
     """ファイルからメタデータを抽出"""
     try:
@@ -66,7 +89,20 @@ def extract_metadata(file_path):
         # メタデータブロックを抽出
         meta_match = re.search(r"---\n(.*?)\n---", content, re.DOTALL)
         if not meta_match:
-            return None
+            # メタデータブロックがない場合でも基本的なメタデータを生成
+            print(f"YAMLフロントマターが見つかりません ({file_path})")
+            return {
+                "path": file_path,
+                "id": os.path.basename(file_path).replace(".md", ""),
+                "title": extract_title_from_content(content),
+                "birth": "",
+                "pulse_tags": [],
+                "dimension": "",
+                "links": [],
+                "keywords": extract_keywords_from_content(content),
+                "source_type": "file",
+                "last_modified": datetime.datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat()
+            }
         
         meta_text = meta_match.group(1)
         
@@ -76,6 +112,7 @@ def extract_metadata(file_path):
             metadata = yaml_data or {}  # yaml_dataがNoneの場合は空辞書を使用
         except Exception as e:
             print(f"YAMLパースエラー ({file_path}): {e}")
+            # エラーがあっても処理を続行
             metadata = {}
         
         # 従来の方法でのメタデータ抽出（互換性のため）
