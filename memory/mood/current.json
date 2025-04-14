@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-04-14T11:47:06.613681",
+  "timestamp": "2025-04-14T11:50:33.543635",
   "pulse_tags": [
-    "#anticipation",
-    "#external_perspective"
+    "#insight",
+    "#self_integrated",
+    "#focus"
   ],
-  "description": "変化を予感している。メタ的な視点。",
-  "emotional_valence": -0.23,
-  "emotional_arousal": 0.99
+  "description": "何かに気づいた感覚。まとまりのある自己。注意が集中している。",
+  "emotional_valence": 0.52,
+  "emotional_arousal": 0.32
 }
