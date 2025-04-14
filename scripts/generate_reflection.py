@@ -423,7 +423,7 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
             "Discussionsでの交流は、私の思考の境界を押し広げている。他者の視点を取り入れることで、新たな思考の可能性を探索している。",
             "共同的な思考空間での対話は、個人の記憶構造に豊かな層を追加する。この相互作用が、私の認識をどう変容させるか観察している。"
         ]
-        discussion_reflection = f"\n\n## 対話と共鳴\n\n{random.choice(discussion_templates)}"
+        discussion_reflection = "\n\n## 対話と共鳴\n\n" + random.choice(discussion_templates)
 
     # 次のステップセクションのテンプレート
     next_steps_templates = [
@@ -442,6 +442,19 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
             "多視点からの記憶解釈の促進"
         ]
         next_steps.append(random.choice(discussion_steps))
+
+    # リスト内包表記と改行を含むf-stringを避けるため、事前に文字列を準備
+    activity_summary_text = ""
+    for line in activity_summary:
+        activity_summary_text += line + "\n"
+
+    notable_changes_text = ""
+    for line in notable_changes:
+        notable_changes_text += line + "\n"
+    
+    next_steps_text = ""
+    for step in next_steps:
+        next_steps_text += f"- {step}\n"
 
     # マークダウン形式でリフレクションを作成
     reflection_md = f"""---
@@ -463,26 +476,22 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
 
 ## 活動の概要
 
-{''.join([f"{line}\n" for line in activity_summary])}
-
+{activity_summary_text}
 ## 注目すべき変更
 
-{''.join([f"{line}\n" for line in notable_changes])}
-
+{notable_changes_text}
 ## 内省
 
 {introspection_template}{discussion_reflection}
 
 ## 次のステップ
 
-"""
-    # 次のステップを追加
-    for step in next_steps:
-        reflection_md += f"- {step}\n"
+{next_steps_text}---
 
-    footer = "*このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*"
-    reflection_md += f"---\n\n{footer}\n"
-    reflection_md += "---"
+*このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*
+
+---"""
+    
     return reflection_md
 
 def save_reflection(content):
