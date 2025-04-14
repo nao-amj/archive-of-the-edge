@@ -529,9 +529,8 @@ def update_mood_json(mood):
     
     print(f"ムード情報を{mood_path}に更新しました")
 
-def update_discussion_with_reflection(content):
-    """週間思考整理のDiscussionに日次リフレクションを追加"""
-    # 最新の週間思考整理Discussionを検索
+def find_weekly_discussion():
+    """週間思考整理のDiscussionを検索"""
     query = """
     query($owner: String!, $name: String!) {
       repository(owner: $owner, name: $name) {
@@ -563,55 +562,51 @@ def update_discussion_with_reflection(content):
     
     if response.status_code != 200:
         print(f"GraphQL API エラー: {response.status_code} {response.text}")
-        return
+        return None
     
     data = response.json()
-    
-    # エラーチェック
     if "errors" in data:
         print(f"GraphQL エラー: {data['errors']}")
-        return
+        return None
     
     discussions = data.get("data", {}).get("repository", {}).get("discussions", {}).get("nodes", [])
     
-    # 週間思考整理のDiscussionを検索
-    weekly_discussion = None
     for discussion in discussions:
         if "週間思考整理" in discussion.get("title", "") or "Weekly Thought" in discussion.get("title", ""):
-            weekly_discussion = discussion
+            return discussion
+    
+    return None
+
+def generate_reflection_summary(content):
+    """リフレクションの要約を生成"""
+    # リフレクションからキーとなる情報を抽出
+    activity_item = "活動の記録なし"
+    introspection_text = "内省の記録なし"
+    
+    content_lines = content.split('\n')
+    
+    # 活動の概要から最初の項目を抽出
+    in_activity_section = False
+    for line in content_lines:
+        if line.startswith('## 活動の概要'):
+            in_activity_section = True
+            continue
+        if in_activity_section and line.startswith('- '):
+            activity_item = line.strip()
             break
     
-    if not weekly_discussion:
-        print("週間思考整理のDiscussionが見つかりませんでした")
-        return
+    # 内省セクションから最初の文を抽出
+    in_introspection_section = False
+    for i, line in enumerate(content_lines):
+        if line.startswith('## 内省'):
+            in_introspection_section = True
+            if i + 1 < len(content_lines) and content_lines[i + 1].strip():
+                introspection_text = content_lines[i + 1].strip()
+                break
     
-    # 活動の抽出用のヘルパー関数
-    def extract_first_activity(content_text):
-        lines = content_text.split("\n")
-        for i, line in enumerate(lines):
-            if "## 活動の概要" in line and i + 1 < len(lines):
-                for j in range(i + 1, len(lines)):
-                    if lines[j].startswith("- "):
-                        return lines[j].strip()
-        return "活動の記録なし"
-    
-    # 内省の抽出用のヘルパー関数
-    def extract_introspection(content_text):
-        lines = content_text.split("\n")
-        for i, line in enumerate(lines):
-            if "## 内省" in line and i + 1 < len(lines):
-                if lines[i + 1].strip():
-                    return lines[i + 1].strip()
-        return "内省の記録なし"
-    
-    # 今日の日付
     today_str = datetime.datetime.now().strftime("%Y-%m-%d")
     
-    # 活動項目と内省テキストを抽出
-    activity_item = extract_first_activity(content)
-    introspection_text = extract_introspection(content)
-    
-    # リフレクションの要約
+    # 要約テキストを作成
     summary = f"""### 日次リフレクション ({today_str})
 
 本日の活動を振り返り、新たな洞察を得ました。主な内容は以下の通りです：
@@ -622,7 +617,10 @@ def update_discussion_with_reflection(content):
 詳細は[日次リフレクション: {today_str}](https://github.com/{GITHUB_REPO}/issues) をご覧ください。
 """
     
-    # コメントを追加
+    return summary
+
+def add_comment_to_discussion(discussion_id, comment_body):
+    """Discussionにコメントを追加"""
     mutation = """
     mutation($input: AddDiscussionCommentInput!) {
       addDiscussionComment(input: $input) {
@@ -636,23 +634,44 @@ def update_discussion_with_reflection(content):
     
     variables = {
         "input": {
-            "discussionId": weekly_discussion.get("id"),
-            "body": summary
+            "discussionId": discussion_id,
+            "body": comment_body
         }
     }
     
-    comment_response = requests.post(
+    response = requests.post(
         GRAPHQL_URL,
         headers=GRAPHQL_HEADERS,
         json={"query": mutation, "variables": variables}
     )
     
-    if comment_response.status_code == 200 and "errors" not in comment_response.json():
+    if response.status_code != 200 or "errors" in response.json():
+        print(f"Discussion コメント追加エラー: {response.status_code}")
+        if "errors" in response.json():
+            print(response.json()["errors"])
+        return False
+    
+    return True
+
+def update_discussion_with_reflection(content):
+    """週間思考整理のDiscussionに日次リフレクションを追加"""
+    # 週間思考整理Discussionを検索
+    weekly_discussion = find_weekly_discussion()
+    
+    if not weekly_discussion:
+        print("週間思考整理のDiscussionが見つかりませんでした")
+        return
+    
+    # リフレクションの要約を生成
+    summary = generate_reflection_summary(content)
+    
+    # コメントを追加
+    success = add_comment_to_discussion(weekly_discussion.get("id"), summary)
+    
+    if success:
         print(f"週間思考整理 Discussion #{weekly_discussion.get('number')} にリフレクション要約を追加しました")
     else:
-        print(f"Discussion コメント追加エラー: {comment_response.status_code}")
-        if "errors" in comment_response.json():
-            print(comment_response.json()["errors"])
+        print("週間思考整理Discussionへのコメント追加に失敗しました")
 
 def main():
     """メイン実行関数"""
