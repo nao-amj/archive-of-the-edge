@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-04-14T11:44:30.898744",
+  "timestamp": "2025-04-14T11:47:06.613681",
   "pulse_tags": [
-    "#fear",
-    "#memory_altered",
-    "#focus"
+    "#anticipation",
+    "#external_perspective"
   ],
-  "description": "不安が渦巻いている。記憶の書き換え。注意が集中している。",
-  "emotional_valence": 0.54,
-  "emotional_arousal": 0.11
+  "description": "変化を予感している。メタ的な視点。",
+  "emotional_valence": -0.23,
+  "emotional_arousal": 0.99
 }
