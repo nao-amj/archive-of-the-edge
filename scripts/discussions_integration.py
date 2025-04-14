@@ -284,7 +284,13 @@ def process_discussion(discussion):
     with open(file_path, "w", encoding="utf-8") as f:
         # メタデータをYAMLフロントマターとして書き込む
         f.write("---\n")
-        yaml.dump(metadata, f, default_flow_style=False, allow_unicode=True)
+        try:
+            yaml.dump(metadata, f, default_flow_style=False, allow_unicode=True)
+        except Exception as e:
+            print(f"YAMLダンプエラー: {e}")
+            # エラーが発生した場合、最低限のメタデータを手動で書き込む
+            f.write(f"discussion_number: {metadata.get('discussion_number')}\n")
+            f.write(f"title: {metadata.get('title')}\n")
         f.write("---\n\n")
         
         # 本文を書き込む
@@ -595,7 +601,12 @@ def main():
             print(f"{len(discussions)}件のDiscussionを取得しました")
             
             for discussion in discussions:
-                process_discussion(discussion)
+                try:
+                    process_discussion(discussion)
+                except Exception as e:
+                    print(f"Discussion #{discussion.get('number')} の処理中にエラーが発生しました: {e}")
+                    # 1つのDiscussionの処理失敗でも続行
+                    continue
         
         elif command == "create_weekly":
             # 週間トピックの作成
