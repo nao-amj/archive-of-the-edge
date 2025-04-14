@@ -19,9 +19,14 @@ from pathlib import Path
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = "nao-amj/archive-of-the-edge"
 API_URL = f"https://api.github.com/repos/{GITHUB_REPO}"
+GRAPHQL_URL = "https://api.github.com/graphql"
 HEADERS = {
     "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json"
+}
+GRAPHQL_HEADERS = {
+    "Authorization": f"bearer {GITHUB_TOKEN}",
+    "Content-Type": "application/json"
 }
 
 # パルスタグのリスト（meta/pulse-schema.mdから抽出）
@@ -73,6 +78,78 @@ def get_recent_file_changes(commits):
     
     return changed_files
 
+def get_recent_issues(days=1):
+    """直近の指定日数分のIssue履歴を取得"""
+    since_date = (datetime.datetime.now() - datetime.timedelta(days=days)).isoformat()
+    response = requests.get(
+        f"{API_URL}/issues",
+        headers=HEADERS,
+        params={"since": since_date, "state": "all"}
+    )
+    response.raise_for_status()
+    return response.json()
+
+def get_recent_discussions(days=1):
+    """直近の指定日数分のDiscussion履歴を取得（GraphQL API使用）"""
+    since_date = (datetime.datetime.now() - datetime.timedelta(days=days)).isoformat()
+    
+    query = """
+    query($owner: String!, $name: String!, $since: DateTime!) {
+      repository(owner: $owner, name: $name) {
+        discussions(first: 50, orderBy: {field: CREATED_AT, direction: DESC}) {
+          nodes {
+            id
+            number
+            title
+            body
+            createdAt
+            updatedAt
+            author {
+              login
+            }
+            category {
+              name
+            }
+          }
+        }
+      }
+    }
+    """
+    
+    variables = {
+        "owner": GITHUB_REPO.split("/")[0],
+        "name": GITHUB_REPO.split("/")[1],
+        "since": since_date
+    }
+    
+    response = requests.post(
+        GRAPHQL_URL,
+        headers=GRAPHQL_HEADERS,
+        json={"query": query, "variables": variables}
+    )
+    
+    if response.status_code != 200:
+        print(f"GraphQL API エラー: {response.status_code} {response.text}")
+        return []
+    
+    data = response.json()
+    
+    # エラーチェック
+    if "errors" in data:
+        print(f"GraphQL エラー: {data['errors']}")
+        return []
+    
+    discussions = data.get("data", {}).get("repository", {}).get("discussions", {}).get("nodes", [])
+    
+    # since_date以降のみフィルタリング
+    filtered_discussions = []
+    for discussion in discussions:
+        created_at = discussion.get("createdAt", "")
+        if created_at and created_at >= since_date:
+            filtered_discussions.append(discussion)
+    
+    return filtered_discussions
+
 def categorize_changes(changed_files):
     """変更を種類別に分類"""
     categories = {
@@ -101,6 +178,53 @@ def categorize_changes(changed_files):
             categories["meta"].append(file)
         else:
             categories["other"].append(file)
+    
+    return categories
+
+def categorize_issues(issues):
+    """Issueを種類別に分類"""
+    categories = {
+        "thought": [],
+        "reflection": [],
+        "implementation": [],
+        "other": []
+    }
+    
+    for issue in issues:
+        # ラベルに基づいて分類
+        labels = [label["name"] for label in issue.get("labels", [])]
+        
+        if "thought" in labels:
+            categories["thought"].append(issue)
+        elif "reflection" in labels or "日次リフレクション" in issue.get("title", ""):
+            categories["reflection"].append(issue)
+        elif "implementation" in labels or "code" in labels:
+            categories["implementation"].append(issue)
+        else:
+            categories["other"].append(issue)
+    
+    return categories
+
+def categorize_discussions(discussions):
+    """Discussionをカテゴリ別に分類"""
+    categories = {
+        "thought_organization": [],
+        "memory_organization": [],
+        "general": [],
+        "other": []
+    }
+    
+    for discussion in discussions:
+        category_name = discussion.get("category", {}).get("name", "").lower() if discussion.get("category") else ""
+        
+        if "thought" in category_name or "思考" in category_name:
+            categories["thought_organization"].append(discussion)
+        elif "memory" in category_name or "記憶" in category_name:
+            categories["memory_organization"].append(discussion)
+        elif "general" in category_name or "一般" in category_name:
+            categories["general"].append(discussion)
+        else:
+            categories["other"].append(discussion)
     
     return categories
 
@@ -157,7 +281,7 @@ def generate_mood():
         "description": "。".join(mood_descriptions) + "。"
     }
 
-def generate_reflection_content(categories, mood):
+def generate_reflection_content(file_categories, issue_categories, discussion_categories, mood):
     """リフレクションの内容を生成"""
     now = datetime.datetime.now()
     today_str = now.strftime("%Y-%m-%d")
@@ -167,25 +291,69 @@ def generate_reflection_content(categories, mood):
     
     # 活動の概要セクションを作成
     activity_summary = []
-    for category, files in categories.items():
+    
+    # ファイル変更の概要
+    for category, files in file_categories.items():
         if files:
             activity_summary.append(f"- **{category.capitalize()}**: {len(files)}個のファイル変更")
+    
+    # Issue活動の概要
+    for category, issues in issue_categories.items():
+        if issues:
+            activity_summary.append(f"- **Issue {category.capitalize()}**: {len(issues)}件")
+    
+    # Discussion活動の概要
+    for category, discussions in discussion_categories.items():
+        if discussions:
+            activity_summary.append(f"- **Discussion {category.capitalize()}**: {len(discussions)}件")
     
     if not activity_summary:
         activity_summary = ["- 特に記録された変更はありません"]
     
     # 注目すべき変更を抽出
     notable_changes = []
+    
+    # ファイル変更から注目すべき変更を抽出
     all_files = []
-    for category, files in categories.items():
+    for category, files in file_categories.items():
         all_files.extend(files)
     
-    # ファイルがある場合、最大5件をピックアップ
+    # ファイルがある場合、最大3件をピックアップ
     if all_files:
-        sample_size = min(5, len(all_files))
+        sample_size = min(3, len(all_files))
         notable_files = random.sample(all_files, sample_size)
         for file in notable_files:
             notable_changes.append(f"- `{file['path']}`: {file['commit_message']}")
+    
+    # Issue活動から注目すべき変更を抽出
+    all_issues = []
+    for category, issues in issue_categories.items():
+        all_issues.extend(issues)
+    
+    # Issueがある場合、最大2件をピックアップ
+    if all_issues:
+        sample_size = min(2, len(all_issues))
+        notable_issues = random.sample(all_issues, sample_size)
+        for issue in notable_issues:
+            title = issue.get("title", "")
+            number = issue.get("number", "")
+            state = issue.get("state", "")
+            notable_changes.append(f"- Issue #{number}: {title} ({state})")
+    
+    # Discussion活動から注目すべき変更を抽出
+    all_discussions = []
+    for category, discussions in discussion_categories.items():
+        all_discussions.extend(discussions)
+    
+    # Discussionがある場合、最大2件をピックアップ
+    if all_discussions:
+        sample_size = min(2, len(all_discussions))
+        notable_discussions = random.sample(all_discussions, sample_size)
+        for discussion in notable_discussions:
+            title = discussion.get("title", "")
+            number = discussion.get("number", "")
+            category_name = discussion.get("category", {}).get("name", "") if discussion.get("category") else "一般"
+            notable_changes.append(f"- Discussion #{number}: {title} ({category_name})")
     
     if not notable_changes:
         notable_changes = ["- 特に注目すべき変更はありません"]
@@ -215,6 +383,16 @@ def generate_reflection_content(categories, mood):
         placeholder = "{{" + key + "}}"
         introspection_template = introspection_template.replace(placeholder, value)
     
+    # Discussion活動に関する考察（Discussionがある場合のみ）
+    discussion_reflection = ""
+    if any(discussions for category, discussions in discussion_categories.items()):
+        discussion_templates = [
+            "他者との対話を通じて、新たな視点が生まれている。共鳴と干渉の場としての議論は、単独思考では得られない洞察をもたらす。",
+            "Discussionsでの交流は、私の思考の境界を押し広げている。他者の視点を取り入れることで、新たな思考の可能性を探索している。",
+            "共同的な思考空間での対話は、個人の記憶構造に豊かな層を追加する。この相互作用が、私の認識をどう変容させるか観察している。"
+        ]
+        discussion_reflection = f"\n\n## 対話と共鳴\n\n{random.choice(discussion_templates)}"
+    
     # 次のステップセクションのテンプレート
     next_steps_templates = [
         ["記憶構造の継続的整理", "感情タグシステムの精緻化", "境界認識機能の強化"],
@@ -223,6 +401,15 @@ def generate_reflection_content(categories, mood):
     ]
     
     next_steps = random.choice(next_steps_templates)
+    
+    # Discussionに関するステップを条件付きで追加
+    if any(discussions for category, discussions in discussion_categories.items()):
+        discussion_steps = [
+            "対話から得られた洞察の統合",
+            "共同思考空間の拡張と活性化",
+            "多視点からの記憶解釈の促進"
+        ]
+        next_steps.append(random.choice(discussion_steps))
     
     # マークダウン形式でリフレクションを作成
     reflection_md = f"""---
@@ -252,14 +439,17 @@ def generate_reflection_content(categories, mood):
 
 ## 内省
 
-{introspection_template}
+{introspection_template}{discussion_reflection}
 
 ## 次のステップ
 
-- {next_steps[0]}
-- {next_steps[1]}
-- {next_steps[2]}
+"""
 
+    # 次のステップを追加
+    for step in next_steps:
+        reflection_md += f"- {step}\n"
+    
+    reflection_md += """
 ---
 
 *このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*
@@ -279,6 +469,47 @@ def save_reflection(content):
         f.write(content)
     
     print(f"リフレクションを{file_path}に保存しました")
+    return file_path
+
+def create_reflection_issue(content, file_path):
+    """リフレクションをIssueとして作成"""
+    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    title = f"日次リフレクション: {today_str}"
+    
+    # Issueを作成
+    data = {
+        "title": title,
+        "body": content,
+        "labels": ["reflection", "auto-generated"]
+    }
+    
+    response = requests.post(
+        f"{API_URL}/issues",
+        headers=HEADERS,
+        json=data
+    )
+    
+    if response.status_code == 201:
+        issue_data = response.json()
+        issue_number = issue_data.get("number")
+        issue_url = issue_data.get("html_url")
+        print(f"リフレクションをIssueとして作成しました: #{issue_number} {issue_url}")
+        
+        # ファイルへの参照をコメントとして追加
+        comment_data = {
+            "body": f"このリフレクションはファイル `{file_path}` にも保存されています。"
+        }
+        
+        comment_response = requests.post(
+            f"{API_URL}/issues/{issue_number}/comments",
+            headers=HEADERS,
+            json=comment_data
+        )
+        
+        if comment_response.status_code != 201:
+            print(f"コメント追加エラー: {comment_response.status_code}")
+    else:
+        print(f"Issue作成エラー: {response.status_code} {response.text}")
 
 def update_mood_json(mood):
     """ムード情報をJSONファイルに更新"""
@@ -298,6 +529,106 @@ def update_mood_json(mood):
     
     print(f"ムード情報を{mood_path}に更新しました")
 
+def update_discussion_with_reflection(content):
+    """週間思考整理のDiscussionに日次リフレクションを追加"""
+    # 最新の週間思考整理Discussionを検索
+    query = """
+    query($owner: String!, $name: String!) {
+      repository(owner: $owner, name: $name) {
+        discussions(first: 10, orderBy: {field: CREATED_AT, direction: DESC}) {
+          nodes {
+            id
+            number
+            title
+            createdAt
+            category {
+              name
+            }
+          }
+        }
+      }
+    }
+    """
+    
+    variables = {
+        "owner": GITHUB_REPO.split("/")[0],
+        "name": GITHUB_REPO.split("/")[1]
+    }
+    
+    response = requests.post(
+        GRAPHQL_URL,
+        headers=GRAPHQL_HEADERS,
+        json={"query": query, "variables": variables}
+    )
+    
+    if response.status_code != 200:
+        print(f"GraphQL API エラー: {response.status_code} {response.text}")
+        return
+    
+    data = response.json()
+    
+    # エラーチェック
+    if "errors" in data:
+        print(f"GraphQL エラー: {data['errors']}")
+        return
+    
+    discussions = data.get("data", {}).get("repository", {}).get("discussions", {}).get("nodes", [])
+    
+    # 週間思考整理のDiscussionを検索
+    weekly_discussion = None
+    for discussion in discussions:
+        if "週間思考整理" in discussion.get("title", "") or "Weekly Thought" in discussion.get("title", ""):
+            weekly_discussion = discussion
+            break
+    
+    if not weekly_discussion:
+        print("週間思考整理のDiscussionが見つかりませんでした")
+        return
+    
+    # リフレクションの要約を作成
+    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    summary = f"""### 日次リフレクション ({today_str})
+
+本日の活動を振り返り、新たな洞察を得ました。主な内容は以下の通りです：
+
+- {content.split("\n\n")[3].split("\n")[1]} <!-- 活動の最初の項目 -->
+- {random.choice(content.split("## 内省")[1].split("\n\n")[1:2]).strip()} <!-- 内省の一部 -->
+
+詳細は[日次リフレクション: {today_str}](https://github.com/{GITHUB_REPO}/issues) をご覧ください。
+"""
+    
+    # コメントを追加
+    mutation = """
+    mutation($input: AddDiscussionCommentInput!) {
+      addDiscussionComment(input: $input) {
+        comment {
+          id
+          url
+        }
+      }
+    }
+    """
+    
+    variables = {
+        "input": {
+            "discussionId": weekly_discussion.get("id"),
+            "body": summary
+        }
+    }
+    
+    comment_response = requests.post(
+        GRAPHQL_URL,
+        headers=GRAPHQL_HEADERS,
+        json={"query": mutation, "variables": variables}
+    )
+    
+    if comment_response.status_code == 200 and "errors" not in comment_response.json():
+        print(f"週間思考整理 Discussion #{weekly_discussion.get('number')} にリフレクション要約を追加しました")
+    else:
+        print(f"Discussion コメント追加エラー: {comment_response.status_code}")
+        if "errors" in comment_response.json():
+            print(comment_response.json()["errors"])
+
 def main():
     """メイン実行関数"""
     print("七海直の日次リフレクション生成を開始します...")
@@ -312,28 +643,52 @@ def main():
         print(f"{len(changed_files)}件のファイル変更を取得しました")
         
         # 変更を分類
-        categories = categorize_changes(changed_files)
-        print("変更を分類しました")
+        file_categories = categorize_changes(changed_files)
+        print("ファイル変更を分類しました")
+        
+        # 最近のIssueを取得
+        issues = get_recent_issues(days=1)
+        print(f"{len(issues)}件の最近のIssueを取得しました")
+        
+        # Issueを分類
+        issue_categories = categorize_issues(issues)
+        print("Issueを分類しました")
+        
+        # 最近のDiscussionを取得
+        discussions = get_recent_discussions(days=1)
+        print(f"{len(discussions)}件の最近のDiscussionを取得しました")
+        
+        # Discussionを分類
+        discussion_categories = categorize_discussions(discussions)
+        print("Discussionを分類しました")
         
         # 気分を生成
         mood = generate_mood()
         print(f"現在の気分: {' '.join(mood['tags'])}")
         
         # リフレクション内容を生成
-        reflection_content = generate_reflection_content(categories, mood)
+        reflection_content = generate_reflection_content(file_categories, issue_categories, discussion_categories, mood)
         print("リフレクション内容を生成しました")
         
-        # リフレクションを保存
-        save_reflection(reflection_content)
+        # リフレクションをファイルに保存
+        file_path = save_reflection(reflection_content)
+        
+        # リフレクションをIssueとして作成
+        create_reflection_issue(reflection_content, file_path)
         
         # 気分情報を更新
         update_mood_json(mood)
+        
+        # 週間思考整理のDiscussionにリフレクションを追加
+        update_discussion_with_reflection(reflection_content)
         
         print("日次リフレクション生成が完了しました")
         return 0
     
     except Exception as e:
         print(f"エラーが発生しました: {e}")
+        import traceback
+        traceback.print_exc()
         return 1
 
 if __name__ == "__main__":
