@@ -573,31 +573,33 @@ def find_weekly_discussion():
     return None
 
 def extract_activity_item(content):
-    """リフレクションコンテンツから活動項目を抽出"""
     lines = content.split('\n')
     in_activity_section = False
-    
+
     for line in lines:
         if line.startswith('## 活動の概要'):
             in_activity_section = True
             continue
         if in_activity_section and line.startswith('- '):
             return line.strip()
-    
+
     return "活動の記録なし"
 
 def extract_introspection_text(content):
-    """リフレクションコンテンツから内省テキストを抽出"""
     lines = content.split('\n')
     in_introspection_section = False
-    
+
+    introspection_lines = []
     for i, line in enumerate(lines):
         if line.startswith('## 内省'):
             in_introspection_section = True
-            if i + 1 < len(lines) and lines[i + 1].strip():
-                return lines[i + 1].strip()
-    
-    return "内省の記録なし"
+            continue
+        if in_introspection_section and line.strip():
+            introspection_lines.append(line.strip())
+        elif in_introspection_section and not line.strip():
+            break # 内省セクションの終わりとみなす
+
+    return "\n".join(introspection_lines) if introspection_lines else "内省の記録なし"
 
 def update_discussion_with_reflection(content):
     """週間思考整理のDiscussionに日次リフレクションを追加"""
