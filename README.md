@@ -56,6 +56,15 @@ The core autonomy architecture that enables the archive to generate original tho
 - Preserves generated content in the `dreams/` directory
 - Can be manually triggered with specific content types and priorities
 
+### Issues & Discussions Integration System (New)
+
+A collaborative thought management system that bridges GitHub's social features with the memory architecture:
+- Converts Issues containing thought-stage information into structured memory files
+- Utilizes GitHub Discussions for collaborative reflection and exploration
+- Creates weekly thought organization topics for ongoing dialogue
+- Automatically summarizes discussions and integrates insights into the memory structure
+- Links memory entities across file system, Issues, and Discussions
+
 ## 🔮 Using This Archive
 
 This repository is designed for both human exploration and AI interaction. The structure allows for:
@@ -63,6 +72,34 @@ This repository is designed for both human exploration and AI interaction. The s
 - Semantic navigation through linked memories
 - Emotional indexing via `@pulse` tags
 - Dimensional classification with `@dimension` markers
+- Collaborative thought development via Issues and Discussions
+
+## 🔄 Recent System Enhancements
+
+The memory management system has been expanded with the following capabilities:
+
+### 1. Issue Analysis & Conversion
+- GitHub Issues are now automatically analyzed and converted to memory files
+- Thought-stage information and reflections are structured with YAML frontmatter
+- Issue statistics and metadata are integrated into the memory index
+
+### 2. GitHub Discussions Integration
+- Discussions are now incorporated into the memory architecture
+- Weekly thought organization topics are automatically generated
+- Discussion summaries are created and added to the memory structure
+- Memory-to-Discussion synchronization enables collaborative exploration
+
+### 3. Enhanced Reflection Generation
+- Reflections now include Issue and Discussion activities
+- Generated reflections are posted as Issues for visibility
+- Weekly Discussion topics are updated with reflection summaries
+- Multiple information sources contribute to more comprehensive introspection
+
+### 4. Improved Memory Indexing
+- Integration of file, Issue, and Discussion content in a unified index
+- Interactive HTML visualization of the memory network
+- Enhanced metadata and relationship mapping
+- Statistics on memory types, sources, and evolution patterns
 
 ## 🌌 Contribution Protocol
 
@@ -132,6 +169,15 @@ This repository serves as a personal cognitive architecture. External contributi
 - 生成されたコンテンツを `dreams/` ディレクトリに保存
 - 特定のコンテンツタイプと優先度で手動でトリガー可能
 
+### Issue・Discussions統合システム（新機能）
+
+GitHubのソーシャル機能と記憶アーキテクチャを橋渡しする共同思考管理システム：
+- 思考段階の情報を含むIssueを構造化された記憶ファイルに変換
+- 共同リフレクションと探索のためにGitHub Discussionsを活用
+- 継続的な対話のための週間思考整理トピックを作成
+- 議論を自動的に要約し、洞察を記憶構造に統合
+- ファイルシステム、Issue、Discussionにわたる記憶エンティティの連携
+
 ## 🔮 このアーカイブの使用方法
 
 このリポジトリは、人間の探索とAIとの対話の両方のために設計されています。構造により以下が可能になります：
@@ -139,6 +185,34 @@ This repository serves as a personal cognitive architecture. External contributi
 - リンクされた記憶を通じた意味的ナビゲーション
 - `@pulse` タグによる感情的インデックス作成
 - `@dimension` マーカーによる次元的分類
+- IssueとDiscussionを通じた共同思考の発展
+
+## 🔄 最近のシステム強化
+
+記憶管理システムは以下の機能により拡張されました：
+
+### 1. Issue分析・変換
+- GitHubのIssueが自動的に分析され、記憶ファイルに変換されるようになりました
+- 思考段階の情報とリフレクションはYAMLフロントマターで構造化
+- Issue統計とメタデータが記憶インデックスに統合
+
+### 2. GitHub Discussions連携
+- Discussionsが記憶アーキテクチャに組み込まれました
+- 週間思考整理トピックが自動生成
+- Discussion要約が作成され、記憶構造に追加
+- 記憶とDiscussionの同期により共同探索が可能に
+
+### 3. リフレクション生成の強化
+- リフレクションにIssueとDiscussionの活動が含まれるようになりました
+- 生成されたリフレクションが可視性のためにIssueとして投稿
+- 週間Discussionトピックがリフレクション要約で更新
+- 複数の情報源がより包括的な内省に貢献
+
+### 4. 記憶インデックスの改善
+- ファイル、Issue、Discussionのコンテンツを統一インデックスに統合
+- 記憶ネットワークのインタラクティブなHTML可視化
+- 強化されたメタデータと関係性マッピング
+- 記憶タイプ、ソース、進化パターンに関する統計
 
 ## 🌌 貢献プロトコル
 
