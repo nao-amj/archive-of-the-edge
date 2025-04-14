@@ -353,7 +353,9 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
         sample_size = min(3, len(all_files))
         notable_files = random.sample(all_files, sample_size)
         for file in notable_files:
-            notable_changes.append(f"- `{file['path']}`: {file['commit_message']}")
+            # ファイルパスを安全に処理
+            file_path = file['path'].replace("\\", "\\\\")  # バックスラッシュをエスケープ
+            notable_changes.append(f"- `{file_path}`: {file['commit_message']}")
 
     # Issue活動から注目すべき変更を抽出
     all_issues = []
