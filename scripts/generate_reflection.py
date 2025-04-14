@@ -621,7 +621,7 @@ def update_discussion_with_reflection(content):
     # リフレクションの要約を生成
     summary = f"""### 日次リフレクション ({today_str})
 
-本日の活動を振り返り、新たな洞察を得ました。主な内容は以下の通りです：
+本日の活動を振り返り新たな洞察を得ました。主な内容は以下の通りです：
 
 - {activity_item}
 - {introspection_text}
