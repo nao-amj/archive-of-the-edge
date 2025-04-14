@@ -585,34 +585,33 @@ def update_discussion_with_reflection(content):
         print("週間思考整理のDiscussionが見つかりませんでした")
         return
     
-    # リフレクションの要約を作成
+    # 活動の抽出用のヘルパー関数
+    def extract_first_activity(content_text):
+        lines = content_text.split("\n")
+        for i, line in enumerate(lines):
+            if "## 活動の概要" in line and i + 1 < len(lines):
+                for j in range(i + 1, len(lines)):
+                    if lines[j].startswith("- "):
+                        return lines[j].strip()
+        return "活動の記録なし"
+    
+    # 内省の抽出用のヘルパー関数
+    def extract_introspection(content_text):
+        lines = content_text.split("\n")
+        for i, line in enumerate(lines):
+            if "## 内省" in line and i + 1 < len(lines):
+                if lines[i + 1].strip():
+                    return lines[i + 1].strip()
+        return "内省の記録なし"
+    
+    # 今日の日付
     today_str = datetime.datetime.now().strftime("%Y-%m-%d")
     
-    # コンテンツを行ごとに分割して解析
-    content_lines = content.split("\n")
+    # 活動項目と内省テキストを抽出
+    activity_item = extract_first_activity(content)
+    introspection_text = extract_introspection(content)
     
-    # 活動の概要から最初の項目を取得
-    activity_item = "活動の記録なし"
-    activity_section_start = False
-    for line in content_lines:
-        if "## 活動の概要" in line:
-            activity_section_start = True
-            continue
-        if activity_section_start and line.startswith("- "):
-            activity_item = line.strip()
-            break
-    
-    # 内省セクションから一部を取得
-    introspection_text = "内省の記録なし"
-    introspection_section_start = False
-    for i, line in enumerate(content_lines):
-        if "## 内省" in line:
-            introspection_section_start = True
-            if i + 1 < len(content_lines) and content_lines[i + 1].strip():
-                introspection_text = content_lines[i + 1].strip()
-            break
-    
-    # リフレクションの要約を作成
+    # リフレクションの要約
     summary = f"""### 日次リフレクション ({today_str})
 
 本日の活動を振り返り、新たな洞察を得ました。主な内容は以下の通りです：
