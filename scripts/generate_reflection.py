@@ -443,17 +443,13 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
 
 ## 次のステップ
 
-"""
-
-    # 次のステップを追加
+# 次のステップを追加
     for step in next_steps:
         reflection_md += f"- {step}\n"
     
     reflection_md += """
 ---
-
-*このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*
-"""
+*このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*"""
 
     return reflection_md
 
