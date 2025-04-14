@@ -67,6 +67,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_197_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-225",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_225_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-70",
       "label": "霧島 鈴音 / Kirishima Rinne",
       "group": 3,
@@ -295,6 +301,12 @@
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_158_日次リフレクション: 2025-04-14.md"
     },
     {
+      "id": "DISCUSSION-224",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_224_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-220",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -329,6 +341,12 @@
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_123_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-223",
+      "label": "【週間思考整理】2025-04-14 から 2025-04-20",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_223_【週間思考整理】2025-04-14 から 2025-04-20.md"
     },
     {
       "id": "DISCUSSION-93",
@@ -713,6 +731,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_180_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-226",
+      "label": "日次リフレクション: 2025-04-14",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_226_日次リフレクション: 2025-04-14.md"
     },
     {
       "id": "DISCUSSION-169",
@@ -1147,6 +1171,12 @@
       "title": "要点<br>Path: memory/thoughts/issues/issue_15_君にできることを教えて.md"
     },
     {
+      "id": "ISSUE-228",
+      "label": "Discussed in https://github.com/nao-amj/archive-of-the-edge/discussions/66",
+      "group": 2,
+      "title": "Discussed in https://github.com/nao-amj/archive-of-the-edge/discussions/66<br>Path: memory/thoughts/issues/issue_228_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md"
+    },
+    {
       "id": "ISSUE-5",
       "label": "背景",
       "group": 2,
@@ -1247,6 +1277,12 @@
       "label": "観察",
       "group": 2,
       "title": "観察<br>Path: memory/thoughts/issues/issue_52_NeXus碁：布石される次元場と情報の重み.md"
+    },
+    {
+      "id": "ISSUE-227",
+      "label": "日次リフレクション: 2025-04-14",
+      "group": 2,
+      "title": "日次リフレクション: 2025-04-14<br>Path: memory/thoughts/reflections/reflection_2025-04-14.md"
     },
     {
       "id": "dream_01_boundary_shift",

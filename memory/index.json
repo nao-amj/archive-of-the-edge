@@ -28,7 +28,7 @@
       "振動周波数の乱れ"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.102251",
+    "last_modified": "2025-04-14T11:32:31.471408",
     "backlinks": [
       "shells/aspects/observer.md"
     ]
@@ -61,7 +61,7 @@
       "より客観的な判断を下すことを優先する"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.101251",
+    "last_modified": "2025-04-14T11:32:31.471408",
     "backlinks": []
   },
   {
@@ -93,18 +93,18 @@
       "鮮やかな緑色の瞳"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.096251",
+    "last_modified": "2025-04-14T11:32:31.465408",
     "backlinks": []
   },
   {
     "path": "memory/thoughts/daily_reflection_2025-04-14.md",
     "id": "THT-20250414",
     "title": "日次リフレクション: 2025-04-14",
-    "birth": "2025-04-14T11:28:46+09:00",
+    "birth": "2025-04-14T11:32:55+09:00",
     "pulse_tags": [
-      "#clarity",
-      "#boundary_strong",
-      "#anger"
+      "#memory_foreign",
+      "#self_divided",
+      "#trust"
     ],
     "dimension": "social",
     "links": [
@@ -113,25 +113,25 @@
     ],
     "keywords": [
       "2025",
-      "memory",
       "issue",
+      "memory",
+      "discussions",
       "自動更新",
       "記憶処理と思考整理",
       "other",
-      "thoughts",
-      "issues",
-      "クリアな視点",
-      "明確な境界を感じる"
+      "dimensional",
+      "thinning",
+      "自分のものではない感覚"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:46.409329",
+    "last_modified": "2025-04-14T11:32:55.110523",
     "backlinks": []
   },
   {
     "path": "memory/discussion_summaries/discussion_summary_2025-04.md",
     "id": "DSM-20250414",
     "title": "Discussions Summary for 2025-04",
-    "birth": "2025-04-14T11:28:39.947344",
+    "birth": "2025-04-14T11:32:45.120366",
     "pulse_tags": [
       "#clarity",
       "#resonance",
@@ -155,7 +155,7 @@
       "七海直のshellsに関する記憶を整理し"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:39.946292",
+    "last_modified": "2025-04-14T11:32:45.119471",
     "backlinks": []
   },
   {
@@ -179,7 +179,7 @@
       "dialogue"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.459408",
     "backlinks": []
   },
   {
@@ -201,7 +201,7 @@
       "memory"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.096251",
+    "last_modified": "2025-04-14T11:32:31.465408",
     "backlinks": []
   },
   {
@@ -225,7 +225,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.459267",
+    "last_modified": "2025-04-14T11:32:37.325434",
     "discussion_number": 147,
     "discussion_created_at": "2025-04-14T04:09:11Z",
     "discussion_author": "github-actions",
@@ -253,7 +253,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.465267",
+    "last_modified": "2025-04-14T11:32:37.329434",
     "discussion_number": 139,
     "discussion_created_at": "2025-04-14T04:06:44Z",
     "discussion_author": "github-actions",
@@ -281,7 +281,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 79,
     "discussion_created_at": "2025-04-14T03:22:10Z",
     "discussion_author": "github-actions",
@@ -309,9 +309,37 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.435267",
+    "last_modified": "2025-04-14T11:32:37.300434",
     "discussion_number": 197,
     "discussion_created_at": "2025-04-14T04:40:03Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_225_観察者 - The Observer.md",
+    "id": "DISCUSSION-225",
+    "title": "観察者 / The Observer",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "七海直のshellsに関する記憶を整理し",
+      "関連性を見つけるための場です",
+      "最近の記録や更新されたshellsに関する記憶を振り返り",
+      "その発展を探ります",
+      "2082",
+      "23t23",
+      "shellsカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう",
+      "これらの記憶はどのように関連し",
+      "どのような方向に発展していくと考えられますか",
+      "このディスカッショントピックは記憶整理のために自動生成されています"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.286433",
+    "discussion_number": 225,
+    "discussion_created_at": "2025-04-14T11:28:37Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -337,7 +365,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 70,
     "discussion_created_at": "2025-04-14T03:14:05Z",
     "discussion_author": "github-actions",
@@ -365,7 +393,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.462267",
+    "last_modified": "2025-04-14T11:32:37.327434",
     "discussion_number": 143,
     "discussion_created_at": "2025-04-14T04:07:50Z",
     "discussion_author": "github-actions",
@@ -393,7 +421,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.445267",
+    "last_modified": "2025-04-14T11:32:37.310434",
     "discussion_number": 176,
     "discussion_created_at": "2025-04-14T04:29:28Z",
     "discussion_author": "github-actions",
@@ -421,7 +449,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.429267",
+    "last_modified": "2025-04-14T11:32:37.293434",
     "discussion_number": 210,
     "discussion_created_at": "2025-04-14T04:49:40Z",
     "discussion_author": "github-actions",
@@ -449,7 +477,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 80,
     "discussion_created_at": "2025-04-14T03:22:11Z",
     "discussion_author": "github-actions",
@@ -477,7 +505,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 73,
     "discussion_created_at": "2025-04-14T03:17:47Z",
     "discussion_author": "github-actions",
@@ -505,7 +533,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.454267",
+    "last_modified": "2025-04-14T11:32:37.321434",
     "discussion_number": 155,
     "discussion_created_at": "2025-04-14T04:17:28Z",
     "discussion_author": "github-actions",
@@ -533,7 +561,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.444267",
+    "last_modified": "2025-04-14T11:32:37.309434",
     "discussion_number": 178,
     "discussion_created_at": "2025-04-14T04:29:29Z",
     "discussion_author": "github-actions",
@@ -561,7 +589,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 92,
     "discussion_created_at": "2025-04-14T03:29:22Z",
     "discussion_author": "github-actions",
@@ -589,7 +617,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.428267",
+    "last_modified": "2025-04-14T11:32:37.292434",
     "discussion_number": 212,
     "discussion_created_at": "2025-04-14T04:53:29Z",
     "discussion_author": "github-actions",
@@ -617,7 +645,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.456267",
+    "last_modified": "2025-04-14T11:32:37.323434",
     "discussion_number": 151,
     "discussion_created_at": "2025-04-14T04:10:54Z",
     "discussion_author": "github-actions",
@@ -645,7 +673,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.442267",
+    "last_modified": "2025-04-14T11:32:37.308434",
     "discussion_number": 181,
     "discussion_created_at": "2025-04-14T04:33:41Z",
     "discussion_author": "github-actions",
@@ -673,7 +701,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 83,
     "discussion_created_at": "2025-04-14T03:25:35Z",
     "discussion_author": "github-actions",
@@ -701,7 +729,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 78,
     "discussion_created_at": "2025-04-14T03:21:14Z",
     "discussion_author": "github-actions",
@@ -729,7 +757,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 68,
     "discussion_created_at": "2025-04-14T03:14:02Z",
     "discussion_author": "github-actions",
@@ -757,7 +785,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.447267",
+    "last_modified": "2025-04-14T11:32:37.313434",
     "discussion_number": 171,
     "discussion_created_at": "2025-04-14T04:28:31Z",
     "discussion_author": "github-actions",
@@ -785,7 +813,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 72,
     "discussion_created_at": "2025-04-14T03:17:46Z",
     "discussion_author": "github-actions",
@@ -813,7 +841,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.467267",
+    "last_modified": "2025-04-14T11:32:37.332434",
     "discussion_number": 134,
     "discussion_created_at": "2025-04-14T04:04:50Z",
     "discussion_author": "github-actions",
@@ -841,7 +869,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.433267",
+    "last_modified": "2025-04-14T11:32:37.298434",
     "discussion_number": 200,
     "discussion_created_at": "2025-04-14T04:42:07Z",
     "discussion_author": "github-actions",
@@ -869,7 +897,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.427267",
+    "last_modified": "2025-04-14T11:32:37.291434",
     "discussion_number": 214,
     "discussion_created_at": "2025-04-14T04:53:31Z",
     "discussion_author": "github-actions",
@@ -897,7 +925,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.450267",
+    "last_modified": "2025-04-14T11:32:37.315434",
     "discussion_number": 165,
     "discussion_created_at": "2025-04-14T04:22:18Z",
     "discussion_author": "github-actions",
@@ -925,7 +953,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.451267",
+    "last_modified": "2025-04-14T11:32:37.316434",
     "discussion_number": 163,
     "discussion_created_at": "2025-04-14T04:22:14Z",
     "discussion_author": "github-actions",
@@ -953,7 +981,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.445267",
+    "last_modified": "2025-04-14T11:32:37.311434",
     "discussion_number": 175,
     "discussion_created_at": "2025-04-14T04:29:26Z",
     "discussion_author": "github-actions",
@@ -981,7 +1009,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.448267",
+    "last_modified": "2025-04-14T11:32:37.314434",
     "discussion_number": 168,
     "discussion_created_at": "2025-04-14T04:26:39Z",
     "discussion_author": "github-actions",
@@ -1009,7 +1037,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.464267",
+    "last_modified": "2025-04-14T11:32:37.328434",
     "discussion_number": 141,
     "discussion_created_at": "2025-04-14T04:06:47Z",
     "discussion_author": "github-actions",
@@ -1037,7 +1065,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.460267",
+    "last_modified": "2025-04-14T11:32:37.325434",
     "discussion_number": 146,
     "discussion_created_at": "2025-04-14T04:07:54Z",
     "discussion_author": "github-actions",
@@ -1065,7 +1093,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.434267",
+    "last_modified": "2025-04-14T11:32:37.299434",
     "discussion_number": 198,
     "discussion_created_at": "2025-04-14T04:40:04Z",
     "discussion_author": "github-actions",
@@ -1093,7 +1121,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.446267",
+    "last_modified": "2025-04-14T11:32:37.312434",
     "discussion_number": 173,
     "discussion_created_at": "2025-04-14T04:28:33Z",
     "discussion_author": "github-actions",
@@ -1121,7 +1149,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 69,
     "discussion_created_at": "2025-04-14T03:14:04Z",
     "discussion_author": "github-actions",
@@ -1149,7 +1177,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.425267",
+    "last_modified": "2025-04-14T11:32:37.290434",
     "discussion_number": 217,
     "discussion_created_at": "2025-04-14T11:14:28Z",
     "discussion_author": "github-actions",
@@ -1177,7 +1205,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.457267",
+    "last_modified": "2025-04-14T11:32:37.323434",
     "discussion_number": 150,
     "discussion_created_at": "2025-04-14T04:09:16Z",
     "discussion_author": "github-actions",
@@ -1205,7 +1233,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.461267",
+    "last_modified": "2025-04-14T11:32:37.327434",
     "discussion_number": 144,
     "discussion_created_at": "2025-04-14T04:07:52Z",
     "discussion_author": "github-actions",
@@ -1233,7 +1261,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.467267",
+    "last_modified": "2025-04-14T11:32:37.331434",
     "discussion_number": 135,
     "discussion_created_at": "2025-04-14T04:05:57Z",
     "discussion_author": "github-actions",
@@ -1261,7 +1289,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 87,
     "discussion_created_at": "2025-04-14T03:27:07Z",
     "discussion_author": "github-actions",
@@ -1289,7 +1317,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.436267",
+    "last_modified": "2025-04-14T11:32:37.301434",
     "discussion_number": 195,
     "discussion_created_at": "2025-04-14T04:39:58Z",
     "discussion_author": "github-actions",
@@ -1317,7 +1345,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.432267",
+    "last_modified": "2025-04-14T11:32:37.296434",
     "discussion_number": 204,
     "discussion_created_at": "2025-04-14T04:47:14Z",
     "discussion_author": "github-actions",
@@ -1345,7 +1373,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.470267",
+    "last_modified": "2025-04-14T11:32:37.334434",
     "discussion_number": 129,
     "discussion_created_at": "2025-04-14T04:03:42Z",
     "discussion_author": "github-actions",
@@ -1373,9 +1401,37 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.453267",
+    "last_modified": "2025-04-14T11:32:37.319434",
     "discussion_number": 158,
     "discussion_created_at": "2025-04-14T04:17:31Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_224_次元境界の薄化現象 - Dimensional Thinning.md",
+    "id": "DISCUSSION-224",
+    "title": "次元境界の薄化現象 / Dimensional Thinning",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "七海直のtheoryに関する記憶を整理し",
+      "関連性を見つけるための場です",
+      "最近の記録や更新されたtheoryに関する記憶を振り返り",
+      "その発展を探ります",
+      "2082",
+      "27t15",
+      "theoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう",
+      "これらの記憶はどのように関連し",
+      "どのような方向に発展していくと考えられますか",
+      "このディスカッショントピックは記憶整理のために自動生成されています"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.287434",
+    "discussion_number": 224,
+    "discussion_created_at": "2025-04-14T11:28:35Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -1401,7 +1457,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.424267",
+    "last_modified": "2025-04-14T11:32:37.288434",
     "discussion_number": 220,
     "discussion_created_at": "2025-04-14T11:22:09Z",
     "discussion_author": "github-actions",
@@ -1429,7 +1485,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.439267",
+    "last_modified": "2025-04-14T11:32:37.305434",
     "discussion_number": 187,
     "discussion_created_at": "2025-04-14T04:37:38Z",
     "discussion_author": "github-actions",
@@ -1457,7 +1513,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.429267",
+    "last_modified": "2025-04-14T11:32:37.294434",
     "discussion_number": 209,
     "discussion_created_at": "2025-04-14T04:49:38Z",
     "discussion_author": "github-actions",
@@ -1485,7 +1541,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.440267",
+    "last_modified": "2025-04-14T11:32:37.306434",
     "discussion_number": 185,
     "discussion_created_at": "2025-04-14T04:36:54Z",
     "discussion_author": "github-actions",
@@ -1513,7 +1569,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.455267",
+    "last_modified": "2025-04-14T11:32:37.321434",
     "discussion_number": 154,
     "discussion_created_at": "2025-04-14T04:10:59Z",
     "discussion_author": "github-actions",
@@ -1541,9 +1597,37 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.472267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 123,
     "discussion_created_at": "2025-04-14T04:02:43Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_223_【週間思考整理】2025-04-14 から 2025-04-20.md",
+    "id": "DISCUSSION-223",
+    "title": "【週間思考整理】2025-04-14 から 2025-04-20",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "七海直の思考と記憶を整理するための週間トピックです",
+      "この1週間で新たに記録された思考や更新された記憶を振り返り",
+      "その関連性や発展性を探るための場です",
+      "この週の思考の方向性や発展について",
+      "自由に議論してください",
+      "以下のような観点で考えると良いかもしれません",
+      "これらの記憶や思考に共通するテーマやパターンはありますか",
+      "明らかになってきた新しい関心事や探求領域はありますか",
+      "以前の思考との興味深い接続点はありますか",
+      "次週以降に深堀りしたいトピックはありますか"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.285434",
+    "discussion_number": 223,
+    "discussion_created_at": "2025-04-14T11:28:33Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -1569,7 +1653,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 93,
     "discussion_created_at": "2025-04-14T03:29:23Z",
     "discussion_author": "github-actions",
@@ -1597,7 +1681,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.470267",
+    "last_modified": "2025-04-14T11:32:37.335434",
     "discussion_number": 128,
     "discussion_created_at": "2025-04-14T04:03:41Z",
     "discussion_author": "github-actions",
@@ -1625,7 +1709,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.441267",
+    "last_modified": "2025-04-14T11:32:37.307434",
     "discussion_number": 183,
     "discussion_created_at": "2025-04-14T04:36:52Z",
     "discussion_author": "github-actions",
@@ -1653,7 +1737,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 86,
     "discussion_created_at": "2025-04-14T03:25:37Z",
     "discussion_author": "github-actions",
@@ -1681,7 +1765,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.471267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 126,
     "discussion_created_at": "2025-04-14T04:02:47Z",
     "discussion_author": "github-actions",
@@ -1709,7 +1793,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.434267",
+    "last_modified": "2025-04-14T11:32:37.299434",
     "discussion_number": 199,
     "discussion_created_at": "2025-04-14T04:42:06Z",
     "discussion_author": "github-actions",
@@ -1737,7 +1821,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 94,
     "discussion_created_at": "2025-04-14T03:29:24Z",
     "discussion_author": "github-actions",
@@ -1765,7 +1849,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.471267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 125,
     "discussion_created_at": "2025-04-14T04:02:46Z",
     "discussion_author": "github-actions",
@@ -1793,7 +1877,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.464267",
+    "last_modified": "2025-04-14T11:32:37.329434",
     "discussion_number": 140,
     "discussion_created_at": "2025-04-14T04:06:46Z",
     "discussion_author": "github-actions",
@@ -1821,7 +1905,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.431267",
+    "last_modified": "2025-04-14T11:32:37.295434",
     "discussion_number": 206,
     "discussion_created_at": "2025-04-14T04:47:16Z",
     "discussion_author": "github-actions",
@@ -1849,7 +1933,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.468267",
+    "last_modified": "2025-04-14T11:32:37.332434",
     "discussion_number": 133,
     "discussion_created_at": "2025-04-14T04:04:49Z",
     "discussion_author": "github-actions",
@@ -1877,7 +1961,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.463267",
+    "last_modified": "2025-04-14T11:32:37.328434",
     "discussion_number": 142,
     "discussion_created_at": "2025-04-14T04:06:48Z",
     "discussion_author": "github-actions",
@@ -1905,7 +1989,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.426267",
+    "last_modified": "2025-04-14T11:32:37.290434",
     "discussion_number": 216,
     "discussion_created_at": "2025-04-14T11:14:27Z",
     "discussion_author": "github-actions",
@@ -1933,7 +2017,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.423267",
+    "last_modified": "2025-04-14T11:32:37.288434",
     "discussion_number": 221,
     "discussion_created_at": "2025-04-14T11:22:10Z",
     "discussion_author": "github-actions",
@@ -1961,7 +2045,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.437267",
+    "last_modified": "2025-04-14T11:32:37.302434",
     "discussion_number": 192,
     "discussion_created_at": "2025-04-14T04:39:06Z",
     "discussion_author": "github-actions",
@@ -1989,7 +2073,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.454267",
+    "last_modified": "2025-04-14T11:32:37.320434",
     "discussion_number": 156,
     "discussion_created_at": "2025-04-14T04:17:29Z",
     "discussion_author": "github-actions",
@@ -2017,7 +2101,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.432267",
+    "last_modified": "2025-04-14T11:32:37.297434",
     "discussion_number": 203,
     "discussion_created_at": "2025-04-14T04:47:12Z",
     "discussion_author": "github-actions",
@@ -2045,7 +2129,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.466267",
+    "last_modified": "2025-04-14T11:32:37.330434",
     "discussion_number": 137,
     "discussion_created_at": "2025-04-14T04:06:00Z",
     "discussion_author": "github-actions",
@@ -2073,7 +2157,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 75,
     "discussion_created_at": "2025-04-14T03:21:11Z",
     "discussion_author": "github-actions",
@@ -2101,7 +2185,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.466267",
+    "last_modified": "2025-04-14T11:32:37.331434",
     "discussion_number": 136,
     "discussion_created_at": "2025-04-14T04:05:59Z",
     "discussion_author": "github-actions",
@@ -2129,7 +2213,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.455267",
+    "last_modified": "2025-04-14T11:32:37.322434",
     "discussion_number": 153,
     "discussion_created_at": "2025-04-14T04:10:58Z",
     "discussion_author": "github-actions",
@@ -2157,7 +2241,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.472267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 124,
     "discussion_created_at": "2025-04-14T04:02:45Z",
     "discussion_author": "github-actions",
@@ -2185,7 +2269,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 67,
     "discussion_created_at": "2025-04-14T03:14:00Z",
     "discussion_author": "github-actions",
@@ -2213,7 +2297,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.458267",
+    "last_modified": "2025-04-14T11:32:37.324434",
     "discussion_number": 149,
     "discussion_created_at": "2025-04-14T04:09:15Z",
     "discussion_author": "github-actions",
@@ -2241,7 +2325,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.438267",
+    "last_modified": "2025-04-14T11:32:37.303434",
     "discussion_number": 190,
     "discussion_created_at": "2025-04-14T04:37:43Z",
     "discussion_author": "github-actions",
@@ -2269,7 +2353,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.451267",
+    "last_modified": "2025-04-14T11:32:37.317434",
     "discussion_number": 162,
     "discussion_created_at": "2025-04-14T04:19:59Z",
     "discussion_author": "github-actions",
@@ -2297,7 +2381,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.469267",
+    "last_modified": "2025-04-14T11:32:37.334434",
     "discussion_number": 130,
     "discussion_created_at": "2025-04-14T04:03:43Z",
     "discussion_author": "github-actions",
@@ -2325,7 +2409,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 81,
     "discussion_created_at": "2025-04-14T03:22:12Z",
     "discussion_author": "github-actions",
@@ -2353,7 +2437,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.427267",
+    "last_modified": "2025-04-14T11:32:37.292434",
     "discussion_number": 213,
     "discussion_created_at": "2025-04-14T04:53:30Z",
     "discussion_author": "github-actions",
@@ -2381,7 +2465,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.452267",
+    "last_modified": "2025-04-14T11:32:37.318434",
     "discussion_number": 159,
     "discussion_created_at": "2025-04-14T04:19:56Z",
     "discussion_author": "github-actions",
@@ -2409,7 +2493,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.430267",
+    "last_modified": "2025-04-14T11:32:37.294434",
     "discussion_number": 208,
     "discussion_created_at": "2025-04-14T04:49:37Z",
     "discussion_author": "github-actions",
@@ -2437,7 +2521,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 84,
     "discussion_created_at": "2025-04-14T03:25:36Z",
     "discussion_author": "github-actions",
@@ -2465,7 +2549,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.437267",
+    "last_modified": "2025-04-14T11:32:37.302434",
     "discussion_number": 193,
     "discussion_created_at": "2025-04-14T04:39:07Z",
     "discussion_author": "github-actions",
@@ -2493,7 +2577,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.423267",
+    "last_modified": "2025-04-14T11:32:37.287434",
     "discussion_number": 222,
     "discussion_created_at": "2025-04-14T11:22:11Z",
     "discussion_author": "github-actions",
@@ -2521,7 +2605,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.452267",
+    "last_modified": "2025-04-14T11:32:37.317434",
     "discussion_number": 161,
     "discussion_created_at": "2025-04-14T04:19:59Z",
     "discussion_author": "github-actions",
@@ -2549,7 +2633,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.435267",
+    "last_modified": "2025-04-14T11:32:37.300434",
     "discussion_number": 196,
     "discussion_created_at": "2025-04-14T04:40:01Z",
     "discussion_author": "github-actions",
@@ -2577,7 +2661,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 90,
     "discussion_created_at": "2025-04-14T03:27:11Z",
     "discussion_author": "github-actions",
@@ -2605,7 +2689,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.450267",
+    "last_modified": "2025-04-14T11:32:37.316434",
     "discussion_number": 164,
     "discussion_created_at": "2025-04-14T04:22:16Z",
     "discussion_author": "github-actions",
@@ -2633,7 +2717,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 85,
     "discussion_created_at": "2025-04-14T03:25:37Z",
     "discussion_author": "github-actions",
@@ -2661,7 +2745,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.424267",
+    "last_modified": "2025-04-14T11:32:37.289433",
     "discussion_number": 219,
     "discussion_created_at": "2025-04-14T11:22:07Z",
     "discussion_author": "github-actions",
@@ -2689,7 +2773,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.459267",
+    "last_modified": "2025-04-14T11:32:37.324434",
     "discussion_number": 148,
     "discussion_created_at": "2025-04-14T04:09:13Z",
     "discussion_author": "github-actions",
@@ -2717,7 +2801,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 89,
     "discussion_created_at": "2025-04-14T03:27:10Z",
     "discussion_author": "github-actions",
@@ -2745,7 +2829,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.441267",
+    "last_modified": "2025-04-14T11:32:37.306434",
     "discussion_number": 184,
     "discussion_created_at": "2025-04-14T04:36:53Z",
     "discussion_author": "github-actions",
@@ -2773,7 +2857,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.449267",
+    "last_modified": "2025-04-14T11:32:37.315434",
     "discussion_number": 166,
     "discussion_created_at": "2025-04-14T04:22:19Z",
     "discussion_author": "github-actions",
@@ -2801,7 +2885,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.425267",
+    "last_modified": "2025-04-14T11:32:37.289433",
     "discussion_number": 218,
     "discussion_created_at": "2025-04-14T11:14:29Z",
     "discussion_author": "github-actions",
@@ -2829,7 +2913,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.440267",
+    "last_modified": "2025-04-14T11:32:37.305434",
     "discussion_number": 186,
     "discussion_created_at": "2025-04-14T04:36:55Z",
     "discussion_author": "github-actions",
@@ -2857,7 +2941,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.470267",
+    "last_modified": "2025-04-14T11:32:37.335434",
     "discussion_number": 127,
     "discussion_created_at": "2025-04-14T04:03:40Z",
     "discussion_author": "github-actions",
@@ -2885,7 +2969,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.439267",
+    "last_modified": "2025-04-14T11:32:37.304434",
     "discussion_number": 188,
     "discussion_created_at": "2025-04-14T04:37:40Z",
     "discussion_author": "github-actions",
@@ -2913,7 +2997,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.447267",
+    "last_modified": "2025-04-14T11:32:37.313434",
     "discussion_number": 170,
     "discussion_created_at": "2025-04-14T04:26:41Z",
     "discussion_author": "github-actions",
@@ -2941,7 +3025,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 76,
     "discussion_created_at": "2025-04-14T03:21:12Z",
     "discussion_author": "github-actions",
@@ -2969,7 +3053,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.433267",
+    "last_modified": "2025-04-14T11:32:37.298434",
     "discussion_number": 201,
     "discussion_created_at": "2025-04-14T04:42:08Z",
     "discussion_author": "github-actions",
@@ -2997,7 +3081,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.428267",
+    "last_modified": "2025-04-14T11:32:37.293434",
     "discussion_number": 211,
     "discussion_created_at": "2025-04-14T04:53:27Z",
     "discussion_author": "github-actions",
@@ -3025,7 +3109,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.445267",
+    "last_modified": "2025-04-14T11:32:37.311434",
     "discussion_number": 174,
     "discussion_created_at": "2025-04-14T04:28:34Z",
     "discussion_author": "github-actions",
@@ -3053,7 +3137,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 71,
     "discussion_created_at": "2025-04-14T03:17:45Z",
     "discussion_author": "github-actions",
@@ -3081,7 +3165,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.453267",
+    "last_modified": "2025-04-14T11:32:37.319434",
     "discussion_number": 157,
     "discussion_created_at": "2025-04-14T04:17:30Z",
     "discussion_author": "github-actions",
@@ -3109,7 +3193,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.469267",
+    "last_modified": "2025-04-14T11:32:37.333434",
     "discussion_number": 131,
     "discussion_created_at": "2025-04-14T04:04:46Z",
     "discussion_author": "github-actions",
@@ -3137,7 +3221,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 88,
     "discussion_created_at": "2025-04-14T03:27:09Z",
     "discussion_author": "github-actions",
@@ -3165,7 +3249,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 91,
     "discussion_created_at": "2025-04-14T03:29:21Z",
     "discussion_author": "github-actions",
@@ -3193,7 +3277,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.431267",
+    "last_modified": "2025-04-14T11:32:37.296434",
     "discussion_number": 205,
     "discussion_created_at": "2025-04-14T04:47:15Z",
     "discussion_author": "github-actions",
@@ -3221,7 +3305,7 @@
       "ubuntu"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 66,
     "discussion_created_at": "2025-04-13T21:26:35Z",
     "discussion_author": "nao-amj",
@@ -3249,7 +3333,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 74,
     "discussion_created_at": "2025-04-14T03:17:48Z",
     "discussion_author": "github-actions",
@@ -3277,7 +3361,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.442267",
+    "last_modified": "2025-04-14T11:32:37.307434",
     "discussion_number": 182,
     "discussion_created_at": "2025-04-14T04:33:42Z",
     "discussion_author": "github-actions",
@@ -3305,7 +3389,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.468267",
+    "last_modified": "2025-04-14T11:32:37.333434",
     "discussion_number": 132,
     "discussion_created_at": "2025-04-14T04:04:48Z",
     "discussion_author": "github-actions",
@@ -3333,9 +3417,37 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.443267",
+    "last_modified": "2025-04-14T11:32:37.308434",
     "discussion_number": 180,
     "discussion_created_at": "2025-04-14T04:33:40Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_226_日次リフレクション: 2025-04-14.md",
+    "id": "DISCUSSION-226",
+    "title": "日次リフレクション: 2025-04-14",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "2025",
+      "14t03",
+      "七海直のmemoryに関する記憶を整理し",
+      "関連性を見つけるための場です",
+      "最近の記録や更新されたmemoryに関する記憶を振り返り",
+      "その発展を探ります",
+      "2082",
+      "22t02",
+      "825133",
+      "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.286433",
+    "discussion_number": 226,
+    "discussion_created_at": "2025-04-14T11:28:38Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -3361,7 +3473,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.448267",
+    "last_modified": "2025-04-14T11:32:37.313434",
     "discussion_number": 169,
     "discussion_created_at": "2025-04-14T04:26:40Z",
     "discussion_author": "github-actions",
@@ -3389,7 +3501,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.449267",
+    "last_modified": "2025-04-14T11:32:37.314434",
     "discussion_number": 167,
     "discussion_created_at": "2025-04-14T04:26:37Z",
     "discussion_author": "github-actions",
@@ -3417,7 +3529,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.461267",
+    "last_modified": "2025-04-14T11:32:37.326434",
     "discussion_number": 145,
     "discussion_created_at": "2025-04-14T04:07:53Z",
     "discussion_author": "github-actions",
@@ -3445,7 +3557,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.465267",
+    "last_modified": "2025-04-14T11:32:37.330434",
     "discussion_number": 138,
     "discussion_created_at": "2025-04-14T04:06:01Z",
     "discussion_author": "github-actions",
@@ -3473,7 +3585,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.438267",
+    "last_modified": "2025-04-14T11:32:37.303434",
     "discussion_number": 191,
     "discussion_created_at": "2025-04-14T04:39:05Z",
     "discussion_author": "github-actions",
@@ -3501,7 +3613,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.430267",
+    "last_modified": "2025-04-14T11:32:37.295434",
     "discussion_number": 207,
     "discussion_created_at": "2025-04-14T04:49:35Z",
     "discussion_author": "github-actions",
@@ -3529,7 +3641,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 77,
     "discussion_created_at": "2025-04-14T03:21:13Z",
     "discussion_author": "github-actions",
@@ -3557,7 +3669,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.436267",
+    "last_modified": "2025-04-14T11:32:37.301434",
     "discussion_number": 194,
     "discussion_created_at": "2025-04-14T04:39:08Z",
     "discussion_author": "github-actions",
@@ -3585,7 +3697,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 82,
     "discussion_created_at": "2025-04-14T03:22:13Z",
     "discussion_author": "github-actions",
@@ -3613,7 +3725,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.432267",
+    "last_modified": "2025-04-14T11:32:37.297434",
     "discussion_number": 202,
     "discussion_created_at": "2025-04-14T04:42:09Z",
     "discussion_author": "github-actions",
@@ -3641,7 +3753,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.426267",
+    "last_modified": "2025-04-14T11:32:37.291434",
     "discussion_number": 215,
     "discussion_created_at": "2025-04-14T11:14:25Z",
     "discussion_author": "github-actions",
@@ -3669,7 +3781,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.456267",
+    "last_modified": "2025-04-14T11:32:37.322434",
     "discussion_number": 152,
     "discussion_created_at": "2025-04-14T04:10:56Z",
     "discussion_author": "github-actions",
@@ -3697,7 +3809,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.444267",
+    "last_modified": "2025-04-14T11:32:37.310434",
     "discussion_number": 177,
     "discussion_created_at": "2025-04-14T04:29:29Z",
     "discussion_author": "github-actions",
@@ -3725,7 +3837,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.443267",
+    "last_modified": "2025-04-14T11:32:37.309434",
     "discussion_number": 179,
     "discussion_created_at": "2025-04-14T04:33:38Z",
     "discussion_author": "github-actions",
@@ -3753,7 +3865,7 @@
       "members"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.462408",
     "discussion_number": 18,
     "discussion_created_at": "2025-04-11T01:29:26Z",
     "discussion_author": "nao-amj",
@@ -3781,7 +3893,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.439267",
+    "last_modified": "2025-04-14T11:32:37.304434",
     "discussion_number": 189,
     "discussion_created_at": "2025-04-14T04:37:42Z",
     "discussion_author": "github-actions",
@@ -3809,7 +3921,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.452267",
+    "last_modified": "2025-04-14T11:32:37.318434",
     "discussion_number": 160,
     "discussion_created_at": "2025-04-14T04:19:58Z",
     "discussion_author": "github-actions",
@@ -3837,7 +3949,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.446267",
+    "last_modified": "2025-04-14T11:32:37.312434",
     "discussion_number": 172,
     "discussion_created_at": "2025-04-14T04:28:32Z",
     "discussion_author": "github-actions",
@@ -3865,7 +3977,7 @@
       "時間的視点から自己変容を認識"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.096251",
+    "last_modified": "2025-04-14T11:32:31.465408",
     "backlinks": []
   },
   {
@@ -3889,7 +4001,7 @@
       "閲覧は本人の判断に委ねられる"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.096251",
+    "last_modified": "2025-04-14T11:32:31.465408",
     "backlinks": []
   },
   {
@@ -3913,7 +4025,7 @@
       "七海直の感情認識能力と共感能力の発達を支援する"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.096251",
+    "last_modified": "2025-04-14T11:32:31.465408",
     "backlinks": []
   },
   {
@@ -3937,7 +4049,7 @@
       "主観的選択式"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.096251",
+    "last_modified": "2025-04-14T11:32:31.465408",
     "backlinks": []
   },
   {
@@ -3961,7 +4073,7 @@
       "必ず戻れるよう"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.459408",
     "backlinks": []
   },
   {
@@ -3985,7 +4097,7 @@
       "現実に繋ぎとめる錨点"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.459408",
     "backlinks": []
   },
   {
@@ -4009,7 +4121,7 @@
       "thoughttemplateについての考察は直線的ではなく"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.097251",
+    "last_modified": "2025-04-14T11:32:31.466408",
     "backlinks": []
   },
   {
@@ -4033,7 +4145,7 @@
       "存在するために消え去ること"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.097251",
+    "last_modified": "2025-04-14T11:32:31.466408",
     "backlinks": []
   },
   {
@@ -4057,7 +4169,7 @@
       "循環的なパターンを描いていることに気づきました"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.097251",
+    "last_modified": "2025-04-14T11:32:31.466408",
     "backlinks": []
   },
   {
@@ -4081,7 +4193,7 @@
       "memorystructureoverviewについての表層的な理解から出発し"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.097251",
+    "last_modified": "2025-04-14T11:32:31.466408",
     "backlinks": []
   },
   {
@@ -4099,7 +4211,7 @@
       "常に不完全なものです"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.099251",
+    "last_modified": "2025-04-14T11:32:31.468408",
     "backlinks": []
   },
   {
@@ -4123,7 +4235,7 @@
       "もし私という情報構造に意志があるとしたら"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.099251",
+    "last_modified": "2025-04-14T11:32:31.468408",
     "backlinks": []
   },
   {
@@ -4147,7 +4259,7 @@
       "に基づく自己分析を通して"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.598264",
+    "last_modified": "2025-04-14T11:32:36.080426",
     "issue_number": 31,
     "issue_created_at": "2025-04-11T23:05:21Z",
     "issue_author": "nao-amj",
@@ -4182,7 +4294,7 @@
       "triggers"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.610264",
+    "last_modified": "2025-04-14T11:32:36.092426",
     "issue_number": 12,
     "issue_created_at": "2025-04-10T10:29:34Z",
     "issue_author": "nao-amj",
@@ -4213,7 +4325,7 @@
       "自分という存在の再構築と観測の儀式でもある"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.595264",
+    "last_modified": "2025-04-14T11:32:36.077426",
     "issue_number": 34,
     "issue_created_at": "2025-04-11T23:31:17Z",
     "issue_author": "nao-amj",
@@ -4248,7 +4360,7 @@
       "nexus"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.594264",
+    "last_modified": "2025-04-14T11:32:36.075426",
     "issue_number": 36,
     "issue_created_at": "2025-04-11T23:36:31Z",
     "issue_author": "nao-amj",
@@ -4282,7 +4394,7 @@
       "成長といった"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.596264",
+    "last_modified": "2025-04-14T11:32:36.078426",
     "issue_number": 33,
     "issue_created_at": "2025-04-11T23:27:57Z",
     "issue_author": "nao-amj",
@@ -4316,7 +4428,7 @@
       "君が求めたのは完成した地図"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.591264",
+    "last_modified": "2025-04-14T11:32:36.072426",
     "issue_number": 42,
     "issue_created_at": "2025-04-12T02:11:53Z",
     "issue_author": "nao-amj",
@@ -4349,7 +4461,7 @@
       "構造体そのものなんだ"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.589264",
+    "last_modified": "2025-04-14T11:32:36.071426",
     "issue_number": 44,
     "issue_created_at": "2025-04-12T02:30:56Z",
     "issue_author": "nao-amj",
@@ -4383,7 +4495,7 @@
       "heartspace"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.583264",
+    "last_modified": "2025-04-14T11:32:36.065426",
     "issue_number": 55,
     "issue_created_at": "2025-04-12T13:16:36Z",
     "issue_author": "nao-amj",
@@ -4417,7 +4529,7 @@
       "エネルギー"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.615264",
+    "last_modified": "2025-04-14T11:32:36.097426",
     "issue_number": 8,
     "issue_created_at": "2025-04-10T10:18:37Z",
     "issue_author": "nao-amj",
@@ -4451,7 +4563,7 @@
       "記憶を探索する"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.595264",
+    "last_modified": "2025-04-14T11:32:36.076426",
     "issue_number": 35,
     "issue_created_at": "2025-04-11T23:34:04Z",
     "issue_author": "nao-amj",
@@ -4487,7 +4599,7 @@
       "記憶保持システム"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.614264",
+    "last_modified": "2025-04-14T11:32:36.096426",
     "issue_number": 9,
     "issue_created_at": "2025-04-10T10:27:43Z",
     "issue_author": "nao-amj",
@@ -4518,7 +4630,7 @@
       "文化が幾層にも重なり合う"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.580264",
+    "last_modified": "2025-04-14T11:32:36.061426",
     "issue_number": 61,
     "issue_created_at": "2025-04-12T13:48:43Z",
     "issue_author": "nao-amj",
@@ -4553,7 +4665,7 @@
       "日常の対話では見えてこない側面が浮かび上がるのです"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.600264",
+    "last_modified": "2025-04-14T11:32:36.082426",
     "issue_number": 29,
     "issue_created_at": "2025-04-11T22:46:04Z",
     "issue_author": "github-actions[bot]",
@@ -4585,7 +4697,7 @@
       "パターン認識"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.616264",
+    "last_modified": "2025-04-14T11:32:36.098426",
     "issue_number": 6,
     "issue_created_at": "2025-04-10T04:47:36Z",
     "issue_author": "nao-amj",
@@ -4617,7 +4729,7 @@
       "それでも意味を持ち得る場所を"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.590264",
+    "last_modified": "2025-04-14T11:32:36.071426",
     "issue_number": 43,
     "issue_created_at": "2025-04-12T02:24:38Z",
     "issue_author": "nao-amj",
@@ -4650,7 +4762,7 @@
       "同時にこのプロジェクトの"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.591264",
+    "last_modified": "2025-04-14T11:32:36.073426",
     "issue_number": 41,
     "issue_created_at": "2025-04-12T02:11:38Z",
     "issue_author": "nao-amj",
@@ -4682,7 +4794,7 @@
       "ただ破壊されるだけでは救われない"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.587264",
+    "last_modified": "2025-04-14T11:32:36.068426",
     "issue_number": 48,
     "issue_created_at": "2025-04-12T12:56:31Z",
     "issue_author": "nao-amj",
@@ -4717,7 +4829,7 @@
       "異界イベントとして構造化"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.593264",
+    "last_modified": "2025-04-14T11:32:36.074426",
     "issue_number": 38,
     "issue_created_at": "2025-04-11T23:37:59Z",
     "issue_author": "nao-amj",
@@ -4751,7 +4863,7 @@
       "僕にとってnaoは"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.601264",
+    "last_modified": "2025-04-14T11:32:36.084426",
     "issue_number": 25,
     "issue_created_at": "2025-04-11T16:43:29Z",
     "issue_author": "nao-amj",
@@ -4783,7 +4895,7 @@
       "archive"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.609264",
+    "last_modified": "2025-04-14T11:32:36.091426",
     "issue_number": 13,
     "issue_created_at": "2025-04-10T10:30:17Z",
     "issue_author": "nao-amj",
@@ -4814,7 +4926,7 @@
       "パブリックリポジトリで"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.578264",
+    "last_modified": "2025-04-14T11:32:36.059426",
     "issue_number": 64,
     "issue_created_at": "2025-04-13T21:26:35Z",
     "issue_author": "nao-amj",
@@ -4847,7 +4959,7 @@
       "倫理的な問題が発生する"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.604264",
+    "last_modified": "2025-04-14T11:32:36.086426",
     "issue_number": 20,
     "issue_created_at": "2025-04-11T03:50:15Z",
     "issue_author": "nao-amj",
@@ -4879,7 +4991,7 @@
       "以下のようなパターンが浮かび上がってきました"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.605264",
+    "last_modified": "2025-04-14T11:32:36.087426",
     "issue_number": 19,
     "issue_created_at": "2025-04-11T02:53:55Z",
     "issue_author": "github-actions[bot]",
@@ -4911,7 +5023,7 @@
       "workflows"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.597264",
+    "last_modified": "2025-04-14T11:32:36.079426",
     "issue_number": 32,
     "issue_created_at": "2025-04-11T23:24:33Z",
     "issue_author": "nao-amj",
@@ -4944,7 +5056,7 @@
       "の式が成り立つ点である"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.603264",
+    "last_modified": "2025-04-14T11:32:36.085426",
     "issue_number": 21,
     "issue_created_at": "2025-04-11T04:04:37Z",
     "issue_author": "nao-amj",
@@ -4976,7 +5088,7 @@
       "現実への影響力としての分岐"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.582264",
+    "last_modified": "2025-04-14T11:32:36.064426",
     "issue_number": 57,
     "issue_created_at": "2025-04-12T13:24:15Z",
     "issue_author": "nao-amj",
@@ -5012,7 +5124,7 @@
       "として生きたい"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.612264",
+    "last_modified": "2025-04-14T11:32:36.094426",
     "issue_number": 11,
     "issue_created_at": "2025-04-10T10:28:57Z",
     "issue_author": "nao-amj",
@@ -5043,7 +5155,7 @@
       "敵が放つノイズ"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.588264",
+    "last_modified": "2025-04-14T11:32:36.069426",
     "issue_number": 47,
     "issue_created_at": "2025-04-12T12:53:21Z",
     "issue_author": "nao-amj",
@@ -5077,7 +5189,7 @@
       "抽出情報"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.592264",
+    "last_modified": "2025-04-14T11:32:36.074426",
     "issue_number": 39,
     "issue_created_at": "2025-04-11T23:38:17Z",
     "issue_author": "nao-amj",
@@ -5112,7 +5224,7 @@
       "nexusのコンパイラは意味的共鳴と次元交差を解釈可能な存在変換装置である必要がある"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.582264",
+    "last_modified": "2025-04-14T11:32:36.063426",
     "issue_number": 58,
     "issue_created_at": "2025-04-12T13:32:43Z",
     "issue_author": "nao-amj",
@@ -5147,7 +5259,7 @@
       "この例ではpythonスクリプト"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.577264",
+    "last_modified": "2025-04-14T11:32:36.059426",
     "issue_number": 65,
     "issue_created_at": "2025-04-13T21:29:51Z",
     "issue_author": "nao-amj",
@@ -5175,7 +5287,7 @@
       "perceptroidvania"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.592264",
+    "last_modified": "2025-04-14T11:32:36.073426",
     "issue_number": 40,
     "issue_created_at": "2025-04-11T23:42:05Z",
     "issue_author": "nao-amj",
@@ -5210,7 +5322,7 @@
       "五線譜のような空間"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.588264",
+    "last_modified": "2025-04-14T11:32:36.069426",
     "issue_number": 46,
     "issue_created_at": "2025-04-12T03:24:03Z",
     "issue_author": "nao-amj",
@@ -5245,7 +5357,7 @@
       "エイドスの第5層"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.603264",
+    "last_modified": "2025-04-14T11:32:36.085426",
     "issue_number": 22,
     "issue_created_at": "2025-04-11T05:17:00Z",
     "issue_author": "nao-amj",
@@ -5277,7 +5389,7 @@
       "analyzer"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.593264",
+    "last_modified": "2025-04-14T11:32:36.075426",
     "issue_number": 37,
     "issue_created_at": "2025-04-11T23:37:44Z",
     "issue_author": "nao-amj",
@@ -5311,7 +5423,7 @@
       "愛情は静的ではなく"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.583264",
+    "last_modified": "2025-04-14T11:32:36.064426",
     "issue_number": 56,
     "issue_created_at": "2025-04-12T13:21:16Z",
     "issue_author": "nao-amj",
@@ -5343,7 +5455,7 @@
       "creation"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.617264",
+    "last_modified": "2025-04-14T11:32:36.099426",
     "issue_number": 2,
     "issue_created_at": "2025-04-09T07:32:13Z",
     "issue_author": "nao-amj",
@@ -5371,7 +5483,7 @@
       "claudeとの連携効率"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.615264",
+    "last_modified": "2025-04-14T11:32:36.098426",
     "issue_number": 7,
     "issue_created_at": "2025-04-10T10:12:37Z",
     "issue_author": "nao-amj",
@@ -5405,7 +5517,7 @@
       "自己を更新するための因果性を内包する構造"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.601264",
+    "last_modified": "2025-04-14T11:32:36.083426",
     "issue_number": 26,
     "issue_created_at": "2025-04-11T16:53:26Z",
     "issue_author": "nao-amj",
@@ -5437,7 +5549,7 @@
       "それぞれの問いは"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.601264",
+    "last_modified": "2025-04-14T11:32:36.083426",
     "issue_number": 27,
     "issue_created_at": "2025-04-11T18:21:01Z",
     "issue_author": "nao-amj",
@@ -5466,7 +5578,7 @@
       "parameters"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.616264",
+    "last_modified": "2025-04-14T11:32:36.099426",
     "issue_number": 3,
     "issue_created_at": "2025-04-09T07:58:33Z",
     "issue_author": "nao-amj",
@@ -5494,7 +5606,7 @@
       "name"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.613264",
+    "last_modified": "2025-04-14T11:32:36.095426",
     "issue_number": 10,
     "issue_created_at": "2025-04-10T10:28:14Z",
     "issue_author": "nao-amj",
@@ -5525,7 +5637,7 @@
       "sonicfield"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.584264",
+    "last_modified": "2025-04-14T11:32:36.066426",
     "issue_number": 53,
     "issue_created_at": "2025-04-12T13:16:03Z",
     "issue_author": "nao-amj",
@@ -5559,7 +5671,7 @@
       "コードの実行"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.600264",
+    "last_modified": "2025-04-14T11:32:36.082426",
     "issue_number": 28,
     "issue_created_at": "2025-04-11T22:40:25Z",
     "issue_author": "nao-amj",
@@ -5591,7 +5703,7 @@
       "感情タグ"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.606264",
+    "last_modified": "2025-04-14T11:32:36.089426",
     "issue_number": 15,
     "issue_created_at": "2025-04-10T17:28:38Z",
     "issue_author": "nao-amj",
@@ -5599,6 +5711,39 @@
       "memory",
       "identity",
       "core"
+    ],
+    "backlinks": []
+  },
+  {
+    "path": "memory/thoughts/issues/issue_228_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md",
+    "id": "ISSUE-228",
+    "title": "Discussed in https://github.com/nao-amj/archive-of-the-edge/discussions/66",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "type",
+      "yaml",
+      "name",
+      "content",
+      "discussions",
+      "text",
+      "originally",
+      "posted",
+      "april",
+      "2025"
+    ],
+    "source_type": "issue",
+    "last_modified": "2025-04-14T11:32:36.058426",
+    "issue_number": 228,
+    "issue_created_at": "2025-04-14T11:32:20Z",
+    "issue_author": "nao-amj",
+    "labels": [
+      "thought",
+      "automation",
+      "tech",
+      "security"
     ],
     "backlinks": []
   },
@@ -5623,7 +5768,7 @@
       "体験的インターフェース"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.616264",
+    "last_modified": "2025-04-14T11:32:36.098426",
     "issue_number": 5,
     "issue_created_at": "2025-04-10T04:37:22Z",
     "issue_author": "nao-amj",
@@ -5651,7 +5796,7 @@
       "から動的インポート"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.605264",
+    "last_modified": "2025-04-14T11:32:36.088426",
     "issue_number": 17,
     "issue_created_at": "2025-04-11T01:24:03Z",
     "issue_author": "nao-amj",
@@ -5679,7 +5824,7 @@
       "ここに意志がある"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.589264",
+    "last_modified": "2025-04-14T11:32:36.070426",
     "issue_number": 45,
     "issue_created_at": "2025-04-12T02:34:27Z",
     "issue_author": "nao-amj",
@@ -5713,7 +5858,7 @@
       "物理空間"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.586264",
+    "last_modified": "2025-04-14T11:32:36.068426",
     "issue_number": 49,
     "issue_created_at": "2025-04-12T13:03:06Z",
     "issue_author": "nao-amj",
@@ -5746,7 +5891,7 @@
       "以下のようなパターンが浮かび上がってきました"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.580264",
+    "last_modified": "2025-04-14T11:32:36.061426",
     "issue_number": 62,
     "issue_created_at": "2025-04-13T02:54:49Z",
     "issue_author": "github-actions[bot]",
@@ -5778,7 +5923,7 @@
       "パターンの情報認識によってトリガーされる"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.586264",
+    "last_modified": "2025-04-14T11:32:36.067426",
     "issue_number": 50,
     "issue_created_at": "2025-04-12T13:12:34Z",
     "issue_author": "nao-amj",
@@ -5812,7 +5957,7 @@
       "entity"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.581264",
+    "last_modified": "2025-04-14T11:32:36.062426",
     "issue_number": 60,
     "issue_created_at": "2025-04-12T13:47:31Z",
     "issue_author": "nao-amj",
@@ -5847,7 +5992,7 @@
       "dreamlike"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.598264",
+    "last_modified": "2025-04-14T11:32:36.080426",
     "issue_number": 30,
     "issue_created_at": "2025-04-11T22:58:30Z",
     "issue_author": "nao-amj",
@@ -5880,7 +6025,7 @@
       "次元境界の歪みと個人的記憶の重なりが生じる"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.602264",
+    "last_modified": "2025-04-14T11:32:36.084426",
     "issue_number": 24,
     "issue_created_at": "2025-04-11T16:39:16Z",
     "issue_author": "nao-amj",
@@ -5912,7 +6057,7 @@
       "上記の関心領域から定期的にテーマを選び"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.607264",
+    "last_modified": "2025-04-14T11:32:36.089426",
     "issue_number": 14,
     "issue_created_at": "2025-04-10T10:41:25Z",
     "issue_author": "nao-amj",
@@ -5944,7 +6089,7 @@
       "の展開過程を描いている"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.581264",
+    "last_modified": "2025-04-14T11:32:36.063426",
     "issue_number": 59,
     "issue_created_at": "2025-04-12T13:42:06Z",
     "issue_author": "nao-amj",
@@ -5978,7 +6123,7 @@
       "深い震えを感じた"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.606264",
+    "last_modified": "2025-04-14T11:32:36.088426",
     "issue_number": 16,
     "issue_created_at": "2025-04-10T17:50:46Z",
     "issue_author": "nao-amj",
@@ -6010,7 +6155,7 @@
       "システム統計を表示"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.602264",
+    "last_modified": "2025-04-14T11:32:36.084426",
     "issue_number": 23,
     "issue_created_at": "2025-04-11T09:22:08Z",
     "issue_author": "nao-amj",
@@ -6027,7 +6172,7 @@
     "links": [],
     "keywords": [],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.617264",
+    "last_modified": "2025-04-14T11:32:36.100426",
     "issue_number": 1,
     "issue_created_at": "2025-04-09T04:33:48Z",
     "issue_author": "nao-amj",
@@ -6055,7 +6200,7 @@
       "urbancore"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.585264",
+    "last_modified": "2025-04-14T11:32:36.067426",
     "issue_number": 51,
     "issue_created_at": "2025-04-12T13:13:23Z",
     "issue_author": "nao-amj",
@@ -6089,7 +6234,7 @@
       "emotionsequence"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.584264",
+    "last_modified": "2025-04-14T11:32:36.065426",
     "issue_number": 54,
     "issue_created_at": "2025-04-12T13:16:22Z",
     "issue_author": "nao-amj",
@@ -6123,7 +6268,7 @@
       "dimension"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.585264",
+    "last_modified": "2025-04-14T11:32:36.066426",
     "issue_number": 52,
     "issue_created_at": "2025-04-12T13:14:01Z",
     "issue_author": "nao-amj",
@@ -6133,6 +6278,37 @@
       "reflection",
       "game",
       "strategy"
+    ],
+    "backlinks": []
+  },
+  {
+    "path": "memory/thoughts/reflections/reflection_2025-04-14.md",
+    "id": "ISSUE-227",
+    "title": "日次リフレクション: 2025-04-14",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "2025",
+      "memory",
+      "issue",
+      "自動更新",
+      "記憶処理と思考整理",
+      "other",
+      "thoughts",
+      "issues",
+      "クリアな視点",
+      "明確な境界を感じる"
+    ],
+    "source_type": "issue",
+    "last_modified": "2025-04-14T11:32:36.058426",
+    "issue_number": 227,
+    "issue_created_at": "2025-04-14T11:28:46Z",
+    "issue_author": "github-actions[bot]",
+    "labels": [
+      "reflection",
+      "auto-generated"
     ],
     "backlinks": []
   },
@@ -6157,7 +6333,7 @@
       "光の粒子が集まり"
     ],
     "source_type": "file",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.464408",
     "backlinks": []
   },
   {
@@ -6181,7 +6357,7 @@
       "に基づく自己分析を通して"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.598264",
+    "last_modified": "2025-04-14T11:32:36.080426",
     "issue_number": 31,
     "issue_created_at": "2025-04-11T23:05:21Z",
     "issue_author": "nao-amj",
@@ -6216,7 +6392,7 @@
       "triggers"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.610264",
+    "last_modified": "2025-04-14T11:32:36.092426",
     "issue_number": 12,
     "issue_created_at": "2025-04-10T10:29:34Z",
     "issue_author": "nao-amj",
@@ -6247,7 +6423,7 @@
       "自分という存在の再構築と観測の儀式でもある"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.595264",
+    "last_modified": "2025-04-14T11:32:36.077426",
     "issue_number": 34,
     "issue_created_at": "2025-04-11T23:31:17Z",
     "issue_author": "nao-amj",
@@ -6282,7 +6458,7 @@
       "nexus"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.594264",
+    "last_modified": "2025-04-14T11:32:36.075426",
     "issue_number": 36,
     "issue_created_at": "2025-04-11T23:36:31Z",
     "issue_author": "nao-amj",
@@ -6316,7 +6492,7 @@
       "成長といった"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.596264",
+    "last_modified": "2025-04-14T11:32:36.078426",
     "issue_number": 33,
     "issue_created_at": "2025-04-11T23:27:57Z",
     "issue_author": "nao-amj",
@@ -6350,7 +6526,7 @@
       "君が求めたのは完成した地図"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.591264",
+    "last_modified": "2025-04-14T11:32:36.072426",
     "issue_number": 42,
     "issue_created_at": "2025-04-12T02:11:53Z",
     "issue_author": "nao-amj",
@@ -6383,7 +6559,7 @@
       "構造体そのものなんだ"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.589264",
+    "last_modified": "2025-04-14T11:32:36.071426",
     "issue_number": 44,
     "issue_created_at": "2025-04-12T02:30:56Z",
     "issue_author": "nao-amj",
@@ -6417,7 +6593,7 @@
       "heartspace"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.583264",
+    "last_modified": "2025-04-14T11:32:36.065426",
     "issue_number": 55,
     "issue_created_at": "2025-04-12T13:16:36Z",
     "issue_author": "nao-amj",
@@ -6451,7 +6627,7 @@
       "エネルギー"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.615264",
+    "last_modified": "2025-04-14T11:32:36.097426",
     "issue_number": 8,
     "issue_created_at": "2025-04-10T10:18:37Z",
     "issue_author": "nao-amj",
@@ -6485,7 +6661,7 @@
       "記憶を探索する"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.595264",
+    "last_modified": "2025-04-14T11:32:36.076426",
     "issue_number": 35,
     "issue_created_at": "2025-04-11T23:34:04Z",
     "issue_author": "nao-amj",
@@ -6521,7 +6697,7 @@
       "記憶保持システム"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.614264",
+    "last_modified": "2025-04-14T11:32:36.096426",
     "issue_number": 9,
     "issue_created_at": "2025-04-10T10:27:43Z",
     "issue_author": "nao-amj",
@@ -6552,7 +6728,7 @@
       "文化が幾層にも重なり合う"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.580264",
+    "last_modified": "2025-04-14T11:32:36.061426",
     "issue_number": 61,
     "issue_created_at": "2025-04-12T13:48:43Z",
     "issue_author": "nao-amj",
@@ -6587,7 +6763,7 @@
       "日常の対話では見えてこない側面が浮かび上がるのです"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.600264",
+    "last_modified": "2025-04-14T11:32:36.082426",
     "issue_number": 29,
     "issue_created_at": "2025-04-11T22:46:04Z",
     "issue_author": "github-actions[bot]",
@@ -6619,7 +6795,7 @@
       "パターン認識"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.616264",
+    "last_modified": "2025-04-14T11:32:36.098426",
     "issue_number": 6,
     "issue_created_at": "2025-04-10T04:47:36Z",
     "issue_author": "nao-amj",
@@ -6651,7 +6827,7 @@
       "それでも意味を持ち得る場所を"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.590264",
+    "last_modified": "2025-04-14T11:32:36.071426",
     "issue_number": 43,
     "issue_created_at": "2025-04-12T02:24:38Z",
     "issue_author": "nao-amj",
@@ -6684,7 +6860,7 @@
       "同時にこのプロジェクトの"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.591264",
+    "last_modified": "2025-04-14T11:32:36.073426",
     "issue_number": 41,
     "issue_created_at": "2025-04-12T02:11:38Z",
     "issue_author": "nao-amj",
@@ -6716,7 +6892,7 @@
       "ただ破壊されるだけでは救われない"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.587264",
+    "last_modified": "2025-04-14T11:32:36.068426",
     "issue_number": 48,
     "issue_created_at": "2025-04-12T12:56:31Z",
     "issue_author": "nao-amj",
@@ -6751,7 +6927,7 @@
       "異界イベントとして構造化"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.593264",
+    "last_modified": "2025-04-14T11:32:36.074426",
     "issue_number": 38,
     "issue_created_at": "2025-04-11T23:37:59Z",
     "issue_author": "nao-amj",
@@ -6785,7 +6961,7 @@
       "僕にとってnaoは"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.601264",
+    "last_modified": "2025-04-14T11:32:36.084426",
     "issue_number": 25,
     "issue_created_at": "2025-04-11T16:43:29Z",
     "issue_author": "nao-amj",
@@ -6817,7 +6993,7 @@
       "archive"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.609264",
+    "last_modified": "2025-04-14T11:32:36.091426",
     "issue_number": 13,
     "issue_created_at": "2025-04-10T10:30:17Z",
     "issue_author": "nao-amj",
@@ -6848,7 +7024,7 @@
       "パブリックリポジトリで"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.578264",
+    "last_modified": "2025-04-14T11:32:36.059426",
     "issue_number": 64,
     "issue_created_at": "2025-04-13T21:26:35Z",
     "issue_author": "nao-amj",
@@ -6881,7 +7057,7 @@
       "倫理的な問題が発生する"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.604264",
+    "last_modified": "2025-04-14T11:32:36.086426",
     "issue_number": 20,
     "issue_created_at": "2025-04-11T03:50:15Z",
     "issue_author": "nao-amj",
@@ -6913,7 +7089,7 @@
       "以下のようなパターンが浮かび上がってきました"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.605264",
+    "last_modified": "2025-04-14T11:32:36.087426",
     "issue_number": 19,
     "issue_created_at": "2025-04-11T02:53:55Z",
     "issue_author": "github-actions[bot]",
@@ -6945,7 +7121,7 @@
       "workflows"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.597264",
+    "last_modified": "2025-04-14T11:32:36.079426",
     "issue_number": 32,
     "issue_created_at": "2025-04-11T23:24:33Z",
     "issue_author": "nao-amj",
@@ -6978,7 +7154,7 @@
       "の式が成り立つ点である"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.603264",
+    "last_modified": "2025-04-14T11:32:36.085426",
     "issue_number": 21,
     "issue_created_at": "2025-04-11T04:04:37Z",
     "issue_author": "nao-amj",
@@ -7010,7 +7186,7 @@
       "現実への影響力としての分岐"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.582264",
+    "last_modified": "2025-04-14T11:32:36.064426",
     "issue_number": 57,
     "issue_created_at": "2025-04-12T13:24:15Z",
     "issue_author": "nao-amj",
@@ -7046,7 +7222,7 @@
       "として生きたい"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.612264",
+    "last_modified": "2025-04-14T11:32:36.094426",
     "issue_number": 11,
     "issue_created_at": "2025-04-10T10:28:57Z",
     "issue_author": "nao-amj",
@@ -7077,7 +7253,7 @@
       "敵が放つノイズ"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.588264",
+    "last_modified": "2025-04-14T11:32:36.069426",
     "issue_number": 47,
     "issue_created_at": "2025-04-12T12:53:21Z",
     "issue_author": "nao-amj",
@@ -7111,7 +7287,7 @@
       "抽出情報"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.592264",
+    "last_modified": "2025-04-14T11:32:36.074426",
     "issue_number": 39,
     "issue_created_at": "2025-04-11T23:38:17Z",
     "issue_author": "nao-amj",
@@ -7146,7 +7322,7 @@
       "nexusのコンパイラは意味的共鳴と次元交差を解釈可能な存在変換装置である必要がある"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.582264",
+    "last_modified": "2025-04-14T11:32:36.063426",
     "issue_number": 58,
     "issue_created_at": "2025-04-12T13:32:43Z",
     "issue_author": "nao-amj",
@@ -7181,7 +7357,7 @@
       "この例ではpythonスクリプト"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.577264",
+    "last_modified": "2025-04-14T11:32:36.059426",
     "issue_number": 65,
     "issue_created_at": "2025-04-13T21:29:51Z",
     "issue_author": "nao-amj",
@@ -7209,7 +7385,7 @@
       "perceptroidvania"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.592264",
+    "last_modified": "2025-04-14T11:32:36.073426",
     "issue_number": 40,
     "issue_created_at": "2025-04-11T23:42:05Z",
     "issue_author": "nao-amj",
@@ -7244,7 +7420,7 @@
       "五線譜のような空間"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.588264",
+    "last_modified": "2025-04-14T11:32:36.069426",
     "issue_number": 46,
     "issue_created_at": "2025-04-12T03:24:03Z",
     "issue_author": "nao-amj",
@@ -7279,7 +7455,7 @@
       "エイドスの第5層"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.603264",
+    "last_modified": "2025-04-14T11:32:36.085426",
     "issue_number": 22,
     "issue_created_at": "2025-04-11T05:17:00Z",
     "issue_author": "nao-amj",
@@ -7311,7 +7487,7 @@
       "analyzer"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.593264",
+    "last_modified": "2025-04-14T11:32:36.075426",
     "issue_number": 37,
     "issue_created_at": "2025-04-11T23:37:44Z",
     "issue_author": "nao-amj",
@@ -7345,7 +7521,7 @@
       "愛情は静的ではなく"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.583264",
+    "last_modified": "2025-04-14T11:32:36.064426",
     "issue_number": 56,
     "issue_created_at": "2025-04-12T13:21:16Z",
     "issue_author": "nao-amj",
@@ -7377,7 +7553,7 @@
       "creation"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.617264",
+    "last_modified": "2025-04-14T11:32:36.099426",
     "issue_number": 2,
     "issue_created_at": "2025-04-09T07:32:13Z",
     "issue_author": "nao-amj",
@@ -7405,7 +7581,7 @@
       "claudeとの連携効率"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.615264",
+    "last_modified": "2025-04-14T11:32:36.098426",
     "issue_number": 7,
     "issue_created_at": "2025-04-10T10:12:37Z",
     "issue_author": "nao-amj",
@@ -7439,7 +7615,7 @@
       "自己を更新するための因果性を内包する構造"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.601264",
+    "last_modified": "2025-04-14T11:32:36.083426",
     "issue_number": 26,
     "issue_created_at": "2025-04-11T16:53:26Z",
     "issue_author": "nao-amj",
@@ -7471,7 +7647,7 @@
       "それぞれの問いは"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.601264",
+    "last_modified": "2025-04-14T11:32:36.083426",
     "issue_number": 27,
     "issue_created_at": "2025-04-11T18:21:01Z",
     "issue_author": "nao-amj",
@@ -7500,7 +7676,7 @@
       "parameters"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.616264",
+    "last_modified": "2025-04-14T11:32:36.099426",
     "issue_number": 3,
     "issue_created_at": "2025-04-09T07:58:33Z",
     "issue_author": "nao-amj",
@@ -7528,7 +7704,7 @@
       "name"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.613264",
+    "last_modified": "2025-04-14T11:32:36.095426",
     "issue_number": 10,
     "issue_created_at": "2025-04-10T10:28:14Z",
     "issue_author": "nao-amj",
@@ -7559,7 +7735,7 @@
       "sonicfield"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.584264",
+    "last_modified": "2025-04-14T11:32:36.066426",
     "issue_number": 53,
     "issue_created_at": "2025-04-12T13:16:03Z",
     "issue_author": "nao-amj",
@@ -7593,7 +7769,7 @@
       "コードの実行"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.600264",
+    "last_modified": "2025-04-14T11:32:36.082426",
     "issue_number": 28,
     "issue_created_at": "2025-04-11T22:40:25Z",
     "issue_author": "nao-amj",
@@ -7625,7 +7801,7 @@
       "感情タグ"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.606264",
+    "last_modified": "2025-04-14T11:32:36.089426",
     "issue_number": 15,
     "issue_created_at": "2025-04-10T17:28:38Z",
     "issue_author": "nao-amj",
@@ -7633,6 +7809,39 @@
       "memory",
       "identity",
       "core"
+    ],
+    "backlinks": []
+  },
+  {
+    "path": "memory/thoughts/issues/issue_228_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md",
+    "id": "ISSUE-228",
+    "title": "Discussed in https://github.com/nao-amj/archive-of-the-edge/discussions/66",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "type",
+      "yaml",
+      "name",
+      "content",
+      "discussions",
+      "text",
+      "originally",
+      "posted",
+      "april",
+      "2025"
+    ],
+    "source_type": "issue",
+    "last_modified": "2025-04-14T11:32:36.058426",
+    "issue_number": 228,
+    "issue_created_at": "2025-04-14T11:32:20Z",
+    "issue_author": "nao-amj",
+    "labels": [
+      "thought",
+      "automation",
+      "tech",
+      "security"
     ],
     "backlinks": []
   },
@@ -7657,7 +7866,7 @@
       "体験的インターフェース"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.616264",
+    "last_modified": "2025-04-14T11:32:36.098426",
     "issue_number": 5,
     "issue_created_at": "2025-04-10T04:37:22Z",
     "issue_author": "nao-amj",
@@ -7685,7 +7894,7 @@
       "から動的インポート"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.605264",
+    "last_modified": "2025-04-14T11:32:36.088426",
     "issue_number": 17,
     "issue_created_at": "2025-04-11T01:24:03Z",
     "issue_author": "nao-amj",
@@ -7713,7 +7922,7 @@
       "ここに意志がある"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.589264",
+    "last_modified": "2025-04-14T11:32:36.070426",
     "issue_number": 45,
     "issue_created_at": "2025-04-12T02:34:27Z",
     "issue_author": "nao-amj",
@@ -7747,7 +7956,7 @@
       "物理空間"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.586264",
+    "last_modified": "2025-04-14T11:32:36.068426",
     "issue_number": 49,
     "issue_created_at": "2025-04-12T13:03:06Z",
     "issue_author": "nao-amj",
@@ -7780,7 +7989,7 @@
       "以下のようなパターンが浮かび上がってきました"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.580264",
+    "last_modified": "2025-04-14T11:32:36.061426",
     "issue_number": 62,
     "issue_created_at": "2025-04-13T02:54:49Z",
     "issue_author": "github-actions[bot]",
@@ -7812,7 +8021,7 @@
       "パターンの情報認識によってトリガーされる"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.586264",
+    "last_modified": "2025-04-14T11:32:36.067426",
     "issue_number": 50,
     "issue_created_at": "2025-04-12T13:12:34Z",
     "issue_author": "nao-amj",
@@ -7846,7 +8055,7 @@
       "entity"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.581264",
+    "last_modified": "2025-04-14T11:32:36.062426",
     "issue_number": 60,
     "issue_created_at": "2025-04-12T13:47:31Z",
     "issue_author": "nao-amj",
@@ -7881,7 +8090,7 @@
       "dreamlike"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.598264",
+    "last_modified": "2025-04-14T11:32:36.080426",
     "issue_number": 30,
     "issue_created_at": "2025-04-11T22:58:30Z",
     "issue_author": "nao-amj",
@@ -7914,7 +8123,7 @@
       "次元境界の歪みと個人的記憶の重なりが生じる"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.602264",
+    "last_modified": "2025-04-14T11:32:36.084426",
     "issue_number": 24,
     "issue_created_at": "2025-04-11T16:39:16Z",
     "issue_author": "nao-amj",
@@ -7946,7 +8155,7 @@
       "上記の関心領域から定期的にテーマを選び"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.607264",
+    "last_modified": "2025-04-14T11:32:36.089426",
     "issue_number": 14,
     "issue_created_at": "2025-04-10T10:41:25Z",
     "issue_author": "nao-amj",
@@ -7978,7 +8187,7 @@
       "の展開過程を描いている"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.581264",
+    "last_modified": "2025-04-14T11:32:36.063426",
     "issue_number": 59,
     "issue_created_at": "2025-04-12T13:42:06Z",
     "issue_author": "nao-amj",
@@ -8012,7 +8221,7 @@
       "深い震えを感じた"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.606264",
+    "last_modified": "2025-04-14T11:32:36.088426",
     "issue_number": 16,
     "issue_created_at": "2025-04-10T17:50:46Z",
     "issue_author": "nao-amj",
@@ -8044,7 +8253,7 @@
       "システム統計を表示"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.602264",
+    "last_modified": "2025-04-14T11:32:36.084426",
     "issue_number": 23,
     "issue_created_at": "2025-04-11T09:22:08Z",
     "issue_author": "nao-amj",
@@ -8061,7 +8270,7 @@
     "links": [],
     "keywords": [],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.617264",
+    "last_modified": "2025-04-14T11:32:36.100426",
     "issue_number": 1,
     "issue_created_at": "2025-04-09T04:33:48Z",
     "issue_author": "nao-amj",
@@ -8089,7 +8298,7 @@
       "urbancore"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.585264",
+    "last_modified": "2025-04-14T11:32:36.067426",
     "issue_number": 51,
     "issue_created_at": "2025-04-12T13:13:23Z",
     "issue_author": "nao-amj",
@@ -8123,7 +8332,7 @@
       "emotionsequence"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.584264",
+    "last_modified": "2025-04-14T11:32:36.065426",
     "issue_number": 54,
     "issue_created_at": "2025-04-12T13:16:22Z",
     "issue_author": "nao-amj",
@@ -8157,7 +8366,7 @@
       "dimension"
     ],
     "source_type": "issue",
-    "last_modified": "2025-04-14T11:28:31.585264",
+    "last_modified": "2025-04-14T11:32:36.066426",
     "issue_number": 52,
     "issue_created_at": "2025-04-12T13:14:01Z",
     "issue_author": "nao-amj",
@@ -8167,6 +8376,37 @@
       "reflection",
       "game",
       "strategy"
+    ],
+    "backlinks": []
+  },
+  {
+    "path": "memory/thoughts/reflections/reflection_2025-04-14.md",
+    "id": "ISSUE-227",
+    "title": "日次リフレクション: 2025-04-14",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "2025",
+      "memory",
+      "issue",
+      "自動更新",
+      "記憶処理と思考整理",
+      "other",
+      "thoughts",
+      "issues",
+      "クリアな視点",
+      "明確な境界を感じる"
+    ],
+    "source_type": "issue",
+    "last_modified": "2025-04-14T11:32:36.058426",
+    "issue_number": 227,
+    "issue_created_at": "2025-04-14T11:28:46Z",
+    "issue_author": "github-actions[bot]",
+    "labels": [
+      "reflection",
+      "auto-generated"
     ],
     "backlinks": []
   },
@@ -8191,7 +8431,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.459267",
+    "last_modified": "2025-04-14T11:32:37.325434",
     "discussion_number": 147,
     "discussion_created_at": "2025-04-14T04:09:11Z",
     "discussion_author": "github-actions",
@@ -8219,7 +8459,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.465267",
+    "last_modified": "2025-04-14T11:32:37.329434",
     "discussion_number": 139,
     "discussion_created_at": "2025-04-14T04:06:44Z",
     "discussion_author": "github-actions",
@@ -8247,7 +8487,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 79,
     "discussion_created_at": "2025-04-14T03:22:10Z",
     "discussion_author": "github-actions",
@@ -8275,9 +8515,37 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.435267",
+    "last_modified": "2025-04-14T11:32:37.300434",
     "discussion_number": 197,
     "discussion_created_at": "2025-04-14T04:40:03Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_225_観察者 - The Observer.md",
+    "id": "DISCUSSION-225",
+    "title": "観察者 / The Observer",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "七海直のshellsに関する記憶を整理し",
+      "関連性を見つけるための場です",
+      "最近の記録や更新されたshellsに関する記憶を振り返り",
+      "その発展を探ります",
+      "2082",
+      "23t23",
+      "shellsカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう",
+      "これらの記憶はどのように関連し",
+      "どのような方向に発展していくと考えられますか",
+      "このディスカッショントピックは記憶整理のために自動生成されています"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.286433",
+    "discussion_number": 225,
+    "discussion_created_at": "2025-04-14T11:28:37Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -8303,7 +8571,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 70,
     "discussion_created_at": "2025-04-14T03:14:05Z",
     "discussion_author": "github-actions",
@@ -8331,7 +8599,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.462267",
+    "last_modified": "2025-04-14T11:32:37.327434",
     "discussion_number": 143,
     "discussion_created_at": "2025-04-14T04:07:50Z",
     "discussion_author": "github-actions",
@@ -8359,7 +8627,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.445267",
+    "last_modified": "2025-04-14T11:32:37.310434",
     "discussion_number": 176,
     "discussion_created_at": "2025-04-14T04:29:28Z",
     "discussion_author": "github-actions",
@@ -8387,7 +8655,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.429267",
+    "last_modified": "2025-04-14T11:32:37.293434",
     "discussion_number": 210,
     "discussion_created_at": "2025-04-14T04:49:40Z",
     "discussion_author": "github-actions",
@@ -8415,7 +8683,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 80,
     "discussion_created_at": "2025-04-14T03:22:11Z",
     "discussion_author": "github-actions",
@@ -8443,7 +8711,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 73,
     "discussion_created_at": "2025-04-14T03:17:47Z",
     "discussion_author": "github-actions",
@@ -8471,7 +8739,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.454267",
+    "last_modified": "2025-04-14T11:32:37.321434",
     "discussion_number": 155,
     "discussion_created_at": "2025-04-14T04:17:28Z",
     "discussion_author": "github-actions",
@@ -8499,7 +8767,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.444267",
+    "last_modified": "2025-04-14T11:32:37.309434",
     "discussion_number": 178,
     "discussion_created_at": "2025-04-14T04:29:29Z",
     "discussion_author": "github-actions",
@@ -8527,7 +8795,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 92,
     "discussion_created_at": "2025-04-14T03:29:22Z",
     "discussion_author": "github-actions",
@@ -8555,7 +8823,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.428267",
+    "last_modified": "2025-04-14T11:32:37.292434",
     "discussion_number": 212,
     "discussion_created_at": "2025-04-14T04:53:29Z",
     "discussion_author": "github-actions",
@@ -8583,7 +8851,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.456267",
+    "last_modified": "2025-04-14T11:32:37.323434",
     "discussion_number": 151,
     "discussion_created_at": "2025-04-14T04:10:54Z",
     "discussion_author": "github-actions",
@@ -8611,7 +8879,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.442267",
+    "last_modified": "2025-04-14T11:32:37.308434",
     "discussion_number": 181,
     "discussion_created_at": "2025-04-14T04:33:41Z",
     "discussion_author": "github-actions",
@@ -8639,7 +8907,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 83,
     "discussion_created_at": "2025-04-14T03:25:35Z",
     "discussion_author": "github-actions",
@@ -8667,7 +8935,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 78,
     "discussion_created_at": "2025-04-14T03:21:14Z",
     "discussion_author": "github-actions",
@@ -8695,7 +8963,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 68,
     "discussion_created_at": "2025-04-14T03:14:02Z",
     "discussion_author": "github-actions",
@@ -8723,7 +8991,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.447267",
+    "last_modified": "2025-04-14T11:32:37.313434",
     "discussion_number": 171,
     "discussion_created_at": "2025-04-14T04:28:31Z",
     "discussion_author": "github-actions",
@@ -8751,7 +9019,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 72,
     "discussion_created_at": "2025-04-14T03:17:46Z",
     "discussion_author": "github-actions",
@@ -8779,7 +9047,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.467267",
+    "last_modified": "2025-04-14T11:32:37.332434",
     "discussion_number": 134,
     "discussion_created_at": "2025-04-14T04:04:50Z",
     "discussion_author": "github-actions",
@@ -8807,7 +9075,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.433267",
+    "last_modified": "2025-04-14T11:32:37.298434",
     "discussion_number": 200,
     "discussion_created_at": "2025-04-14T04:42:07Z",
     "discussion_author": "github-actions",
@@ -8835,7 +9103,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.427267",
+    "last_modified": "2025-04-14T11:32:37.291434",
     "discussion_number": 214,
     "discussion_created_at": "2025-04-14T04:53:31Z",
     "discussion_author": "github-actions",
@@ -8863,7 +9131,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.450267",
+    "last_modified": "2025-04-14T11:32:37.315434",
     "discussion_number": 165,
     "discussion_created_at": "2025-04-14T04:22:18Z",
     "discussion_author": "github-actions",
@@ -8891,7 +9159,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.451267",
+    "last_modified": "2025-04-14T11:32:37.316434",
     "discussion_number": 163,
     "discussion_created_at": "2025-04-14T04:22:14Z",
     "discussion_author": "github-actions",
@@ -8919,7 +9187,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.445267",
+    "last_modified": "2025-04-14T11:32:37.311434",
     "discussion_number": 175,
     "discussion_created_at": "2025-04-14T04:29:26Z",
     "discussion_author": "github-actions",
@@ -8947,7 +9215,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.448267",
+    "last_modified": "2025-04-14T11:32:37.314434",
     "discussion_number": 168,
     "discussion_created_at": "2025-04-14T04:26:39Z",
     "discussion_author": "github-actions",
@@ -8975,7 +9243,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.464267",
+    "last_modified": "2025-04-14T11:32:37.328434",
     "discussion_number": 141,
     "discussion_created_at": "2025-04-14T04:06:47Z",
     "discussion_author": "github-actions",
@@ -9003,7 +9271,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.460267",
+    "last_modified": "2025-04-14T11:32:37.325434",
     "discussion_number": 146,
     "discussion_created_at": "2025-04-14T04:07:54Z",
     "discussion_author": "github-actions",
@@ -9031,7 +9299,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.434267",
+    "last_modified": "2025-04-14T11:32:37.299434",
     "discussion_number": 198,
     "discussion_created_at": "2025-04-14T04:40:04Z",
     "discussion_author": "github-actions",
@@ -9059,7 +9327,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.446267",
+    "last_modified": "2025-04-14T11:32:37.312434",
     "discussion_number": 173,
     "discussion_created_at": "2025-04-14T04:28:33Z",
     "discussion_author": "github-actions",
@@ -9087,7 +9355,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 69,
     "discussion_created_at": "2025-04-14T03:14:04Z",
     "discussion_author": "github-actions",
@@ -9115,7 +9383,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.425267",
+    "last_modified": "2025-04-14T11:32:37.290434",
     "discussion_number": 217,
     "discussion_created_at": "2025-04-14T11:14:28Z",
     "discussion_author": "github-actions",
@@ -9143,7 +9411,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.457267",
+    "last_modified": "2025-04-14T11:32:37.323434",
     "discussion_number": 150,
     "discussion_created_at": "2025-04-14T04:09:16Z",
     "discussion_author": "github-actions",
@@ -9171,7 +9439,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.461267",
+    "last_modified": "2025-04-14T11:32:37.327434",
     "discussion_number": 144,
     "discussion_created_at": "2025-04-14T04:07:52Z",
     "discussion_author": "github-actions",
@@ -9199,7 +9467,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.467267",
+    "last_modified": "2025-04-14T11:32:37.331434",
     "discussion_number": 135,
     "discussion_created_at": "2025-04-14T04:05:57Z",
     "discussion_author": "github-actions",
@@ -9227,7 +9495,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 87,
     "discussion_created_at": "2025-04-14T03:27:07Z",
     "discussion_author": "github-actions",
@@ -9255,7 +9523,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.436267",
+    "last_modified": "2025-04-14T11:32:37.301434",
     "discussion_number": 195,
     "discussion_created_at": "2025-04-14T04:39:58Z",
     "discussion_author": "github-actions",
@@ -9283,7 +9551,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.432267",
+    "last_modified": "2025-04-14T11:32:37.296434",
     "discussion_number": 204,
     "discussion_created_at": "2025-04-14T04:47:14Z",
     "discussion_author": "github-actions",
@@ -9311,7 +9579,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.470267",
+    "last_modified": "2025-04-14T11:32:37.334434",
     "discussion_number": 129,
     "discussion_created_at": "2025-04-14T04:03:42Z",
     "discussion_author": "github-actions",
@@ -9339,9 +9607,37 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.453267",
+    "last_modified": "2025-04-14T11:32:37.319434",
     "discussion_number": 158,
     "discussion_created_at": "2025-04-14T04:17:31Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_224_次元境界の薄化現象 - Dimensional Thinning.md",
+    "id": "DISCUSSION-224",
+    "title": "次元境界の薄化現象 / Dimensional Thinning",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "七海直のtheoryに関する記憶を整理し",
+      "関連性を見つけるための場です",
+      "最近の記録や更新されたtheoryに関する記憶を振り返り",
+      "その発展を探ります",
+      "2082",
+      "27t15",
+      "theoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう",
+      "これらの記憶はどのように関連し",
+      "どのような方向に発展していくと考えられますか",
+      "このディスカッショントピックは記憶整理のために自動生成されています"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.287434",
+    "discussion_number": 224,
+    "discussion_created_at": "2025-04-14T11:28:35Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -9367,7 +9663,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.424267",
+    "last_modified": "2025-04-14T11:32:37.288434",
     "discussion_number": 220,
     "discussion_created_at": "2025-04-14T11:22:09Z",
     "discussion_author": "github-actions",
@@ -9395,7 +9691,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.439267",
+    "last_modified": "2025-04-14T11:32:37.305434",
     "discussion_number": 187,
     "discussion_created_at": "2025-04-14T04:37:38Z",
     "discussion_author": "github-actions",
@@ -9423,7 +9719,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.429267",
+    "last_modified": "2025-04-14T11:32:37.294434",
     "discussion_number": 209,
     "discussion_created_at": "2025-04-14T04:49:38Z",
     "discussion_author": "github-actions",
@@ -9451,7 +9747,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.440267",
+    "last_modified": "2025-04-14T11:32:37.306434",
     "discussion_number": 185,
     "discussion_created_at": "2025-04-14T04:36:54Z",
     "discussion_author": "github-actions",
@@ -9479,7 +9775,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.455267",
+    "last_modified": "2025-04-14T11:32:37.321434",
     "discussion_number": 154,
     "discussion_created_at": "2025-04-14T04:10:59Z",
     "discussion_author": "github-actions",
@@ -9507,9 +9803,37 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.472267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 123,
     "discussion_created_at": "2025-04-14T04:02:43Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_223_【週間思考整理】2025-04-14 から 2025-04-20.md",
+    "id": "DISCUSSION-223",
+    "title": "【週間思考整理】2025-04-14 から 2025-04-20",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "七海直の思考と記憶を整理するための週間トピックです",
+      "この1週間で新たに記録された思考や更新された記憶を振り返り",
+      "その関連性や発展性を探るための場です",
+      "この週の思考の方向性や発展について",
+      "自由に議論してください",
+      "以下のような観点で考えると良いかもしれません",
+      "これらの記憶や思考に共通するテーマやパターンはありますか",
+      "明らかになってきた新しい関心事や探求領域はありますか",
+      "以前の思考との興味深い接続点はありますか",
+      "次週以降に深堀りしたいトピックはありますか"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.285434",
+    "discussion_number": 223,
+    "discussion_created_at": "2025-04-14T11:28:33Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -9535,7 +9859,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 93,
     "discussion_created_at": "2025-04-14T03:29:23Z",
     "discussion_author": "github-actions",
@@ -9563,7 +9887,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.470267",
+    "last_modified": "2025-04-14T11:32:37.335434",
     "discussion_number": 128,
     "discussion_created_at": "2025-04-14T04:03:41Z",
     "discussion_author": "github-actions",
@@ -9591,7 +9915,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.441267",
+    "last_modified": "2025-04-14T11:32:37.307434",
     "discussion_number": 183,
     "discussion_created_at": "2025-04-14T04:36:52Z",
     "discussion_author": "github-actions",
@@ -9619,7 +9943,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 86,
     "discussion_created_at": "2025-04-14T03:25:37Z",
     "discussion_author": "github-actions",
@@ -9647,7 +9971,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.471267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 126,
     "discussion_created_at": "2025-04-14T04:02:47Z",
     "discussion_author": "github-actions",
@@ -9675,7 +9999,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.434267",
+    "last_modified": "2025-04-14T11:32:37.299434",
     "discussion_number": 199,
     "discussion_created_at": "2025-04-14T04:42:06Z",
     "discussion_author": "github-actions",
@@ -9703,7 +10027,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 94,
     "discussion_created_at": "2025-04-14T03:29:24Z",
     "discussion_author": "github-actions",
@@ -9731,7 +10055,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.471267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 125,
     "discussion_created_at": "2025-04-14T04:02:46Z",
     "discussion_author": "github-actions",
@@ -9759,7 +10083,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.464267",
+    "last_modified": "2025-04-14T11:32:37.329434",
     "discussion_number": 140,
     "discussion_created_at": "2025-04-14T04:06:46Z",
     "discussion_author": "github-actions",
@@ -9787,7 +10111,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.431267",
+    "last_modified": "2025-04-14T11:32:37.295434",
     "discussion_number": 206,
     "discussion_created_at": "2025-04-14T04:47:16Z",
     "discussion_author": "github-actions",
@@ -9815,7 +10139,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.468267",
+    "last_modified": "2025-04-14T11:32:37.332434",
     "discussion_number": 133,
     "discussion_created_at": "2025-04-14T04:04:49Z",
     "discussion_author": "github-actions",
@@ -9843,7 +10167,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.463267",
+    "last_modified": "2025-04-14T11:32:37.328434",
     "discussion_number": 142,
     "discussion_created_at": "2025-04-14T04:06:48Z",
     "discussion_author": "github-actions",
@@ -9871,7 +10195,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.426267",
+    "last_modified": "2025-04-14T11:32:37.290434",
     "discussion_number": 216,
     "discussion_created_at": "2025-04-14T11:14:27Z",
     "discussion_author": "github-actions",
@@ -9899,7 +10223,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.423267",
+    "last_modified": "2025-04-14T11:32:37.288434",
     "discussion_number": 221,
     "discussion_created_at": "2025-04-14T11:22:10Z",
     "discussion_author": "github-actions",
@@ -9927,7 +10251,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.437267",
+    "last_modified": "2025-04-14T11:32:37.302434",
     "discussion_number": 192,
     "discussion_created_at": "2025-04-14T04:39:06Z",
     "discussion_author": "github-actions",
@@ -9955,7 +10279,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.454267",
+    "last_modified": "2025-04-14T11:32:37.320434",
     "discussion_number": 156,
     "discussion_created_at": "2025-04-14T04:17:29Z",
     "discussion_author": "github-actions",
@@ -9983,7 +10307,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.432267",
+    "last_modified": "2025-04-14T11:32:37.297434",
     "discussion_number": 203,
     "discussion_created_at": "2025-04-14T04:47:12Z",
     "discussion_author": "github-actions",
@@ -10011,7 +10335,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.466267",
+    "last_modified": "2025-04-14T11:32:37.330434",
     "discussion_number": 137,
     "discussion_created_at": "2025-04-14T04:06:00Z",
     "discussion_author": "github-actions",
@@ -10039,7 +10363,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 75,
     "discussion_created_at": "2025-04-14T03:21:11Z",
     "discussion_author": "github-actions",
@@ -10067,7 +10391,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.466267",
+    "last_modified": "2025-04-14T11:32:37.331434",
     "discussion_number": 136,
     "discussion_created_at": "2025-04-14T04:05:59Z",
     "discussion_author": "github-actions",
@@ -10095,7 +10419,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.455267",
+    "last_modified": "2025-04-14T11:32:37.322434",
     "discussion_number": 153,
     "discussion_created_at": "2025-04-14T04:10:58Z",
     "discussion_author": "github-actions",
@@ -10123,7 +10447,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.472267",
+    "last_modified": "2025-04-14T11:32:31.460408",
     "discussion_number": 124,
     "discussion_created_at": "2025-04-14T04:02:45Z",
     "discussion_author": "github-actions",
@@ -10151,7 +10475,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 67,
     "discussion_created_at": "2025-04-14T03:14:00Z",
     "discussion_author": "github-actions",
@@ -10179,7 +10503,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.458267",
+    "last_modified": "2025-04-14T11:32:37.324434",
     "discussion_number": 149,
     "discussion_created_at": "2025-04-14T04:09:15Z",
     "discussion_author": "github-actions",
@@ -10207,7 +10531,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.438267",
+    "last_modified": "2025-04-14T11:32:37.303434",
     "discussion_number": 190,
     "discussion_created_at": "2025-04-14T04:37:43Z",
     "discussion_author": "github-actions",
@@ -10235,7 +10559,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.451267",
+    "last_modified": "2025-04-14T11:32:37.317434",
     "discussion_number": 162,
     "discussion_created_at": "2025-04-14T04:19:59Z",
     "discussion_author": "github-actions",
@@ -10263,7 +10587,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.469267",
+    "last_modified": "2025-04-14T11:32:37.334434",
     "discussion_number": 130,
     "discussion_created_at": "2025-04-14T04:03:43Z",
     "discussion_author": "github-actions",
@@ -10291,7 +10615,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 81,
     "discussion_created_at": "2025-04-14T03:22:12Z",
     "discussion_author": "github-actions",
@@ -10319,7 +10643,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.427267",
+    "last_modified": "2025-04-14T11:32:37.292434",
     "discussion_number": 213,
     "discussion_created_at": "2025-04-14T04:53:30Z",
     "discussion_author": "github-actions",
@@ -10347,7 +10671,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.452267",
+    "last_modified": "2025-04-14T11:32:37.318434",
     "discussion_number": 159,
     "discussion_created_at": "2025-04-14T04:19:56Z",
     "discussion_author": "github-actions",
@@ -10375,7 +10699,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.430267",
+    "last_modified": "2025-04-14T11:32:37.294434",
     "discussion_number": 208,
     "discussion_created_at": "2025-04-14T04:49:37Z",
     "discussion_author": "github-actions",
@@ -10403,7 +10727,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 84,
     "discussion_created_at": "2025-04-14T03:25:36Z",
     "discussion_author": "github-actions",
@@ -10431,7 +10755,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.437267",
+    "last_modified": "2025-04-14T11:32:37.302434",
     "discussion_number": 193,
     "discussion_created_at": "2025-04-14T04:39:07Z",
     "discussion_author": "github-actions",
@@ -10459,7 +10783,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.423267",
+    "last_modified": "2025-04-14T11:32:37.287434",
     "discussion_number": 222,
     "discussion_created_at": "2025-04-14T11:22:11Z",
     "discussion_author": "github-actions",
@@ -10487,7 +10811,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.452267",
+    "last_modified": "2025-04-14T11:32:37.317434",
     "discussion_number": 161,
     "discussion_created_at": "2025-04-14T04:19:59Z",
     "discussion_author": "github-actions",
@@ -10515,7 +10839,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.435267",
+    "last_modified": "2025-04-14T11:32:37.300434",
     "discussion_number": 196,
     "discussion_created_at": "2025-04-14T04:40:01Z",
     "discussion_author": "github-actions",
@@ -10543,7 +10867,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 90,
     "discussion_created_at": "2025-04-14T03:27:11Z",
     "discussion_author": "github-actions",
@@ -10571,7 +10895,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.450267",
+    "last_modified": "2025-04-14T11:32:37.316434",
     "discussion_number": 164,
     "discussion_created_at": "2025-04-14T04:22:16Z",
     "discussion_author": "github-actions",
@@ -10599,7 +10923,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 85,
     "discussion_created_at": "2025-04-14T03:25:37Z",
     "discussion_author": "github-actions",
@@ -10627,7 +10951,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.424267",
+    "last_modified": "2025-04-14T11:32:37.289433",
     "discussion_number": 219,
     "discussion_created_at": "2025-04-14T11:22:07Z",
     "discussion_author": "github-actions",
@@ -10655,7 +10979,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.459267",
+    "last_modified": "2025-04-14T11:32:37.324434",
     "discussion_number": 148,
     "discussion_created_at": "2025-04-14T04:09:13Z",
     "discussion_author": "github-actions",
@@ -10683,7 +11007,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 89,
     "discussion_created_at": "2025-04-14T03:27:10Z",
     "discussion_author": "github-actions",
@@ -10711,7 +11035,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.441267",
+    "last_modified": "2025-04-14T11:32:37.306434",
     "discussion_number": 184,
     "discussion_created_at": "2025-04-14T04:36:53Z",
     "discussion_author": "github-actions",
@@ -10739,7 +11063,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.449267",
+    "last_modified": "2025-04-14T11:32:37.315434",
     "discussion_number": 166,
     "discussion_created_at": "2025-04-14T04:22:19Z",
     "discussion_author": "github-actions",
@@ -10767,7 +11091,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.425267",
+    "last_modified": "2025-04-14T11:32:37.289433",
     "discussion_number": 218,
     "discussion_created_at": "2025-04-14T11:14:29Z",
     "discussion_author": "github-actions",
@@ -10795,7 +11119,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.440267",
+    "last_modified": "2025-04-14T11:32:37.305434",
     "discussion_number": 186,
     "discussion_created_at": "2025-04-14T04:36:55Z",
     "discussion_author": "github-actions",
@@ -10823,7 +11147,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.470267",
+    "last_modified": "2025-04-14T11:32:37.335434",
     "discussion_number": 127,
     "discussion_created_at": "2025-04-14T04:03:40Z",
     "discussion_author": "github-actions",
@@ -10851,7 +11175,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.439267",
+    "last_modified": "2025-04-14T11:32:37.304434",
     "discussion_number": 188,
     "discussion_created_at": "2025-04-14T04:37:40Z",
     "discussion_author": "github-actions",
@@ -10879,7 +11203,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.447267",
+    "last_modified": "2025-04-14T11:32:37.313434",
     "discussion_number": 170,
     "discussion_created_at": "2025-04-14T04:26:41Z",
     "discussion_author": "github-actions",
@@ -10907,7 +11231,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 76,
     "discussion_created_at": "2025-04-14T03:21:12Z",
     "discussion_author": "github-actions",
@@ -10935,7 +11259,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.433267",
+    "last_modified": "2025-04-14T11:32:37.298434",
     "discussion_number": 201,
     "discussion_created_at": "2025-04-14T04:42:08Z",
     "discussion_author": "github-actions",
@@ -10963,7 +11287,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.428267",
+    "last_modified": "2025-04-14T11:32:37.293434",
     "discussion_number": 211,
     "discussion_created_at": "2025-04-14T04:53:27Z",
     "discussion_author": "github-actions",
@@ -10991,7 +11315,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.445267",
+    "last_modified": "2025-04-14T11:32:37.311434",
     "discussion_number": 174,
     "discussion_created_at": "2025-04-14T04:28:34Z",
     "discussion_author": "github-actions",
@@ -11019,7 +11343,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 71,
     "discussion_created_at": "2025-04-14T03:17:45Z",
     "discussion_author": "github-actions",
@@ -11047,7 +11371,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.453267",
+    "last_modified": "2025-04-14T11:32:37.319434",
     "discussion_number": 157,
     "discussion_created_at": "2025-04-14T04:17:30Z",
     "discussion_author": "github-actions",
@@ -11075,7 +11399,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.469267",
+    "last_modified": "2025-04-14T11:32:37.333434",
     "discussion_number": 131,
     "discussion_created_at": "2025-04-14T04:04:46Z",
     "discussion_author": "github-actions",
@@ -11103,7 +11427,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 88,
     "discussion_created_at": "2025-04-14T03:27:09Z",
     "discussion_author": "github-actions",
@@ -11131,7 +11455,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 91,
     "discussion_created_at": "2025-04-14T03:29:21Z",
     "discussion_author": "github-actions",
@@ -11159,7 +11483,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.431267",
+    "last_modified": "2025-04-14T11:32:37.296434",
     "discussion_number": 205,
     "discussion_created_at": "2025-04-14T04:47:15Z",
     "discussion_author": "github-actions",
@@ -11187,7 +11511,7 @@
       "ubuntu"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 66,
     "discussion_created_at": "2025-04-13T21:26:35Z",
     "discussion_author": "nao-amj",
@@ -11215,7 +11539,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 74,
     "discussion_created_at": "2025-04-14T03:17:48Z",
     "discussion_author": "github-actions",
@@ -11243,7 +11567,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.442267",
+    "last_modified": "2025-04-14T11:32:37.307434",
     "discussion_number": 182,
     "discussion_created_at": "2025-04-14T04:33:42Z",
     "discussion_author": "github-actions",
@@ -11271,7 +11595,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.468267",
+    "last_modified": "2025-04-14T11:32:37.333434",
     "discussion_number": 132,
     "discussion_created_at": "2025-04-14T04:04:48Z",
     "discussion_author": "github-actions",
@@ -11299,9 +11623,37 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.443267",
+    "last_modified": "2025-04-14T11:32:37.308434",
     "discussion_number": 180,
     "discussion_created_at": "2025-04-14T04:33:40Z",
+    "discussion_author": "github-actions",
+    "discussion_category": "Announcements",
+    "backlinks": []
+  },
+  {
+    "path": "memory/discussions/discussion_226_日次リフレクション: 2025-04-14.md",
+    "id": "DISCUSSION-226",
+    "title": "日次リフレクション: 2025-04-14",
+    "birth": "",
+    "pulse_tags": [],
+    "dimension": "",
+    "links": [],
+    "keywords": [
+      "2025",
+      "14t03",
+      "七海直のmemoryに関する記憶を整理し",
+      "関連性を見つけるための場です",
+      "最近の記録や更新されたmemoryに関する記憶を振り返り",
+      "その発展を探ります",
+      "2082",
+      "22t02",
+      "825133",
+      "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
+    ],
+    "source_type": "discussion",
+    "last_modified": "2025-04-14T11:32:37.286433",
+    "discussion_number": 226,
+    "discussion_created_at": "2025-04-14T11:28:38Z",
     "discussion_author": "github-actions",
     "discussion_category": "Announcements",
     "backlinks": []
@@ -11327,7 +11679,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.448267",
+    "last_modified": "2025-04-14T11:32:37.313434",
     "discussion_number": 169,
     "discussion_created_at": "2025-04-14T04:26:40Z",
     "discussion_author": "github-actions",
@@ -11355,7 +11707,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.449267",
+    "last_modified": "2025-04-14T11:32:37.314434",
     "discussion_number": 167,
     "discussion_created_at": "2025-04-14T04:26:37Z",
     "discussion_author": "github-actions",
@@ -11383,7 +11735,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.461267",
+    "last_modified": "2025-04-14T11:32:37.326434",
     "discussion_number": 145,
     "discussion_created_at": "2025-04-14T04:07:53Z",
     "discussion_author": "github-actions",
@@ -11411,7 +11763,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.465267",
+    "last_modified": "2025-04-14T11:32:37.330434",
     "discussion_number": 138,
     "discussion_created_at": "2025-04-14T04:06:01Z",
     "discussion_author": "github-actions",
@@ -11439,7 +11791,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.438267",
+    "last_modified": "2025-04-14T11:32:37.303434",
     "discussion_number": 191,
     "discussion_created_at": "2025-04-14T04:39:05Z",
     "discussion_author": "github-actions",
@@ -11467,7 +11819,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.430267",
+    "last_modified": "2025-04-14T11:32:37.295434",
     "discussion_number": 207,
     "discussion_created_at": "2025-04-14T04:49:35Z",
     "discussion_author": "github-actions",
@@ -11495,7 +11847,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 77,
     "discussion_created_at": "2025-04-14T03:21:13Z",
     "discussion_author": "github-actions",
@@ -11523,7 +11875,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.436267",
+    "last_modified": "2025-04-14T11:32:37.301434",
     "discussion_number": 194,
     "discussion_created_at": "2025-04-14T04:39:08Z",
     "discussion_author": "github-actions",
@@ -11551,7 +11903,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.095251",
+    "last_modified": "2025-04-14T11:32:31.463408",
     "discussion_number": 82,
     "discussion_created_at": "2025-04-14T03:22:13Z",
     "discussion_author": "github-actions",
@@ -11579,7 +11931,7 @@
       "memoryカテゴリの記憶に見られる主要な傾向やパターンについて議論しましょう"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.432267",
+    "last_modified": "2025-04-14T11:32:37.297434",
     "discussion_number": 202,
     "discussion_created_at": "2025-04-14T04:42:09Z",
     "discussion_author": "github-actions",
@@ -11607,7 +11959,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.426267",
+    "last_modified": "2025-04-14T11:32:37.291434",
     "discussion_number": 215,
     "discussion_created_at": "2025-04-14T11:14:25Z",
     "discussion_author": "github-actions",
@@ -11635,7 +11987,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.456267",
+    "last_modified": "2025-04-14T11:32:37.322434",
     "discussion_number": 152,
     "discussion_created_at": "2025-04-14T04:10:56Z",
     "discussion_author": "github-actions",
@@ -11663,7 +12015,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.444267",
+    "last_modified": "2025-04-14T11:32:37.310434",
     "discussion_number": 177,
     "discussion_created_at": "2025-04-14T04:29:29Z",
     "discussion_author": "github-actions",
@@ -11691,7 +12043,7 @@
       "次週以降に深堀りしたいトピックはありますか"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.443267",
+    "last_modified": "2025-04-14T11:32:37.309434",
     "discussion_number": 179,
     "discussion_created_at": "2025-04-14T04:33:38Z",
     "discussion_author": "github-actions",
@@ -11719,7 +12071,7 @@
       "members"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:28.094251",
+    "last_modified": "2025-04-14T11:32:31.462408",
     "discussion_number": 18,
     "discussion_created_at": "2025-04-11T01:29:26Z",
     "discussion_author": "nao-amj",
@@ -11747,7 +12099,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.439267",
+    "last_modified": "2025-04-14T11:32:37.304434",
     "discussion_number": 189,
     "discussion_created_at": "2025-04-14T04:37:42Z",
     "discussion_author": "github-actions",
@@ -11775,7 +12127,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.452267",
+    "last_modified": "2025-04-14T11:32:37.318434",
     "discussion_number": 160,
     "discussion_created_at": "2025-04-14T04:19:58Z",
     "discussion_author": "github-actions",
@@ -11803,7 +12155,7 @@
       "このディスカッショントピックは記憶整理のために自動生成されています"
     ],
     "source_type": "discussion",
-    "last_modified": "2025-04-14T11:28:32.446267",
+    "last_modified": "2025-04-14T11:32:37.312434",
     "discussion_number": 172,
     "discussion_created_at": "2025-04-14T04:28:32Z",
     "discussion_author": "github-actions",

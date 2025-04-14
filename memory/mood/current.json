@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-04-14T11:28:47.749637",
+  "timestamp": "2025-04-14T11:32:56.730369",
   "pulse_tags": [
-    "#clarity",
-    "#boundary_strong",
-    "#anger"
+    "#memory_foreign",
+    "#self_divided",
+    "#trust"
   ],
-  "description": "クリアな視点。明確な境界を感じる。整理したい思いがある。",
-  "emotional_valence": 0.71,
-  "emotional_arousal": 0.75
+  "description": "自分のものではない感覚。複数の自己の共存。関係性に確かさを感じる。",
+  "emotional_valence": 0.35,
+  "emotional_arousal": 0.85
 }
