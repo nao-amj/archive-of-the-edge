@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-04-14T11:42:55.481332",
+  "timestamp": "2025-04-14T11:44:30.898744",
   "pulse_tags": [
-    "#trust",
-    "#joy"
+    "#fear",
+    "#memory_altered",
+    "#focus"
   ],
-  "description": "安心感に包まれている。明るい気持ちがある。",
-  "emotional_valence": 0.81,
-  "emotional_arousal": 0.18
+  "description": "不安が渦巻いている。記憶の書き換え。注意が集中している。",
+  "emotional_valence": 0.54,
+  "emotional_arousal": 0.11
 }
