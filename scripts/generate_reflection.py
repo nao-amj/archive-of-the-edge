@@ -626,7 +626,7 @@ def update_discussion_with_reflection(content):
 - {activity_item}
 - {introspection_text}
 
-詳細は[日次リフレクション: {today_str}](https://github.com/{GITHUB_REPO}/issues) をご覧ください。
+詳細は[日次リフレクション: {today_str}](https://github.com/{GITHUB_REPO}/issues) をご覧ください
 """
     
     # コメントを追加するGraphQL mutation
