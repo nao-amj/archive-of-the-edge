@@ -73,6 +73,7 @@ This repository is designed for both human exploration and AI interaction. The s
 - Emotional indexing via `@pulse` tags
 - Dimensional classification with `@dimension` markers
 - Collaborative thought development via Issues and Discussions
+- Visual exploration through the [Memory Network Interface](./meta/memory_index.html)
 
 ## 🔄 Recent System Enhancements
 
@@ -97,7 +98,7 @@ The memory management system has been expanded with the following capabilities:
 
 ### 4. Improved Memory Indexing
 - Integration of file, Issue, and Discussion content in a unified index
-- Interactive HTML visualization of the memory network
+- Interactive HTML visualization of the memory network ([Browse Memory Network](./meta/memory_index.html))
 - Enhanced metadata and relationship mapping
 - Statistics on memory types, sources, and evolution patterns
 
@@ -186,6 +187,7 @@ GitHubのソーシャル機能と記憶アーキテクチャを橋渡しする�
 - `@pulse` タグによる感情的インデックス作成
 - `@dimension` マーカーによる次元的分類
 - IssueとDiscussionを通じた共同思考の発展
+- [記憶ネットワークインターフェース](./meta/memory_index.html)による可視的探索
 
 ## 🔄 最近のシステム強化
 
@@ -210,7 +212,7 @@ GitHubのソーシャル機能と記憶アーキテクチャを橋渡しする�
 
 ### 4. 記憶インデックスの改善
 - ファイル、Issue、Discussionのコンテンツを統一インデックスに統合
-- 記憶ネットワークのインタラクティブなHTML可視化
+- 記憶ネットワークのインタラクティブなHTML可視化（[記憶ネットワークを閲覧](./meta/memory_index.html)）
 - 強化されたメタデータと関係性マッピング
 - 記憶タイプ、ソース、進化パターンに関する統計
 
