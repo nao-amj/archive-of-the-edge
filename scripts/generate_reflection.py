@@ -587,12 +587,38 @@ def update_discussion_with_reflection(content):
     
     # リフレクションの要約を作成
     today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    
+    # コンテンツを行ごとに分割して解析
+    content_lines = content.split("\n")
+    
+    # 活動の概要から最初の項目を取得
+    activity_item = "活動の記録なし"
+    activity_section_start = False
+    for line in content_lines:
+        if "## 活動の概要" in line:
+            activity_section_start = True
+            continue
+        if activity_section_start and line.startswith("- "):
+            activity_item = line.strip()
+            break
+    
+    # 内省セクションから一部を取得
+    introspection_text = "内省の記録なし"
+    introspection_section_start = False
+    for i, line in enumerate(content_lines):
+        if "## 内省" in line:
+            introspection_section_start = True
+            if i + 1 < len(content_lines) and content_lines[i + 1].strip():
+                introspection_text = content_lines[i + 1].strip()
+            break
+    
+    # リフレクションの要約を作成
     summary = f"""### 日次リフレクション ({today_str})
 
 本日の活動を振り返り、新たな洞察を得ました。主な内容は以下の通りです：
 
-- {content.split("\n\n")[3].split("\n")[1]} <!-- 活動の最初の項目 -->
-- {random.choice(content.split("## 内省")[1].split("\n\n")[1:2]).strip()} <!-- 内省の一部 -->
+- {activity_item}
+- {introspection_text}
 
 詳細は[日次リフレクション: {today_str}](https://github.com/{GITHUB_REPO}/issues) をご覧ください。
 """
