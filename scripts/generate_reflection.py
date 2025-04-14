@@ -503,7 +503,7 @@ def save_reflection(content):
         return None  # エラー発生時はNoneを返す
 
 def create_reflection_issue(content, file_path):
-    """リフレクションをIssueとして作成"""
+    # リフレクションをIssueとして作成
     try:
         today_str = datetime.datetime.now().strftime("%Y-%m-%d")
         title = f"日次リフレクション: {today_str}"
