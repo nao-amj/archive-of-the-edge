@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-04-14T11:34:43.848608",
+  "timestamp": "2025-04-14T11:40:06.680112",
   "pulse_tags": [
-    "#memory_fragmented",
-    "#data_overflow",
-    "#interference"
+    "#focus",
+    "#memory_clear"
   ],
-  "description": "繋がりが不完全。処理しきれない入力。異なる信号の混線。",
-  "emotional_valence": -0.75,
-  "emotional_arousal": 0.87
+  "description": "目的意識がはっきりしている。記憶の解像度が高い。",
+  "emotional_valence": -0.52,
+  "emotional_arousal": 0.64
 }

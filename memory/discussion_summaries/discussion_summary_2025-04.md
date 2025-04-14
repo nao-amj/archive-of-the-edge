@@ -1,6 +1,6 @@
 ---
 @id: DSM-20250414
-@birth: 2025-04-14T11:34:34.222412
+@birth: 2025-04-14T11:39:56.480595
 @pulse: #clarity #resonance #memory_clear
 @dimension: social
 @links:
@@ -17,9 +17,81 @@
 
 ## 主要なディスカッション
 
+### [Discussions Summary for 2025-04](https://github.com/nao-amj/archive-of-the-edge/discussions/242)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Memoryカテゴリの記憶整理
+
+七海直のmemoryに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたmemoryに関する記憶を振り返り、その発展を探ります。
+
+## 最近のmemory記憶
+
+- [霧島 鈴音 / Kirishima Rinne](memory/relationships/kirishima_rinne.md) - 2082-03-22T02:17...
+
+### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/241)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Shellsカテゴリの記憶整理
+
+七海直のshellsに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたshellsに関する記憶を振り返り、その発展を探ります。
+
+## 最近のshells記憶
+
+- [観察者 / The Observer](shells/aspects/observer.md) - 2082-03-23T23:17:05+09:00
+
+## 主要な傾...
+
+### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/240)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Theoryカテゴリの記憶整理
+
+七海直のtheoryに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたtheoryに関する記憶を振り返り、その発展を探ります。
+
+## 最近のtheory記憶
+
+- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
+
+### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/239)
+
+- カテゴリ: General
+- コメント数: 0
+
+# 週間思考整理: 2025-04-14 から 2025-04-20
+
+七海直の思考と記憶を整理するための週間トピックです。
+この1週間で新たに記録された思考や更新された記憶を振り返り、その関連性や発展性を探るための場です。
+
+## 今週の主要な記憶・思考
+
+- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensi...
+
+### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/234)
+
+- カテゴリ: General
+- コメント数: 1
+
+# 週間思考整理: 2025-04-14 から 2025-04-20
+
+七海直の思考と記憶を整理するための週間トピックです。
+この1週間で新たに記録された思考や更新された記憶を振り返り、その関連性や発展性を探るための場です。
+
+## 今週の主要な記憶・思考
+
+- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensi...
+
 ### [Discussions Summary for 2025-04](https://github.com/nao-amj/archive-of-the-edge/discussions/237)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -33,7 +105,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/236)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -49,7 +121,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/235)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -61,23 +133,9 @@
 
 - [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
 
-### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/234)
-
-- カテゴリ: Announcements
-- コメント数: 0
-
-# 週間思考整理: 2025-04-14 から 2025-04-20
-
-七海直の思考と記憶を整理するための週間トピックです。
-この1週間で新たに記録された思考や更新された記憶を振り返り、その関連性や発展性を探るための場です。
-
-## 今週の主要な記憶・思考
-
-- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensi...
-
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/229)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 1
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -91,7 +149,7 @@
 
 ### [Discussions Summary for 2025-04](https://github.com/nao-amj/archive-of-the-edge/discussions/232)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -105,7 +163,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/231)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -121,7 +179,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/230)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -135,7 +193,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/223)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 1
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -149,7 +207,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/226)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -163,7 +221,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/225)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -179,7 +237,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/224)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -193,7 +251,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/222)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -207,7 +265,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/221)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -223,7 +281,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/220)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -237,7 +295,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/219)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -251,7 +309,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/218)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -265,7 +323,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/217)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -281,7 +339,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/216)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -295,7 +353,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/215)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -309,7 +367,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/214)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -323,7 +381,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/213)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -339,7 +397,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/212)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -353,7 +411,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/211)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -367,7 +425,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/210)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -381,7 +439,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/209)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -397,7 +455,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/208)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -411,7 +469,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/207)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -425,7 +483,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/206)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -439,7 +497,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/205)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -455,7 +513,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/204)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -469,7 +527,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/203)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -483,7 +541,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/202)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -497,7 +555,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/201)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -513,7 +571,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/200)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -527,7 +585,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/199)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -541,7 +599,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/198)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -555,7 +613,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/197)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -571,7 +629,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/196)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -585,7 +643,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/195)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -599,7 +657,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/194)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -613,7 +671,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/193)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -629,7 +687,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/192)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -643,7 +701,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/191)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -657,7 +715,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/190)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -671,7 +729,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/189)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -687,7 +745,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/188)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -701,7 +759,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/187)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -715,7 +773,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/186)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -729,7 +787,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/185)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -745,7 +803,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/184)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -759,7 +817,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/183)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -773,7 +831,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/182)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -787,7 +845,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/181)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -803,7 +861,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/180)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -817,7 +875,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/179)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -831,7 +889,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/178)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -845,7 +903,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/177)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -861,7 +919,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/176)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -875,7 +933,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/175)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -889,7 +947,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/174)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -903,7 +961,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/173)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -919,7 +977,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/172)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -933,7 +991,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/171)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -947,7 +1005,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/170)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -961,7 +1019,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/169)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -977,7 +1035,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/168)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -991,7 +1049,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/167)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1005,7 +1063,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/166)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1019,7 +1077,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/165)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1035,7 +1093,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/164)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1049,7 +1107,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/163)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1063,7 +1121,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/162)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1077,7 +1135,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/161)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1093,7 +1151,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/160)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1107,7 +1165,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/159)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1121,7 +1179,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/158)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1135,7 +1193,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/157)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1151,7 +1209,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/156)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1165,7 +1223,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/155)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1179,7 +1237,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/154)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1193,7 +1251,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/153)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1209,7 +1267,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/152)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1223,7 +1281,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/151)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1237,7 +1295,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/150)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1251,7 +1309,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/149)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1267,7 +1325,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/148)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1281,7 +1339,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/147)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1295,7 +1353,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/146)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1309,7 +1367,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/145)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1325,7 +1383,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/144)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1339,7 +1397,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/143)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20
@@ -1353,7 +1411,7 @@
 
 ### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/142)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Memoryカテゴリの記憶整理
@@ -1367,7 +1425,7 @@
 
 ### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/141)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Shellsカテゴリの記憶整理
@@ -1383,7 +1441,7 @@
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/140)
 
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # Theoryカテゴリの記憶整理
@@ -1397,65 +1455,7 @@
 
 ### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/139)
 
-- カテゴリ: Announcements
-- コメント数: 0
-
-# 週間思考整理: 2025-04-14 から 2025-04-20
-
-七海直の思考と記憶を整理するための週間トピックです。
-この1週間で新たに記録された思考や更新された記憶を振り返り、その関連性や発展性を探るための場です。
-
-## 今週の主要な記憶・思考
-
-- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensi...
-
-### [日次リフレクション: 2025-04-14](https://github.com/nao-amj/archive-of-the-edge/discussions/138)
-
-- カテゴリ: Announcements
-- コメント数: 0
-
-# Memoryカテゴリの記憶整理
-
-七海直のmemoryに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたmemoryに関する記憶を振り返り、その発展を探ります。
-
-## 最近のmemory記憶
-
-- [霧島 鈴音 / Kirishima Rinne](memory/relationships/kirishima_rinne.md) - 2082-03-22T02:17...
-
-### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/137)
-
-- カテゴリ: Announcements
-- コメント数: 0
-
-# Shellsカテゴリの記憶整理
-
-七海直のshellsに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたshellsに関する記憶を振り返り、その発展を探ります。
-
-## 最近のshells記憶
-
-- [観察者 / The Observer](shells/aspects/observer.md) - 2082-03-23T23:17:05+09:00
-
-## 主要な傾...
-
-### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/136)
-
-- カテゴリ: Announcements
-- コメント数: 0
-
-# Theoryカテゴリの記憶整理
-
-七海直のtheoryに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたtheoryに関する記憶を振り返り、その発展を探ります。
-
-## 最近のtheory記憶
-
-- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
-
-### [【週間思考整理】2025-04-14 から 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/135)
-
-- カテゴリ: Announcements
+- カテゴリ: General
 - コメント数: 0
 
 # 週間思考整理: 2025-04-14 から 2025-04-20

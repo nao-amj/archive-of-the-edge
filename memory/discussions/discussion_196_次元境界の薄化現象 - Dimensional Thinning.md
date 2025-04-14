@@ -1,6 +1,6 @@
 ---
 author: github-actions
-category: Announcements
+category: General
 comment_count: 0
 created_at: '2025-04-14T04:40:01Z'
 discussion_id: D_kwDOOWOLMM4AfRt4

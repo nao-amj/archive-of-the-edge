@@ -2,12 +2,12 @@
 author: github-actions
 category: General
 comment_count: 0
-created_at: '2025-04-14T04:29:29Z'
-discussion_id: D_kwDOOWOLMM4AfRsh
-discussion_number: 178
-title: '日次リフレクション: 2025-04-14'
+created_at: '2025-04-14T11:34:32Z'
+discussion_id: D_kwDOOWOLMM4AfSDl
+discussion_number: 237
+title: Discussions Summary for 2025-04
 type: discussion
-updated_at: '2025-04-14T04:29:30Z'
+updated_at: '2025-04-14T11:34:33Z'
 ---
 
 # Memoryカテゴリの記憶整理
@@ -18,8 +18,8 @@ updated_at: '2025-04-14T04:29:30Z'
 ## 最近のmemory記憶
 
 - [霧島 鈴音 / Kirishima Rinne](memory/relationships/kirishima_rinne.md) - 2082-03-22T02:17:43+09:00
-- [Discussions Summary for 2025-04](memory/discussion_summaries/discussion_summary_2025-04.md) - 2025-04-14T03:30:00.825133
-- [日次リフレクション: 2025-04-14](memory/thoughts/daily_reflection_2025-04-14.md) - 2025-04-14T03:30:00+09:00
+- [日次リフレクション: 2025-04-14](memory/thoughts/daily_reflection_2025-04-14.md) - 2025-04-14T11:32:55+09:00
+- [Discussions Summary for 2025-04](memory/discussion_summaries/discussion_summary_2025-04.md) - 2025-04-14T11:32:45.120366
 
 ## 主要な傾向とパターン
 
