@@ -1,0 +1,77 @@
+name: 七海直の記憶管理自動化
+
+on:
+  # 日次実行（毎日UTC 00:00 = JST 09:00）
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 手動トリガー
+  workflow_dispatch:
+  
+  # Issueが作成または更新されたとき
+  issues:
+    types: [opened, edited, closed, reopened]
+  
+  # Pull Requestが作成または更新されたとき
+  pull_request:
+    types: [opened, synchronize, closed]
+  
+  # 特定のブランチにPushされたとき
+  push:
+    branches: [main]
+
+jobs:
+  memory-processes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v3
+      
+      - name: Python環境のセットアップ
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 依存パッケージのインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml markdown requests
+      
+      - name: Issue分析・変換処理
+        run: python scripts/issue_to_file_converter.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Discussions統合処理
+        run: |
+          # 既存のDiscussionを取得
+          python scripts/discussions_integration.py fetch
+          # 週間思考整理のDiscussionを作成（月曜日のみ）
+          if [ $(date +%u) -eq 1 ]; then
+            python scripts/discussions_integration.py create_weekly
+          fi
+          # メモリと同期する
+          python scripts/discussions_integration.py sync_memory
+          # Discussionsの要約
+          python scripts/discussions_integration.py summarize
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 日次リフレクション生成
+        run: python scripts/generate_reflection.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 記憶インデックス更新
+        run: python scripts/update_memory_index.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 変更をコミットしてプッシュ
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add memory/ meta/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "自動更新: 記憶処理と思考整理 $(date +'%Y-%m-%d')" && git push)
