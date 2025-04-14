@@ -65,17 +65,20 @@ def get_issues(state="all", labels=None, since=None):
 def is_daily_reflection(issue):
     """そのIssueが日次リフレクションかどうかを判定"""
     # タイトルや内容から日次リフレクションを判別するロジック
-    title = issue.get("title", "").lower()
-    body = issue.get("body", "").lower()
+    title = issue.get("title", "") or ""  # None の場合は空文字に
+    body = issue.get("body", "") or ""    # None の場合は空文字に
     
-    return "日次リフレクション" in title or "daily reflection" in title or "@context: 日次自動リフレクション" in body
+    title_lower = title.lower()
+    body_lower = body.lower()
+    
+    return "日次リフレクション" in title_lower or "daily reflection" in title_lower or "@context: 日次自動リフレクション" in body_lower
 
 def extract_metadata_from_issue(issue):
     """Issueからメタデータを抽出"""
     # 常に辞書として初期化
     metadata = {}
     
-    body = issue.get("body", "")
+    body = issue.get("body", "") or ""  # None の場合は空文字列に
     
     # YAMLフロントマターがある場合は抽出
     yaml_match = re.search(r"---\n(.*?)\n---", body, re.DOTALL)
@@ -97,21 +100,32 @@ def extract_metadata_from_issue(issue):
     metadata["issue_title"] = issue.get("title")
     metadata["issue_created_at"] = issue.get("created_at")
     metadata["issue_updated_at"] = issue.get("updated_at")
-    metadata["issue_author"] = issue.get("user", {}).get("login")
+    
+    # ユーザー情報が None でないか確認
+    user = issue.get("user", {}) or {}
+    metadata["issue_author"] = user.get("login", "unknown")
     
     # ラベルを追加
-    labels = [label.get("name") for label in issue.get("labels", [])]
+    labels = []
+    for label in issue.get("labels", []) or []:
+        if isinstance(label, dict) and "name" in label:
+            labels.append(label["name"])
     metadata["labels"] = labels
     
     return metadata
 
 def process_daily_reflection(issue):
     """日次リフレクションをファイルに変換"""
-    body = issue.get("body", "")
+    body = issue.get("body", "") or ""  # None の場合は空文字列に
     metadata = extract_metadata_from_issue(issue)
     
-    # 日付を抽出
-    created_at = datetime.datetime.fromisoformat(issue.get("created_at").replace("Z", "+00:00"))
+    # 日付を抽出 (created_atがNoneの場合は現在時刻を使用)
+    created_at_str = issue.get("created_at")
+    if created_at_str:
+        created_at = datetime.datetime.fromisoformat(created_at_str.replace("Z", "+00:00"))
+    else:
+        created_at = datetime.datetime.now()
+    
     date_str = created_at.strftime("%Y-%m-%d")
     
     # 保存先を確保
@@ -142,16 +156,17 @@ def process_daily_reflection(issue):
 
 def process_thought_issue(issue):
     """思考段階のIssueをファイルに変換"""
-    body = issue.get("body", "")
+    body = issue.get("body", "") or ""  # None の場合は空文字列に
     metadata = extract_metadata_from_issue(issue)
     
     # 出力ディレクトリの作成
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
     # Issue番号とタイトルからファイル名を生成
-    issue_number = issue.get("number")
-    title = issue.get("title", "").replace("/", "-").replace("\\", "-")
-    filename = f"issue_{issue_number}_{title[:50]}.md"  # タイトルは長すぎる場合カット
+    issue_number = metadata.get("issue_number", "unknown")
+    title = metadata.get("issue_title", "") or "untitled"
+    safe_title = title.replace("/", "-").replace("\\", "-")
+    filename = f"issue_{issue_number}_{safe_title[:50]}.md"  # タイトルは長すぎる場合カット
     
     # ファイルに書き込む
     file_path = OUTPUT_DIR / filename
@@ -195,18 +210,21 @@ def analyze_issues(issues):
             stats["thoughts"] += 1
         
         # ラベルの統計
-        for label in issue.get("labels", []):
+        for label in issue.get("labels", []) or []:
             label_name = label.get("name", "unknown")
             stats["labels"][label_name] = stats["labels"].get(label_name, 0) + 1
         
         # 作者の統計
-        author = issue.get("user", {}).get("login", "unknown")
+        user = issue.get("user", {}) or {}
+        author = user.get("login", "unknown")
         stats["authors"][author] = stats["authors"].get(author, 0) + 1
         
         # 作成日の統計（月ごと）
-        created_at = datetime.datetime.fromisoformat(issue.get("created_at").replace("Z", "+00:00"))
-        month_key = created_at.strftime("%Y-%m")
-        stats["creation_dates"][month_key] = stats["creation_dates"].get(month_key, 0) + 1
+        created_at_str = issue.get("created_at")
+        if created_at_str:
+            created_at = datetime.datetime.fromisoformat(created_at_str.replace("Z", "+00:00"))
+            month_key = created_at.strftime("%Y-%m")
+            stats["creation_dates"][month_key] = stats["creation_dates"].get(month_key, 0) + 1
     
     return stats
 
@@ -236,6 +254,8 @@ def main():
         
         for issue in issues:
             try:
+                issue_number = issue.get("number", "不明")
+                
                 if is_daily_reflection(issue):
                     process_daily_reflection(issue)
                     reflection_count += 1
@@ -243,7 +263,7 @@ def main():
                     process_thought_issue(issue)
                     thought_count += 1
             except Exception as e:
-                print(f"Issue #{issue.get('number')} の処理中にエラーが発生しました: {e}")
+                print(f"Issue #{issue_number} の処理中にエラーが発生しました: {e}")
                 import traceback
                 traceback.print_exc()
                 # 1つのIssueの処理に失敗しても続行
