@@ -662,7 +662,7 @@ def update_discussion_with_reflection(content):
             print(comment_response.json()["errors"])
 
 def main():
-    """メイン実行関数"""
+    # メイン実行関数
     print("七海直の日次リフレクション生成を開始します...")
     
     try:
