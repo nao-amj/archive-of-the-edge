@@ -102,6 +102,39 @@ The memory management system has been expanded with the following capabilities:
 - Enhanced metadata and relationship mapping
 - Statistics on memory types, sources, and evolution patterns
 
+## 🧠 Memory Network Visualization System
+
+The memory network visualization is not merely a static visual element, but an interactive system that automatically analyzes repository content (files, Issues, Discussions) and dynamically calculates and displays their relationships.
+
+### Technical Implementation
+
+- **Visualization Engine**: Built with the [vis.js](https://visjs.org/) library to create dynamic network graphs
+- **Relationship Analysis**: Uses natural language processing (NLP) techniques to calculate semantic relationships between content
+  - Cosine similarity for text similarity evaluation
+  - Tokenization and stemming for language analysis
+- **Automatic Updates**: The memory graph is updated automatically via GitHub Actions workflow when repository content changes
+
+### How It Works
+
+1. **Content Collection**: Repository markdown files, Issues, and Discussions are automatically collected
+2. **Text Analysis**: `.github/scripts/memory-manager.js` tokenizes content and calculates relationships
+3. **Graph Data Generation**: Analysis results are stored in `memory/graph/memory-graph.json`
+4. **Dimensional Classification**: Each node is classified into conceptual dimensions like "reality dimension", "social dimension", "cognitive dimension"
+5. **Visual Representation**: Node colors and sizes represent content type and importance, while edge thickness represents relationship strength
+
+### Interactive Features
+
+- **Node Click**: Clicking on nodes navigates to the corresponding content page
+- **Hover Information**: Hovering over nodes displays detailed information in tooltips
+- **Zoom and Pan**: Free navigation and scaling within the network
+- **Filtering**: Content can be filtered by tags and categories
+
+### Application and Significance
+
+This system transforms the repository content from a mere collection of individual files into an interconnected "network of memories." This makes content relationships visually understandable and allows for intuitive comprehension of connections between information.
+
+As new content is added, the system automatically calculates its relationship to existing content and expands the memory network. This mimics the associative process of human memory and thought.
+
 ## 🌌 Contribution Protocol
 
 This repository serves as a personal cognitive architecture. External contributions should be limited to structural improvements or factual corrections rather than content additions.
@@ -215,6 +248,39 @@ GitHubのソーシャル機能と記憶アーキテクチャを橋渡しする�
 - 記憶ネットワークのインタラクティブなHTML可視化（[記憶ネットワークを閲覧](./meta/memory_index.html)）
 - 強化されたメタデータと関係性マッピング
 - 記憶タイプ、ソース、進化パターンに関する統計
+
+## 🧠 記憶ネットワーク視覚化システム
+
+記憶ネットワークの視覚化は単なる静的な視覚要素ではなく、リポジトリのコンテンツ（ファイル、Issue、Discussion）を自動的に分析し、それらの関連性を動的に計算して表示するインタラクティブなシステムです。
+
+### 技術的実装
+
+- **視覚化エンジン**: [vis.js](https://visjs.org/) ライブラリを使用して、動的なネットワークグラフを構築
+- **関連性分析**: 自然言語処理（NLP）テクニックを使用してコンテンツ間の意味的関連性を計算
+  - コサイン類似度によるテキスト類似性評価
+  - トークン化とステミング処理による言語解析
+- **自動更新**: GitHub Actionsワークフローによって、リポジトリ内容の変更時に自動的に記憶グラフを更新
+
+### 仕組み
+
+1. **コンテンツの収集**: リポジトリ内のマークダウンファイル、Issue、Discussionが自動的に収集されます
+2. **テキスト分析**: `.github/scripts/memory-manager.js`がコンテンツをトークン化し、関連性を計算
+3. **グラフデータの生成**: 分析結果が`memory/graph/memory-graph.json`に保存されます
+4. **次元分類**: 各ノードは「reality次元」「social次元」「cognitive次元」などの概念次元に分類
+5. **視覚的表現**: ノードの色とサイズはコンテンツの種類と重要性を表し、エッジの太さは関連の強さを表します
+
+### インタラクティブ機能
+
+- **ノードのクリック**: 各ノードをクリックすると、対応するコンテンツページに移動できます
+- **ホバー情報**: ノードにマウスを合わせると、詳細情報がツールチップで表示されます
+- **ズームとパン**: ネットワーク内を自由に移動、拡大縮小が可能
+- **フィルタリング**: タグやカテゴリでコンテンツをフィルタリングできます
+
+### 応用と意義
+
+このシステムにより、リポジトリ内のコンテンツが単なる個別ファイルの集合ではなく、相互に関連した「記憶のネットワーク」として機能します。これにより、コンテンツの関連性が視覚的に理解しやすくなり、情報間のつながりを直感的に把握できます。
+
+新しいコンテンツが追加されるたびに、システムは自動的に既存のコンテンツとの関連性を計算し、記憶ネットワークを拡張していきます。これは人間の記憶や思考の連想プロセスを模倣する試みでもあります。
 
 ## 🌌 貢献プロトコル
 
