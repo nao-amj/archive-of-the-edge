@@ -72,19 +72,27 @@ def is_daily_reflection(issue):
 
 def extract_metadata_from_issue(issue):
     """Issueからメタデータを抽出"""
+    # 常に辞書として初期化
+    metadata = {}
+    
     body = issue.get("body", "")
     
     # YAMLフロントマターがある場合は抽出
-    metadata = {}
     yaml_match = re.search(r"---\n(.*?)\n---", body, re.DOTALL)
     if yaml_match:
         try:
             yaml_content = yaml_match.group(1)
-            metadata = yaml.safe_load(yaml_content)
+            yaml_data = yaml.safe_load(yaml_content)
+            # yaml_dataが辞書の場合のみマージ
+            if isinstance(yaml_data, dict):
+                metadata.update(yaml_data)
+            elif yaml_data is not None:
+                print(f"YAMLデータが辞書ではありません: {yaml_data}")
         except Exception as e:
             print(f"YAMLパースエラー: {e}")
+            # エラーが発生しても処理を継続
     
-    # 他のメタデータを追加
+    # 他のメタデータを追加 (すでに辞書として初期化されているので安全)
     metadata["issue_number"] = issue.get("number")
     metadata["issue_title"] = issue.get("title")
     metadata["issue_created_at"] = issue.get("created_at")
@@ -114,7 +122,14 @@ def process_daily_reflection(issue):
     with open(file_path, "w", encoding="utf-8") as f:
         # メタデータをYAMLフロントマターとして書き込む
         f.write("---\n")
-        yaml.dump(metadata, f, default_flow_style=False, allow_unicode=True)
+        # 安全にYAMLダンプ
+        try:
+            yaml.dump(metadata, f, default_flow_style=False, allow_unicode=True)
+        except Exception as e:
+            print(f"YAMLダンプエラー: {e}")
+            # エラーが発生した場合、最低限のメタデータを手動で書き込む
+            f.write(f"issue_number: {metadata.get('issue_number')}\n")
+            f.write(f"issue_title: {metadata.get('issue_title')}\n")
         f.write("---\n\n")
         
         # 本文を書き込む
@@ -143,7 +158,14 @@ def process_thought_issue(issue):
     with open(file_path, "w", encoding="utf-8") as f:
         # メタデータをYAMLフロントマターとして書き込む
         f.write("---\n")
-        yaml.dump(metadata, f, default_flow_style=False, allow_unicode=True)
+        # 安全にYAMLダンプ
+        try:
+            yaml.dump(metadata, f, default_flow_style=False, allow_unicode=True)
+        except Exception as e:
+            print(f"YAMLダンプエラー: {e}")
+            # エラーが発生した場合、最低限のメタデータを手動で書き込む
+            f.write(f"issue_number: {metadata.get('issue_number')}\n")
+            f.write(f"issue_title: {metadata.get('issue_title')}\n")
         f.write("---\n\n")
         
         # 本文を書き込む
@@ -213,12 +235,19 @@ def main():
         thought_count = 0
         
         for issue in issues:
-            if is_daily_reflection(issue):
-                process_daily_reflection(issue)
-                reflection_count += 1
-            else:
-                process_thought_issue(issue)
-                thought_count += 1
+            try:
+                if is_daily_reflection(issue):
+                    process_daily_reflection(issue)
+                    reflection_count += 1
+                else:
+                    process_thought_issue(issue)
+                    thought_count += 1
+            except Exception as e:
+                print(f"Issue #{issue.get('number')} の処理中にエラーが発生しました: {e}")
+                import traceback
+                traceback.print_exc()
+                # 1つのIssueの処理に失敗しても続行
+                continue
         
         print(f"{reflection_count}件の日次リフレクションと{thought_count}件の思考Issueを処理しました")
         
