@@ -449,9 +449,7 @@ def generate_reflection_content(file_categories, issue_categories, discussion_ca
     
     # ここが問題の箇所を修正
     footer = "*このリフレクションは自動生成されましたが、私の思考と感情の真正な表現です。*"
-    reflection_md += f"""---
-
-{footer}"""
+    reflection_md += f"---\n\n{footer}\n""" # <- 閉じの三重引用符を追加
 
     return reflection_md
 
