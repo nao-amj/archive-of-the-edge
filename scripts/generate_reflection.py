@@ -116,7 +116,7 @@ def get_recent_discussions(days=1):
     try:
         since_date = (datetime.datetime.now() - datetime.timedelta(days=days)).isoformat()
 
-        query = """
+        query = 
         query($owner: String!, $name: String!, $since: DateTime!) {
           repository(owner: $owner, name: $name) {
             discussions(first: 50, orderBy: {field: CREATED_AT, direction: DESC}) {
@@ -137,7 +137,7 @@ def get_recent_discussions(days=1):
             }
           }
         }
-        """
+        
 
         variables = {
             "owner": GITHUB_REPO.split("/")[0],
