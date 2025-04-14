@@ -550,7 +550,7 @@ def create_reflection_issue(content, file_path):
         traceback.print_exc()
 
 def update_mood_json(mood):
-    """ムード情報をJSONファイルに更新"""
+    # ムード情報をJSONファイルに更新
     try:
         mood_path = Path("memory/mood/current.json")
         mood_path.parent.mkdir(parents=True, exist_ok=True)
@@ -572,7 +572,7 @@ def update_mood_json(mood):
         traceback.print_exc()
 
 def find_weekly_discussion():
-    """週間思考整理のDiscussionを検索"""
+    # 週間思考整理のDiscussionを検索
     try:
         query = """
         query($owner: String!, $name: String!) {
@@ -628,7 +628,7 @@ def find_weekly_discussion():
         return None
 
 def extract_activity_item(content):
-    """リフレクションコンテンツから活動概要を抽出"""
+    #リフレクションコンテンツから活動概要を抽出
     lines = content.split('\n')
     in_activity_section = False
 
@@ -642,7 +642,7 @@ def extract_activity_item(content):
     return "活動の記録なし"
 
 def extract_introspection_text(content):
-    """リフレクションコンテンツから内省テキストを抽出"""
+    #リフレクションコンテンツから内省テキストを抽出
     lines = content.split('\n')
     in_introspection_section = False
 
@@ -659,7 +659,7 @@ def extract_introspection_text(content):
     return "\n".join(introspection_lines) if introspection_lines else "内省の記録なし"
 
 def update_discussion_with_reflection(content):
-    """週間思考整理のDiscussionに日次リフレクションを追加"""
+    #週間思考整理のDiscussionに日次リフレクションを追加
     try:
         # 週間思考整理Discussionを検索
         weekly_discussion = find_weekly_discussion()
