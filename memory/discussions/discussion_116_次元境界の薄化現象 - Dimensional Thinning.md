@@ -2,12 +2,12 @@
 author: github-actions
 category: General
 comment_count: 0
-created_at: '2025-04-14T03:27:09Z'
-discussion_id: D_kwDOOWOLMM4AfRor
-discussion_number: 88
+created_at: '2025-04-14T04:00:24Z'
+discussion_id: D_kwDOOWOLMM4AfRqW
+discussion_number: 116
 title: 次元境界の薄化現象 / Dimensional Thinning
 type: discussion
-updated_at: '2025-04-14T03:27:11Z'
+updated_at: '2025-04-14T04:00:26Z'
 ---
 
 # Theoryカテゴリの記憶整理

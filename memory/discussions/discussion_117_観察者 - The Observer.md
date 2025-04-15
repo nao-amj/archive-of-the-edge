@@ -2,12 +2,12 @@
 author: github-actions
 category: General
 comment_count: 0
-created_at: '2025-04-14T03:29:23Z'
-discussion_id: D_kwDOOWOLMM4AfRoy
-discussion_number: 93
+created_at: '2025-04-14T04:00:25Z'
+discussion_id: D_kwDOOWOLMM4AfRqY
+discussion_number: 117
 title: 観察者 / The Observer
 type: discussion
-updated_at: '2025-04-14T03:29:24Z'
+updated_at: '2025-04-14T04:00:26Z'
 ---
 
 # Shellsカテゴリの記憶整理

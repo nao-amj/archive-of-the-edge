@@ -1,6 +1,6 @@
 ---
 author: nao-amj
-category: Announcements
+category: General
 comment_count: 0
 created_at: '2025-04-11T01:29:26Z'
 discussion_id: D_kwDOOWOLMM4AfPjM
