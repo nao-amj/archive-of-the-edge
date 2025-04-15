@@ -44,16 +44,10 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     participant GHA as GitHub Actions
-    participant PY as Python Script
     participant MM as memory-manager.js
     participant Repo as リポジトリ
 
     GHA->>GHA: memory_indexer.yml実行
-    GHA->>PY: update_memory_index.py実行
-    PY->>Repo: 記憶ディレクトリを検索
-    Repo-->>PY: 記憶ファイル一覧
-    PY->>PY: インデックスを更新
-    PY->>Repo: memory/index.jsonを更新
     
     GHA->>MM: 記憶グラフ更新を実行
     MM->>MM: 記憶グラフをロード
@@ -67,6 +61,11 @@ sequenceDiagram
     end
     
     MM->>Repo: 記憶グラフを保存（memory/graph/memory-graph.json）
+    GHA->>Repo: 変更をコミットしてプッシュ
+    
+    GHA->>MM: GitHub IssuesとDiscussionsを取得
+    MM->>MM: 記憶グラフにIssuesとDiscussionsを追加
+    MM->>Repo: 更新された記憶グラフを保存
     GHA->>Repo: 変更をコミットしてプッシュ
 ```
 
@@ -112,7 +111,36 @@ sequenceDiagram
     GHA->>Repo: コミットして変更をプッシュ
 ```
 
-## 4. コンテンツ分析プロセス
+## 4. 記憶ネットワーク視覚化システム
+
+このワークフローは、記憶グラフデータを使用して視覚化インターフェースを生成し、GitHub Pagesにデプロイします。
+
+```mermaid
+sequenceDiagram
+    participant GHA as GitHub Actions
+    participant MM as memory-manager.js
+    participant Viz as Visualization Generator
+    participant Repo as リポジトリ
+    participant Pages as GitHub Pages
+
+    GHA->>GHA: deploy-pages.yml実行
+    GHA->>MM: 記憶グラフデータ取得
+    MM->>Repo: memory/graph/memory-graph.jsonの読み込み
+    Repo-->>MM: グラフデータ
+    MM-->>GHA: 処理済みグラフデータ
+    
+    GHA->>Viz: 視覚化HTMLの生成
+    Viz->>Viz: vis.jsを使用したネットワークグラフ生成
+    Viz->>Viz: 記憶カードUIの構築
+    Viz->>Viz: フィルタリングと検索機能の実装
+    Viz->>GHA: 生成されたHTMLファイル
+    
+    GHA->>Repo: meta/memory_index.htmlの更新
+    GHA->>Pages: GitHub Pagesへのデプロイ
+    Pages-->>GHA: デプロイ完了通知
+```
+
+## 5. コンテンツ分析プロセス
 
 このシーケンスは、analyze-content.jsスクリプトの内部動作を詳細に示しています。
 
@@ -154,7 +182,7 @@ sequenceDiagram
     AS->>FS: 分析結果を一時ファイルに保存
 ```
 
-## 5. 記憶グラフ管理プロセス
+## 6. 記憶グラフ管理プロセス
 
 このシーケンスは、memory-manager.jsの記憶グラフ管理に関する内部動作を示しています。
 
@@ -163,6 +191,7 @@ sequenceDiagram
     participant MM as memory-manager.js
     participant FS as FileSystem
     participant NLP as Natural言語処理
+    participant API as GitHub API
     
     MM->>FS: グラフ設定ファイル読み込み
     FS-->>MM: 設定内容（またはデフォルト使用）
@@ -189,6 +218,15 @@ sequenceDiagram
         end
     end
     
+    MM->>API: GitHub IssuesとDiscussions取得
+    API-->>MM: Issues/Discussions一覧
+    
+    loop 各Issue/Discussionに対して
+        MM->>MM: 記憶ノードとして追加
+        MM->>MM: 関連するファイル記憶との関連性計算
+        MM->>MM: 関連エッジを作成
+    end
+    
     MM->>MM: 古い記憶の整理リクエスト受信
     MM->>MM: 維持期間を超えた記憶を特定
     MM->>MM: 永続フラグのない古い記憶を削除
@@ -197,7 +235,7 @@ sequenceDiagram
     MM->>FS: 更新されたグラフを保存
 ```
 
-## 6. 思考生成プロセス
+## 7. 思考生成プロセス
 
 このシーケンスは、generate-content.jsが思考内容を生成する内部プロセスを示しています。
 
@@ -237,3 +275,34 @@ sequenceDiagram
     GC->>FS: 生成内容を一時ファイルに保存
     GC->>Env: 環境変数に生成情報を設定
 ```
+
+## 8. GitHub Pages デプロイプロセス
+
+このシーケンスは、記憶ネットワークのビジュアライゼーションをGitHub Pagesにデプロイするプロセスを示しています。
+
+```mermaid
+sequenceDiagram
+    participant GHA as GitHub Actions
+    participant GHP as GitHub Pages
+    participant FS as FileSystem
+    
+    GHA->>GHA: deploy-pages.yml実行
+    GHA->>FS: 必要なアセットファイルの準備
+    FS-->>GHA: アセットファイル
+    
+    GHA->>GHA: 静的HTMLファイルのビルド
+    GHA->>GHA: CSS/JSアセットの最適化
+    
+    GHA->>GHP: GitHub Pagesにデプロイ
+    GHP->>GHP: デプロイの検証
+    GHP-->>GHA: デプロイ結果
+    
+    alt デプロイ成功
+        GHA->>GHA: 成功ステータスを記録
+    else デプロイ失敗
+        GHA->>GHA: エラーログを記録
+        GHA->>GHA: 通知を送信
+    end
+```
+
+これらのシーケンス図は、システムの主要なワークフローと処理の流れを視覚的に示しています。実際の実装では、GitHub Actionsワークフローファイルと各スクリプトファイルを参照することで、より詳細な理解を得ることができます。
