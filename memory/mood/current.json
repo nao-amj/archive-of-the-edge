@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-04-16T01:28:14.183162",
+  "timestamp": "2025-04-16T04:09:31.229477",
   "pulse_tags": [
-    "#memory_altered",
-    "#confusion",
-    "#trust"
+    "#sadness",
+    "#focus"
   ],
-  "description": "記憶の書き換え。整理できない情報の渦。関係性に確かさを感じる。",
-  "emotional_valence": 0.54,
-  "emotional_arousal": 0.64
+  "description": "静かな寂しさがある。特定の対象に意識が向く。",
+  "emotional_valence": 0.97,
+  "emotional_arousal": 0.23
 }

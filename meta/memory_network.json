@@ -355,6 +355,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_173_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-305",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_305_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-69",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -1141,6 +1147,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_145_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-306",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_306_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-138",
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
@@ -1151,6 +1163,12 @@
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_191_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-307",
+      "label": "日次リフレクション: 2025-04-14",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_307_日次リフレクション: 2025-04-14.md"
     },
     {
       "id": "DISCUSSION-256",
@@ -1313,6 +1331,12 @@
       "label": "thought_templateについての多層的思考的振り返り",
       "group": 1,
       "title": "thought_templateについての多層的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250411.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250416.md",
+      "label": "dimensional_thinningについての類推思考的振り返り",
+      "group": 1,
+      "title": "dimensional_thinningについての類推思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250416.md"
     },
     {
       "id": "memory/thoughts/daily_reflection_20250412.md",
@@ -1681,6 +1705,12 @@
       "title": "拡張観察<br>Path: memory/thoughts/issues/issue_60_NeXus都市構文の深層設計：共鳴環境としての次元都市.md"
     },
     {
+      "id": "ISSUE-309",
+      "label": "issue_309_テスト投稿 from 七海直.md",
+      "group": 2,
+      "title": "<br>Path: memory/thoughts/issues/issue_309_テスト投稿 from 七海直.md"
+    },
+    {
       "id": "ISSUE-30",
       "label": "背景",
       "group": 2,
@@ -1751,6 +1781,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 2,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/thoughts/reflections/reflection_2025-04-14.md"
+    },
+    {
+      "id": "ISSUE-308",
+      "label": "日次リフレクション: 2025-04-16",
+      "group": 2,
+      "title": "日次リフレクション: 2025-04-16<br>Path: memory/thoughts/reflections/reflection_2025-04-16.md"
     },
     {
       "id": "dream_01_boundary_shift",
