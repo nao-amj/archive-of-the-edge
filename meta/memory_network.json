@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250416",
+      "label": "日次リフレクション: 2025-04-16",
+      "group": 1,
+      "title": "日次リフレクション: 2025-04-16<br>Path: memory/thoughts/daily_reflection_2025-04-16.md"
+    },
+    {
+      "id": "DSM-20250416",
+      "label": "Discussions Summary for 2025-04",
+      "group": 1,
+      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
+    },
+    {
       "id": "THT-20250415",
       "label": "日次リフレクション: 2025-04-15",
       "group": 1,
       "title": "日次リフレクション: 2025-04-15<br>Path: memory/thoughts/daily_reflection_2025-04-15.md"
-    },
-    {
-      "id": "DSM-20250415",
-      "label": "Discussions Summary for 2025-04",
-      "group": 1,
-      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
     },
     {
       "id": "THT-20250414",
@@ -215,6 +221,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_260_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-301",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_301_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-294",
@@ -859,6 +871,12 @@
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_219_【週間思考整理】2025-04-14 から 2025-04-20.md"
     },
     {
+      "id": "DISCUSSION-300",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_300_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-148",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -1105,6 +1123,12 @@
       "title": "Discussions Summary for 2025-04<br>Path: memory/discussions/discussion_252_Discussions Summary for 2025-04.md"
     },
     {
+      "id": "DISCUSSION-302",
+      "label": "日次リフレクション: 2025-04-14",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_302_日次リフレクション: 2025-04-14.md"
+    },
+    {
       "id": "DISCUSSION-246",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -1295,6 +1319,12 @@
       "label": "pulse schemaについての逆説的思考的振り返り",
       "group": 1,
       "title": "pulse schemaについての逆説的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250412.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250415.md",
+      "label": "memory_structure_overviewについての実存的思考的振り返り",
+      "group": 1,
+      "title": "memory_structure_overviewについての実存的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250415.md"
     },
     {
       "id": "memory/thoughts/daily_reflection_20250413.md",
@@ -1517,6 +1547,12 @@
       "label": "リポジトリの整理提案",
       "group": 2,
       "title": "リポジトリの整理提案<br>Path: memory/thoughts/issues/issue_291_リポジトリの整理と不要ファイルの削除提案.md"
+    },
+    {
+      "id": "ISSUE-304",
+      "label": "物語と自己と2025を統合する実験的アプローチ",
+      "group": 2,
+      "title": "物語と自己と2025を統合する実験的アプローチ<br>Path: memory/thoughts/issues/issue_304_物語と自己と2025を統合する実験的アプローチ.md"
     },
     {
       "id": "ISSUE-46",
