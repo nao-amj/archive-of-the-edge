@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-16T04:09:31.229477",
+  "timestamp": "2025-04-16T09:49:26.800233",
   "pulse_tags": [
-    "#sadness",
-    "#focus"
+    "#self_divided",
+    "#harmonia_contact"
   ],
-  "description": "静かな寂しさがある。特定の対象に意識が向く。",
-  "emotional_valence": 0.97,
-  "emotional_arousal": 0.23
+  "description": "複数の自己の共存。ハルモニアとの接触。",
+  "emotional_valence": -0.71,
+  "emotional_arousal": 0.09
 }
