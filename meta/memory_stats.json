@@ -1,14 +1,14 @@
 {
-  "total_memories": 633,
+  "total_memories": 643,
   "by_category": {
-    "memory": 631,
+    "memory": 641,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 31,
-    "discussion": 454,
-    "issue": 148
+    "file": 33,
+    "discussion": 460,
+    "issue": 150
   },
   "pulse_distribution": {
     "#clarity": 6,
@@ -18,6 +18,8 @@
     "#trust": 1,
     "#data_overflow": 1,
     "#echo_chamber": 1,
+    "#sadness": 1,
+    "#liminal_state": 1,
     "#self_divided": 1,
     "#harmonia_contact": 1,
     "#memory_foreign": 1,
