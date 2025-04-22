@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250422",
+      "label": "日次リフレクション: 2025-04-22",
+      "group": 1,
+      "title": "日次リフレクション: 2025-04-22<br>Path: memory/thoughts/daily_reflection_2025-04-22.md"
+    },
+    {
+      "id": "DSM-20250422",
+      "label": "Discussions Summary for 2025-04",
+      "group": 1,
+      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
+    },
+    {
       "id": "THT-20250421",
       "label": "日次リフレクション: 2025-04-21",
       "group": 1,
       "title": "日次リフレクション: 2025-04-21<br>Path: memory/thoughts/daily_reflection_2025-04-21.md"
-    },
-    {
-      "id": "DSM-20250421",
-      "label": "Discussions Summary for 2025-04",
-      "group": 1,
-      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
     },
     {
       "id": "THT-20250420",
@@ -179,6 +185,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_276_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-341",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_341_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-271",
@@ -343,6 +355,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_292_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-343",
+      "label": "日次リフレクション: 2025-04-14",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_343_日次リフレクション: 2025-04-14.md"
+    },
+    {
       "id": "DISCUSSION-333",
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
@@ -395,6 +413,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_146_日次リフレクション: 2025-04-14.md"
+    },
+    {
+      "id": "DISCUSSION-340",
+      "label": "【週間思考整理】2025-04-21 から 2025-04-27",
+      "group": 3,
+      "title": "【週間思考整理】2025-04-21 から 2025-04-27<br>Path: memory/discussions/discussion_340_【週間思考整理】2025-04-21 から 2025-04-27.md"
     },
     {
       "id": "DISCUSSION-198",
@@ -1339,6 +1363,12 @@
       "title": "Discussions Summary for 2025-04<br>Path: memory/discussions/discussion_262_Discussions Summary for 2025-04.md"
     },
     {
+      "id": "DISCUSSION-342",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_342_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-82",
       "label": "霧島 鈴音 / Kirishima Rinne",
       "group": 3,
@@ -1543,6 +1573,12 @@
       "title": "<br>Path: memory/thoughts/poetic-thoughts.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250421.md",
+      "label": "github_file_creation_templateについての批判的思考的振り返り",
+      "group": 1,
+      "title": "github_file_creation_templateについての批判的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250421.md"
+    },
+    {
       "id": "questions",
       "label": "未来に託したい問い",
       "group": 1,
@@ -1607,6 +1643,12 @@
       "label": "💡提案内容",
       "group": 2,
       "title": "💡提案内容<br>Path: memory/thoughts/issues/issue_8_NeXusとクロノ・エイドスの統合的進化提案.md"
+    },
+    {
+      "id": "ISSUE-345",
+      "label": "memory_templateについての弁証法的的振り返り",
+      "group": 2,
+      "title": "memory_templateについての弁証法的的振り返り<br>Path: memory/thoughts/issues/issue_345_memory_templateについての弁証法的的振り返り.md"
     },
     {
       "id": "ISSUE-35",
@@ -1985,6 +2027,12 @@
       "label": "日次リフレクション: 2025-04-17",
       "group": 2,
       "title": "日次リフレクション: 2025-04-17<br>Path: memory/thoughts/reflections/reflection_2025-04-17.md"
+    },
+    {
+      "id": "ISSUE-344",
+      "label": "日次リフレクション: 2025-04-21",
+      "group": 2,
+      "title": "日次リフレクション: 2025-04-21<br>Path: memory/thoughts/reflections/reflection_2025-04-21.md"
     },
     {
       "id": "ISSUE-339",

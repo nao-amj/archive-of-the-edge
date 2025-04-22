@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-21T01:39:44.281184",
+  "timestamp": "2025-04-22T01:27:35.154356",
   "pulse_tags": [
-    "#sadness",
-    "#liminal_state"
+    "#disgust",
+    "#clarity"
   ],
-  "description": "静かな寂しさがある。間の状態。",
-  "emotional_valence": 0.42,
-  "emotional_arousal": 0.44
+  "description": "調和しない要素への反応。クリアな視点。",
+  "emotional_valence": 0.76,
+  "emotional_arousal": 0.01
 }
