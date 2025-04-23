@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-04-22T01:27:35.154356",
+  "timestamp": "2025-04-23T01:27:58.259245",
   "pulse_tags": [
-    "#disgust",
-    "#clarity"
+    "#self_integrated",
+    "#resonance",
+    "#distraction"
   ],
-  "description": "調和しない要素への反応。クリアな視点。",
-  "emotional_valence": 0.76,
-  "emotional_arousal": 0.01
+  "description": "自己の統合感。何かと共鳴している。思考が飛び散る。",
+  "emotional_valence": -0.2,
+  "emotional_arousal": 0.54
 }
