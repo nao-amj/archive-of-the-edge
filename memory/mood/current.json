@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-04-25T01:36:57.544817",
+  "timestamp": "2025-04-25T04:39:07.756004",
   "pulse_tags": [
-    "#sadness",
-    "#self_divided",
-    "#memory_clear"
+    "#anger",
+    "#disgust",
+    "#self_integrated"
   ],
-  "description": "過去への郷愁。複数の自己の共存。記憶が鮮明。",
-  "emotional_valence": -0.47,
-  "emotional_arousal": 0.59
+  "description": "整理したい思いがある。調和しない要素への反応。一貫した自己感覚。",
+  "emotional_valence": -0.04,
+  "emotional_arousal": 0.63
 }

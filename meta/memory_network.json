@@ -19,16 +19,16 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250425",
-      "label": "Discussions Summary for 2025-04",
-      "group": 1,
-      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
-    },
-    {
       "id": "THT-20250425",
       "label": "日次リフレクション: 2025-04-25",
       "group": 1,
       "title": "日次リフレクション: 2025-04-25<br>Path: memory/thoughts/daily_reflection_2025-04-25.md"
+    },
+    {
+      "id": "DSM-20250425",
+      "label": "Discussions Summary for 2025-04",
+      "group": 1,
+      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
     },
     {
       "id": "THT-20250424",
@@ -169,6 +169,12 @@
       "title": "dimensional_thinningについての歴史的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250420.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250425.md",
+      "label": "thought_templateについての類推思考的振り返り",
+      "group": 1,
+      "title": "thought_templateについての類推思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250425.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250424.md",
       "label": "kirishima_rinneについての弁証法的的振り返り",
       "group": 1,
@@ -227,6 +233,12 @@
       "label": "日次リフレクション: 2025-04-19",
       "group": 2,
       "title": "日次リフレクション: 2025-04-19<br>Path: memory/thoughts/reflections/reflection_2025-04-19.md"
+    },
+    {
+      "id": "ISSUE-362",
+      "label": "日次リフレクション: 2025-04-25",
+      "group": 2,
+      "title": "日次リフレクション: 2025-04-25<br>Path: memory/thoughts/reflections/reflection_2025-04-25.md"
     },
     {
       "id": "ISSUE-227",
@@ -383,6 +395,12 @@
       "label": "境界交響 -DIMENSIONAL SONATA-",
       "group": 2,
       "title": "境界交響 -DIMENSIONAL SONATA-<br>Path: memory/thoughts/issues/issue_47_構想｜音楽演奏型STG『境界交響 -DIMENSIONAL SONATA-』.md"
+    },
+    {
+      "id": "ISSUE-363",
+      "label": "言語と現実とfocusを統合する実験的アプローチ",
+      "group": 2,
+      "title": "言語と現実とfocusを統合する実験的アプローチ<br>Path: memory/thoughts/issues/issue_363_言語と現実とfocusを統合する実験的アプローチ.md"
     },
     {
       "id": "ISSUE-34",
@@ -629,6 +647,12 @@
       "label": "拡張観察",
       "group": 2,
       "title": "拡張観察<br>Path: memory/thoughts/issues/issue_56_NeXus恋愛構文：動的共鳴物語のプロトコル拡張.md"
+    },
+    {
+      "id": "ISSUE-364",
+      "label": "背景",
+      "group": 2,
+      "title": "背景<br>Path: memory/thoughts/issues/issue_364_NeXusにおける次元ブリッジ機能の安定化案.md"
     },
     {
       "id": "ISSUE-61",
@@ -899,6 +923,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_176_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-361",
+      "label": "日次リフレクション: 2025-04-17",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-17<br>Path: memory/discussions/discussion_361_日次リフレクション: 2025-04-17.md"
     },
     {
       "id": "DISCUSSION-124",
@@ -1507,6 +1537,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_169_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-359",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_359_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-191",
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
@@ -1961,6 +1997,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_316_日次リフレクション: 2025-04-14.md"
+    },
+    {
+      "id": "DISCUSSION-360",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_360_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-99",

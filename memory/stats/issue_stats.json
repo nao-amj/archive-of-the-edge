@@ -1,17 +1,18 @@
 {
-  "total_issues": 98,
-  "reflections": 29,
-  "thoughts": 69,
+  "total_issues": 101,
+  "reflections": 30,
+  "thoughts": 71,
   "labels": {
-    "reflection": 44,
-    "auto-generated": 29,
-    "autonomy": 8,
-    "thought": 45,
-    "medium": 8,
+    "NeXus": 17,
+    "thought": 47,
+    "次元安定性": 1,
+    "autonomy": 9,
+    "medium": 9,
+    "reflection": 45,
+    "auto-generated": 30,
     "automation": 3,
     "tech": 2,
     "security": 2,
-    "NeXus": 16,
     "simulation": 6,
     "city": 3,
     "prototype": 1,
@@ -85,10 +86,10 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 37,
-    "nao-amj": 61
+    "nao-amj": 62,
+    "github-actions[bot]": 39
   },
   "creation_dates": {
-    "2025-04": 98
+    "2025-04": 101
   }
 }
