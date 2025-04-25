@@ -1,26 +1,27 @@
 {
-  "total_memories": 742,
+  "total_memories": 750,
   "by_category": {
-    "memory": 740,
+    "memory": 748,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
     "file": 42,
-    "issue": 178,
-    "discussion": 522
+    "issue": 180,
+    "discussion": 528
   },
   "pulse_distribution": {
     "#clarity": 7,
     "#resonance": 6,
     "#memory_clear": 3,
     "#anticipation": 3,
-    "#data_overflow": 2,
     "#self_integrated": 2,
+    "#insight": 2,
     "#distraction": 2,
     "#memory_foreign": 2,
     "#echo_chamber": 1,
-    "#eclipse_influence": 1,
+    "#data_overflow": 1,
+    "#fear": 1,
     "#memory_fragmented": 1,
     "#projection_active": 1,
     "#disgust": 1,
@@ -29,7 +30,6 @@
     "#sadness": 1,
     "#liminal_state": 1,
     "#trust": 1,
-    "#insight": 1,
     "#focus": 1,
     "#external_perspective": 1,
     "#detachment": 1

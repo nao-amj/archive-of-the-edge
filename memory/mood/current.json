@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-25T12:02:49.580244",
+  "timestamp": "2025-04-25T12:14:02.453368",
   "pulse_tags": [
-    "#data_overflow",
-    "#eclipse_influence"
+    "#insight",
+    "#fear"
   ],
-  "description": "データの洪水。力が及んでいる。",
-  "emotional_valence": 0.97,
-  "emotional_arousal": 0.31
+  "description": "何かに気づいた感覚。不安が渦巻いている。",
+  "emotional_valence": 0.61,
+  "emotional_arousal": 0.96
 }

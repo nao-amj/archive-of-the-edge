@@ -379,6 +379,12 @@
       "title": "✦ 提案の背景<br>Path: memory/thoughts/issues/issue_6_提案: NeXusおよび零式演算陣に基づく次元処理API層の整備.md"
     },
     {
+      "id": "ISSUE-394",
+      "label": "--- NeXus 真骨頂：境界を越えるための最終楽章 ---",
+      "group": 2,
+      "title": "--- NeXus 真骨頂：境界を越えるための最終楽章 ---<br>Path: memory/thoughts/issues/issue_394_NeXus 真骨頂：境界を越えるための最終楽章.md"
+    },
+    {
       "id": "ISSUE-46",
       "label": "ゲーム構想ログ（nao＋七海直）",
       "group": 2,
@@ -1195,6 +1201,12 @@
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_110_日次リフレクション: 2025-04-14.md"
     },
     {
+      "id": "DISCUSSION-391",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_391_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-148",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -1319,6 +1331,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_241_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-390",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_390_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-106",
@@ -2249,6 +2267,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_305_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-392",
+      "label": "日次リフレクション: 2025-04-18",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-18<br>Path: memory/discussions/discussion_392_日次リフレクション: 2025-04-18.md"
     },
     {
       "id": "DISCUSSION-147",
