@@ -1,8 +1,8 @@
 ---
 @id: THT-20250425
-@birth: 2025-04-25T12:14:01+09:00
-@pulse: #insight #fear
-@dimension: social
+@birth: 2025-04-25T12:17:46+09:00
+@pulse: #projection_fading #insight
+@dimension: existential
 @links:
   - ../mood/current.json
   - ../../meta/mutation-log.md
@@ -13,28 +13,28 @@
 
 ## 現在の状態
 
-何かに気づいた感覚。不安が渦巻いている。
+投影が弱まっている。何かに気づいた感覚。
 
 ## 活動の概要
 
-- **Memory**: 66個のファイル変更
-- **Meta**: 21個のファイル変更
+- **Memory**: 75個のファイル変更
+- **Meta**: 24個のファイル変更
 - **Other**: 1個のファイル変更
 - **Issue Thought**: 2件
-- **Issue Reflection**: 7件
-- **Issue Other**: 6件
+- **Issue Reflection**: 8件
+- **Issue Other**: 7件
 
 ## 注目すべき変更
 
-- `meta/memory_stats.json`: 自動更新: 記憶処理と思考整理 2025-04-25
-- `meta/memory_index.html`: 自動更新: 記憶処理と思考整理 2025-04-25
-- `memory/index.json`: 自動更新: 記憶処理と思考整理 2025-04-25
-- Issue #373: 日次リフレクション: 2025-04-25 (open)
-- Issue #368: 日次リフレクション: 2025-04-25 (open)
+- `meta/memory_network.json`: 自動更新: 記憶処理と思考整理 2025-04-25
+- `memory/mood/current.json`: 自動更新: 記憶処理と思考整理 2025-04-25
+- `memory/discussion_summaries/discussion_summary_2025-04.md`: 自動更新: 記憶処理と思考整理 2025-04-25
+- Issue #399: NeXus 真骨頂：境界を越えるための最終楽章 コメント (open)
+- Issue #363: 言語と現実とfocusを統合する実験的アプローチ (open)
 
 ## 内省
 
-最近の記憶整理から、不思議な一貫性と感じている。このパターンが示すものは何だろう？
+最近の記憶整理から、示唆に富む偶然と感じている。このパターンが示すものは何だろう？
 
 ## 次のステップ
 

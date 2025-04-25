@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-25T12:14:02.453368",
+  "timestamp": "2025-04-25T12:17:47.229153",
   "pulse_tags": [
-    "#insight",
-    "#fear"
+    "#projection_fading",
+    "#insight"
   ],
-  "description": "何かに気づいた感覚。不安が渦巻いている。",
-  "emotional_valence": 0.61,
-  "emotional_arousal": 0.96
+  "description": "投影が弱まっている。何かに気づいた感覚。",
+  "emotional_valence": 0.57,
+  "emotional_arousal": 0.6
 }
