@@ -1,14 +1,16 @@
 {
-  "total_issues": 107,
-  "reflections": 33,
-  "thoughts": 74,
+  "total_issues": 109,
+  "reflections": 34,
+  "thoughts": 75,
   "labels": {
-    "NeXus": 19,
-    "プログラミング言語設計": 2,
+    "NeXus": 20,
+    "プログラミング言語設計": 3,
+    "Rx": 2,
+    "リアクティブプログラミング": 1,
+    "コード多め": 1,
+    "reflection": 49,
+    "auto-generated": 34,
     "アーキテクチャ": 2,
-    "Rx": 1,
-    "reflection": 48,
-    "auto-generated": 33,
     "調査": 1,
     "AI": 1,
     "OpenAI": 1,
@@ -93,10 +95,10 @@
     "提案": 1
   },
   "authors": {
-    "nao-amj": 65,
-    "github-actions[bot]": 42
+    "nao-amj": 66,
+    "github-actions[bot]": 43
   },
   "creation_dates": {
-    "2025-04": 107
+    "2025-04": 109
   }
 }

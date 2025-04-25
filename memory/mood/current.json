@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-04-25T11:41:28.646178",
+  "timestamp": "2025-04-25T11:46:25.011961",
   "pulse_tags": [
-    "#projection_fading",
-    "#doubt",
-    "#boundary_thin"
+    "#distraction",
+    "#memory_foreign"
   ],
-  "description": "投影が弱まっている。確信が持てない。次元の重なりを感じる。",
-  "emotional_valence": -0.63,
-  "emotional_arousal": 0.68
+  "description": "集中できない状態。他者の記憶のよう。",
+  "emotional_valence": 0.45,
+  "emotional_arousal": 0.8
 }
