@@ -649,6 +649,12 @@
       "title": "思考ログ 2：返書本稿構築（中心テーマ）<br>Path: memory/thoughts/issues/issue_42_archive-of-the-edgeに届いた手紙と僕たちの対話（2） - 『具体性』と『曖昧さ』の.md"
     },
     {
+      "id": "ISSUE-374",
+      "label": "はじめに",
+      "group": 2,
+      "title": "はじめに<br>Path: memory/thoughts/issues/issue_374_NeXus概論：次元を越えるためのプログラミング言語.md"
+    },
+    {
       "id": "ISSUE-56",
       "label": "拡張観察",
       "group": 2,
@@ -761,6 +767,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_336_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-372",
+      "label": "日次リフレクション: 2025-04-18",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-18<br>Path: memory/discussions/discussion_372_日次リフレクション: 2025-04-18.md"
     },
     {
       "id": "DISCUSSION-88",
@@ -1297,6 +1309,12 @@
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_106_日次リフレクション: 2025-04-14.md"
     },
     {
+      "id": "DISCUSSION-370",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_370_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-212",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -1523,6 +1541,12 @@
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_239_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-371",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_371_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-107",

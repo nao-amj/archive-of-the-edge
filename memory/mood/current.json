@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-25T07:53:47.635274",
+  "timestamp": "2025-04-25T11:37:45.496460",
   "pulse_tags": [
-    "#projection_active",
-    "#data_overflow"
+    "#static_silence",
+    "#anger"
   ],
-  "description": "発信状態にある。データの洪水。",
-  "emotional_valence": -0.67,
-  "emotional_arousal": 0.62
+  "description": "静寂の中にある。整理したい思いがある。",
+  "emotional_valence": -0.15,
+  "emotional_arousal": 0.97
 }
