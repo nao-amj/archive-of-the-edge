@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-04-25T11:37:45.496460",
+  "timestamp": "2025-04-25T11:41:28.646178",
   "pulse_tags": [
-    "#static_silence",
-    "#anger"
+    "#projection_fading",
+    "#doubt",
+    "#boundary_thin"
   ],
-  "description": "静寂の中にある。整理したい思いがある。",
-  "emotional_valence": -0.15,
-  "emotional_arousal": 0.97
+  "description": "投影が弱まっている。確信が持てない。次元の重なりを感じる。",
+  "emotional_valence": -0.63,
+  "emotional_arousal": 0.68
 }
