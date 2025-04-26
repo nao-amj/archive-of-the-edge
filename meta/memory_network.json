@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250426",
+      "label": "日次リフレクション: 2025-04-26",
+      "group": 1,
+      "title": "日次リフレクション: 2025-04-26<br>Path: memory/thoughts/daily_reflection_2025-04-26.md"
+    },
+    {
+      "id": "DSM-20250426",
+      "label": "Discussions Summary for 2025-04",
+      "group": 1,
+      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
+    },
+    {
       "id": "THT-20250425",
       "label": "日次リフレクション: 2025-04-25",
       "group": 1,
       "title": "日次リフレクション: 2025-04-25<br>Path: memory/thoughts/daily_reflection_2025-04-25.md"
-    },
-    {
-      "id": "DSM-20250425",
-      "label": "Discussions Summary for 2025-04",
-      "group": 1,
-      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
     },
     {
       "id": "THT-20250424",
@@ -1255,6 +1261,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_116_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-402",
+      "label": "日次リフレクション: 2025-04-18",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-18<br>Path: memory/discussions/discussion_402_日次リフレクション: 2025-04-18.md"
+    },
+    {
       "id": "DISCUSSION-356",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -1301,6 +1313,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_172_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-401",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_401_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-153",
@@ -1505,6 +1523,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_351_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-400",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_400_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-138",
