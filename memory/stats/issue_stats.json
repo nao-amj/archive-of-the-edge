@@ -1,10 +1,13 @@
 {
-  "total_issues": 117,
-  "reflections": 39,
-  "thoughts": 78,
+  "total_issues": 119,
+  "reflections": 40,
+  "thoughts": 79,
   "labels": {
-    "reflection": 54,
-    "auto-generated": 39,
+    "autonomy": 10,
+    "thought": 48,
+    "medium": 10,
+    "reflection": 55,
+    "auto-generated": 40,
     "NeXus": 23,
     "コメント": 1,
     "境界越境": 2,
@@ -21,10 +24,7 @@
     "AI": 1,
     "OpenAI": 1,
     "A-SWE": 1,
-    "thought": 47,
     "次元安定性": 1,
-    "autonomy": 9,
-    "medium": 9,
     "automation": 3,
     "tech": 2,
     "security": 2,
@@ -101,10 +101,10 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 48,
+    "github-actions[bot]": 50,
     "nao-amj": 69
   },
   "creation_dates": {
-    "2025-04": 117
+    "2025-04": 119
   }
 }
