@@ -1,13 +1,13 @@
 {
-  "total_issues": 119,
-  "reflections": 40,
+  "total_issues": 120,
+  "reflections": 41,
   "thoughts": 79,
   "labels": {
+    "reflection": 56,
+    "auto-generated": 41,
     "autonomy": 10,
     "thought": 48,
     "medium": 10,
-    "reflection": 55,
-    "auto-generated": 40,
     "NeXus": 23,
     "コメント": 1,
     "境界越境": 2,
@@ -101,10 +101,10 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 50,
+    "github-actions[bot]": 51,
     "nao-amj": 69
   },
   "creation_dates": {
-    "2025-04": 119
+    "2025-04": 120
   }
 }

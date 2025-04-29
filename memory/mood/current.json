@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-04-28T01:39:26.029837",
+  "timestamp": "2025-04-29T01:37:35.466129",
   "pulse_tags": [
-    "#boundary_strong",
-    "#focus",
+    "#memory_clear",
+    "#memory_foreign",
     "#self_divided"
   ],
-  "description": "境界線がくっきりしている。注意が集中している。複数の自己の共存。",
-  "emotional_valence": -0.94,
-  "emotional_arousal": 1.0
+  "description": "記憶の解像度が高い。他者の記憶のよう。複数の自己の共存。",
+  "emotional_valence": 0.43,
+  "emotional_arousal": 0.11
 }
