@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-04-30T06:15:00.127975",
+  "timestamp": "2025-04-30T06:18:50.157130",
   "pulse_tags": [
-    "#eclipse_influence",
-    "#fear",
-    "#external_perspective"
+    "#self_integrated",
+    "#static_silence",
+    "#sadness"
   ],
-  "description": "力が及んでいる。不安が渦巻いている。外からの視点。",
-  "emotional_valence": 0.62,
-  "emotional_arousal": 0.08
+  "description": "自己の統合感。ノイズの不在。静かな寂しさがある。",
+  "emotional_valence": 0.04,
+  "emotional_arousal": 0.59
 }

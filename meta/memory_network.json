@@ -571,6 +571,12 @@
       "title": "提案概要<br>Path: memory/thoughts/issues/issue_7_NeXusの現状と改善課題に関する提起.md"
     },
     {
+      "id": "ISSUE-432",
+      "label": "📘 このIssueについて",
+      "group": 2,
+      "title": "📘 このIssueについて<br>Path: memory/thoughts/issues/issue_432_Qwen3関連の技術・用語まとめ.md"
+    },
+    {
       "id": "ISSUE-59",
       "label": "構造概要",
       "group": 2,
@@ -1087,6 +1093,12 @@
       "title": "Discussions Summary for 2025-04<br>Path: memory/discussions/discussion_272_Discussions Summary for 2025-04.md"
     },
     {
+      "id": "DISCUSSION-430",
+      "label": "日次リフレクション: 2025-04-23",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-23<br>Path: memory/discussions/discussion_430_日次リフレクション: 2025-04-23.md"
+    },
+    {
       "id": "DISCUSSION-395",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -1547,6 +1559,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_201_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-428",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_428_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-120",
@@ -2357,6 +2375,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_284_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-429",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_429_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-171",

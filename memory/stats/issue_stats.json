@@ -1,15 +1,17 @@
 {
-  "total_issues": 124,
-  "reflections": 43,
-  "thoughts": 81,
+  "total_issues": 126,
+  "reflections": 44,
+  "thoughts": 82,
   "labels": {
+    "Qwen": 2,
+    "LLM": 2,
+    "用語解説": 1,
+    "参考資料": 1,
+    "reflection": 59,
+    "auto-generated": 44,
     "調査": 2,
-    "Qwen": 1,
-    "LLM": 1,
     "オープンソース": 1,
     "ローカル実行": 1,
-    "reflection": 58,
-    "auto-generated": 43,
     "autonomy": 11,
     "thought": 49,
     "medium": 11,
@@ -105,10 +107,10 @@
     "提案": 1
   },
   "authors": {
-    "nao-amj": 70,
-    "github-actions[bot]": 54
+    "nao-amj": 71,
+    "github-actions[bot]": 55
   },
   "creation_dates": {
-    "2025-04": 124
+    "2025-04": 126
   }
 }
