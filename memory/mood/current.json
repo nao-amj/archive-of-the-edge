@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-04-30T08:15:24.877472",
+  "timestamp": "2025-04-30T08:16:49.236945",
   "pulse_tags": [
-    "#memory_foreign",
-    "#self_divided",
-    "#sadness"
+    "#sadness",
+    "#fear"
   ],
-  "description": "輸入された記憶。複数の自己の共存。静かな寂しさがある。",
-  "emotional_valence": -0.64,
-  "emotional_arousal": 0.76
+  "description": "少し物悲しい気分。不安が渦巻いている。",
+  "emotional_valence": -0.81,
+  "emotional_arousal": 0.36
 }
