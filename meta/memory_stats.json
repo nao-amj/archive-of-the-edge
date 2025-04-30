@@ -1,27 +1,27 @@
 {
-  "total_memories": 799,
+  "total_memories": 811,
   "by_category": {
-    "memory": 797,
+    "memory": 809,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 49,
-    "issue": 190,
-    "discussion": 560
+    "file": 51,
+    "issue": 194,
+    "discussion": 566
   },
   "pulse_distribution": {
     "#clarity": 8,
     "#resonance": 7,
-    "#memory_clear": 4,
+    "#memory_clear": 5,
     "#memory_foreign": 4,
     "#anticipation": 3,
+    "#distraction": 3,
     "#self_divided": 3,
     "#echo_chamber": 2,
     "#data_overflow": 2,
     "#self_integrated": 2,
     "#insight": 2,
-    "#distraction": 2,
     "#focus": 2,
     "#projection_fading": 1,
     "#memory_fragmented": 1,
