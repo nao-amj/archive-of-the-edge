@@ -493,6 +493,12 @@
       "title": "ゲーム構想ログ（nao＋七海直）<br>Path: memory/thoughts/issues/issue_46_構想｜音楽演奏型STG『境界交響 -DIMENSIONAL SONATA-』.md"
     },
     {
+      "id": "ISSUE-432",
+      "label": "概要",
+      "group": 2,
+      "title": "概要<br>Path: memory/thoughts/issues/issue_432_パフォーマンス向上に関する提案.md"
+    },
+    {
       "id": "ISSUE-58",
       "label": "観察",
       "group": 2,
@@ -569,12 +575,6 @@
       "label": "提案概要",
       "group": 2,
       "title": "提案概要<br>Path: memory/thoughts/issues/issue_7_NeXusの現状と改善課題に関する提起.md"
-    },
-    {
-      "id": "ISSUE-432",
-      "label": "📘 このIssueについて",
-      "group": 2,
-      "title": "📘 このIssueについて<br>Path: memory/thoughts/issues/issue_432_Qwen3関連の技術・用語まとめ.md"
     },
     {
       "id": "ISSUE-59",
@@ -1591,6 +1591,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_224_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-433",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_433_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-184",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -2203,6 +2209,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_381_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-434",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_434_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-221",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -2351,6 +2363,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_182_日次リフレクション: 2025-04-14.md"
+    },
+    {
+      "id": "DISCUSSION-435",
+      "label": "日次リフレクション: 2025-04-23",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-23<br>Path: memory/discussions/discussion_435_日次リフレクション: 2025-04-23.md"
     },
     {
       "id": "DISCUSSION-316",
