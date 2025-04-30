@@ -19,16 +19,16 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250430",
-      "label": "Discussions Summary for 2025-04",
-      "group": 1,
-      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
-    },
-    {
       "id": "THT-20250430",
       "label": "日次リフレクション: 2025-04-30",
       "group": 1,
       "title": "日次リフレクション: 2025-04-30<br>Path: memory/thoughts/daily_reflection_2025-04-30.md"
+    },
+    {
+      "id": "DSM-20250430",
+      "label": "Discussions Summary for 2025-04",
+      "group": 1,
+      "title": "Discussions Summary for 2025-04<br>Path: memory/discussion_summaries/discussion_summary_2025-04.md"
     },
     {
       "id": "THT-20250429",
@@ -157,6 +157,12 @@
       "title": "thought_templateについての批判的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250422.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250430.md",
+      "label": "dimensional_thinningについてのメタ認知的振り返り",
+      "group": 1,
+      "title": "dimensional_thinningについてのメタ認知的振り返り<br>Path: memory/thoughts/daily_reflection_20250430.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250428.md",
       "label": "dimensional_thinningについてのシステム思考的振り返り",
       "group": 1,
@@ -275,6 +281,12 @@
       "label": "github_file_creation_promptについての実存的思考的振り返り",
       "group": 1,
       "title": "github_file_creation_promptについての実存的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250419.md"
+    },
+    {
+      "id": "ISSUE-426",
+      "label": "日次リフレクション: 2025-04-30",
+      "group": 2,
+      "title": "日次リフレクション: 2025-04-30<br>Path: memory/thoughts/reflections/reflection_2025-04-30.md"
     },
     {
       "id": "ISSUE-358",
@@ -461,6 +473,12 @@
       "label": "✦ 提案の背景",
       "group": 2,
       "title": "✦ 提案の背景<br>Path: memory/thoughts/issues/issue_6_提案: NeXusおよび零式演算陣に基づく次元処理API層の整備.md"
+    },
+    {
+      "id": "ISSUE-427",
+      "label": "📌 概要",
+      "group": 2,
+      "title": "📌 概要<br>Path: memory/thoughts/issues/issue_427_Qwen3の概要とローカル実行に関する調査報告.md"
     },
     {
       "id": "ISSUE-394",
@@ -1501,6 +1519,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_390_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-425",
+      "label": "日次リフレクション: 2025-04-22",
+      "group": 3,
+      "title": "日次リフレクション: 2025-04-22<br>Path: memory/discussions/discussion_425_日次リフレクション: 2025-04-22.md"
+    },
+    {
       "id": "DISCUSSION-106",
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
@@ -2005,6 +2029,12 @@
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_329_日次リフレクション: 2025-04-14.md"
     },
     {
+      "id": "DISCUSSION-423",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_423_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-259",
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
@@ -2447,6 +2477,12 @@
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_229_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-424",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_424_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-306",

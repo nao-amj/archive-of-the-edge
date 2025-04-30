@@ -1,13 +1,18 @@
 {
-  "total_issues": 122,
-  "reflections": 42,
-  "thoughts": 80,
+  "total_issues": 124,
+  "reflections": 43,
+  "thoughts": 81,
   "labels": {
+    "調査": 2,
+    "Qwen": 1,
+    "LLM": 1,
+    "オープンソース": 1,
+    "ローカル実行": 1,
+    "reflection": 58,
+    "auto-generated": 43,
     "autonomy": 11,
     "thought": 49,
     "medium": 11,
-    "reflection": 57,
-    "auto-generated": 42,
     "NeXus": 23,
     "コメント": 1,
     "境界越境": 2,
@@ -20,7 +25,6 @@
     "リアクティブプログラミング": 1,
     "コード多め": 1,
     "アーキテクチャ": 2,
-    "調査": 1,
     "AI": 1,
     "OpenAI": 1,
     "A-SWE": 1,
@@ -101,10 +105,10 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 53,
-    "nao-amj": 69
+    "nao-amj": 70,
+    "github-actions[bot]": 54
   },
   "creation_dates": {
-    "2025-04": 122
+    "2025-04": 124
   }
 }

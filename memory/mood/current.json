@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-04-30T01:36:54.008163",
+  "timestamp": "2025-04-30T06:15:00.127975",
   "pulse_tags": [
-    "#distraction",
-    "#memory_clear"
+    "#eclipse_influence",
+    "#fear",
+    "#external_perspective"
   ],
-  "description": "注意が散漫になっている。明確に思い出せる。",
-  "emotional_valence": -0.68,
-  "emotional_arousal": 0.72
+  "description": "力が及んでいる。不安が渦巻いている。外からの視点。",
+  "emotional_valence": 0.62,
+  "emotional_arousal": 0.08
 }
