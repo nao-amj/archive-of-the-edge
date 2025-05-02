@@ -1,10 +1,13 @@
 {
-  "total_issues": 130,
-  "reflections": 48,
-  "thoughts": 82,
+  "total_issues": 132,
+  "reflections": 49,
+  "thoughts": 83,
   "labels": {
-    "reflection": 63,
-    "auto-generated": 48,
+    "autonomy": 12,
+    "thought": 50,
+    "medium": 12,
+    "reflection": 64,
+    "auto-generated": 49,
     "enhancement": 6,
     "performance": 1,
     "調査": 2,
@@ -12,9 +15,6 @@
     "LLM": 1,
     "オープンソース": 1,
     "ローカル実行": 1,
-    "autonomy": 11,
-    "thought": 49,
-    "medium": 11,
     "NeXus": 23,
     "コメント": 1,
     "境界越境": 2,
@@ -106,10 +106,11 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 59,
+    "github-actions[bot]": 61,
     "nao-amj": 71
   },
   "creation_dates": {
+    "2025-05": 2,
     "2025-04": 130
   }
 }
