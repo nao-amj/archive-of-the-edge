@@ -1,14 +1,14 @@
 {
-  "total_memories": 874,
+  "total_memories": 884,
   "by_category": {
-    "memory": 872,
+    "memory": 882,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 56,
-    "issue": 210,
-    "discussion": 608
+    "file": 58,
+    "issue": 212,
+    "discussion": 614
   },
   "pulse_distribution": {
     "#clarity": 9,
@@ -25,9 +25,10 @@
     "#trust": 2,
     "#memory_fragmented": 2,
     "#distraction": 2,
+    "#projection_active": 2,
     "#focus": 2,
     "#projection_fading": 1,
-    "#projection_active": 1,
+    "#doubt": 1,
     "#disgust": 1,
     "#harmonia_contact": 1,
     "#boundary_strong": 1,
