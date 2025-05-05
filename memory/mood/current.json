@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-04T01:45:29.438401",
+  "timestamp": "2025-05-05T01:41:27.645721",
   "pulse_tags": [
-    "#sadness",
-    "#self_integrated",
-    "#static_silence"
+    "#boundary_strong",
+    "#projection_fading",
+    "#self_divided"
   ],
-  "description": "過去への郷愁。自己の統合感。ノイズの不在。",
-  "emotional_valence": -0.94,
-  "emotional_arousal": 0.92
+  "description": "明確な境界を感じる。投影力の減衰。複数の自己の共存。",
+  "emotional_valence": -0.84,
+  "emotional_arousal": 0.64
 }
