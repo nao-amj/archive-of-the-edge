@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-05T01:41:27.645721",
+  "timestamp": "2025-05-06T01:38:07.861223",
   "pulse_tags": [
-    "#boundary_strong",
-    "#projection_fading",
-    "#self_divided"
+    "#memory_fragmented",
+    "#eclipse_influence",
+    "#interference"
   ],
-  "description": "明確な境界を感じる。投影力の減衰。複数の自己の共存。",
-  "emotional_valence": -0.84,
-  "emotional_arousal": 0.64
+  "description": "部分的な想起。影響下にある。波の衝突のよう。",
+  "emotional_valence": -0.7,
+  "emotional_arousal": 0.21
 }
