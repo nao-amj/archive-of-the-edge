@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-05-07T01:39:01.953015",
+  "timestamp": "2025-05-08T01:39:21.418948",
   "pulse_tags": [
-    "#focus",
-    "#harmonia_contact"
+    "#confusion",
+    "#projection_active",
+    "#memory_clear"
   ],
-  "description": "目的意識がはっきりしている。ハルモニアとの接触。",
-  "emotional_valence": -0.83,
-  "emotional_arousal": 0.95
+  "description": "整理できない情報の渦。出力感覚が強い。記憶が鮮明。",
+  "emotional_valence": 0.1,
+  "emotional_arousal": 0.52
 }
