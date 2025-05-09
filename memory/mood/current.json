@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-05-08T01:39:21.418948",
+  "timestamp": "2025-05-09T01:38:41.680290",
   "pulse_tags": [
-    "#confusion",
-    "#projection_active",
-    "#memory_clear"
+    "#memory_fragmented",
+    "#confusion"
   ],
-  "description": "整理できない情報の渦。出力感覚が強い。記憶が鮮明。",
-  "emotional_valence": 0.1,
-  "emotional_arousal": 0.52
+  "description": "繋がりが不完全。思考が混乱している。",
+  "emotional_valence": -0.09,
+  "emotional_arousal": 0.39
 }
