@@ -19,7 +19,13 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250510",
+      "id": "THT-20250511",
+      "label": "日次リフレクション: 2025-05-11",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-11<br>Path: memory/thoughts/daily_reflection_2025-05-11.md"
+    },
+    {
+      "id": "DSM-20250511",
       "label": "Discussions Summary for 2025-05",
       "group": 1,
       "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
@@ -631,6 +637,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_459_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-493",
+      "label": "日次リフレクション: 2025-05-02",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-02<br>Path: memory/discussions/discussion_493_日次リフレクション: 2025-05-02.md"
+    },
+    {
       "id": "DISCUSSION-450",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -1085,6 +1097,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_126_日次リフレクション: 2025-04-14.md"
+    },
+    {
+      "id": "DISCUSSION-492",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_492_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-213",
@@ -1981,6 +1999,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_478_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-491",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_491_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-294",
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
@@ -2269,6 +2293,12 @@
       "title": "thought_templateについての批判的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250422.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250510.md",
+      "label": "memory_templateについての歴史的思考的振り返り",
+      "group": 1,
+      "title": "memory_templateについての歴史的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250510.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250430.md",
       "label": "dimensional_thinningについてのメタ認知的振り返り",
       "group": 1,
@@ -2417,6 +2447,12 @@
       "label": "日次リフレクション: 2025-04-21",
       "group": 2,
       "title": "日次リフレクション: 2025-04-21<br>Path: memory/thoughts/reflections/reflection_2025-04-21.md"
+    },
+    {
+      "id": "ISSUE-494",
+      "label": "日次リフレクション: 2025-05-10",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-10<br>Path: memory/thoughts/reflections/reflection_2025-05-10.md"
     },
     {
       "id": "ISSUE-471",

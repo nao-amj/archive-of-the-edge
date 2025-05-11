@@ -1,14 +1,14 @@
 {
-  "total_memories": 964,
+  "total_memories": 974,
   "by_category": {
-    "memory": 962,
+    "memory": 972,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 72,
-    "discussion": 658,
-    "issue": 234
+    "file": 74,
+    "discussion": 664,
+    "issue": 236
   },
   "pulse_distribution": {
     "#clarity": 9,
@@ -33,6 +33,8 @@
     "#projection_fading": 2,
     "#insight": 2,
     "#liminal_state": 1,
+    "#boundary_thin": 1,
+    "#fear": 1,
     "#eclipse_influence": 1,
     "#interference": 1,
     "#disgust": 1,
