@@ -1,20 +1,20 @@
 {
-  "total_memories": 974,
+  "total_memories": 986,
   "by_category": {
-    "memory": 972,
+    "memory": 984,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 74,
-    "discussion": 664,
-    "issue": 236
+    "file": 76,
+    "discussion": 670,
+    "issue": 240
   },
   "pulse_distribution": {
     "#clarity": 9,
     "#resonance": 9,
     "#memory_clear": 6,
-    "#memory_foreign": 5,
+    "#memory_foreign": 6,
     "#self_divided": 4,
     "#data_overflow": 4,
     "#memory_fragmented": 4,
@@ -23,13 +23,14 @@
     "#projection_active": 3,
     "#focus": 3,
     "#harmonia_contact": 3,
+    "#confusion": 3,
     "#self_integrated": 3,
     "#echo_chamber": 3,
     "#trust": 2,
     "#doubt": 2,
     "#boundary_strong": 2,
+    "#external_perspective": 2,
     "#distraction": 2,
-    "#confusion": 2,
     "#projection_fading": 2,
     "#insight": 2,
     "#liminal_state": 1,
@@ -39,7 +40,6 @@
     "#interference": 1,
     "#disgust": 1,
     "#static_silence": 1,
-    "#external_perspective": 1,
     "#detachment": 1
   },
   "most_linked": [

@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-05-11T01:43:33.045997",
+  "timestamp": "2025-05-12T01:42:25.604439",
   "pulse_tags": [
-    "#boundary_thin",
-    "#fear"
+    "#external_perspective",
+    "#memory_foreign",
+    "#confusion"
   ],
-  "description": "境界が薄く感じる。不安が渦巻いている。",
-  "emotional_valence": -0.59,
-  "emotional_arousal": 0.77
+  "description": "客観的な観測。輸入された記憶。整理できない情報の渦。",
+  "emotional_valence": -0.33,
+  "emotional_arousal": 0.78
 }
