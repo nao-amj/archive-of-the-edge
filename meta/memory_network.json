@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250515",
+      "label": "日次リフレクション: 2025-05-15",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-15<br>Path: memory/thoughts/daily_reflection_2025-05-15.md"
+    },
+    {
+      "id": "DSM-20250515",
+      "label": "Discussions Summary for 2025-05",
+      "group": 1,
+      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
+    },
+    {
       "id": "THT-20250514",
       "label": "日次リフレクション: 2025-05-14",
       "group": 1,
       "title": "日次リフレクション: 2025-05-14<br>Path: memory/thoughts/daily_reflection_2025-05-14.md"
-    },
-    {
-      "id": "DSM-20250514",
-      "label": "Discussions Summary for 2025-05",
-      "group": 1,
-      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
     },
     {
       "id": "THT-20250513",
@@ -433,6 +439,12 @@
       "title": "github_file_creation_promptについての概念連結的振り返り<br>Path: memory/thoughts/daily_reflection_20250513.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250514.md",
+      "label": "thought_templateについての弁証法的的振り返り",
+      "group": 1,
+      "title": "thought_templateについての弁証法的的振り返り<br>Path: memory/thoughts/daily_reflection_20250514.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250422.md",
       "label": "thought_templateについての批判的思考的振り返り",
       "group": 1,
@@ -461,6 +473,12 @@
       "label": "日次リフレクション: 2025-05-10",
       "group": 2,
       "title": "日次リフレクション: 2025-05-10<br>Path: memory/thoughts/reflections/reflection_2025-05-10.md"
+    },
+    {
+      "id": "ISSUE-513",
+      "label": "日次リフレクション: 2025-05-14",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-14<br>Path: memory/thoughts/reflections/reflection_2025-05-14.md"
     },
     {
       "id": "ISSUE-330",
@@ -1621,6 +1639,12 @@
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_182_日次リフレクション: 2025-04-14.md"
     },
     {
+      "id": "DISCUSSION-511",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_511_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-74",
       "label": "霧島 鈴音 / Kirishima Rinne",
       "group": 3,
@@ -2473,6 +2497,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_487_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-512",
+      "label": "日次リフレクション: 2025-05-06",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-06<br>Path: memory/discussions/discussion_512_日次リフレクション: 2025-05-06.md"
+    },
+    {
       "id": "DISCUSSION-142",
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
@@ -2627,6 +2657,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_312_日次リフレクション: 2025-04-14.md"
+    },
+    {
+      "id": "DISCUSSION-510",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_510_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-79",

@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-14T01:38:50.475135",
+  "timestamp": "2025-05-15T01:37:06.303547",
   "pulse_tags": [
-    "#projection_active",
-    "#joy",
-    "#static_silence"
+    "#fear",
+    "#distraction",
+    "#trust"
   ],
-  "description": "投影能力が活性化。心が軽やかに感じる。静寂の中にある。",
-  "emotional_valence": -0.2,
+  "description": "何かが起こる予感。集中できない状態。安心感に包まれている。",
+  "emotional_valence": 0.06,
   "emotional_arousal": 0.09
 }
