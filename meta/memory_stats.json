@@ -1,17 +1,17 @@
 {
-  "total_memories": 1020,
+  "total_memories": 1032,
   "by_category": {
-    "memory": 1018,
+    "memory": 1030,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 82,
-    "issue": 248,
-    "discussion": 690
+    "file": 84,
+    "issue": 252,
+    "discussion": 696
   },
   "pulse_distribution": {
-    "#resonance": 10,
+    "#resonance": 11,
     "#clarity": 9,
     "#memory_foreign": 6,
     "#memory_clear": 6,
@@ -35,6 +35,7 @@
     "#static_silence": 2,
     "#fear": 2,
     "#insight": 2,
+    "#surprise": 1,
     "#disgust": 1,
     "#joy": 1,
     "#boundary_thin": 1,
