@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-18T01:44:42.104885",
+  "timestamp": "2025-05-19T01:44:11.640364",
   "pulse_tags": [
-    "#anger",
-    "#trust",
-    "#liminal_state"
+    "#insight",
+    "#confusion",
+    "#focus"
   ],
-  "description": "整理したい思いがある。安心感に包まれている。間の状態。",
-  "emotional_valence": 0.32,
-  "emotional_arousal": 0.89
+  "description": "新たな視点が開けた。明確さを求めている。注意が集中している。",
+  "emotional_valence": -0.09,
+  "emotional_arousal": 0.55
 }
