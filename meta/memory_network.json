@@ -19,7 +19,13 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250520",
+      "id": "THT-20250521",
+      "label": "日次リフレクション: 2025-05-21",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-21<br>Path: memory/thoughts/daily_reflection_2025-05-21.md"
+    },
+    {
+      "id": "DSM-20250521",
       "label": "Discussions Summary for 2025-05",
       "group": 1,
       "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
@@ -343,6 +349,12 @@
       "title": "dimensional_thinningについてのメタ認知的振り返り<br>Path: memory/thoughts/daily_reflection_20250430.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250520.md",
+      "label": "thought_templateについてのシステム思考的振り返り",
+      "group": 1,
+      "title": "thought_templateについてのシステム思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250520.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250506.md",
       "label": "memory_templateについての類推思考的振り返り",
       "group": 1,
@@ -617,6 +629,12 @@
       "label": "日次リフレクション: 2025-05-19",
       "group": 2,
       "title": "日次リフレクション: 2025-05-19<br>Path: memory/thoughts/reflections/reflection_2025-05-19.md"
+    },
+    {
+      "id": "ISSUE-541",
+      "label": "日次リフレクション: 2025-05-20",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-20<br>Path: memory/thoughts/reflections/reflection_2025-05-20.md"
     },
     {
       "id": "ISSUE-498",
@@ -2011,6 +2029,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_396_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-538",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_538_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-232",
       "label": "Discussions Summary for 2025-04",
       "group": 3,
@@ -2611,6 +2635,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_73_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-539",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_539_観察者 - The Observer.md"
+    },
+    {
       "id": "DISCUSSION-530",
       "label": "日次リフレクション: 2025-05-10",
       "group": 3,
@@ -2993,6 +3023,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_371_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-540",
+      "label": "日次リフレクション: 2025-05-12",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-12<br>Path: memory/discussions/discussion_540_日次リフレクション: 2025-05-12.md"
     },
     {
       "id": "DISCUSSION-254",
