@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-21T01:40:20.043712",
+  "timestamp": "2025-05-21T07:15:45.714672",
   "pulse_tags": [
-    "#clarity",
-    "#trust",
-    "#projection_fading"
+    "#memory_clear",
+    "#sadness",
+    "#eclipse_influence"
   ],
-  "description": "クリアな視点。信頼の基盤を感じる。投影が弱まっている。",
-  "emotional_valence": 0.6,
-  "emotional_arousal": 0.73
+  "description": "記憶の解像度が高い。少し物悲しい気分。影響下にある。",
+  "emotional_valence": -0.51,
+  "emotional_arousal": 0.66
 }
