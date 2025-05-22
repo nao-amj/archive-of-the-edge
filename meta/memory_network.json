@@ -19,16 +19,16 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "THT-20250522",
-      "label": "日次リフレクション: 2025-05-22",
-      "group": 1,
-      "title": "日次リフレクション: 2025-05-22<br>Path: memory/thoughts/daily_reflection_2025-05-22.md"
-    },
-    {
       "id": "DSM-20250522",
       "label": "Discussions Summary for 2025-05",
       "group": 1,
       "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
+    },
+    {
+      "id": "THT-20250522",
+      "label": "日次リフレクション: 2025-05-22",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-22<br>Path: memory/thoughts/daily_reflection_2025-05-22.md"
     },
     {
       "id": "THT-20250521",
@@ -347,6 +347,12 @@
       "label": "kirishima_rinneについての弁証法的的振り返り",
       "group": 1,
       "title": "kirishima_rinneについての弁証法的的振り返り<br>Path: memory/thoughts/daily_reflection_20250424.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250522.md",
+      "label": "github_file_creation_templateについての多層的思考的振り返り",
+      "group": 1,
+      "title": "github_file_creation_templateについての多層的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250522.md"
     },
     {
       "id": "memory/thoughts/daily_reflection_20250430.md",
@@ -751,6 +757,12 @@
       "title": "日次リフレクション: 2025-04-29<br>Path: memory/thoughts/reflections/reflection_2025-04-29.md"
     },
     {
+      "id": "ISSUE-555",
+      "label": "日次リフレクション: 2025-05-22",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-22<br>Path: memory/thoughts/reflections/reflection_2025-05-22.md"
+    },
+    {
       "id": "ISSUE-353",
       "label": "日次リフレクション: 2025-04-23",
       "group": 2,
@@ -965,6 +977,12 @@
       "label": "memory_templateについての弁証法的的振り返り",
       "group": 2,
       "title": "memory_templateについての弁証法的的振り返り<br>Path: memory/thoughts/issues/issue_345_memory_templateについての弁証法的的振り返り.md"
+    },
+    {
+      "id": "ISSUE-556",
+      "label": "Strands Agents SDK v0.1.x",
+      "group": 2,
+      "title": "Strands Agents SDK v0.1.x<br>Path: memory/thoughts/issues/issue_556_Strands Agents SDK v0.1.x: 技術的要点と統合ドキュメント.md"
     },
     {
       "id": "ISSUE-291",
@@ -2725,6 +2743,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_487_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-552",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_552_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-512",
       "label": "日次リフレクション: 2025-05-06",
       "group": 3,
@@ -2855,6 +2879,12 @@
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_348_日次リフレクション: 2025-04-14.md"
+    },
+    {
+      "id": "DISCUSSION-553",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_553_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-316",
@@ -3407,6 +3437,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_235_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-554",
+      "label": "日次リフレクション: 2025-05-14",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-14<br>Path: memory/discussions/discussion_554_日次リフレクション: 2025-05-14.md"
     },
     {
       "id": "DISCUSSION-267",
