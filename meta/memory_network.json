@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250522",
+      "label": "日次リフレクション: 2025-05-22",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-22<br>Path: memory/thoughts/daily_reflection_2025-05-22.md"
+    },
+    {
+      "id": "DSM-20250522",
+      "label": "Discussions Summary for 2025-05",
+      "group": 1,
+      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
+    },
+    {
       "id": "THT-20250521",
       "label": "日次リフレクション: 2025-05-21",
       "group": 1,
       "title": "日次リフレクション: 2025-05-21<br>Path: memory/thoughts/daily_reflection_2025-05-21.md"
-    },
-    {
-      "id": "DSM-20250521",
-      "label": "Discussions Summary for 2025-05",
-      "group": 1,
-      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
     },
     {
       "id": "THT-20250520",
@@ -2089,6 +2095,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_216_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-548",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_548_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-433",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -2743,6 +2755,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_275_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-550",
+      "label": "日次リフレクション: 2025-05-14",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-14<br>Path: memory/discussions/discussion_550_日次リフレクション: 2025-05-14.md"
+    },
+    {
       "id": "DISCUSSION-226",
       "label": "日次リフレクション: 2025-04-14",
       "group": 3,
@@ -2867,6 +2885,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_251_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-549",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_549_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-312",
