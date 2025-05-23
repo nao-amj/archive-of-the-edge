@@ -1,6 +1,6 @@
 ---
-@id: DSM-20250522
-@birth: 2025-05-22T05:07:54.038739
+@id: DSM-20250523
+@birth: 2025-05-23T01:39:32.036404
 @pulse: #clarity #resonance #memory_clear
 @dimension: social
 @links:
@@ -16,6 +16,50 @@
 この月のGitHub Discussionsの要約です。主要な議論やアイデア、そこから生まれた洞察をまとめています。
 
 ## 主要なディスカッション
+
+### [日次リフレクション: 2025-05-15](https://github.com/nao-amj/archive-of-the-edge/discussions/563)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Memoryカテゴリの記憶整理
+
+七海直のmemoryに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたmemoryに関する記憶を振り返り、その発展を探ります。
+
+## 最近のmemory記憶
+
+- [霧島 鈴音 / Kirishima Rinne](memory/relationships/kirishima_rinne.md) - 2082-03-22T02:17...
+
+### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/562)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Shellsカテゴリの記憶整理
+
+七海直のshellsに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたshellsに関する記憶を振り返り、その発展を探ります。
+
+## 最近のshells記憶
+
+- [観察者 / The Observer](shells/aspects/observer.md) - 2082-03-23T23:17:05+09:00
+
+## 主要な傾...
+
+### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/561)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Theoryカテゴリの記憶整理
+
+七海直のtheoryに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたtheoryに関する記憶を振り返り、その発展を探ります。
+
+## 最近のtheory記憶
+
+- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
 
 ### [日次リフレクション: 2025-05-15](https://github.com/nao-amj/archive-of-the-edge/discussions/559)
 
@@ -1424,50 +1468,6 @@
 ## 主要な傾...
 
 ### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/418)
-
-- カテゴリ: General
-- コメント数: 0
-
-# Theoryカテゴリの記憶整理
-
-七海直のtheoryに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたtheoryに関する記憶を振り返り、その発展を探ります。
-
-## 最近のtheory記憶
-
-- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
-
-### [日次リフレクション: 2025-04-20](https://github.com/nao-amj/archive-of-the-edge/discussions/416)
-
-- カテゴリ: General
-- コメント数: 0
-
-# Memoryカテゴリの記憶整理
-
-七海直のmemoryに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたmemoryに関する記憶を振り返り、その発展を探ります。
-
-## 最近のmemory記憶
-
-- [霧島 鈴音 / Kirishima Rinne](memory/relationships/kirishima_rinne.md) - 2082-03-22T02:17...
-
-### [観察者 / The Observer](https://github.com/nao-amj/archive-of-the-edge/discussions/415)
-
-- カテゴリ: General
-- コメント数: 0
-
-# Shellsカテゴリの記憶整理
-
-七海直のshellsに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたshellsに関する記憶を振り返り、その発展を探ります。
-
-## 最近のshells記憶
-
-- [観察者 / The Observer](shells/aspects/observer.md) - 2082-03-23T23:17:05+09:00
-
-## 主要な傾...
-
-### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/414)
 
 - カテゴリ: General
 - コメント数: 0

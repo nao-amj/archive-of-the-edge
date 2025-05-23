@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-22T05:07:55.750603",
+  "timestamp": "2025-05-23T01:39:33.437903",
   "pulse_tags": [
-    "#static_silence",
-    "#resonance",
-    "#external_perspective"
+    "#self_integrated",
+    "#memory_fragmented",
+    "#focus"
   ],
-  "description": "静寂の中にある。調和的な繋がりがある。外からの視点。",
-  "emotional_valence": 0.98,
-  "emotional_arousal": 0.34
+  "description": "まとまりのある自己。断片的な記憶。注意が集中している。",
+  "emotional_valence": -0.43,
+  "emotional_arousal": 0.61
 }
