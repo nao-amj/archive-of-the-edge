@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-05-23T01:39:33.437903",
+  "timestamp": "2025-05-24T01:35:59.230324",
   "pulse_tags": [
-    "#self_integrated",
-    "#memory_fragmented",
-    "#focus"
+    "#insight",
+    "#fear",
+    "#distraction"
   ],
-  "description": "まとまりのある自己。断片的な記憶。注意が集中している。",
-  "emotional_valence": -0.43,
-  "emotional_arousal": 0.61
+  "description": "新たな視点が開けた。何かが起こる予感。集中できない状態。",
+  "emotional_valence": -0.54,
+  "emotional_arousal": 0.8
 }
