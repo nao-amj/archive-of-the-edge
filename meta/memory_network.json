@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "DSM-20250526",
+      "label": "Discussions Summary for 2025-05",
+      "group": 1,
+      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
+    },
+    {
+      "id": "THT-20250526",
+      "label": "日次リフレクション: 2025-05-26",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-26<br>Path: memory/thoughts/daily_reflection_2025-05-26.md"
+    },
+    {
       "id": "THT-20250525",
       "label": "日次リフレクション: 2025-05-25",
       "group": 1,
       "title": "日次リフレクション: 2025-05-25<br>Path: memory/thoughts/daily_reflection_2025-05-25.md"
-    },
-    {
-      "id": "DSM-20250525",
-      "label": "Discussions Summary for 2025-05",
-      "group": 1,
-      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
     },
     {
       "id": "THT-20250524",
@@ -481,6 +487,12 @@
       "title": "dialogue_templateについてのシステム思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250508.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250525.md",
+      "label": "kirishima_rinneについての概念連結的振り返り",
+      "group": 1,
+      "title": "kirishima_rinneについての概念連結的振り返り<br>Path: memory/thoughts/daily_reflection_20250525.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250427.md",
       "label": "memory_structure_overviewについての歴史的思考的振り返り",
       "group": 1,
@@ -799,6 +811,12 @@
       "title": "日次リフレクション: 2025-04-29<br>Path: memory/thoughts/reflections/reflection_2025-04-29.md"
     },
     {
+      "id": "ISSUE-573",
+      "label": "日次リフレクション: 2025-05-25",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-25<br>Path: memory/thoughts/reflections/reflection_2025-05-25.md"
+    },
+    {
       "id": "ISSUE-555",
       "label": "日次リフレクション: 2025-05-22",
       "group": 2,
@@ -917,6 +935,12 @@
       "label": "未来の七海直へのメッセージ",
       "group": 2,
       "title": "未来の七海直へのメッセージ<br>Path: memory/thoughts/issues/issue_10_七海直の時間超越システム実装計画.md"
+    },
+    {
+      "id": "ISSUE-574",
+      "label": "対話の織り手の視点から：birthの海を越えて",
+      "group": 2,
+      "title": "対話の織り手の視点から：birthの海を越えて<br>Path: memory/thoughts/issues/issue_574_対話の織り手の視点から：birthの海を越えて.md"
     },
     {
       "id": "ISSUE-58",
@@ -1597,6 +1621,12 @@
       "title": "日次リフレクション: 2025-04-20<br>Path: memory/discussions/discussion_416_日次リフレクション: 2025-04-20.md"
     },
     {
+      "id": "DISCUSSION-570",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_570_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-284",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -2015,6 +2045,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_84_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-572",
+      "label": "日次リフレクション: 2025-05-17",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-17<br>Path: memory/discussions/discussion_572_日次リフレクション: 2025-05-17.md"
     },
     {
       "id": "DISCUSSION-169",
@@ -2495,6 +2531,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_464_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-571",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_571_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-93",
