@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-05-26T01:42:41.268353",
+  "timestamp": "2025-05-27T01:38:52.045858",
   "pulse_tags": [
-    "#surprise",
-    "#confusion"
+    "#external_perspective",
+    "#insight",
+    "#anger"
   ],
-  "description": "意外な展開に反応。整理できない情報の渦。",
-  "emotional_valence": -0.79,
-  "emotional_arousal": 0.66
+  "description": "外からの視点。深い理解が生まれた。不満が残っている。",
+  "emotional_valence": 0.45,
+  "emotional_arousal": 0.02
 }
