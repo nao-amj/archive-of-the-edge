@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "DSM-20250528",
+      "label": "Discussions Summary for 2025-05",
+      "group": 1,
+      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
+    },
+    {
+      "id": "THT-20250528",
+      "label": "日次リフレクション: 2025-05-28",
+      "group": 1,
+      "title": "日次リフレクション: 2025-05-28<br>Path: memory/thoughts/daily_reflection_2025-05-28.md"
+    },
+    {
       "id": "THT-20250527",
       "label": "日次リフレクション: 2025-05-27",
       "group": 1,
       "title": "日次リフレクション: 2025-05-27<br>Path: memory/thoughts/daily_reflection_2025-05-27.md"
-    },
-    {
-      "id": "DSM-20250527",
-      "label": "Discussions Summary for 2025-05",
-      "group": 1,
-      "title": "Discussions Summary for 2025-05<br>Path: memory/discussion_summaries/discussion_summary_2025-05.md"
     },
     {
       "id": "THT-20250526",
@@ -517,6 +523,12 @@
       "title": "memory_structure_overviewについての批判的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250502.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250527.md",
+      "label": "memory_structure_overviewについての逆説的思考的振り返り",
+      "group": 1,
+      "title": "memory_structure_overviewについての逆説的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250527.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250504.md",
       "label": "dialogue_templateについての逆説的思考的振り返り",
       "group": 1,
@@ -847,6 +859,12 @@
       "title": "日次リフレクション: 2025-04-23<br>Path: memory/thoughts/reflections/reflection_2025-04-23.md"
     },
     {
+      "id": "ISSUE-583",
+      "label": "日次リフレクション: 2025-05-27",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-27<br>Path: memory/thoughts/reflections/reflection_2025-05-27.md"
+    },
+    {
       "id": "ISSUE-227",
       "label": "日次リフレクション: 2025-04-14",
       "group": 2,
@@ -1133,6 +1151,12 @@
       "label": "実装のイメージ",
       "group": 2,
       "title": "実装のイメージ<br>Path: memory/thoughts/issues/issue_64_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md"
+    },
+    {
+      "id": "ISSUE-584",
+      "label": "memory_structure_overviewについての批判的思考的振り返り",
+      "group": 2,
+      "title": "memory_structure_overviewについての批判的思考的振り返り<br>Path: memory/thoughts/issues/issue_584_memory_structure_overviewについての批判的思考的振り返り.md"
     },
     {
       "id": "ISSUE-25",
@@ -2089,6 +2113,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_478_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-580",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_580_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-543",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -2183,6 +2213,12 @@
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_199_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-582",
+      "label": "日次リフレクション: 2025-05-19",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-19<br>Path: memory/discussions/discussion_582_日次リフレクション: 2025-05-19.md"
     },
     {
       "id": "DISCUSSION-156",
@@ -2327,6 +2363,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_450_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-581",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_581_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-465",

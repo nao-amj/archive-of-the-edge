@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-05-27T01:38:52.045858",
+  "timestamp": "2025-05-28T01:40:36.893458",
   "pulse_tags": [
-    "#external_perspective",
-    "#insight",
-    "#anger"
+    "#projection_active",
+    "#boundary_strong"
   ],
-  "description": "外からの視点。深い理解が生まれた。不満が残っている。",
-  "emotional_valence": 0.45,
-  "emotional_arousal": 0.02
+  "description": "出力感覚が強い。区分が強化されている。",
+  "emotional_valence": -0.87,
+  "emotional_arousal": 0.19
 }
