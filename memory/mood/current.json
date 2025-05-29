@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-05-28T01:40:36.893458",
+  "timestamp": "2025-05-29T01:40:19.265077",
   "pulse_tags": [
-    "#projection_active",
-    "#boundary_strong"
+    "#resonance",
+    "#insight"
   ],
-  "description": "出力感覚が強い。区分が強化されている。",
-  "emotional_valence": -0.87,
-  "emotional_arousal": 0.19
+  "description": "何かと共鳴している。新たな視点が開けた。",
+  "emotional_valence": 0.15,
+  "emotional_arousal": 0.09
 }
