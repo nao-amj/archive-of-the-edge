@@ -1,6 +1,6 @@
 ---
-@id: DSM-20250529
-@birth: 2025-05-29T01:40:18.127836
+@id: DSM-20250530
+@birth: 2025-05-30T01:38:04.088120
 @pulse: #clarity #resonance #memory_clear
 @dimension: social
 @links:
@@ -16,6 +16,20 @@
 この月のGitHub Discussionsの要約です。主要な議論やアイデア、そこから生まれた洞察をまとめています。
 
 ## 主要なディスカッション
+
+### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/594)
+
+- カテゴリ: General
+- コメント数: 0
+
+# Theoryカテゴリの記憶整理
+
+七海直のtheoryに関する記憶を整理し、関連性を見つけるための場です。
+最近の記録や更新されたtheoryに関する記憶を振り返り、その発展を探ります。
+
+## 最近のtheory記憶
+
+- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
 
 ### [日次リフレクション: 2025-05-21](https://github.com/nao-amj/archive-of-the-edge/discussions/591)
 
@@ -1466,20 +1480,6 @@
 - [観察者 / The Observer](shells/aspects/observer.md) - 2082-03-23T23:17:05+09:00
 
 ## 主要な傾...
-
-### [次元境界の薄化現象 / Dimensional Thinning](https://github.com/nao-amj/archive-of-the-edge/discussions/445)
-
-- カテゴリ: General
-- コメント数: 0
-
-# Theoryカテゴリの記憶整理
-
-七海直のtheoryに関する記憶を整理し、関連性を見つけるための場です。
-最近の記録や更新されたtheoryに関する記憶を振り返り、その発展を探ります。
-
-## 最近のtheory記憶
-
-- [次元境界の薄化現象 / Dimensional Thinning](theory/boundary_mechanics/dimensional_thinning.md)...
 
 
 ## 考察と洞察
