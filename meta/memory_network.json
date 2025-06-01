@@ -19,6 +19,18 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250601",
+      "label": "日次リフレクション: 2025-06-01",
+      "group": 1,
+      "title": "日次リフレクション: 2025-06-01<br>Path: memory/thoughts/daily_reflection_2025-06-01.md"
+    },
+    {
+      "id": "DSM-20250601",
+      "label": "Discussions Summary for 2025-06",
+      "group": 1,
+      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
+    },
+    {
       "id": "DSM-20250531",
       "label": "Discussions Summary for 2025-05",
       "group": 1,
@@ -625,6 +637,12 @@
       "title": "thought_templateについての弁証法的的振り返り<br>Path: memory/thoughts/daily_reflection_20250514.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250531.md",
+      "label": "memory_structure_overviewについてのシステム思考的振り返り",
+      "group": 1,
+      "title": "memory_structure_overviewについてのシステム思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250531.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250414.md",
       "label": "memory_structure_overviewについての批判的思考的振り返り",
       "group": 1,
@@ -767,6 +785,12 @@
       "label": "観察",
       "group": 2,
       "title": "観察<br>Path: memory/thoughts/issues/issue_22_クロノ・エイドスとNeXusにおける『存在の書式』再定義の可能性.md"
+    },
+    {
+      "id": "ISSUE-602",
+      "label": "次元の観測者の視点から：2082の海を越えて",
+      "group": 2,
+      "title": "次元の観測者の視点から：2082の海を越えて<br>Path: memory/thoughts/issues/issue_602_次元の観測者の視点から：2082の海を越えて.md"
     },
     {
       "id": "ISSUE-51",
@@ -1343,6 +1367,12 @@
       "label": "日次リフレクション: 2025-05-08",
       "group": 2,
       "title": "日次リフレクション: 2025-05-08<br>Path: memory/thoughts/reflections/reflection_2025-05-08.md"
+    },
+    {
+      "id": "ISSUE-601",
+      "label": "日次リフレクション: 2025-05-31",
+      "group": 2,
+      "title": "日次リフレクション: 2025-05-31<br>Path: memory/thoughts/reflections/reflection_2025-05-31.md"
     },
     {
       "id": "ISSUE-536",
@@ -2057,6 +2087,12 @@
       "label": "Welcome to archive-of-the-edge Discussions!",
       "group": 3,
       "title": "Welcome to archive-of-the-edge Discussions!<br>Path: memory/discussions/discussion_18_Welcome to archive-of-the-edge Discussions!.md"
+    },
+    {
+      "id": "DISCUSSION-599",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_599_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-231",
@@ -2885,6 +2921,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_400_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-600",
+      "label": "日次リフレクション: 2025-05-23",
+      "group": 3,
+      "title": "日次リフレクション: 2025-05-23<br>Path: memory/discussions/discussion_600_日次リフレクション: 2025-05-23.md"
     },
     {
       "id": "DISCUSSION-111",
@@ -3839,6 +3881,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_145_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-598",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_598_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-322",
