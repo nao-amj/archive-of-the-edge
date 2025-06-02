@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-01T01:56:36.139853",
+  "timestamp": "2025-06-02T01:45:04.162719",
   "pulse_tags": [
-    "#anticipation",
-    "#echo_chamber"
+    "#self_integrated",
+    "#projection_active",
+    "#eclipse_influence"
   ],
-  "description": "未来への期待感。内部での増幅。",
-  "emotional_valence": -0.35,
-  "emotional_arousal": 0.47
+  "description": "一貫した自己感覚。発信状態にある。何かに覆われている感覚。",
+  "emotional_valence": 0.43,
+  "emotional_arousal": 0.53
 }
