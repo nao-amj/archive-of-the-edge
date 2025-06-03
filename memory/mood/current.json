@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-06-02T01:45:04.162719",
+  "timestamp": "2025-06-03T01:42:03.171955",
   "pulse_tags": [
-    "#self_integrated",
-    "#projection_active",
-    "#eclipse_influence"
+    "#doubt",
+    "#clarity"
   ],
-  "description": "一貫した自己感覚。発信状態にある。何かに覆われている感覚。",
-  "emotional_valence": 0.43,
-  "emotional_arousal": 0.53
+  "description": "疑問が残る。思考が明晰になっている。",
+  "emotional_valence": 0.98,
+  "emotional_arousal": 0.74
 }
