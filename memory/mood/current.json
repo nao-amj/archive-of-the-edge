@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-03T01:42:03.171955",
+  "timestamp": "2025-06-04T01:42:10.607434",
   "pulse_tags": [
-    "#doubt",
-    "#clarity"
+    "#surprise",
+    "#memory_clear",
+    "#anger"
   ],
-  "description": "疑問が残る。思考が明晰になっている。",
+  "description": "意外な展開に反応。明確に思い出せる。整理したい思いがある。",
   "emotional_valence": 0.98,
-  "emotional_arousal": 0.74
+  "emotional_arousal": 0.5
 }
