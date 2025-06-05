@@ -1,14 +1,14 @@
 {
-  "total_memories": 1265,
+  "total_memories": 1275,
   "by_category": {
-    "memory": 1263,
+    "memory": 1273,
     "theory": 1,
     "shells": 1
   },
   "by_source_type": {
-    "file": 123,
-    "issue": 314,
-    "discussion": 828
+    "file": 125,
+    "issue": 316,
+    "discussion": 834
   },
   "pulse_distribution": {
     "#resonance": 15,
@@ -40,9 +40,10 @@
     "#static_silence": 3,
     "#boundary_thin": 2,
     "#liminal_state": 2,
+    "#joy": 2,
     "#disgust": 1,
+    "#memory_altered": 1,
     "#interference": 1,
-    "#joy": 1,
     "#detachment": 1
   },
   "most_linked": [

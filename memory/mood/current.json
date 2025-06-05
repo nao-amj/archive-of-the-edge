@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-06-04T01:42:10.607434",
+  "timestamp": "2025-06-05T01:41:01.634600",
   "pulse_tags": [
-    "#surprise",
-    "#memory_clear",
-    "#anger"
+    "#joy",
+    "#memory_altered"
   ],
-  "description": "意外な展開に反応。明確に思い出せる。整理したい思いがある。",
-  "emotional_valence": 0.98,
-  "emotional_arousal": 0.5
+  "description": "心が軽やかに感じる。異なる記憶の混合。",
+  "emotional_valence": 0.72,
+  "emotional_arousal": 0.8
 }
