@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-06T01:40:31.358873",
+  "timestamp": "2025-06-07T01:39:46.077256",
   "pulse_tags": [
-    "#doubt",
-    "#memory_foreign"
+    "#self_integrated",
+    "#boundary_thin",
+    "#self_divided"
   ],
-  "description": "確証を求めている。自分のものではない感覚。",
-  "emotional_valence": 0.48,
-  "emotional_arousal": 0.34
+  "description": "一貫した自己感覚。区切りがあいまいになっている。自己の分割感。",
+  "emotional_valence": -0.58,
+  "emotional_arousal": 0.83
 }
