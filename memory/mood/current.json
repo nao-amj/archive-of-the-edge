@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-06-07T01:39:46.077256",
+  "timestamp": "2025-06-08T01:49:16.656335",
   "pulse_tags": [
-    "#self_integrated",
-    "#boundary_thin",
-    "#self_divided"
+    "#sadness",
+    "#fear"
   ],
-  "description": "一貫した自己感覚。区切りがあいまいになっている。自己の分割感。",
-  "emotional_valence": -0.58,
-  "emotional_arousal": 0.83
+  "description": "静かな寂しさがある。未知の恐れを感じる。",
+  "emotional_valence": 0.14,
+  "emotional_arousal": 0.08
 }
