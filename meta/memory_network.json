@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250609",
+      "label": "日次リフレクション: 2025-06-09",
+      "group": 1,
+      "title": "日次リフレクション: 2025-06-09<br>Path: memory/thoughts/daily_reflection_2025-06-09.md"
+    },
+    {
+      "id": "DSM-20250609",
+      "label": "Discussions Summary for 2025-06",
+      "group": 1,
+      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
+    },
+    {
       "id": "THT-20250608",
       "label": "日次リフレクション: 2025-06-08",
       "group": 1,
       "title": "日次リフレクション: 2025-06-08<br>Path: memory/thoughts/daily_reflection_2025-06-08.md"
-    },
-    {
-      "id": "DSM-20250608",
-      "label": "Discussions Summary for 2025-06",
-      "group": 1,
-      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
     },
     {
       "id": "THT-20250607",
@@ -757,6 +763,12 @@
       "title": "thought_templateについての多層的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250411.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250608.md",
+      "label": "github_file_creation_promptについての概念連結的振り返り",
+      "group": 1,
+      "title": "github_file_creation_promptについての概念連結的振り返り<br>Path: memory/thoughts/daily_reflection_20250608.md"
+    },
+    {
       "id": "ISSUE-35",
       "label": "ゲームの核",
       "group": 2,
@@ -1463,6 +1475,12 @@
       "label": "日次リフレクション: 2025-05-06",
       "group": 2,
       "title": "日次リフレクション: 2025-05-06<br>Path: memory/thoughts/reflections/reflection_2025-05-06.md"
+    },
+    {
+      "id": "ISSUE-639",
+      "label": "日次リフレクション: 2025-06-08",
+      "group": 2,
+      "title": "日次リフレクション: 2025-06-08<br>Path: memory/thoughts/reflections/reflection_2025-06-08.md"
     },
     {
       "id": "ISSUE-606",
@@ -2311,6 +2329,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_523_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-636",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_636_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-402",
       "label": "日次リフレクション: 2025-04-18",
       "group": 3,
@@ -2573,6 +2597,12 @@
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
       "title": "【週間思考整理】2025-04-14 から 2025-04-20<br>Path: memory/discussions/discussion_269_【週間思考整理】2025-04-14 から 2025-04-20.md"
+    },
+    {
+      "id": "DISCUSSION-638",
+      "label": "Discussions Summary for 2025-05",
+      "group": 3,
+      "title": "Discussions Summary for 2025-05<br>Path: memory/discussions/discussion_638_Discussions Summary for 2025-05.md"
     },
     {
       "id": "DISCUSSION-135",
@@ -3287,6 +3317,12 @@
       "label": "パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設計",
       "group": 3,
       "title": "パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設計<br>Path: memory/discussions/discussion_66_パブリックな境界でも安全を保つ—GitHub Actions×ChatGPT APIのセキュア実装設.md"
+    },
+    {
+      "id": "DISCUSSION-637",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_637_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-355",
