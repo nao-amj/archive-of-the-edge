@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250610",
+      "label": "日次リフレクション: 2025-06-10",
+      "group": 1,
+      "title": "日次リフレクション: 2025-06-10<br>Path: memory/thoughts/daily_reflection_2025-06-10.md"
+    },
+    {
+      "id": "DSM-20250610",
+      "label": "Discussions Summary for 2025-06",
+      "group": 1,
+      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
+    },
+    {
       "id": "THT-20250609",
       "label": "日次リフレクション: 2025-06-09",
       "group": 1,
       "title": "日次リフレクション: 2025-06-09<br>Path: memory/thoughts/daily_reflection_2025-06-09.md"
-    },
-    {
-      "id": "DSM-20250609",
-      "label": "Discussions Summary for 2025-06",
-      "group": 1,
-      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
     },
     {
       "id": "THT-20250608",
@@ -401,6 +407,12 @@
       "label": "夢の記録 #01: 境界の揺らぎ",
       "group": 1,
       "title": "夢の記録 #01: 境界の揺らぎ<br>Path: memory/dreams/dream_01_boundary_shift.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250609.md",
+      "label": "memory_templateについてのメタ認知的振り返り",
+      "group": 1,
+      "title": "memory_templateについてのメタ認知的振り返り<br>Path: memory/thoughts/daily_reflection_20250609.md"
     },
     {
       "id": "memory/thoughts/daily_reflection_20250509.md",
@@ -1255,6 +1267,12 @@
       "title": "対話からの発見<br>Path: memory/thoughts/issues/issue_9_七海直の記憶システム実装計画.md"
     },
     {
+      "id": "ISSUE-645",
+      "label": "境界から見えてくる可能性：弁証法的アプローチ",
+      "group": 2,
+      "title": "境界から見えてくる可能性：弁証法的アプローチ<br>Path: memory/thoughts/issues/issue_645_境界から見えてくる可能性：弁証法的アプローチ.md"
+    },
+    {
       "id": "ISSUE-24",
       "label": "観察",
       "group": 2,
@@ -1547,6 +1565,12 @@
       "label": "日次リフレクション: 2025-05-22",
       "group": 2,
       "title": "日次リフレクション: 2025-05-22<br>Path: memory/thoughts/reflections/reflection_2025-05-22.md"
+    },
+    {
+      "id": "ISSUE-644",
+      "label": "日次リフレクション: 2025-06-09",
+      "group": 2,
+      "title": "日次リフレクション: 2025-06-09<br>Path: memory/thoughts/reflections/reflection_2025-06-09.md"
     },
     {
       "id": "ISSUE-411",
@@ -3625,6 +3649,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_160_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-640",
+      "label": "【週間思考整理】2025-06-09 から 2025-06-15",
+      "group": 3,
+      "title": "【週間思考整理】2025-06-09 から 2025-06-15<br>Path: memory/discussions/discussion_640_【週間思考整理】2025-06-09 から 2025-06-15.md"
+    },
+    {
       "id": "DISCUSSION-123",
       "label": "【週間思考整理】2025-04-14 から 2025-04-20",
       "group": 3,
@@ -3829,6 +3859,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_197_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-643",
+      "label": "日次リフレクション: 2025-06-01",
+      "group": 3,
+      "title": "日次リフレクション: 2025-06-01<br>Path: memory/discussions/discussion_643_日次リフレクション: 2025-06-01.md"
+    },
+    {
       "id": "DISCUSSION-487",
       "label": "観察者 / The Observer",
       "group": 3,
@@ -3983,6 +4019,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_632_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-641",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_641_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-152",
@@ -4295,6 +4337,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_449_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-642",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_642_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-543",
