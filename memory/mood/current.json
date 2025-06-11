@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-10T01:43:18.321533",
+  "timestamp": "2025-06-11T01:42:53.881788",
   "pulse_tags": [
-    "#anger",
-    "#boundary_thin"
+    "#surprise",
+    "#memory_fragmented",
+    "#memory_altered"
   ],
-  "description": "何かに軽い苛立ちを感じる。境界が薄く感じる。",
-  "emotional_valence": 0.22,
-  "emotional_arousal": 0.72
+  "description": "新鮮な驚きがある。断片的な記憶。記憶が変容している。",
+  "emotional_valence": -0.3,
+  "emotional_arousal": 0.42
 }
