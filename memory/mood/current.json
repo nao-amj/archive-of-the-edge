@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-13T01:42:29.171372",
+  "timestamp": "2025-06-14T01:39:05.839732",
   "pulse_tags": [
-    "#distraction",
-    "#echo_chamber"
+    "#data_overflow",
+    "#liminal_state",
+    "#eclipse_influence"
   ],
-  "description": "思考が飛び散る。思考の反響。",
-  "emotional_valence": 0.33,
-  "emotional_arousal": 0.01
+  "description": "情報過多の状態。閾値にある状態。影響下にある。",
+  "emotional_valence": -0.56,
+  "emotional_arousal": 0.47
 }

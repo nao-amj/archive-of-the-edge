@@ -1,13 +1,13 @@
 {
-  "total_issues": 199,
-  "reflections": 93,
-  "thoughts": 106,
+  "total_issues": 201,
+  "reflections": 94,
+  "thoughts": 107,
   "labels": {
-    "reflection": 108,
-    "auto-generated": 93,
-    "autonomy": 33,
-    "thought": 71,
-    "medium": 33,
+    "autonomy": 34,
+    "thought": 72,
+    "medium": 34,
+    "reflection": 109,
+    "auto-generated": 94,
     "Strands": 1,
     "tech-note": 1,
     "agent-sdk": 1,
@@ -112,11 +112,11 @@
     "提案": 1
   },
   "authors": {
-    "github-actions[bot]": 126,
+    "github-actions[bot]": 128,
     "nao-amj": 73
   },
   "creation_dates": {
-    "2025-06": 18,
+    "2025-06": 20,
     "2025-05": 51,
     "2025-04": 130
   }
