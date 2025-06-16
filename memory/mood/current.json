@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-06-15T01:51:01.793094",
+  "timestamp": "2025-06-16T01:46:06.827747",
   "pulse_tags": [
-    "#trust",
-    "#anger",
-    "#projection_fading"
+    "#sadness",
+    "#distraction"
   ],
-  "description": "関係性に確かさを感じる。整理したい思いがある。投影力の減衰。",
-  "emotional_valence": 0.24,
-  "emotional_arousal": 0.08
+  "description": "静かな寂しさがある。集中できない状態。",
+  "emotional_valence": 0.12,
+  "emotional_arousal": 0.31
 }

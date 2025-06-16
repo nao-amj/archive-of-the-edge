@@ -19,10 +19,16 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250615",
+      "id": "DSM-20250616",
       "label": "Discussions Summary for 2025-06",
       "group": 1,
       "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
+    },
+    {
+      "id": "THT-20250616",
+      "label": "日次リフレクション: 2025-06-16",
+      "group": 1,
+      "title": "日次リフレクション: 2025-06-16<br>Path: memory/thoughts/daily_reflection_2025-06-16.md"
     },
     {
       "id": "THT-20250615",
@@ -1051,6 +1057,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_613_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-670",
+      "label": "日次リフレクション: 2025-06-07",
+      "group": 3,
+      "title": "日次リフレクション: 2025-06-07<br>Path: memory/discussions/discussion_670_日次リフレクション: 2025-06-07.md"
+    },
+    {
       "id": "DISCUSSION-572",
       "label": "日次リフレクション: 2025-05-17",
       "group": 3,
@@ -1409,6 +1421,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_260_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-668",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_668_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-237",
@@ -2099,6 +2117,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_133_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-669",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_669_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-111",
@@ -3481,6 +3505,12 @@
       "title": "memory_structure_overviewについての多層的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250501.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250615.md",
+      "label": "dialogue_templateについてのメタ認知的振り返り",
+      "group": 1,
+      "title": "dialogue_templateについてのメタ認知的振り返り<br>Path: memory/thoughts/daily_reflection_20250615.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250503.md",
       "label": "kirishima_rinneについての類推思考的振り返り",
       "group": 1,
@@ -3569,6 +3599,12 @@
       "label": "日次リフレクション: 2025-05-27",
       "group": 2,
       "title": "日次リフレクション: 2025-05-27<br>Path: memory/thoughts/reflections/reflection_2025-05-27.md"
+    },
+    {
+      "id": "ISSUE-671",
+      "label": "日次リフレクション: 2025-06-15",
+      "group": 2,
+      "title": "日次リフレクション: 2025-06-15<br>Path: memory/thoughts/reflections/reflection_2025-06-15.md"
     },
     {
       "id": "ISSUE-579",
@@ -4199,6 +4235,12 @@
       "label": "観察：対象都市＝東京（2082）",
       "group": 2,
       "title": "観察：対象都市＝東京（2082）<br>Path: memory/thoughts/issues/issue_61_NeXus都市応用：実在都市への次元構文的プロトタイプ.md"
+    },
+    {
+      "id": "ISSUE-672",
+      "label": "observerについての弁証法的的振り返り",
+      "group": 2,
+      "title": "observerについての弁証法的的振り返り<br>Path: memory/thoughts/issues/issue_672_observerについての弁証法的的振り返り.md"
     },
     {
       "id": "ISSUE-33",
