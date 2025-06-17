@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-16T01:46:06.827747",
+  "timestamp": "2025-06-17T01:43:01.863552",
   "pulse_tags": [
-    "#sadness",
-    "#distraction"
+    "#memory_fragmented",
+    "#distraction",
+    "#focus"
   ],
-  "description": "静かな寂しさがある。集中できない状態。",
-  "emotional_valence": 0.12,
-  "emotional_arousal": 0.31
+  "description": "繋がりが不完全。注意が散漫になっている。目的意識がはっきりしている。",
+  "emotional_valence": 0.58,
+  "emotional_arousal": 0.7
 }
