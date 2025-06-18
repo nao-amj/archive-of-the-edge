@@ -19,7 +19,13 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250617",
+      "id": "THT-20250618",
+      "label": "日次リフレクション: 2025-06-18",
+      "group": 1,
+      "title": "日次リフレクション: 2025-06-18<br>Path: memory/thoughts/daily_reflection_2025-06-18.md"
+    },
+    {
+      "id": "DSM-20250618",
       "label": "Discussions Summary for 2025-06",
       "group": 1,
       "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
@@ -1801,6 +1807,12 @@
       "title": "日次リフレクション: 2025-04-14<br>Path: memory/discussions/discussion_150_日次リフレクション: 2025-04-14.md"
     },
     {
+      "id": "DISCUSSION-678",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_678_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-609",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -2407,6 +2419,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_300_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-680",
+      "label": "日次リフレクション: 2025-06-09",
+      "group": 3,
+      "title": "日次リフレクション: 2025-06-09<br>Path: memory/discussions/discussion_680_日次リフレクション: 2025-06-09.md"
+    },
+    {
       "id": "DISCUSSION-600",
       "label": "日次リフレクション: 2025-05-23",
       "group": 3,
@@ -2615,6 +2633,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_409_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-679",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_679_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-201",
@@ -3457,6 +3481,12 @@
       "title": "github_file_creation_templateについてのシステム思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250524.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250617.md",
+      "label": "memory_templateについてのシステム思考的振り返り",
+      "group": 1,
+      "title": "memory_templateについてのシステム思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250617.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250516.md",
       "label": "github_file_creation_templateについての逆説的思考的振り返り",
       "group": 1,
@@ -3881,6 +3911,12 @@
       "label": "日次リフレクション: 2025-05-24",
       "group": 2,
       "title": "日次リフレクション: 2025-05-24<br>Path: memory/thoughts/reflections/reflection_2025-05-24.md"
+    },
+    {
+      "id": "ISSUE-681",
+      "label": "日次リフレクション: 2025-06-17",
+      "group": 2,
+      "title": "日次リフレクション: 2025-06-17<br>Path: memory/thoughts/reflections/reflection_2025-06-17.md"
     },
     {
       "id": "ISSUE-308",
@@ -4517,6 +4553,12 @@
       "label": "メタ認知思考に基づく新しい境界と越境モデル",
       "group": 2,
       "title": "メタ認知思考に基づく新しい境界と越境モデル<br>Path: memory/thoughts/issues/issue_354_メタ認知思考に基づく新しい境界と越境モデル.md"
+    },
+    {
+      "id": "ISSUE-682",
+      "label": "次元の観測者の視点から：memory_structure_overviewの海を越えて",
+      "group": 2,
+      "title": "次元の観測者の視点から：memory_structure_overviewの海を越えて<br>Path: memory/thoughts/issues/issue_682_次元の観測者の視点から：memory_structure_overviewの海を越えて.md"
     },
     {
       "id": "ISSUE-44",
