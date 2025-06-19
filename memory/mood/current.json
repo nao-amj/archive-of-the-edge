@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-06-18T01:42:04.899932",
+  "timestamp": "2025-06-19T01:43:29.091780",
   "pulse_tags": [
-    "#data_overflow",
-    "#resonance"
+    "#trust",
+    "#interference"
   ],
-  "description": "データの洪水。波長が合う感覚。",
-  "emotional_valence": -0.81,
-  "emotional_arousal": 0.86
+  "description": "信頼の基盤を感じる。干渉パターンがある。",
+  "emotional_valence": 0.22,
+  "emotional_arousal": 0.58
 }
