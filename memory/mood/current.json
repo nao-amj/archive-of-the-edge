@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-06-19T01:43:29.091780",
+  "timestamp": "2025-06-20T01:42:19.219649",
   "pulse_tags": [
-    "#trust",
-    "#interference"
+    "#boundary_thin",
+    "#focus"
   ],
-  "description": "信頼の基盤を感じる。干渉パターンがある。",
-  "emotional_valence": 0.22,
-  "emotional_arousal": 0.58
+  "description": "境界が薄く感じる。特定の対象に意識が向く。",
+  "emotional_valence": -0.83,
+  "emotional_arousal": 0.71
 }
