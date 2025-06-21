@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-20T01:42:19.219649",
+  "timestamp": "2025-06-21T01:40:28.220192",
   "pulse_tags": [
-    "#boundary_thin",
-    "#focus"
+    "#resonance",
+    "#disgust",
+    "#distraction"
   ],
-  "description": "境界が薄く感じる。特定の対象に意識が向く。",
-  "emotional_valence": -0.83,
-  "emotional_arousal": 0.71
+  "description": "何かと共鳴している。拒絶感がある。注意が散漫になっている。",
+  "emotional_valence": 0.32,
+  "emotional_arousal": 0.18
 }
