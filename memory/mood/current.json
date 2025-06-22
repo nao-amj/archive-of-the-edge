@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-06-21T01:40:28.220192",
+  "timestamp": "2025-06-22T01:50:27.685108",
   "pulse_tags": [
-    "#resonance",
-    "#disgust",
-    "#distraction"
+    "#harmonia_contact",
+    "#self_integrated",
+    "#echo_chamber"
   ],
-  "description": "何かと共鳴している。拒絶感がある。注意が散漫になっている。",
-  "emotional_valence": 0.32,
-  "emotional_arousal": 0.18
+  "description": "調和的接続。まとまりのある自己。思考の反響。",
+  "emotional_valence": -0.77,
+  "emotional_arousal": 0.99
 }
