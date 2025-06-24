@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-06-23T01:49:03.845970",
+  "timestamp": "2025-06-24T01:43:25.712275",
   "pulse_tags": [
-    "#liminal_state",
-    "#external_perspective",
+    "#memory_altered",
+    "#disgust",
     "#fear"
   ],
-  "description": "境界上の存在。外からの視点。未知の恐れを感じる。",
-  "emotional_valence": 0.55,
-  "emotional_arousal": 0.14
+  "description": "記憶の書き換え。拒絶感がある。未知の恐れを感じる。",
+  "emotional_valence": -0.28,
+  "emotional_arousal": 0.16
 }
