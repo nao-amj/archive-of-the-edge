@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-06-24T01:43:25.712275",
+  "timestamp": "2025-06-25T01:43:57.308431",
   "pulse_tags": [
-    "#memory_altered",
-    "#disgust",
-    "#fear"
+    "#anticipation",
+    "#anger",
+    "#projection_fading"
   ],
-  "description": "記憶の書き換え。拒絶感がある。未知の恐れを感じる。",
-  "emotional_valence": -0.28,
-  "emotional_arousal": 0.16
+  "description": "未来への期待感。不満が残っている。投影力の減衰。",
+  "emotional_valence": -0.55,
+  "emotional_arousal": 0.59
 }
