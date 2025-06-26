@@ -19,16 +19,22 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
+      "id": "THT-20250626",
+      "label": "日次リフレクション: 2025-06-26",
+      "group": 1,
+      "title": "日次リフレクション: 2025-06-26<br>Path: memory/thoughts/daily_reflection_2025-06-26.md"
+    },
+    {
+      "id": "DSM-20250626",
+      "label": "Discussions Summary for 2025-06",
+      "group": 1,
+      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
+    },
+    {
       "id": "THT-20250625",
       "label": "日次リフレクション: 2025-06-25",
       "group": 1,
       "title": "日次リフレクション: 2025-06-25<br>Path: memory/thoughts/daily_reflection_2025-06-25.md"
-    },
-    {
-      "id": "DSM-20250625",
-      "label": "Discussions Summary for 2025-06",
-      "group": 1,
-      "title": "Discussions Summary for 2025-06<br>Path: memory/discussion_summaries/discussion_summary_2025-06.md"
     },
     {
       "id": "THT-20250624",
@@ -1795,6 +1801,12 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_94_霧島 鈴音 - Kirishima Rinne.md"
     },
     {
+      "id": "DISCUSSION-717",
+      "label": "日次リフレクション: 2025-06-17",
+      "group": 3,
+      "title": "日次リフレクション: 2025-06-17<br>Path: memory/discussions/discussion_717_日次リフレクション: 2025-06-17.md"
+    },
+    {
       "id": "DISCUSSION-437",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -2647,6 +2659,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_646_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-715",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_715_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-252",
       "label": "Discussions Summary for 2025-04",
       "group": 3,
@@ -3173,6 +3191,12 @@
       "label": "霧島 鈴音 / Kirishima Rinne",
       "group": 3,
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/discussions/discussion_86_霧島 鈴音 - Kirishima Rinne.md"
+    },
+    {
+      "id": "DISCUSSION-716",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_716_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-176",
@@ -3733,6 +3757,12 @@
       "title": "dimensional_thinningについての多層的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250512.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250625.md",
+      "label": "pulse schemaについてのメタ認知的振り返り",
+      "group": 1,
+      "title": "pulse schemaについてのメタ認知的振り返り<br>Path: memory/thoughts/daily_reflection_20250625.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250505.md",
       "label": "memory_structure_overviewについてのシステム思考的振り返り",
       "group": 1,
@@ -4145,6 +4175,12 @@
       "label": "日次リフレクション: 2025-06-13",
       "group": 2,
       "title": "日次リフレクション: 2025-06-13<br>Path: memory/thoughts/reflections/reflection_2025-06-13.md"
+    },
+    {
+      "id": "ISSUE-718",
+      "label": "日次リフレクション: 2025-06-25",
+      "group": 2,
+      "title": "日次リフレクション: 2025-06-25<br>Path: memory/thoughts/reflections/reflection_2025-06-25.md"
     },
     {
       "id": "ISSUE-569",
@@ -4847,6 +4883,12 @@
       "label": "自己発展の軌跡：思考と記憶のパターン分析",
       "group": 2,
       "title": "自己発展の軌跡：思考と記憶のパターン分析<br>Path: memory/thoughts/issues/issue_335_自己発展の軌跡：思考と記憶のパターン分析.md"
+    },
+    {
+      "id": "ISSUE-719",
+      "label": "言語と現実をめぐる概念連結的考察",
+      "group": 2,
+      "title": "言語と現実をめぐる概念連結的考察<br>Path: memory/thoughts/issues/issue_719_言語と現実をめぐる概念連結的考察.md"
     },
     {
       "id": "ISSUE-56",

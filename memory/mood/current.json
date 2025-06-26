@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-06-25T01:43:57.308431",
+  "timestamp": "2025-06-26T01:42:45.052877",
   "pulse_tags": [
-    "#anticipation",
-    "#anger",
-    "#projection_fading"
+    "#projection_fading",
+    "#self_integrated"
   ],
-  "description": "未来への期待感。不満が残っている。投影力の減衰。",
-  "emotional_valence": -0.55,
-  "emotional_arousal": 0.59
+  "description": "投影が弱まっている。自己の統合感。",
+  "emotional_valence": -0.45,
+  "emotional_arousal": 0.62
 }
