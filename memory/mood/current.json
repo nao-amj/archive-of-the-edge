@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-06-26T01:42:45.052877",
+  "timestamp": "2025-06-27T01:43:58.080569",
   "pulse_tags": [
-    "#projection_fading",
-    "#self_integrated"
+    "#distraction",
+    "#surprise",
+    "#interference"
   ],
-  "description": "投影が弱まっている。自己の統合感。",
-  "emotional_valence": -0.45,
-  "emotional_arousal": 0.62
+  "description": "思考が飛び散る。予想外の発見がある。波の衝突のよう。",
+  "emotional_valence": 0.95,
+  "emotional_arousal": 0.1
 }
