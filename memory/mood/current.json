@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-06-30T01:48:30.058154",
+  "timestamp": "2025-07-01T01:53:35.220074",
   "pulse_tags": [
-    "#clarity",
-    "#disgust",
-    "#eclipse_influence"
+    "#focus",
+    "#confusion"
   ],
-  "description": "透明な理解がある。調和しない要素への反応。力が及んでいる。",
-  "emotional_valence": 0.69,
-  "emotional_arousal": 0.73
+  "description": "目的意識がはっきりしている。思考が混乱している。",
+  "emotional_valence": 0.32,
+  "emotional_arousal": 0.62
 }
