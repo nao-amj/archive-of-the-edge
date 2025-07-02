@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-07-01T01:53:35.220074",
+  "timestamp": "2025-07-02T01:43:19.572705",
   "pulse_tags": [
-    "#focus",
-    "#confusion"
+    "#self_integrated",
+    "#self_divided",
+    "#memory_clear"
   ],
-  "description": "目的意識がはっきりしている。思考が混乱している。",
-  "emotional_valence": 0.32,
-  "emotional_arousal": 0.62
+  "description": "自己の統合感。分断された意識。記憶の解像度が高い。",
+  "emotional_valence": -0.72,
+  "emotional_arousal": 0.69
 }

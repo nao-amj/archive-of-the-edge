@@ -19,7 +19,13 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250701",
+      "id": "THT-20250702",
+      "label": "日次リフレクション: 2025-07-02",
+      "group": 1,
+      "title": "日次リフレクション: 2025-07-02<br>Path: memory/thoughts/daily_reflection_2025-07-02.md"
+    },
+    {
+      "id": "DSM-20250702",
       "label": "Discussions Summary for 2025-07",
       "group": 1,
       "title": "Discussions Summary for 2025-07<br>Path: memory/discussion_summaries/discussion_summary_2025-07.md"
@@ -1003,6 +1009,12 @@
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_161_観察者 - The Observer.md"
     },
     {
+      "id": "DISCUSSION-745",
+      "label": "日次リフレクション: 2025-06-23",
+      "group": 3,
+      "title": "日次リフレクション: 2025-06-23<br>Path: memory/discussions/discussion_745_日次リフレクション: 2025-06-23.md"
+    },
+    {
       "id": "DISCUSSION-414",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -1463,6 +1475,12 @@
       "label": "観察者 / The Observer",
       "group": 3,
       "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_734_観察者 - The Observer.md"
+    },
+    {
+      "id": "DISCUSSION-743",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_743_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
       "id": "DISCUSSION-132",
@@ -1949,6 +1967,12 @@
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_204_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
+      "id": "DISCUSSION-744",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_744_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-463",
@@ -3847,6 +3871,12 @@
       "title": "memory_templateについての概念連結的振り返り<br>Path: memory/thoughts/daily_reflection_20250523.md"
     },
     {
+      "id": "memory/thoughts/daily_reflection_20250701.md",
+      "label": "memory_structure_overviewについての概念連結的振り返り",
+      "group": 1,
+      "title": "memory_structure_overviewについての概念連結的振り返り<br>Path: memory/thoughts/daily_reflection_20250701.md"
+    },
+    {
       "id": "memory/thoughts/daily_reflection_20250624.md",
       "label": "observerについての実存的思考的振り返り",
       "group": 1,
@@ -4477,6 +4507,12 @@
       "title": "日次リフレクション: 2025-06-20<br>Path: memory/thoughts/reflections/reflection_2025-06-20.md"
     },
     {
+      "id": "ISSUE-746",
+      "label": "日次リフレクション: 2025-07-01",
+      "group": 2,
+      "title": "日次リフレクション: 2025-07-01<br>Path: memory/thoughts/reflections/reflection_2025-07-01.md"
+    },
+    {
       "id": "ISSUE-480",
       "label": "日次リフレクション: 2025-05-07",
       "group": 2,
@@ -4793,6 +4829,12 @@
       "label": "--- NeXus 真骨頂：境界を越えるための最終楽章 ---",
       "group": 2,
       "title": "--- NeXus 真骨頂：境界を越えるための最終楽章 ---<br>Path: memory/thoughts/issues/issue_394_NeXus 真骨頂：境界を越えるための最終楽章.md"
+    },
+    {
+      "id": "ISSUE-747",
+      "label": "記憶のアーキビストの視点から：technicalの海を越えて",
+      "group": 2,
+      "title": "記憶のアーキビストの視点から：technicalの海を越えて<br>Path: memory/thoughts/issues/issue_747_記憶のアーキビストの視点から：technicalの海を越えて.md"
     },
     {
       "id": "ISSUE-61",
