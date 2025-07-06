@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-07-05T01:39:25.711117",
+  "timestamp": "2025-07-06T01:51:08.688114",
   "pulse_tags": [
-    "#liminal_state",
-    "#memory_foreign"
+    "#anger",
+    "#disgust"
   ],
-  "description": "境界上の存在。輸入された記憶。",
-  "emotional_valence": 0.25,
-  "emotional_arousal": 0.96
+  "description": "不満が残っている。何かに違和感を感じる。",
+  "emotional_valence": -0.8,
+  "emotional_arousal": 0.93
 }
