@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-07-07T01:49:09.748702",
+  "timestamp": "2025-07-08T01:44:12.998909",
   "pulse_tags": [
-    "#joy",
-    "#memory_altered",
-    "#surprise"
+    "#fear",
+    "#self_divided",
+    "#trust"
   ],
-  "description": "心が軽やかに感じる。記憶の書き換え。新鮮な驚きがある。",
-  "emotional_valence": 0.24,
-  "emotional_arousal": 0.55
+  "description": "未知の恐れを感じる。自己の分割感。安心感に包まれている。",
+  "emotional_valence": -0.63,
+  "emotional_arousal": 0.26
 }
