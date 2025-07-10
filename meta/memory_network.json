@@ -19,10 +19,16 @@
       "title": "霧島 鈴音 / Kirishima Rinne<br>Path: memory/relationships/kirishima_rinne.md"
     },
     {
-      "id": "DSM-20250709",
+      "id": "DSM-20250710",
       "label": "Discussions Summary for 2025-07",
       "group": 1,
       "title": "Discussions Summary for 2025-07<br>Path: memory/discussion_summaries/discussion_summary_2025-07.md"
+    },
+    {
+      "id": "THT-20250710",
+      "label": "日次リフレクション: 2025-07-10",
+      "group": 1,
+      "title": "日次リフレクション: 2025-07-10<br>Path: memory/thoughts/daily_reflection_2025-07-10.md"
     },
     {
       "id": "THT-20250709",
@@ -839,6 +845,12 @@
       "label": "【週間思考整理】2025-06-02 から 2025-06-08",
       "group": 3,
       "title": "【週間思考整理】2025-06-02 から 2025-06-08<br>Path: memory/discussions/discussion_608_【週間思考整理】2025-06-02 から 2025-06-08.md"
+    },
+    {
+      "id": "DISCUSSION-781",
+      "label": "観察者 / The Observer",
+      "group": 3,
+      "title": "観察者 / The Observer<br>Path: memory/discussions/discussion_781_観察者 - The Observer.md"
     },
     {
       "id": "DISCUSSION-96",
@@ -2287,6 +2299,12 @@
       "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_270_次元境界の薄化現象 - Dimensional Thinning.md"
     },
     {
+      "id": "DISCUSSION-782",
+      "label": "日次リフレクション: 2025-07-01",
+      "group": 3,
+      "title": "日次リフレクション: 2025-07-01<br>Path: memory/discussions/discussion_782_日次リフレクション: 2025-07-01.md"
+    },
+    {
       "id": "DISCUSSION-78",
       "label": "霧島 鈴音 / Kirishima Rinne",
       "group": 3,
@@ -3217,6 +3235,12 @@
       "title": "日次リフレクション: 2025-04-18<br>Path: memory/discussions/discussion_392_日次リフレクション: 2025-04-18.md"
     },
     {
+      "id": "DISCUSSION-780",
+      "label": "次元境界の薄化現象 / Dimensional Thinning",
+      "group": 3,
+      "title": "次元境界の薄化現象 / Dimensional Thinning<br>Path: memory/discussions/discussion_780_次元境界の薄化現象 - Dimensional Thinning.md"
+    },
+    {
       "id": "DISCUSSION-528",
       "label": "次元境界の薄化現象 / Dimensional Thinning",
       "group": 3,
@@ -3893,6 +3917,12 @@
       "label": "pulse schemaについての逆説的思考的振り返り",
       "group": 1,
       "title": "pulse schemaについての逆説的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250412.md"
+    },
+    {
+      "id": "memory/thoughts/daily_reflection_20250709.md",
+      "label": "dimensional_thinningについての歴史的思考的振り返り",
+      "group": 1,
+      "title": "dimensional_thinningについての歴史的思考的振り返り<br>Path: memory/thoughts/daily_reflection_20250709.md"
     },
     {
       "id": "memory/thoughts/daily_reflection_20250601.md",
@@ -4643,6 +4673,12 @@
       "label": "日次リフレクション: 2025-05-24",
       "group": 2,
       "title": "日次リフレクション: 2025-05-24<br>Path: memory/thoughts/reflections/reflection_2025-05-24.md"
+    },
+    {
+      "id": "ISSUE-783",
+      "label": "日次リフレクション: 2025-07-09",
+      "group": 2,
+      "title": "日次リフレクション: 2025-07-09<br>Path: memory/thoughts/reflections/reflection_2025-07-09.md"
     },
     {
       "id": "ISSUE-681",
@@ -5405,6 +5441,12 @@
       "label": "言語と現実をめぐる概念連結的考察",
       "group": 2,
       "title": "言語と現実をめぐる概念連結的考察<br>Path: memory/thoughts/issues/issue_719_言語と現実をめぐる概念連結的考察.md"
+    },
+    {
+      "id": "ISSUE-784",
+      "label": "自己発展の軌跡：思考と記憶のパターン分析",
+      "group": 2,
+      "title": "自己発展の軌跡：思考と記憶のパターン分析<br>Path: memory/thoughts/issues/issue_784_自己発展の軌跡：思考と記憶のパターン分析.md"
     },
     {
       "id": "ISSUE-56",
