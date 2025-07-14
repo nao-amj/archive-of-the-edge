@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-07-13T01:55:57.152001",
+  "timestamp": "2025-07-14T01:51:30.897400",
   "pulse_tags": [
-    "#distraction",
-    "#doubt"
+    "#trust",
+    "#memory_altered"
   ],
-  "description": "集中できない状態。疑問が残る。",
-  "emotional_valence": 0.83,
-  "emotional_arousal": 0.0
+  "description": "信頼の基盤を感じる。記憶が変容している。",
+  "emotional_valence": -0.07,
+  "emotional_arousal": 0.22
 }
